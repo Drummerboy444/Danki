@@ -10,7 +10,7 @@
         "37b9e2f6-8a47-4730-a897-abc58f76ea5e"
     ],
     "filterType": "GMObject",
-    "folderName": "Pausable",
+    "folderName": "Pauseable",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
