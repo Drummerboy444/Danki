@@ -7,7 +7,7 @@
         "58e790bd-2b90-4772-b07e-de77e27f23ad"
     ],
     "filterType": "GMObject",
-    "folderName": "Friendly",
+    "folderName": "Passive",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
