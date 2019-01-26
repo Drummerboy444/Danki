@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "9abf6837-3337-4421-a391-9acf93ee1076",
+            "Value": {
+                "id": "4d763b74-e2e3-4c02-9df0-a1ad574ead5d",
+                "resourcePath": "sprites\\sPlayer_prototype\\sPlayer_prototype.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9b38a417-04f7-4606-a950-12800399ca28",
             "Value": {
                 "id": "63936f30-903c-4f0d-a2d1-ddf9fb913b38",
