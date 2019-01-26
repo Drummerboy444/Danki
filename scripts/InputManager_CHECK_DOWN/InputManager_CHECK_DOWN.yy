@@ -1,8 +1,8 @@
 {
-    "id": "713beafa-9bb8-4e3a-8615-85e0b91f6989",
+    "id": "9a05a829-0151-4caf-8c2c-6012312162e3",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "InputManager_CHECK_INPUT",
+    "name": "InputManager_CHECK_DOWN",
     "IsCompatibility": false,
     "IsDnD": false
 }

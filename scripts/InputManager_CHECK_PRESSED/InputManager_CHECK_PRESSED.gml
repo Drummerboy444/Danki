@@ -1,5 +1,5 @@
 #region Doc
-/// @function InputManager_CHECK_INPUT(num_inputCode)
+/// @function InputManager_CHECK_PRESSED(num_inputCode)
 /// @param {number} num_inputCode the keycode or mouse button code
 /// @returns {boolean} true if key is pressed
 #endregion

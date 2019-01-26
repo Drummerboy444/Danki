@@ -1,8 +1,8 @@
 {
-    "id": "962eca4e-73ad-4ca9-96ec-39008b0d0407",
+    "id": "713beafa-9bb8-4e3a-8615-85e0b91f6989",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "Player_MoveUp",
+    "name": "InputManager_CHECK_PRESSED",
     "IsCompatibility": false,
     "IsDnD": false
 }

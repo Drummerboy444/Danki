@@ -322,7 +322,7 @@
             "Key": "713beafa-9bb8-4e3a-8615-85e0b91f6989",
             "Value": {
                 "id": "0ed447eb-c218-4d76-a6f3-791a7dd7d269",
-                "resourcePath": "scripts\\InputManager_CHECK_INPUT\\InputManager_CHECK_INPUT.yy",
+                "resourcePath": "scripts\\InputManager_CHECK_PRESSED\\InputManager_CHECK_PRESSED.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -474,7 +474,7 @@
             "Key": "962eca4e-73ad-4ca9-96ec-39008b0d0407",
             "Value": {
                 "id": "a759c5b5-a605-4364-8b71-a4dfc9735fa2",
-                "resourcePath": "scripts\\Player_MoveUp\\Player_MoveUp.yy",
+                "resourcePath": "scripts\\Player_Move\\Player_Move.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -492,6 +492,14 @@
                 "id": "9f878714-b847-4835-b594-c9600d4a7eda",
                 "resourcePath": "views\\982aed17-0302-4a2d-ab65-ed231a632812.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9a05a829-0151-4caf-8c2c-6012312162e3",
+            "Value": {
+                "id": "63403524-dec5-4acb-9ec8-315d40198f37",
+                "resourcePath": "scripts\\InputManager_CHECK_DOWN\\InputManager_CHECK_DOWN.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -825,10 +833,10 @@
     ],
     "script_order": [
         "962eca4e-73ad-4ca9-96ec-39008b0d0407",
-        "ee8d00b1-d6fa-4dad-9ede-909ba88c75fb",
-        "f48e2262-356e-42ea-a531-73a8520effab",
         "6ba78cdc-94f3-4bc6-826d-29ce6cae4d19",
         "8be3c514-640f-40e1-9c76-610645044d21",
+        "f48e2262-356e-42ea-a531-73a8520effab",
+        "ee8d00b1-d6fa-4dad-9ede-909ba88c75fb",
         "47c8485b-6ca0-49b9-9bbf-056f759c67b0",
         "b374a22c-d3cb-4343-a592-6589bd653137",
         "89d392c5-25a1-456a-ba54-c00528827f41",
@@ -838,7 +846,8 @@
         "d35ffb5b-b302-4261-98a7-d4ae0c243d29",
         "f1bb7e87-4ad2-4e08-ad26-d502c33a5739",
         "14077e11-df97-4f4f-aab0-8b79eed5037b",
-        "713beafa-9bb8-4e3a-8615-85e0b91f6989"
+        "713beafa-9bb8-4e3a-8615-85e0b91f6989",
+        "9a05a829-0151-4caf-8c2c-6012312162e3"
     ],
     "tutorial": ""
 }
