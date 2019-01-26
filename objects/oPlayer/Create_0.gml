@@ -1,2 +1,2 @@
 event_inherited();
-Mortal_Setup();
+Mortal_Setup(10);
