@@ -7,7 +7,7 @@
         "47c8485b-6ca0-49b9-9bbf-056f759c67b0"
     ],
     "filterType": "GMScript",
-    "folderName": "Friendly",
+    "folderName": "Passive",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

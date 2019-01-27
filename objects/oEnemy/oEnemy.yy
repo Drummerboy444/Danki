@@ -1,23 +1,14 @@
 {
-    "id": "cede2bb7-133f-4342-8aec-29bf76a17667",
+    "id": "29ddd0b5-f2ea-4466-8bda-f0665a5210d2",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "oEnemy",
     "eventList": [
-        {
-            "id": "aedba9c2-a543-4b59-95e6-cb6fbe882f11",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "cede2bb7-133f-4342-8aec-29bf76a17667"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "9b38a417-04f7-4606-a950-12800399ca28",
+    "parentObjectId": "cede2bb7-133f-4342-8aec-29bf76a17667",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

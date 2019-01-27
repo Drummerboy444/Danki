@@ -1,8 +1,8 @@
 #region Doc
-/// @function Enemy_Setup(num_maxHealth)
+/// @function NPC_Setup(num_maxHealth)
 /// @param {number} num_maxHealth Max Health
 #endregion
 var _num_maxHealth = argument[0];
 
 
-NPC_Setup(_num_maxHealth);
+Mortal_Setup(_num_maxHealth);

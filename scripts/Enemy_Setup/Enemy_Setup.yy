@@ -1,5 +1,5 @@
 {
-    "id": "f48e2262-356e-42ea-a531-73a8520effab",
+    "id": "8be3c514-640f-40e1-9c76-610645044d21",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "Enemy_Setup",

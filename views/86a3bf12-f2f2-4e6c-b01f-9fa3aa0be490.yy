@@ -1,13 +1,13 @@
 {
-    "id": "939a5580-892b-4a63-9553-25d67ad53908",
+    "id": "86a3bf12-f2f2-4e6c-b01f-9fa3aa0be490",
     "modelName": "GMFolder",
     "mvc": "1.1",
-    "name": "939a5580-892b-4a63-9553-25d67ad53908",
+    "name": "86a3bf12-f2f2-4e6c-b01f-9fa3aa0be490",
     "children": [
         
     ],
     "filterType": "GMSprite",
-    "folderName": "Passive",
+    "folderName": "Enemy",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
