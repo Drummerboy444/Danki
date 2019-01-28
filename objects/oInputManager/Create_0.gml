@@ -8,6 +8,14 @@ enum enum_Actions {
 	DASH,
 }
 
+enum enum_moveModes {
+	FREEMOVE,
+	DASHING,
+	DASHED,
+}
+
+moveModes = enum_moveModes.FREEMOVE;
+
 map_keyBindings = ds_map_create();
 map_keyBindings[? enum_Actions.MOVE_UP] = ord("W");
 map_keyBindings[? enum_Actions.MOVE_DOWN] = ord("S");
