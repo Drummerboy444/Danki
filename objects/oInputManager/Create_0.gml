@@ -14,7 +14,10 @@ enum enum_moveModes {
 	DASHED,
 }
 
-moveModes = enum_moveModes.FREEMOVE;
+str_moveModes = enum_moveModes.FREEMOVE;
+
+num_dashTimer = 0;  // Timer to determine how long a dash has occured
+num_slowTimer = 0;  // Timer to determine how long the post dash slow has occured
 
 map_keyBindings = ds_map_create();
 map_keyBindings[? enum_Actions.MOVE_UP] = ord("W");

@@ -25,44 +25,43 @@ if (_bool_isMovingHorizontally && _bool_inMovingVertically) {
 	var _num_movementSpeed = _num_movementSpeed / sqrt(2);
 }
 
-switch (moveModes) {
+switch (str_moveModes) {
 	case enum_moveModes.FREEMOVE:
 	if (_bool_dash == true) {
-		var _x_movement = _num_horizontalMovement;
-		var _y_movement = _num_verticalMovement;
-		var _dash_timer = 0;
-		var _slow_timer = 0;
-		moveModes = enum_moveModes.DASHING;
+		with (oPlayer) {
+			num_xDashMovement = _num_horizontalMovement;
+			num_yDashMovement = _num_verticalMovement;
+		}
+		str_moveModes = enum_moveModes.DASHING;
 	} else {
 		with (oPlayer) {
 			x += _num_horizontalMovement * _num_movementSpeed;
 			y += _num_verticalMovement * _num_movementSpeed;
-			break;
 		}
 	break;
 	}
 	case enum_moveModes.DASHING:
 	with (oPlayer) {
-		x += _x_movement * _num_movementSpeed * dash_Speed;
-		y += _y_movement * _num_movementSpeed * dash_Speed;
+		x += num_xDashMovement * _num_movementSpeed * num_dashSpeed;
+		y += num_yDashMovement * _num_movementSpeed * num_dashSpeed;
 	}
-	if (_dash_timer >= room_speed * 2) {
-		_dash_timer = 0;
-		moveModes = enum_moveModes.DASHED;
+	if (num_dashTimer >= 20) {
+		num_dashTimer = 0;
+		str_moveModes = enum_moveModes.DASHED;
 	} else {
-		_dash_timer ++;
+		num_dashTimer ++;
 		break;
 	}
 	case enum_moveModes.DASHED:
 	with (oPlayer) {
-		x += _num_horizontalMovement * _num_movementSpeed * dashed_Slow;
-		y += _num_verticalMovement * _num_movementSpeed * dashed_Slow;
+		x += _num_horizontalMovement * _num_movementSpeed * num_dashedSlow;
+		y += _num_verticalMovement * _num_movementSpeed * num_dashedSlow;
 	}
-	if (_slow_timer >= room_speed * 2) {
-		_slow_timer = 0;
-		moveModes = enum_moveModes.FREEMOVE;
+	if (num_slowTimer >= 50) {
+		num_slowTimer = 0;
+		str_moveModes = enum_moveModes.FREEMOVE;
 	} else {
-		_slow_timer ++;
+		num_slowTimer ++;
 		break;
 	}
 	break;
