@@ -6,6 +6,6 @@
 var _id_caster = argument[0];
 var _enum_ability = argument[1];
 
-var _abilityScript = oAbilityManager.map_ability_to_script[_enum_ability];
+var _abilityScript = oAbilityManager.map_ability_to_script[? _enum_ability];
 
 script_execute(_abilityScript, _id_caster);
