@@ -10,4 +10,4 @@ var obj_target = oPlayer;
 var num_lerpFactor = 1;
 
 //Set GMS view
-camera_set_view_border(view_camera[0], (view_wport[0] / 2) + 40, (view_hport[0]) + 40);
+camera_set_view_border(view_camera[0], (view_wport[0] / 2) + 20, (view_hport[0]) + 20);
