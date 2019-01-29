@@ -54,7 +54,7 @@
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "hspeed": 0,
-            "htiled": false,
+            "htiled": true,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -67,12 +67,12 @@
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
             "spriteId": "7cfc16c0-35a2-40ff-b016-8035d5a3bc83",
-            "stretch": true,
+            "stretch": false,
             "userdefined_animFPS": false,
             "userdefined_depth": false,
             "visible": true,
             "vspeed": 0,
-            "vtiled": false,
+            "vtiled": true,
             "x": 0,
             "y": 0
         }
