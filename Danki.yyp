@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "6f17c50a-d955-4aa3-8c62-3a76264d40da",
+            "Value": {
+                "id": "53617db8-302f-4bea-a621-ea9248696993",
+                "resourcePath": "scripts\\Camera_UPDATE_SHAKE\\Camera_UPDATE_SHAKE.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "713beafa-9bb8-4e3a-8615-85e0b91f6989",
             "Value": {
                 "id": "0ed447eb-c218-4d76-a6f3-791a7dd7d269",
@@ -559,6 +567,14 @@
             }
         },
         {
+            "Key": "9ee457be-877f-4571-8b8a-317cabc595a6",
+            "Value": {
+                "id": "2d1ac63a-b5a5-493d-88ed-e1b3597ea43f",
+                "resourcePath": "objects\\oCamTest\\oCamTest.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a156aea3-c169-4e12-b772-3d0ae4c6f94c",
             "Value": {
                 "id": "df8cee3e-2d38-4734-b11c-21c011abff06",
@@ -636,6 +652,14 @@
                 "id": "51a6b937-7004-48ca-a1fb-9469d5743ffc",
                 "resourcePath": "objects\\oFriendly\\oFriendly.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c08e4263-5a0e-4ca9-9f8a-edc8f726d957",
+            "Value": {
+                "id": "eddccc29-df53-4169-8a00-3a321de5a3f0",
+                "resourcePath": "scripts\\Camera_SetTarget\\Camera_SetTarget.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -767,6 +791,22 @@
             }
         },
         {
+            "Key": "ded21279-a39c-4af0-86ed-4f4b0552e3af",
+            "Value": {
+                "id": "ba10a96d-6dbe-4084-a1d3-597ab371bdab",
+                "resourcePath": "scripts\\Camera_Shake\\Camera_Shake.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e3f3b1bb-a032-4f2f-836e-1fbfecf6256d",
+            "Value": {
+                "id": "e6a615d4-23f9-48bd-af50-ca2a247fca71",
+                "resourcePath": "scripts\\Camera_LookAtFor\\Camera_LookAtFor.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e8f40619-5065-4247-b7d8-55590ac11cba",
             "Value": {
                 "id": "1a909ac6-d380-45c5-997c-e8b2ebd52fa0",
@@ -839,6 +879,14 @@
             }
         },
         {
+            "Key": "f76bd482-ed4f-4678-8650-7e9d38832c94",
+            "Value": {
+                "id": "d40efbe0-71ac-40e0-b61f-c91451dd6de3",
+                "resourcePath": "scripts\\Camera_UPDATE_TIMER\\Camera_UPDATE_TIMER.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fa17c25b-9f43-43e3-b9a6-a3586b9be36b",
             "Value": {
                 "id": "1eef72ea-f296-401e-9b18-005357e1cb0c",
@@ -878,7 +926,12 @@
         "d35ffb5b-b302-4261-98a7-d4ae0c243d29",
         "f1bb7e87-4ad2-4e08-ad26-d502c33a5739",
         "14077e11-df97-4f4f-aab0-8b79eed5037b",
+        "c08e4263-5a0e-4ca9-9f8a-edc8f726d957",
+        "e3f3b1bb-a032-4f2f-836e-1fbfecf6256d",
+        "ded21279-a39c-4af0-86ed-4f4b0552e3af",
         "634aedb1-e265-4b23-955f-d02adf565381",
+        "f76bd482-ed4f-4678-8650-7e9d38832c94",
+        "6f17c50a-d955-4aa3-8c62-3a76264d40da",
         "713beafa-9bb8-4e3a-8615-85e0b91f6989",
         "9a05a829-0151-4caf-8c2c-6012312162e3"
     ],
