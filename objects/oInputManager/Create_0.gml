@@ -1,3 +1,4 @@
+// Enumerable of all movement actions, bound by the below map
 enum enum_Actions {
 	MOVE_UP,
 	MOVE_DOWN,
@@ -8,6 +9,7 @@ enum enum_Actions {
 	DASH,
 }
 
+// Map containing all keybindings designed to allow player overwrite
 map_keyBindings = ds_map_create();
 map_keyBindings[? enum_Actions.MOVE_UP] = ord("W");
 map_keyBindings[? enum_Actions.MOVE_DOWN] = ord("S");
