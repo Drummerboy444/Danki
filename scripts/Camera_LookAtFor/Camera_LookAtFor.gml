@@ -9,5 +9,5 @@ var _num_duration = argument[1];
 id_previousTarget = id_target;
 id_target = _id_target;
 
-enum_currentCameraState = enum_CameraStates.LOOK_AT_FOR;
+enum_currentCameraState = Enum_CameraStates.LOOK_AT_FOR;
 num_lookCounterEnd = _num_duration;

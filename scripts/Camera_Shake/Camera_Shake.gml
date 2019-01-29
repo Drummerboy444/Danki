@@ -10,6 +10,7 @@ show_debug_message("Starting shake.");
 
 with (oCamera) {
 //Disable smoothing during a shake
+num_prevLerpFactor = num_lerpFactor;
 num_lerpFactor = 1;
 bool_isShaking = true;
 num_shakeCounterEnd = _num_duration;

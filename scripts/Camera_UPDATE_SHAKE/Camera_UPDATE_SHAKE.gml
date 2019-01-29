@@ -12,6 +12,8 @@ if num_shakeCounter > num_shakeCounterEnd {
 	num_shakeCounter = 0;
 	num_shakeCounterEnd = 0;
 	num_shakeIntensity = 0;
+	num_lerpFactor = num_prevLerpFactor;
+	num_prevLerpFactor = 0;
 }
 
 

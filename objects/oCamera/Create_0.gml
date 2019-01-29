@@ -1,11 +1,11 @@
-enum enum_CameraStates{
+enum Enum_CameraStates{
 	FOLLOW_PLAYER,
 	FOLLOW_NON_PLAYER,
 	LOOK_AT_FOR
 }
 
 //Initialise instance variables
-enum_currentCameraState = enum_CameraStates.FOLLOW_PLAYER; //Default state
+enum_currentCameraState = Enum_CameraStates.FOLLOW_PLAYER; //Default state
 bool_isShaking = false;
 id_target = oPlayer; //Default target
 id_previousTarget = noone;
@@ -17,6 +17,7 @@ num_shakeIntensity = 0;
 
 //Settings
 num_lerpFactor = 0.1; //1 = perfect tracking. Smaller values = more camera lag and smoothing.
+num_prevLerpFactor = 0;
 num_deadZoneSize = 0; //How far from the center of the screen the player needs to move before camera tracking.
 num_jitterSmooth = 0.3; //Higher value = more jitter smoothing, but less accurate tracking.
 

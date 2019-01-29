@@ -1,12 +1,12 @@
 
 switch (enum_currentCameraState)
 {
-	case enum_CameraStates.FOLLOW_PLAYER: 
-	case enum_CameraStates.FOLLOW_NON_PLAYER:
+	case Enum_CameraStates.FOLLOW_PLAYER: 
+	case Enum_CameraStates.FOLLOW_NON_PLAYER:
 		Camera_FOLLOW_TARGET();
 	break;
 	
-	case enum_CameraStates.LOOK_AT_FOR:
+	case Enum_CameraStates.LOOK_AT_FOR:
 		Camera_FOLLOW_TARGET();
 		Camera_UPDATE_TIMER();
 	break;
