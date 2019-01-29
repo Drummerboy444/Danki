@@ -2,13 +2,13 @@ event_inherited();
 Mortal_Setup(10);
 
 // Enumerable containing the movement modes that the player may utilise
-enum enum_PlayerMoveModes {
+enum Enum_PlayerMoveModes {
 	FREEMOVE,
 	DASHING,
 	DASHED,
 }
 
-num_currentMoveMode = enum_PlayerMoveModes.FREEMOVE;	// Sets the default movement mode to FREEMOVE
+enum_currentMoveMode = Enum_PlayerMoveModes.FREEMOVE;	// Sets the default movement mode to FREEMOVE
 
 // Movement
 num_baseMovementSpeed = 3;
