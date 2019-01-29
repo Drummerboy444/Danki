@@ -29,50 +29,48 @@ if (_bool_isMovingHorizontally && _bool_inMovingVertically) {
 #endregion
 
 // These regions control the actual movement (FREEMOVE), dashing (DASHING) and post dash slow (DASHED)
-switch (str_moveModes) {
-	#region Movement (FREEMOVE)
-	case enum_moveModes.FREEMOVE:
-	if (_bool_dash == true) {
-		with (oPlayer) {
-			num_xDashMovement = _num_horizontalMovement;	// These are variables used to control the dash
-			num_yDashMovement = _num_verticalMovement;		// direction, which remains fixed until the dash ends
-		}
-		str_moveModes = enum_moveModes.DASHING;
-	} else {
-		with (oPlayer) {
-			x += _num_horizontalMovement * _num_movementSpeed;
-			y += _num_verticalMovement * _num_movementSpeed;
-		}
-	break;
+var _num_horizontalMovementDistance = 0;
+var _num_verticalMovementDistance = 0;
+with (oPlayer) {
+	switch (num_currentMoveMode) {
+		#region Movement (FREEMOVE)
+		case enum_PlayerMoveModes.FREEMOVE:
+			_num_horizontalMovementDistance = _num_horizontalMovement * _num_movementSpeed;
+			_num_verticalMovementDistance = _num_verticalMovement * _num_movementSpeed;
+			if (_bool_dash) {
+				num_dashTimer = 0;
+				num_slowTimer = 0;
+				num_xDashMovement = _num_horizontalMovement;
+				num_yDashMovement = _num_verticalMovement;
+				num_currentMoveMode = enum_PlayerMoveModes.DASHING;
+			}
+			break;
+		#endregion
+		#region Dashing (DASHING)
+		case enum_PlayerMoveModes.DASHING:
+			_num_horizontalMovementDistance = num_xDashMovement * _num_movementSpeed * num_dashSpeed;
+			_num_verticalMovementDistance = num_yDashMovement * _num_movementSpeed * num_dashSpeed;
+			if (num_dashTimer >= num_dashLength) {
+				num_dashTimer = 0;
+				num_currentMoveMode = enum_PlayerMoveModes.DASHED;
+			} else {
+				num_dashTimer++;
+			}
+			break;
+		#endregion
+		#region Post dash slow (DASHED)
+		case enum_PlayerMoveModes.DASHED:
+			_num_horizontalMovementDistance = _num_horizontalMovement * _num_movementSpeed * num_dashedSlow;
+			_num_verticalMovementDistance = _num_verticalMovement * _num_movementSpeed * num_dashedSlow;
+			if (num_slowTimer >= num_slowLength) {
+				num_slowTimer = 0;
+				num_currentMoveMode = enum_PlayerMoveModes.FREEMOVE;
+			} else {
+				num_slowTimer++;
+			}
+			break;	
+		#endregion
 	}
-	#endregion
-	#region Dashing (DASHING)
-	case enum_moveModes.DASHING:
-	with (oPlayer) {
-		x += num_xDashMovement * _num_movementSpeed * num_dashSpeed;	// num_dashSpeed is found under oPlayer create and determines
-		y += num_yDashMovement * _num_movementSpeed * num_dashSpeed;	// the movement factor that dashing induces
-	}
-	if (num_dashTimer >= 20) {		// This value controls the length of time a dash occurs for
-		num_dashTimer = 0;
-		str_moveModes = enum_moveModes.DASHED;
-	} else {
-		num_dashTimer ++;
-		break;
-	}
-	#endregion
-	#region Post dash slow (DASHED)
-	case enum_moveModes.DASHED:
-	with (oPlayer) {
-		x += _num_horizontalMovement * _num_movementSpeed * num_dashedSlow;	// num_dashedSlow is found under oPlayer and
-		y += _num_verticalMovement * _num_movementSpeed * num_dashedSlow;	// determines the magnitude of the slow effect
-	}
-	if (num_slowTimer >= 50) {		// This value determines the length of time the slow occurs for
-		num_slowTimer = 0;
-		str_moveModes = enum_moveModes.FREEMOVE;
-	} else {
-		num_slowTimer ++;
-		break;
-	}
-	#endregion
-	break;
+	x += _num_horizontalMovementDistance;
+	y += _num_verticalMovementDistance;
 }
