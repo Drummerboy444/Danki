@@ -32,9 +32,9 @@ if (_bool_isMovingHorizontally && _bool_inMovingVertically) {
 var _num_horizontalMovementDistance = 0;
 var _num_verticalMovementDistance = 0;
 with (oPlayer) {
-	switch (num_currentMoveMode) {
+	switch (enum_currentMoveMode) {
 		#region Movement (FREEMOVE)
-		case enum_PlayerMoveModes.FREEMOVE:
+		case Enum_PlayerMoveModes.FREEMOVE:
 			_num_horizontalMovementDistance = _num_horizontalMovement * _num_movementSpeed;
 			_num_verticalMovementDistance = _num_verticalMovement * _num_movementSpeed;
 			if (_bool_dash) {
@@ -42,29 +42,29 @@ with (oPlayer) {
 				num_slowTimer = 0;
 				num_xDashMovement = _num_horizontalMovement;
 				num_yDashMovement = _num_verticalMovement;
-				num_currentMoveMode = enum_PlayerMoveModes.DASHING;
+				enum_currentMoveMode = Enum_PlayerMoveModes.DASHING;
 			}
 			break;
 		#endregion
 		#region Dashing (DASHING)
-		case enum_PlayerMoveModes.DASHING:
+		case Enum_PlayerMoveModes.DASHING:
 			_num_horizontalMovementDistance = num_xDashMovement * _num_movementSpeed * num_dashSpeed;
 			_num_verticalMovementDistance = num_yDashMovement * _num_movementSpeed * num_dashSpeed;
 			if (num_dashTimer >= num_dashLength) {
 				num_dashTimer = 0;
-				num_currentMoveMode = enum_PlayerMoveModes.DASHED;
+				enum_currentMoveMode = Enum_PlayerMoveModes.DASHED;
 			} else {
 				num_dashTimer++;
 			}
 			break;
 		#endregion
 		#region Post dash slow (DASHED)
-		case enum_PlayerMoveModes.DASHED:
+		case Enum_PlayerMoveModes.DASHED:
 			_num_horizontalMovementDistance = _num_horizontalMovement * _num_movementSpeed * num_dashedSlow;
 			_num_verticalMovementDistance = _num_verticalMovement * _num_movementSpeed * num_dashedSlow;
 			if (num_slowTimer >= num_slowLength) {
 				num_slowTimer = 0;
-				num_currentMoveMode = enum_PlayerMoveModes.FREEMOVE;
+				enum_currentMoveMode = Enum_PlayerMoveModes.FREEMOVE;
 			} else {
 				num_slowTimer++;
 			}
