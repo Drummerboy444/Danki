@@ -1,8 +1,8 @@
 {
-    "id": "f76bd482-ed4f-4678-8650-7e9d38832c94",
+    "id": "315eda47-a95b-4bd0-b530-58d721a22878",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "Camera_UPDATE_TIMER",
+    "name": "Shake_UPDATE",
     "IsCompatibility": false,
     "IsDnD": false
 }

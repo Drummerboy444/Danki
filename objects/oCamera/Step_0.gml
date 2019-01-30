@@ -8,10 +8,12 @@ switch (enum_currentCameraState)
 	
 	case Enum_CameraStates.LOOK_AT_FOR:
 		Camera_FOLLOW_TARGET();
-		Camera_UPDATE_TIMER();
+		Camera_UPDATE_LOOK_TIMER();
 	break;
 }
 
-if bool_isShaking {
-	Camera_UPDATE_SHAKE();
+Camera_MANAGE_SHAKES(arr_oShake);
+
+for (var i = 0; i < 5; i++){
+	Shake_UPDATE(arr_oShake[i]);
 }

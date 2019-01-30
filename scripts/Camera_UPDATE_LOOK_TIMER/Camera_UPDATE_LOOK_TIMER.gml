@@ -1,4 +1,4 @@
-/// @function Camera_UPDATE_TIMER() Updates the oCamera's internal timer to end the LookAtFor state
+/// @function Camera_UPDATE_LOOK_TIMER() Updates the oCamera's internal timer to end the LookAtFor state
 
 if num_lookCounter > num_lookCounterEnd{
 	enum_currentCameraState = Enum_CameraStates.FOLLOW_PLAYER;

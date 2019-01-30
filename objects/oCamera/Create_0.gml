@@ -11,9 +11,11 @@ id_target = oPlayer; //Default target
 id_previousTarget = noone;
 num_lookCounter = 0;
 num_lookCounterEnd = 0;
-num_shakeCounter = 0;
-num_shakeCounterEnd = 0;
-num_shakeIntensity = 0;
+
+arr_oShake[5] = 0;
+for (var i = 0; i < 5; i++){
+	arr_oShake[i] = instance_create_depth(0, 0, 1, oShake);
+}
 
 //Settings
 num_lerpFactor = 0.1; //1 = perfect tracking. Smaller values = more camera lag and smoothing.
