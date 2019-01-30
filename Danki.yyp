@@ -607,14 +607,6 @@
             }
         },
         {
-            "Key": "a0cf70dd-cad5-428b-bc4f-47b040f845d1",
-            "Value": {
-                "id": "74ed71bb-19cf-42b4-91bd-8041623d10db",
-                "resourcePath": "scripts\\AbilityTreeManager_CREATE_ROOT\\AbilityTreeManager_CREATE_ROOT.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "a156aea3-c169-4e12-b772-3d0ae4c6f94c",
             "Value": {
                 "id": "df8cee3e-2d38-4734-b11c-21c011abff06",
@@ -727,6 +719,14 @@
             }
         },
         {
+            "Key": "c641afe9-28db-4264-93fa-1a7899b1f9c2",
+            "Value": {
+                "id": "23670875-045b-419b-9a93-5bd688cfb644",
+                "resourcePath": "scripts\\AbilityTreeManager_INITIALISE\\AbilityTreeManager_INITIALISE.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cab8a90f-96b5-4ec2-beda-06f6a6392b25",
             "Value": {
                 "id": "de621b7c-4660-47c1-b04d-e57120911eff",
@@ -772,14 +772,6 @@
                 "id": "e9e170ca-1f9c-49e1-8fb1-603fee419148",
                 "resourcePath": "views\\cf08d9cb-ddf4-41ff-b113-c3c6c20751f0.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "d1192465-fd1d-49b0-bbaf-28e139fd9e34",
-            "Value": {
-                "id": "adcd8274-d749-4a3d-a9dd-d9de1eaa3c52",
-                "resourcePath": "scripts\\AbilityTreeManager_Initialise\\AbilityTreeManager_Initialise.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -984,11 +976,10 @@
         "83802678-3ac5-4cfc-94ee-ad3acd6a2cdc",
         "dc809581-393a-41c2-8212-a1f94b94ce2b",
         "b4c94141-6a54-4165-84e9-8bdb5dbe6781",
-        "d1192465-fd1d-49b0-bbaf-28e139fd9e34",
         "468d9e01-2da5-42af-9cc1-18cf1e51646b",
         "5ef957b2-58c9-445b-83e4-4a838e88962f",
         "710be8b1-4a5d-4c14-a97d-5ddf9de1f8ab",
-        "a0cf70dd-cad5-428b-bc4f-47b040f845d1",
+        "c641afe9-28db-4264-93fa-1a7899b1f9c2",
         "14077e11-df97-4f4f-aab0-8b79eed5037b",
         "713beafa-9bb8-4e3a-8615-85e0b91f6989",
         "9a05a829-0151-4caf-8c2c-6012312162e3"

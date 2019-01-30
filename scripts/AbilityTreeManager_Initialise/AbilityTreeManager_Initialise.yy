@@ -1,8 +1,8 @@
 {
-    "id": "d1192465-fd1d-49b0-bbaf-28e139fd9e34",
+    "id": "c641afe9-28db-4264-93fa-1a7899b1f9c2",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "AbilityTreeManager_Initialise",
+    "name": "AbilityTreeManager_INITIALISE",
     "IsCompatibility": false,
     "IsDnD": false
 }
