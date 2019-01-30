@@ -8,4 +8,6 @@ var _enum_ability = argument[1];
 
 var _abilityScript = oAbilityManager.map_ability_to_script[? _enum_ability];
 
-script_execute(_abilityScript, _id_caster);
+with(_id_caster){
+	script_execute(_abilityScript);
+}
