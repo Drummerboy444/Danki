@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "076c486c-53e4-4756-83f6-2ae69f335ebb",
+            "Value": {
+                "id": "2eaab249-294e-4f55-a8dc-75279973878a",
+                "resourcePath": "objects\\oAbilityTreeNode\\oAbilityTreeNode.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "09e01a7e-def4-4446-8f7f-a6a7a18b4c2e",
             "Value": {
                 "id": "c8aedf37-bb1d-41b4-8cea-e4b40920e347",
@@ -76,6 +84,14 @@
                 "id": "c121f483-9b12-4b77-a4f3-7963bfacc398",
                 "resourcePath": "scripts\\Pauseable_Setup\\Pauseable_Setup.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "169cfb37-5837-4ef7-927c-86bdf2cd9b65",
+            "Value": {
+                "id": "9c6cf696-d0fb-4a7f-87f6-fa9e5510c1f1",
+                "resourcePath": "views\\169cfb37-5837-4ef7-927c-86bdf2cd9b65.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -223,11 +239,27 @@
             }
         },
         {
+            "Key": "445f522c-7e3d-4fc4-88d0-deaa436d7b9d",
+            "Value": {
+                "id": "29451dc0-3885-40ae-8d74-14e144735261",
+                "resourcePath": "views\\445f522c-7e3d-4fc4-88d0-deaa436d7b9d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "45db5103-06d2-4a92-b962-946562bb26f8",
             "Value": {
                 "id": "379e4c11-e51e-4c5e-8a0f-4f6611114084",
                 "resourcePath": "views\\45db5103-06d2-4a92-b962-946562bb26f8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "468d9e01-2da5-42af-9cc1-18cf1e51646b",
+            "Value": {
+                "id": "878ab7a1-ec13-4847-b0e4-3d624d55efc9",
+                "resourcePath": "scripts\\AbilityTreeNode_DefaultAction\\AbilityTreeNode_DefaultAction.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -303,6 +335,14 @@
             }
         },
         {
+            "Key": "5ef957b2-58c9-445b-83e4-4a838e88962f",
+            "Value": {
+                "id": "ba0859ed-ae4b-46e6-b8ba-454db4185efd",
+                "resourcePath": "scripts\\AbilityTreeManager_RECURSE\\AbilityTreeManager_RECURSE.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "68b820f0-f80f-4dee-bea6-12db0fa26d7e",
             "Value": {
                 "id": "575736e3-0c97-43fc-9b09-9a21ca231a60",
@@ -315,6 +355,14 @@
             "Value": {
                 "id": "58e7c473-3672-4973-b994-cca1021f195a",
                 "resourcePath": "scripts\\Friendly_Setup\\Friendly_Setup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "710be8b1-4a5d-4c14-a97d-5ddf9de1f8ab",
+            "Value": {
+                "id": "6f743173-068f-426a-8486-8640d0940ac7",
+                "resourcePath": "scripts\\AbilityTreeManager_CREATE_NODE\\AbilityTreeManager_CREATE_NODE.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -375,6 +423,14 @@
             }
         },
         {
+            "Key": "7a013167-3092-4ba7-9498-d30c7e5b1a61",
+            "Value": {
+                "id": "20a02b9a-3b89-4ec6-b1f6-cfda675ae677",
+                "resourcePath": "views\\7a013167-3092-4ba7-9498-d30c7e5b1a61.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7a1c496a-5f61-475e-983e-2194f41fc3b3",
             "Value": {
                 "id": "27a71a40-ee82-4e3d-8dc6-d2c8d80cb106",
@@ -387,6 +443,14 @@
             "Value": {
                 "id": "035b2f2e-7480-40dc-94c5-a9eee0493b5e",
                 "resourcePath": "views\\7b97437d-3d6e-42c8-ab40-99a721432283.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7d0ce171-81cf-432f-aaad-4656f2b8f478",
+            "Value": {
+                "id": "81e782c6-9e99-4950-a0bc-2bfd5c3be161",
+                "resourcePath": "views\\7d0ce171-81cf-432f-aaad-4656f2b8f478.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -412,6 +476,14 @@
                 "id": "7e9069a1-ccaf-41bb-92bc-f7eb5e83cc50",
                 "resourcePath": "views\\8112caec-42f6-4225-858e-4795f4b06f71.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "83802678-3ac5-4cfc-94ee-ad3acd6a2cdc",
+            "Value": {
+                "id": "7b1f8e4a-d6c1-466e-9412-d273fb92bb0f",
+                "resourcePath": "scripts\\AbilityTreeManager_LeftAbility\\AbilityTreeManager_LeftAbility.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -535,6 +607,14 @@
             }
         },
         {
+            "Key": "a0cf70dd-cad5-428b-bc4f-47b040f845d1",
+            "Value": {
+                "id": "74ed71bb-19cf-42b4-91bd-8041623d10db",
+                "resourcePath": "scripts\\AbilityTreeManager_CREATE_ROOT\\AbilityTreeManager_CREATE_ROOT.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a156aea3-c169-4e12-b772-3d0ae4c6f94c",
             "Value": {
                 "id": "df8cee3e-2d38-4734-b11c-21c011abff06",
@@ -556,6 +636,14 @@
                 "id": "d8f26c89-1bd4-44dd-92ae-451d2addea9b",
                 "resourcePath": "views\\a49bd431-96d3-4ebc-820b-c855e25554d5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ab27f056-7739-4c1d-9a0a-569b2cfaf86e",
+            "Value": {
+                "id": "18dcbf95-967d-4193-9ef0-446589ad294a",
+                "resourcePath": "objects\\oAbilityTreeManager\\oAbilityTreeManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -599,6 +687,14 @@
             }
         },
         {
+            "Key": "b4c94141-6a54-4165-84e9-8bdb5dbe6781",
+            "Value": {
+                "id": "71fbf9c3-7a5a-4a87-8abf-d909839c3123",
+                "resourcePath": "scripts\\AbilityTreeManager_Reset\\AbilityTreeManager_Reset.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b4ea1925-fefd-4449-a66a-a632eace3bfb",
             "Value": {
                 "id": "a0743b87-7731-4907-9588-9ee65595d093",
@@ -607,11 +703,27 @@
             }
         },
         {
+            "Key": "bd61111d-e756-4c58-a049-3d3efb5d6b84",
+            "Value": {
+                "id": "60f4ffb4-0fdb-407e-a0fa-5245c1f596bd",
+                "resourcePath": "objects\\oAbilityTreeRoot\\oAbilityTreeRoot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bfb0e410-d019-4640-81b7-35c9572dac5d",
             "Value": {
                 "id": "51a6b937-7004-48ca-a1fb-9469d5743ffc",
                 "resourcePath": "objects\\oFriendly\\oFriendly.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c03a1e7f-af70-4b4f-88f6-eaf3271eda43",
+            "Value": {
+                "id": "fb3e65a2-8845-4baf-b4b5-79014375b68f",
+                "resourcePath": "views\\c03a1e7f-af70-4b4f-88f6-eaf3271eda43.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -663,6 +775,14 @@
             }
         },
         {
+            "Key": "d1192465-fd1d-49b0-bbaf-28e139fd9e34",
+            "Value": {
+                "id": "adcd8274-d749-4a3d-a9dd-d9de1eaa3c52",
+                "resourcePath": "scripts\\AbilityTreeManager_Initialise\\AbilityTreeManager_Initialise.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d341ffc1-af0d-45d1-8d52-f084eac5fd95",
             "Value": {
                 "id": "52e6810e-3243-49a0-8d84-0e34f1f89d04",
@@ -683,6 +803,14 @@
             "Value": {
                 "id": "0abd2dde-4833-4376-9d30-ae11b94c2a01",
                 "resourcePath": "views\\d3d48fe6-da5f-491a-8b9e-37081cb46ea4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d3e38a4b-0b9b-44ce-8ecc-67f54eb1b590",
+            "Value": {
+                "id": "266ede34-35e4-4cd4-a001-9b31f603c685",
+                "resourcePath": "views\\d3e38a4b-0b9b-44ce-8ecc-67f54eb1b590.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -716,6 +844,14 @@
                 "id": "71a2036a-aa35-4ce5-9d09-a38f45cf5ea4",
                 "resourcePath": "views\\dbaa3d0c-6260-4392-87d8-6f91e095f415.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dc809581-393a-41c2-8212-a1f94b94ce2b",
+            "Value": {
+                "id": "9905ef63-4a47-4d6b-a9fc-b832e35a7f91",
+                "resourcePath": "scripts\\AbilityTreeManager_RightAbility\\AbilityTreeManager_RightAbility.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -845,6 +981,14 @@
         "2baf54b8-9a1c-4b18-94ff-f4d32ade13f6",
         "d35ffb5b-b302-4261-98a7-d4ae0c243d29",
         "f1bb7e87-4ad2-4e08-ad26-d502c33a5739",
+        "83802678-3ac5-4cfc-94ee-ad3acd6a2cdc",
+        "dc809581-393a-41c2-8212-a1f94b94ce2b",
+        "b4c94141-6a54-4165-84e9-8bdb5dbe6781",
+        "d1192465-fd1d-49b0-bbaf-28e139fd9e34",
+        "468d9e01-2da5-42af-9cc1-18cf1e51646b",
+        "5ef957b2-58c9-445b-83e4-4a838e88962f",
+        "710be8b1-4a5d-4c14-a97d-5ddf9de1f8ab",
+        "a0cf70dd-cad5-428b-bc4f-47b040f845d1",
         "14077e11-df97-4f4f-aab0-8b79eed5037b",
         "713beafa-9bb8-4e3a-8615-85e0b91f6989",
         "9a05a829-0151-4caf-8c2c-6012312162e3"
