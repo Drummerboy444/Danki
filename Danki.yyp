@@ -711,6 +711,22 @@
             }
         },
         {
+            "Key": "a5b3e778-ba20-47d9-b145-5ab21b589405",
+            "Value": {
+                "id": "a1293167-dc77-46e7-bdf5-24ee6dbb9ea9",
+                "resourcePath": "scripts\\AbilityTreeManager_CanGoRight\\AbilityTreeManager_CanGoRight.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "aa33c175-8498-4234-b943-33f6b897c1d8",
+            "Value": {
+                "id": "47fb2cb8-63ce-4ff7-b9d3-f6ed3b40beda",
+                "resourcePath": "scripts\\AbilityTreeManager_CanGoLeft\\AbilityTreeManager_CanGoLeft.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ab27f056-7739-4c1d-9a0a-569b2cfaf86e",
             "Value": {
                 "id": "18dcbf95-967d-4193-9ef0-446589ad294a",
@@ -1075,6 +1091,8 @@
         "14077e11-df97-4f4f-aab0-8b79eed5037b",
         "713beafa-9bb8-4e3a-8615-85e0b91f6989",
         "9a05a829-0151-4caf-8c2c-6012312162e3",
+        "aa33c175-8498-4234-b943-33f6b897c1d8",
+        "a5b3e778-ba20-47d9-b145-5ab21b589405",
         "83802678-3ac5-4cfc-94ee-ad3acd6a2cdc",
         "dc809581-393a-41c2-8212-a1f94b94ce2b",
         "f962ab3b-37db-4564-b828-08b1ca825e3f",

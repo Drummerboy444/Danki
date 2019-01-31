@@ -42,15 +42,31 @@ AbilityTreeManager_INITIALISE(treeMap);
 //show_debug_message(AbilityTreeManager_GetLeftAbility());
 //show_debug_message(AbilityTreeManager_GetRightAbility());
 //AbilityTreeManager_Reset();
+//with (oAbilityTreeManager) {
+//	show_debug_message(id_currentAbilityTreeNode);
+//	AbilityTreeManager_WalkRight();
+//	show_debug_message(id_currentAbilityTreeNode);
+//	AbilityTreeManager_Reset();
+//	show_debug_message(id_currentAbilityTreeNode);
+//	AbilityTreeManager_WalkLeft();
+//	show_debug_message(id_currentAbilityTreeNode);
+//	AbilityTreeManager_WalkLeft();
+//	show_debug_message(id_currentAbilityTreeNode);
+//}
 with (oAbilityTreeManager) {
-	show_debug_message(id_currentAbilityTreeNode);
+	show_debug_message(AbilityTreeManager_CanGoLeft());
+	show_debug_message(AbilityTreeManager_CanGoRight());
 	AbilityTreeManager_WalkRight();
-	show_debug_message(id_currentAbilityTreeNode);
+	show_debug_message(AbilityTreeManager_CanGoLeft());
+	show_debug_message(AbilityTreeManager_CanGoRight());
 	AbilityTreeManager_Reset();
-	show_debug_message(id_currentAbilityTreeNode);
+	show_debug_message(AbilityTreeManager_CanGoLeft());
+	show_debug_message(AbilityTreeManager_CanGoRight());
 	AbilityTreeManager_WalkLeft();
-	show_debug_message(id_currentAbilityTreeNode);
+	show_debug_message(AbilityTreeManager_CanGoLeft());
+	show_debug_message(AbilityTreeManager_CanGoRight());
 	AbilityTreeManager_WalkLeft();
-	show_debug_message(id_currentAbilityTreeNode);
+	show_debug_message(AbilityTreeManager_CanGoLeft());
+	show_debug_message(AbilityTreeManager_CanGoRight());
 }
 #endregion
