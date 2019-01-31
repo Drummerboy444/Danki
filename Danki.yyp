@@ -546,7 +546,7 @@
             "Key": "83802678-3ac5-4cfc-94ee-ad3acd6a2cdc",
             "Value": {
                 "id": "7b1f8e4a-d6c1-466e-9412-d273fb92bb0f",
-                "resourcePath": "scripts\\AbilityTreeManager_LeftAbility\\AbilityTreeManager_LeftAbility.yy",
+                "resourcePath": "scripts\\AbilityTreeManager_GetLeftAbility\\AbilityTreeManager_GetLeftAbility.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -922,7 +922,7 @@
             "Key": "dc809581-393a-41c2-8212-a1f94b94ce2b",
             "Value": {
                 "id": "9905ef63-4a47-4d6b-a9fc-b832e35a7f91",
-                "resourcePath": "scripts\\AbilityTreeManager_RightAbility\\AbilityTreeManager_RightAbility.yy",
+                "resourcePath": "scripts\\AbilityTreeManager_GetRightAbility\\AbilityTreeManager_GetRightAbility.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -932,6 +932,14 @@
                 "id": "39d6d694-2bb0-4e9a-96d1-6590d2dab03c",
                 "resourcePath": "objects\\oInputManager\\oInputManager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dd1ee3c6-1e66-45a4-8af6-3e6094f2e08a",
+            "Value": {
+                "id": "fa37efd7-e282-4243-8bd1-704c696bcc7c",
+                "resourcePath": "scripts\\AbilityTreeManager_WalkRight\\AbilityTreeManager_WalkRight.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1015,6 +1023,14 @@
             }
         },
         {
+            "Key": "f962ab3b-37db-4564-b828-08b1ca825e3f",
+            "Value": {
+                "id": "71bdab9d-f7f3-401f-b577-26deedc823b7",
+                "resourcePath": "scripts\\AbilityTreeManager_WalkLeft\\AbilityTreeManager_WalkLeft.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fa17c25b-9f43-43e3-b9a6-a3586b9be36b",
             "Value": {
                 "id": "1eef72ea-f296-401e-9b18-005357e1cb0c",
@@ -1061,6 +1077,8 @@
         "9a05a829-0151-4caf-8c2c-6012312162e3",
         "83802678-3ac5-4cfc-94ee-ad3acd6a2cdc",
         "dc809581-393a-41c2-8212-a1f94b94ce2b",
+        "f962ab3b-37db-4564-b828-08b1ca825e3f",
+        "dd1ee3c6-1e66-45a4-8af6-3e6094f2e08a",
         "b4c94141-6a54-4165-84e9-8bdb5dbe6781",
         "5ef957b2-58c9-445b-83e4-4a838e88962f",
         "c641afe9-28db-4264-93fa-1a7899b1f9c2",

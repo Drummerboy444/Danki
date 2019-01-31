@@ -27,6 +27,7 @@ var _map_leftChild = _map_abilityTree[? "leftChild"];
 var _map_rightChild = _map_abilityTree[? "rightChild"];
 
 id_abilityTreeRoot = Utility_InstantiateAtOrigin(oAbilityTreeRoot);
+id_currentAbilityTreeNode = id_abilityTreeRoot;
 with (id_abilityTreeRoot) {
 	id_leftChild = AbilityTreeManager_RECURSE(_map_leftChild, id);
 	id_rightChild = AbilityTreeManager_RECURSE(_map_rightChild, id);

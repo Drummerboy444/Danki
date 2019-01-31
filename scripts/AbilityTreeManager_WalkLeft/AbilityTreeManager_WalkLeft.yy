@@ -1,8 +1,8 @@
 {
-    "id": "83802678-3ac5-4cfc-94ee-ad3acd6a2cdc",
+    "id": "f962ab3b-37db-4564-b828-08b1ca825e3f",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "AbilityTreeManager_LeftAbility",
+    "name": "AbilityTreeManager_WalkLeft",
     "IsCompatibility": false,
     "IsDnD": false
 }
