@@ -10,35 +10,25 @@ var _id_parent = argument[1];
 
 
 var _scr_ability = _map_abilityNode[? "ability"];
-var _map_leftNode = _map_abilityNode[? "leftNode"];
-var _map_rightNode = _map_abilityNode[? "rightNode"];
+var _map_leftChild = _map_abilityNode[? "leftChild"];
+var _map_rightChild = _map_abilityNode[? "rightChild"];
 
-var _id_leftNode = noone;
-var _id_rightNode = noone;
+var _id_currentNode = Utility_InstantiateAtOrigin(oAbilityTreeNode);
 
-var _id_node = instance_create_layer(0, 0, "Instances", oAbilityTreeNode);
-
-if (_map_leftNode != noone) {
-	_id_leftNode = AbilityTreeManager_RECURSE(_map_leftNode, _id_node);
+var _id_leftChild = noone;
+var _id_rightChild = noone;
+if (_map_leftChild != noone) {
+	_id_leftChild = AbilityTreeManager_RECURSE(_map_leftChild, _id_currentNode);
 }
-if (_map_rightNode != noone) {
-	_id_rightNode = AbilityTreeManager_RECURSE(_map_rightNode, _id_node);
+if (_map_rightChild != noone) {
+	_id_rightChild = AbilityTreeManager_RECURSE(_map_rightChild, _id_currentNode);
 }
 
-with (_id_node) {
+with (_id_currentNode) {
 	id_parent = _id_parent;
 	scr_ability = _scr_ability;
-	id_leftNode = _id_leftNode;
-	id_rightNode = _id_rightNode;
+	id_leftChild = _id_leftChild;
+	id_rightChild = _id_rightChild;
 }
 
-return _id_node;
-
-//if (_map_leftNode == noone) {
-//	_id_leftNode = AbilityTreeManager_CREATE_NODE(_scr_ability, _id_parent, noone, noone);
-//}
-//if (_map_rightNode == noone) {
-//	_id_rightNode = AbilityTreeManager_CREATE_NODE(_scr_ability, _id_parent, noone, noone);
-//}
-
-//return AbilityTreeManager_CREATE_NODE(_scr_ability, _id_leftNode, _id_parent, _id_rightNode);
+return _id_currentNode;

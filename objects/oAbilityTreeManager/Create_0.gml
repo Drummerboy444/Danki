@@ -1,33 +1,37 @@
-event_inherited();
-Pauseable_Setup();
-
 id_abilityTreeRoot = noone;
 id_currentAbilityTreeNode = noone;
 
+#region Test for the initialisation of the ability tree, this can go when we're using real data
 var treeMap = ds_map_create();
-
-var leftNode = ds_map_create();
-var leftNode2 = ds_map_create();
-ds_map_add(leftNode2, "ability", noone);
-ds_map_add(leftNode2, "leftNode", noone);
-ds_map_add(leftNode2, "rightNode", noone);
-ds_map_add(leftNode, "ability", noone);
-ds_map_add(leftNode, "leftNode", leftNode2);
-ds_map_add(leftNode, "rightNode", noone);
-
-var rightNode = ds_map_create();
-ds_map_add(rightNode, "ability", noone);
-ds_map_add(rightNode, "leftNode", noone);
-ds_map_add(rightNode, "rightNode", noone);
-
-ds_map_add(treeMap, "leftNode", leftNode);
-ds_map_add(treeMap, "rightNode", rightNode);
+var leftChild = ds_map_create();
+var leftChild2 = ds_map_create();
+ds_map_add(leftChild2, "ability", "slam");
+ds_map_add(leftChild2, "leftChild", noone);
+ds_map_add(leftChild2, "rightChild", noone);
+ds_map_add(leftChild, "ability", "slash");
+ds_map_add(leftChild, "leftChild", leftChild2);
+ds_map_add(leftChild, "rightChild", noone);
+var rightChild = ds_map_create();
+ds_map_add(rightChild, "ability", "shield");
+ds_map_add(rightChild, "leftChild", noone);
+ds_map_add(rightChild, "rightChild", noone);
+ds_map_add(treeMap, "leftChild", leftChild);
+ds_map_add(treeMap, "rightChild", rightChild);
 AbilityTreeManager_INITIALISE(treeMap);
-with(oAbilityTreeNode) {
-	show_debug_message(id);
-	show_debug_message(id_parent);
+with (oAbilityTreeManager) {
+	show_debug_message(id_abilityTreeRoot);
+	show_debug_message(id_abilityTreeRoot.id_leftChild);
+	show_debug_message(id_abilityTreeRoot.id_rightChild);
+	show_debug_message(id_abilityTreeRoot.id_leftChild.id_leftChild);
+	show_debug_message(id_abilityTreeRoot.id_leftChild.id_rightChild);
+	show_debug_message(id_abilityTreeRoot.id_rightChild.id_leftChild);
+	show_debug_message(id_abilityTreeRoot.id_rightChild.id_rightChild);
+	show_debug_message(id_abilityTreeRoot.id_leftChild.id_leftChild.id_leftChild);
+	show_debug_message(id_abilityTreeRoot.id_leftChild.id_leftChild.id_rightChild);
 }
-//with(oAbilityTreeRoot) {
-//	show_debug_message(id_leftNode);
-//	show_debug_message(id_rightNode);
-//}
+with (oAbilityTreeNode) {
+	show_debug_message(id_parent);
+	show_debug_message(id);
+	show_debug_message(scr_ability);
+}
+#endregion

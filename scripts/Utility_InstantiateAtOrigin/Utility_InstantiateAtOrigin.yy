@@ -1,8 +1,8 @@
 {
-    "id": "710be8b1-4a5d-4c14-a97d-5ddf9de1f8ab",
+    "id": "5b497336-be8a-4a38-b365-f7618350ec58",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "AbilityTreeManager_CREATE_NODE",
+    "name": "Utility_InstantiateAtOrigin",
     "IsCompatibility": false,
     "IsDnD": false
 }
