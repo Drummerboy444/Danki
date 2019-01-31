@@ -1,4 +1,4 @@
-scr_ability = AbilityTreeNode_DefaultAction;
+enum_ability = noone;
 
 id_parent = noone;
 id_leftChild = noone;

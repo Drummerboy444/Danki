@@ -39,19 +39,19 @@
             }
         },
         {
-            "Key": "076c486c-53e4-4756-83f6-2ae69f335ebb",
-            "Value": {
-                "id": "2eaab249-294e-4f55-a8dc-75279973878a",
-                "resourcePath": "objects\\oAbilityTreeNode\\oAbilityTreeNode.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "04f70b7b-9e74-4dcc-bcb3-b6a17432f6bf",
             "Value": {
                 "id": "567faca6-d064-441d-8775-ffc0f3bc83c1",
                 "resourcePath": "views\\04f70b7b-9e74-4dcc-bcb3-b6a17432f6bf.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "076c486c-53e4-4756-83f6-2ae69f335ebb",
+            "Value": {
+                "id": "2eaab249-294e-4f55-a8dc-75279973878a",
+                "resourcePath": "objects\\oAbilityTreeNode\\oAbilityTreeNode.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -103,18 +103,18 @@
             }
         },
         {
-            "Key": "169cfb37-5837-4ef7-927c-86bdf2cd9b65",
-            "Value": {
-                "id": "9c6cf696-d0fb-4a7f-87f6-fa9e5510c1f1",
-                "resourcePath": "views\\169cfb37-5837-4ef7-927c-86bdf2cd9b65.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "149f0a9d-aef5-44de-b872-29c7b8d3fe1e",
             "Value": {
                 "id": "d084e8fb-f959-42d2-beb4-2abdf3dfe94e",
                 "resourcePath": "views\\149f0a9d-aef5-44de-b872-29c7b8d3fe1e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "169cfb37-5837-4ef7-927c-86bdf2cd9b65",
+            "Value": {
+                "id": "9c6cf696-d0fb-4a7f-87f6-fa9e5510c1f1",
+                "resourcePath": "views\\169cfb37-5837-4ef7-927c-86bdf2cd9b65.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -300,14 +300,6 @@
                 "id": "379e4c11-e51e-4c5e-8a0f-4f6611114084",
                 "resourcePath": "views\\45db5103-06d2-4a92-b962-946562bb26f8.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "468d9e01-2da5-42af-9cc1-18cf1e51646b",
-            "Value": {
-                "id": "878ab7a1-ec13-4847-b0e4-3d624d55efc9",
-                "resourcePath": "scripts\\AbilityTreeNode_DefaultAction\\AbilityTreeNode_DefaultAction.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -783,19 +775,19 @@
             }
         },
         {
-            "Key": "bd61111d-e756-4c58-a049-3d3efb5d6b84",
-            "Value": {
-                "id": "60f4ffb4-0fdb-407e-a0fa-5245c1f596bd",
-                "resourcePath": "objects\\oAbilityTreeRoot\\oAbilityTreeRoot.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "b9f64c9c-de2b-42dc-9f53-851fb64dd88e",
             "Value": {
                 "id": "8f8db5c3-ac63-444e-ad20-3a7619e9fb3b",
                 "resourcePath": "scripts\\ShieldBash_Cast\\ShieldBash_Cast.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bd61111d-e756-4c58-a049-3d3efb5d6b84",
+            "Value": {
+                "id": "60f4ffb4-0fdb-407e-a0fa-5245c1f596bd",
+                "resourcePath": "objects\\oAbilityTreeRoot\\oAbilityTreeRoot.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -891,14 +883,6 @@
             "Value": {
                 "id": "0abd2dde-4833-4376-9d30-ae11b94c2a01",
                 "resourcePath": "views\\d3d48fe6-da5f-491a-8b9e-37081cb46ea4.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "d3e38a4b-0b9b-44ce-8ecc-67f54eb1b590",
-            "Value": {
-                "id": "266ede34-35e4-4cd4-a001-9b31f603c685",
-                "resourcePath": "views\\d3e38a4b-0b9b-44ce-8ecc-67f54eb1b590.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1078,7 +1062,6 @@
         "83802678-3ac5-4cfc-94ee-ad3acd6a2cdc",
         "dc809581-393a-41c2-8212-a1f94b94ce2b",
         "b4c94141-6a54-4165-84e9-8bdb5dbe6781",
-        "468d9e01-2da5-42af-9cc1-18cf1e51646b",
         "5ef957b2-58c9-445b-83e4-4a838e88962f",
         "c641afe9-28db-4264-93fa-1a7899b1f9c2",
         "5b497336-be8a-4a38-b365-f7618350ec58"
