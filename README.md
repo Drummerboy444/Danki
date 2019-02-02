@@ -33,9 +33,13 @@ enum Enum_Actions {
 ```
 however, an instance of this enum would still use a lowercase: `var _enum_action = Enum_Actions.SHIELD_BASH`.
 
-## File Naming and Structure
+## Resource Naming and Group Structure
 
-
+The conventions for the resource naming and group structure are as follows:
+* Objects are prefixed with a lower case o and sprites with a lower case s. For example oPlayer and sPlayer.
+* The scripts and sprites group structure should mirror that of the object group structure (see below for the structure of objects in the inheritance tree).
+* Scripts should be related to an object and live in the relevant group for that object. Public scripts should go directly in this group, whereas private scripts should go in a subgroup called "Private". Some utility scripts may not be tied to one object in particular, these should go somewhere sensible and be prefixed by their group name, eg. `Utility_InstantiateAtOrigin`.
+* Script names should be prefixed with the name of the object that they relate to, eg. `Player_Attack`, for private scripts the name should be in all caps, eg. `Player_ATTACK`.
 
 ## Inheritance Tree
 
