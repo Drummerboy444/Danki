@@ -2,7 +2,7 @@
 
 # Style Guide
 
-## Naming Convention
+## Variable Naming
 
 We use Hugarian notation for our variable names (both instance variables and local variables) according to the prefixes in the following table:
 
@@ -32,3 +32,13 @@ enum Enum_Actions {
     }
 ```
 however, an instance of this enum would still use a lowercase: `var _enum_action = Enum_Actions.SHIELD_BASH`.
+
+## File Naming and Structure
+
+
+
+## Inheritance Tree
+
+Objects in the Pausable group should all be in part of the inheritance tree. For example `oEntity` is a child of `oPauseable`, so `oEntity` is in a subgroup of the "Pauseable" group called "Entity". Any children of `oEntity` are then in subgroups of the group "Entity" and so on.
+
+Each object in the inheritance tree should inherit its parents create event. They should also have a setup script, for example `Entity_Setup`, that calls its parents setup script and does any other important things that each instance of that object should do. For example, `Entity_Setup` call `Pauseable_Setup` and so on. Some key variables can be passed through these scripts, but usage of this should be limited. Then each object that will be directly instantiated into the room (eg. the player) should call its parents setup script in its create event. Note that objects that won't be directly instantiated into the room (eg. oEntity) should not call their parents setup script in their create event.
