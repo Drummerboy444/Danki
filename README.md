@@ -8,7 +8,7 @@ We use Hugarian notation for our variable names (both instance variables and loc
 
 | Variable Type | Prefix |
 |:-------------:|:------:|
-| nubmer | `num` |
+| number | `num` |
 | string | `str` |
 | enumeration | `enum` |
 | boolean | `bool` |
