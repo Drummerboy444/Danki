@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "64532481-8318-49e3-b1d1-147193d77b7d",
+            "Value": {
+                "id": "f3e38cfd-9d23-4ede-9daa-236c66dfa9c0",
+                "resourcePath": "scripts\\AbilityTreeManager_DELETE_SUBTREE\\AbilityTreeManager_DELETE_SUBTREE.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "68b820f0-f80f-4dee-bea6-12db0fa26d7e",
             "Value": {
                 "id": "575736e3-0c97-43fc-9b09-9a21ca231a60",
@@ -491,14 +499,6 @@
             "Value": {
                 "id": "035b2f2e-7480-40dc-94c5-a9eee0493b5e",
                 "resourcePath": "views\\7b97437d-3d6e-42c8-ab40-99a721432283.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "7d0ce171-81cf-432f-aaad-4656f2b8f478",
-            "Value": {
-                "id": "81e782c6-9e99-4950-a0bc-2bfd5c3be161",
-                "resourcePath": "views\\7d0ce171-81cf-432f-aaad-4656f2b8f478.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -799,14 +799,6 @@
             }
         },
         {
-            "Key": "bd61111d-e756-4c58-a049-3d3efb5d6b84",
-            "Value": {
-                "id": "60f4ffb4-0fdb-407e-a0fa-5245c1f596bd",
-                "resourcePath": "objects\\oAbilityTreeRoot\\oAbilityTreeRoot.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "bfb0e410-d019-4640-81b7-35c9572dac5d",
             "Value": {
                 "id": "51a6b937-7004-48ca-a1fb-9469d5743ffc",
@@ -1100,6 +1092,7 @@
         "b4c94141-6a54-4165-84e9-8bdb5dbe6781",
         "5ef957b2-58c9-445b-83e4-4a838e88962f",
         "c641afe9-28db-4264-93fa-1a7899b1f9c2",
+        "64532481-8318-49e3-b1d1-147193d77b7d",
         "5b497336-be8a-4a38-b365-f7618350ec58"
     ],
     "tutorial": ""
