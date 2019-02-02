@@ -1,5 +1,5 @@
 #region Doc
-/// @function AbilityTreeManager_RECURSE(map_abilityNode, id_parent) Takes a map of an ability in the ability
+/// @function AbilityTreeManager_RECURSIVELY_INSTANTIATE(map_abilityNode, id_parent) Takes a map of an ability in the ability
 ///		tree and recursively calls itself to build the entire subtree.
 /// @param {map} map_abilityNode The map of the ability tree node to be build.
 /// @param {id} id_parent The id of the parent node.
@@ -18,10 +18,10 @@ var _id_leftChild = noone;
 var _id_rightChild = noone;
 
 if (_map_leftChild != noone) {
-	_id_leftChild = AbilityTreeManager_RECURSE(_map_leftChild, _id_currentNode);
+	_id_leftChild = AbilityTreeManager_RECURSIVELY_INSTANTIATE(_map_leftChild, _id_currentNode);
 }
 if (_map_rightChild != noone) {
-	_id_rightChild = AbilityTreeManager_RECURSE(_map_rightChild, _id_currentNode);
+	_id_rightChild = AbilityTreeManager_RECURSIVELY_INSTANTIATE(_map_rightChild, _id_currentNode);
 }
 
 with (_id_currentNode) {

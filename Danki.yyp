@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "2fea52bc-570c-4317-b357-2e671ff5b561",
+            "Value": {
+                "id": "59ffb55e-92b0-4d8d-a343-b63a7dd87c5b",
+                "resourcePath": "scripts\\AbilityTreeManager_RECURSIVELY_DELETE\\AbilityTreeManager_RECURSIVELY_DELETE.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "31299029-4427-4baf-acbd-311b29fdf726",
             "Value": {
                 "id": "49c87ab1-7a42-41d1-8998-be08f1150005",
@@ -386,7 +394,7 @@
             "Key": "5ef957b2-58c9-445b-83e4-4a838e88962f",
             "Value": {
                 "id": "ba0859ed-ae4b-46e6-b8ba-454db4185efd",
-                "resourcePath": "scripts\\AbilityTreeManager_RECURSE\\AbilityTreeManager_RECURSE.yy",
+                "resourcePath": "scripts\\AbilityTreeManager_RECURSIVELY_INSTANTIATE\\AbilityTreeManager_RECURSIVELY_INSTANTIATE.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1090,9 +1098,10 @@
         "f962ab3b-37db-4564-b828-08b1ca825e3f",
         "dd1ee3c6-1e66-45a4-8af6-3e6094f2e08a",
         "b4c94141-6a54-4165-84e9-8bdb5dbe6781",
-        "5ef957b2-58c9-445b-83e4-4a838e88962f",
         "c641afe9-28db-4264-93fa-1a7899b1f9c2",
+        "5ef957b2-58c9-445b-83e4-4a838e88962f",
         "64532481-8318-49e3-b1d1-147193d77b7d",
+        "2fea52bc-570c-4317-b357-2e671ff5b561",
         "5b497336-be8a-4a38-b365-f7618350ec58"
     ],
     "tutorial": ""
