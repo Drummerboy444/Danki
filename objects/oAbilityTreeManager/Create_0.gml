@@ -17,7 +17,7 @@ ds_map_add(rightChild, "leftChild", noone);
 ds_map_add(rightChild, "rightChild", noone);
 ds_map_add(treeMap, "leftChild", leftChild);
 ds_map_add(treeMap, "rightChild", rightChild);
-AbilityTreeManager_INITIALISE(treeMap);
+AbilityTreeManager_INSTANTIATE(treeMap);
 
 with (oAbilityTreeManager) {
 	show_debug_message(id_abilityTreeRoot);

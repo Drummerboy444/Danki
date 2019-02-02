@@ -1,5 +1,5 @@
 #region Doc
-/// @function AbilityTreeManager_INITIALISE(map_abilityTree) Turns a map into a tree of ability tree
+/// @function AbilityTreeManager_INSTANTIATE(map_abilityTree) Turns a map into a tree of ability tree
 ///		node objects by recursively walking down the given map.
 /// @param {map} map_abilityTree The map containing the ability tree to set up. This map should be
 ///		of the form:
