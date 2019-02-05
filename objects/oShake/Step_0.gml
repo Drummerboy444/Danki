@@ -12,10 +12,8 @@ if (bool_isActive){
 	//Only if we are the most powerful shake.
 	if (bool_isApplying){
 		
-			//Apply our strength
-			oCamera.x += random_range(-num_power, num_power);
-			oCamera.y += random_range(-num_power, num_power);
-		
+		//Apply our strength
+		oCamera.x += random_range(-num_power, num_power);
+		oCamera.y += random_range(-num_power, num_power);
 	}
 }
-

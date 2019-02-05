@@ -12,6 +12,7 @@ id_previousTarget = noone;
 num_lookCounter = 0;
 num_lookCounterEnd = 0;
 
+//Allocate pool
 arr_oShake[5] = 0;
 for (var i = 0; i < 5; i++){
 	arr_oShake[i] = instance_create_depth(0, 0, 1, oShake);
