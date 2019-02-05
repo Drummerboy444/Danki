@@ -12,8 +12,11 @@ switch (enum_currentCameraState)
 	break;
 }
 
-Camera_MANAGE_SHAKES(arr_oShake);
+//Mange our shake pool, deactivate old shakes, flag the strongest shake.
+Shake_MANAGE_SHAKES(arr_oShake);
 
+//Update shakes, the strongest shake will apply itself to us.
 for (var i = 0; i < 5; i++){
 	Shake_UPDATE(arr_oShake[i]);
 }
+

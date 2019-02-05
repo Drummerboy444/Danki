@@ -1,1 +1,1 @@
-Camera_Shake(5, 60);
+Camera_Shake(50, 120);

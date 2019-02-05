@@ -8,11 +8,19 @@ var _num_duration = argument[1];
 
 show_debug_message("Starting shake.");
 
-with (oCamera) {
-//Disable smoothing during a shake
-num_prevLerpFactor = num_lerpFactor;
-num_lerpFactor = 1;
-bool_isShaking = true;
-num_shakeCounterEnd = _num_duration;
-num_shakeIntensity = _num_intensity;
-}
+
+	for (var i = 0; i < array_length_1d(oCamera.arr_oShake) - 1; i++){
+		if oCamera.arr_oShake[i].bool_isActive = false
+		{
+			show_debug_message("Setting oShake variables...")
+			
+			oCamera.arr_oShake[i].num_duration = _num_duration;
+			oCamera.arr_oShake[i].num_power = _num_intensity;
+			oCamera.arr_oShake[i].bool_isActive = true;
+			
+			//Break so we only only set the 1st non active to shake.
+			break;
+		}
+		
+		show_debug_message("No inactive oShake was found!")
+	}
