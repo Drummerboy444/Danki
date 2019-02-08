@@ -16,12 +16,12 @@ var _num_diffX = _num_oldX - _num_newX;
 var _num_diffY = _num_oldY - _num_newY;
 
 //If the difference is too small, don't update. This stops camera jitter.
-if abs(_num_diffX) > 0.3 
-{
+if (abs(_num_diffX) > num_jitterSmooth){
+	
 	x = _num_newX;
 }
 
-if abs(_num_diffY) > 0.3
-{
+if (abs(_num_diffY) > num_jitterSmooth){
+	
 	y = _num_newY;
 }

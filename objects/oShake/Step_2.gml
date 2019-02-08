@@ -3,10 +3,10 @@ if (bool_isActive){
 	
 	if num_duration < 0
 	{
-		Shake_RESET(self);
+		Shake_RESET();
 	}
 	else {
-		Shake_UPDATE(self);
+		Shake_UPDATE();
 	}
 	
 	//Only if we are the most powerful shake.

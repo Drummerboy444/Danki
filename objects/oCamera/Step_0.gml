@@ -1,5 +1,5 @@
-switch (enum_currentCameraState)
-{
+switch (enum_currentCameraState){
+	
 	case Enum_CameraStates.FOLLOW_PLAYER: 
 	case Enum_CameraStates.FOLLOW_NON_PLAYER:
 		Camera_FOLLOW_TARGET();
@@ -12,4 +12,4 @@ switch (enum_currentCameraState)
 }
 
 //Mange our shake pool, deactivate old shakes, flag the strongest shake.
-Shake_MANAGE_SHAKES(arr_oShake);
+Camera_MANAGE_SHAKES();

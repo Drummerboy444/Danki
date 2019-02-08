@@ -191,14 +191,6 @@
             }
         },
         {
-            "Key": "2e8c7003-64f5-4280-a964-90f6f132dc02",
-            "Value": {
-                "id": "41484579-310b-4d11-87e3-76e390ad90d2",
-                "resourcePath": "scripts\\Camera_ApplyOffset\\Camera_ApplyOffset.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "2fea52bc-570c-4317-b357-2e671ff5b561",
             "Value": {
                 "id": "59ffb55e-92b0-4d8d-a343-b63a7dd87c5b",
@@ -415,14 +407,6 @@
             }
         },
         {
-            "Key": "634aedb1-e265-4b23-955f-d02adf565381",
-            "Value": {
-                "id": "2623d92c-558c-48f8-934b-62d917655150",
-                "resourcePath": "scripts\\Camera_FOLLOW_TARGET\\Camera_FOLLOW_TARGET.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "5ef957b2-58c9-445b-83e4-4a838e88962f",
             "Value": {
                 "id": "ba0859ed-ae4b-46e6-b8ba-454db4185efd",
@@ -431,10 +415,10 @@
             }
         },
         {
-            "Key": "6893fcea-3a16-407e-9bbb-e19dffd675eb",
+            "Key": "634aedb1-e265-4b23-955f-d02adf565381",
             "Value": {
-                "id": "3dd7472b-7c86-4700-b5bf-1bbc297b7c7c",
-                "resourcePath": "scripts\\Shake_RESET\\Shake_RESET.yy",
+                "id": "2623d92c-558c-48f8-934b-62d917655150",
+                "resourcePath": "scripts\\Camera_FOLLOW_TARGET\\Camera_FOLLOW_TARGET.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -443,6 +427,14 @@
             "Value": {
                 "id": "f3e38cfd-9d23-4ede-9daa-236c66dfa9c0",
                 "resourcePath": "scripts\\AbilityTreeManager_DELETE_SUBTREE\\AbilityTreeManager_DELETE_SUBTREE.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6893fcea-3a16-407e-9bbb-e19dffd675eb",
+            "Value": {
+                "id": "3dd7472b-7c86-4700-b5bf-1bbc297b7c7c",
+                "resourcePath": "scripts\\Shake_RESET\\Shake_RESET.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -554,7 +546,7 @@
             "Key": "7ce022cf-deb3-4e4b-ab73-71c76241ba76",
             "Value": {
                 "id": "9b231965-e3ab-4aec-84f5-556454255502",
-                "resourcePath": "scripts\\Shake_MANAGE_SHAKES\\Shake_MANAGE_SHAKES.yy",
+                "resourcePath": "scripts\\Camera_MANAGE_SHAKES\\Camera_MANAGE_SHAKES.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -879,19 +871,19 @@
             }
         },
         {
-            "Key": "be77b75d-da70-4798-a5fc-7fa679d3d501",
-            "Value": {
-                "id": "8d8d7256-b088-4df6-94a0-1a74dd97ce00",
-                "resourcePath": "views\\be77b75d-da70-4798-a5fc-7fa679d3d501.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "b9f64c9c-de2b-42dc-9f53-851fb64dd88e",
             "Value": {
                 "id": "8f8db5c3-ac63-444e-ad20-3a7619e9fb3b",
                 "resourcePath": "scripts\\ShieldBash_Cast\\ShieldBash_Cast.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "be77b75d-da70-4798-a5fc-7fa679d3d501",
+            "Value": {
+                "id": "8d8d7256-b088-4df6-94a0-1a74dd97ce00",
+                "resourcePath": "views\\be77b75d-da70-4798-a5fc-7fa679d3d501.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -903,19 +895,19 @@
             }
         },
         {
-            "Key": "c08e4263-5a0e-4ca9-9f8a-edc8f726d957",
-            "Value": {
-                "id": "eddccc29-df53-4169-8a00-3a321de5a3f0",
-                "resourcePath": "scripts\\Camera_SetTarget\\Camera_SetTarget.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "c03a1e7f-af70-4b4f-88f6-eaf3271eda43",
             "Value": {
                 "id": "fb3e65a2-8845-4baf-b4b5-79014375b68f",
                 "resourcePath": "views\\c03a1e7f-af70-4b4f-88f6-eaf3271eda43.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c08e4263-5a0e-4ca9-9f8a-edc8f726d957",
+            "Value": {
+                "id": "eddccc29-df53-4169-8a00-3a321de5a3f0",
+                "resourcePath": "scripts\\Camera_SetTarget\\Camera_SetTarget.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1225,15 +1217,14 @@
         "d35ffb5b-b302-4261-98a7-d4ae0c243d29",
         "f1bb7e87-4ad2-4e08-ad26-d502c33a5739",
         "14077e11-df97-4f4f-aab0-8b79eed5037b",
-        "2e8c7003-64f5-4280-a964-90f6f132dc02",
         "c08e4263-5a0e-4ca9-9f8a-edc8f726d957",
         "e3f3b1bb-a032-4f2f-836e-1fbfecf6256d",
         "ded21279-a39c-4af0-86ed-4f4b0552e3af",
+        "7ce022cf-deb3-4e4b-ab73-71c76241ba76",
         "634aedb1-e265-4b23-955f-d02adf565381",
         "f76bd482-ed4f-4678-8650-7e9d38832c94",
         "6893fcea-3a16-407e-9bbb-e19dffd675eb",
         "315eda47-a95b-4bd0-b530-58d721a22878",
-        "7ce022cf-deb3-4e4b-ab73-71c76241ba76",
         "713beafa-9bb8-4e3a-8615-85e0b91f6989",
         "9a05a829-0151-4caf-8c2c-6012312162e3",
         "aa33c175-8498-4234-b943-33f6b897c1d8",

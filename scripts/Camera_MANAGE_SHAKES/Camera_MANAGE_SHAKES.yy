@@ -1,8 +1,8 @@
 {
-    "id": "2e8c7003-64f5-4280-a964-90f6f132dc02",
+    "id": "7ce022cf-deb3-4e4b-ab73-71c76241ba76",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "Camera_ApplyOffset",
+    "name": "Camera_MANAGE_SHAKES",
     "IsCompatibility": false,
     "IsDnD": false
 }
