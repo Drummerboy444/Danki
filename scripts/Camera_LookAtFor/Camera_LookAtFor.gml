@@ -12,5 +12,5 @@ with (oCamera){
 	id_target = _id_target;
 
 	enum_currentCameraState = Enum_CameraStates.LOOK_AT_FOR;
-	num_lookCounterEnd = _num_duration;
+	num_lookCounter = _num_duration;
 }

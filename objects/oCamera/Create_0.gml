@@ -10,7 +10,6 @@ bool_isShaking = false;
 id_target = oPlayer; //Default target
 id_previousTarget = noone;
 num_lookCounter = 0;
-num_lookCounterEnd = 0;
 
 //Allocate pool
 arr_oShake[5] = 0;
