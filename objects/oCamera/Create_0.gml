@@ -10,10 +10,11 @@ bool_isShaking = false;
 id_target = oPlayer; //Default target
 id_previousTarget = noone;
 num_lookCounter = 0;
+num_numberOfShakes = 5;
 
 //Allocate pool
-arr_oShake[5] = 0;
-for (var i = 0; i < 5; i++){
+arr_oShake[num_numberOfShakes - 1] = 0;
+for (var i = 0; i < num_numberOfShakes; i++){
 	arr_oShake[i] = Utility_InstantiateAtOrigin(oShake);
 }
 

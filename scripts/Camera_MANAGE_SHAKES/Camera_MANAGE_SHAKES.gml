@@ -2,14 +2,11 @@
 ///		Deactivates shakes with no duration left. Flags the current strongest shake, so that shake can proceed to
 ///		apply itself to the camera.
 
-//-1 to account for indexing starting from 0, and length starting from 1.
-var _num_poolCount = array_length_1d(arr_oShake) - 1;
-
 var _id_strongestShake = noone;
 var _num_currentMaxPower = 0;
 
 //Set all oShakes to not isApplying, then find the strongest one.
-for (var i = 0; i < _num_poolCount; i++){
+for (var i = 0; i < num_numberOfShakes; i++){
 	
 	arr_oShake[i].bool_isApplying = false;
 	
