@@ -1,0 +1,1 @@
+Camera_Shake(50, 120);
