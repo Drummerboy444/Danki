@@ -1,5 +1,8 @@
-id_abilityTreeRoot = noone;
-id_currentAbilityTreeNode = noone;
+event_inherited();
+Pauseable_Setup();
+
+
+id_abilityTree = noone; // Should call AbilityTree_Instantiate when we get rid of the test code below.
 
 #region Test for the initialisation of the ability tree, this can go when we're using real data
 var treeMap = ds_map_create();
@@ -17,9 +20,9 @@ ds_map_add(rightChild, "leftChild", noone);
 ds_map_add(rightChild, "rightChild", noone);
 ds_map_add(treeMap, "leftChild", leftChild);
 ds_map_add(treeMap, "rightChild", rightChild);
-AbilityTreeManager_INSTANTIATE(treeMap);
+id_abilityTree = AbilityTree_Instantiate(treeMap);
 
-with (oAbilityTreeManager) {
+with (id_abilityTree) {
 	show_debug_message(id_abilityTreeRoot);
 	show_debug_message(id_abilityTreeRoot.id_leftChild);
 	show_debug_message(id_abilityTreeRoot.id_rightChild);
@@ -30,15 +33,15 @@ with (oAbilityTreeManager) {
 	show_debug_message(id_abilityTreeRoot.id_leftChild.id_leftChild.id_leftChild);
 	show_debug_message(id_abilityTreeRoot.id_leftChild.id_leftChild.id_rightChild);
 }
-with (oAbilityTreeManager) {
+with (id_abilityTree) {
 	show_debug_message(id_currentAbilityTreeNode);
-	AbilityTreeManager_WalkRight();
+	AbilityTree_WalkRight(id);
 	show_debug_message(id_currentAbilityTreeNode);
-	AbilityTreeManager_Reset();
+	AbilityTree_Reset(id);
 	show_debug_message(id_currentAbilityTreeNode);
-	AbilityTreeManager_WalkLeft();
+	AbilityTree_WalkLeft(id);
 	show_debug_message(id_currentAbilityTreeNode);
-	AbilityTreeManager_WalkLeft();
+	AbilityTree_WalkLeft(id);
 	show_debug_message(id_currentAbilityTreeNode);
 }
 #endregion
