@@ -1,8 +1,8 @@
 {
-    "id": "c8e58fb0-144c-4681-bb0c-69166b337398",
+    "id": "f60dc071-4831-4802-b0b7-a6d1bcaa3762",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "OneShotService_Instantiate",
+    "name": "Service_Instantiate",
     "IsCompatibility": false,
     "IsDnD": false
 }

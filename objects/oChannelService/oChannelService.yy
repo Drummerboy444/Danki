@@ -1,8 +1,8 @@
 {
-    "id": "81320fce-cdbc-423c-91f8-e3881a8adbf7",
+    "id": "5cd76c0c-4641-468f-9a55-f5c76cd5df0f",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oOneShotService",
+    "name": "oChannelService",
     "eventList": [
         
     ],
