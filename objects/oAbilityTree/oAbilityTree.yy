@@ -1,18 +1,18 @@
 {
-    "id": "1b0ab515-604e-4fd3-add7-998addf0c632",
+    "id": "ab27f056-7739-4c1d-9a0a-569b2cfaf86e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oDamageManager",
+    "name": "oAbilityTree",
     "eventList": [
         {
-            "id": "c9d22f15-48be-4443-86a9-b88bc47467a7",
+            "id": "56b109dd-e073-461c-bc17-c5eaf09b8285",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "1b0ab515-604e-4fd3-add7-998addf0c632"
+            "m_owner": "ab27f056-7739-4c1d-9a0a-569b2cfaf86e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

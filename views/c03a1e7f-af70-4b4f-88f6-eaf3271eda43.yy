@@ -11,10 +11,11 @@
         "f962ab3b-37db-4564-b828-08b1ca825e3f",
         "dd1ee3c6-1e66-45a4-8af6-3e6094f2e08a",
         "b4c94141-6a54-4165-84e9-8bdb5dbe6781",
+        "c641afe9-28db-4264-93fa-1a7899b1f9c2",
         "7a013167-3092-4ba7-9498-d30c7e5b1a61"
     ],
     "filterType": "GMScript",
-    "folderName": "Ability Tree Manager",
+    "folderName": "Ability Tree",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

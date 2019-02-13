@@ -1,2 +1,3 @@
-event_inherited();
-Pauseable_Setup();
+enum ENUM_DamageTypes {  //Example one, add to list as required
+	PIERCE
+}
