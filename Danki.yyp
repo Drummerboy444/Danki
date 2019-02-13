@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0db22e2e-3408-41f8-9260-9c6986ab5116",
+            "Value": {
+                "id": "0a886356-a48c-493a-b9dc-7dcdc8b82e40",
+                "resourcePath": "scripts\\Mortal_CALCULATE_RECEIVED_DAMAGE\\Mortal_CALCULATE_RECEIVED_DAMAGE.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "113b1593-e56f-4ea0-b2a8-e53ad3258f51",
             "Value": {
                 "id": "4fdcc913-a0fc-433c-b914-6411986f0802",
@@ -639,6 +647,14 @@
             }
         },
         {
+            "Key": "8238c899-9337-4806-ba01-23c3f55e3db0",
+            "Value": {
+                "id": "7068fd09-9907-4d24-b83f-6a5621657d1f",
+                "resourcePath": "views\\8238c899-9337-4806-ba01-23c3f55e3db0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "83802678-3ac5-4cfc-94ee-ad3acd6a2cdc",
             "Value": {
                 "id": "7b1f8e4a-d6c1-466e-9412-d273fb92bb0f",
@@ -748,6 +764,14 @@
                 "id": "9f878714-b847-4835-b594-c9600d4a7eda",
                 "resourcePath": "views\\982aed17-0302-4a2d-ab65-ed231a632812.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "98686718-de60-4009-8a1c-2944a2256b0b",
+            "Value": {
+                "id": "216686be-c03d-4b0b-9d57-54d41e171b27",
+                "resourcePath": "scripts\\Mortal_APPLY_DAMAGE\\Mortal_APPLY_DAMAGE.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1269,6 +1293,8 @@
         "8be3c514-640f-40e1-9c76-610645044d21",
         "f48e2262-356e-42ea-a531-73a8520effab",
         "ee8d00b1-d6fa-4dad-9ede-909ba88c75fb",
+        "98686718-de60-4009-8a1c-2944a2256b0b",
+        "0db22e2e-3408-41f8-9260-9c6986ab5116",
         "47c8485b-6ca0-49b9-9bbf-056f759c67b0",
         "b374a22c-d3cb-4343-a592-6589bd653137",
         "17cfa7ef-64ed-45b9-a340-6b101bc875a7",
