@@ -1,14 +1,23 @@
 {
-    "id": "81320fce-cdbc-423c-91f8-e3881a8adbf7",
+    "id": "cc6f44f3-4d11-470a-a763-c69315b2be8d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oOneShotService",
+    "name": "oService",
     "eventList": [
-        
+        {
+            "id": "c81bfe1a-cf8d-4673-96a6-e74d7684167b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "cc6f44f3-4d11-470a-a763-c69315b2be8d"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "cc6f44f3-4d11-470a-a763-c69315b2be8d",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

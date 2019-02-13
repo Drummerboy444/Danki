@@ -1,13 +1,13 @@
 {
-    "id": "86a1118e-ba77-48ab-9fae-d0e52b5d8f9e",
+    "id": "54c63f3e-a617-4585-a3a7-28148618a26c",
     "modelName": "GMFolder",
     "mvc": "1.1",
-    "name": "86a1118e-ba77-48ab-9fae-d0e52b5d8f9e",
+    "name": "54c63f3e-a617-4585-a3a7-28148618a26c",
     "children": [
         
     ],
     "filterType": "GMScript",
-    "folderName": "One Shot Service",
+    "folderName": "Channel Service",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
