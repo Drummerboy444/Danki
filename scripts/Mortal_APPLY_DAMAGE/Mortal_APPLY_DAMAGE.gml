@@ -1,5 +1,5 @@
 #region Doc
-/// @function Mortal_APPLY_DAMAGE(id_Mortal) Applies damage to the mortal
+/// @function Mortal_APPLY_DAMAGE() Applies damage to the mortal
 /// and clears the current damage list.
 #endregion
 
