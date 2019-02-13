@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "30ab3d82-1664-4ac2-9d24-27dca7754b5a",
+            "Value": {
+                "id": "08a7a512-76af-4f0a-8cee-db5fe6db72b2",
+                "resourcePath": "views\\30ab3d82-1664-4ac2-9d24-27dca7754b5a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "31299029-4427-4baf-acbd-311b29fdf726",
             "Value": {
                 "id": "49c87ab1-7a42-41d1-8998-be08f1150005",
@@ -615,6 +623,14 @@
             }
         },
         {
+            "Key": "81320fce-cdbc-423c-91f8-e3881a8adbf7",
+            "Value": {
+                "id": "70e33c3b-b96c-42e5-8f1c-f802368dd18c",
+                "resourcePath": "objects\\oOneShotService\\oOneShotService.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8195022f-1673-40fc-92fa-6d4d2c2b19ca",
             "Value": {
                 "id": "a9ce756f-334f-4986-b3b5-593fd0b91092",
@@ -628,6 +644,14 @@
                 "id": "7b1f8e4a-d6c1-466e-9412-d273fb92bb0f",
                 "resourcePath": "scripts\\AbilityTree_GetLeftAbility\\AbilityTree_GetLeftAbility.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "86a1118e-ba77-48ab-9fae-d0e52b5d8f9e",
+            "Value": {
+                "id": "6eca972e-030f-4cac-8f39-49a93340d781",
+                "resourcePath": "views\\86a1118e-ba77-48ab-9fae-d0e52b5d8f9e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -895,6 +919,14 @@
             }
         },
         {
+            "Key": "b75db745-7244-4527-911b-f65430753860",
+            "Value": {
+                "id": "db3e55c2-d457-467c-a05e-bfae8d4ed80b",
+                "resourcePath": "views\\b75db745-7244-4527-911b-f65430753860.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b9f64c9c-de2b-42dc-9f53-851fb64dd88e",
             "Value": {
                 "id": "8f8db5c3-ac63-444e-ad20-3a7619e9fb3b",
@@ -939,6 +971,14 @@
             "Value": {
                 "id": "23670875-045b-419b-9a93-5bd688cfb644",
                 "resourcePath": "scripts\\AbilityTree_Instantiate\\AbilityTree_Instantiate.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c8e58fb0-144c-4681-bb0c-69166b337398",
+            "Value": {
+                "id": "273c1bf2-df34-49fd-9847-0cab15456153",
+                "resourcePath": "scripts\\OneShotService_Instantiate\\OneShotService_Instantiate.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1262,7 +1302,8 @@
         "5ef957b2-58c9-445b-83e4-4a838e88962f",
         "64532481-8318-49e3-b1d1-147193d77b7d",
         "2fea52bc-570c-4317-b357-2e671ff5b561",
-        "5b497336-be8a-4a38-b365-f7618350ec58"
+        "5b497336-be8a-4a38-b365-f7618350ec58",
+        "c8e58fb0-144c-4681-bb0c-69166b337398"
     ],
     "tutorial": ""
 }
