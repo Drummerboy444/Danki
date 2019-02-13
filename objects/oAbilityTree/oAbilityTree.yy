@@ -1,23 +1,23 @@
 {
-    "id": "2b890d99-99ed-4406-95de-6ab40045239f",
+    "id": "ab27f056-7739-4c1d-9a0a-569b2cfaf86e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oAbilityTreeManager",
+    "name": "oAbilityTree",
     "eventList": [
         {
-            "id": "80a913f1-5524-466d-9d1a-417e92bd9286",
+            "id": "56b109dd-e073-461c-bc17-c5eaf09b8285",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "2b890d99-99ed-4406-95de-6ab40045239f"
+            "m_owner": "ab27f056-7739-4c1d-9a0a-569b2cfaf86e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "91c916fa-de0c-4cf9-aba8-13d357c8c8b9",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

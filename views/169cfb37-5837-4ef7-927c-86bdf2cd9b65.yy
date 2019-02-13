@@ -8,7 +8,7 @@
         "445f522c-7e3d-4fc4-88d0-deaa436d7b9d"
     ],
     "filterType": "GMObject",
-    "folderName": "Ability Tree Manager",
+    "folderName": "Ability Tree",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
