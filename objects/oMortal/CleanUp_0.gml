@@ -1,1 +1,1 @@
-instance_destroy(list_damageList);
+ds_list_destroy(list_damageList);
