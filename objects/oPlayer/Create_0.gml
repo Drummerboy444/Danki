@@ -1,12 +1,5 @@
 event_inherited();
 Mortal_Setup(10, true, true);
-show_debug_message("----------")
-show_debug_message(id)
-show_debug_message(id_channelService);
-show_debug_message(id_channelService.id_owner);
-show_debug_message(id_oneShotService);
-show_debug_message(id_oneShotService.id_owner);
-show_debug_message("----------")
 
 // Enumerable containing the movement modes that the player may utilise
 enum Enum_PlayerMoveModes {
