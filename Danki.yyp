@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "358ccccb-ec18-45e9-96f0-72299ee96262",
+            "Value": {
+                "id": "28f3a09e-a5a1-4557-9f1d-9986221bd559",
+                "resourcePath": "views\\358ccccb-ec18-45e9-96f0-72299ee96262.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "37622558-a4ae-4116-9e98-80fce13f1e33",
             "Value": {
                 "id": "cdacbdbe-0c3a-4080-ab2b-09174632da31",
@@ -1023,6 +1031,14 @@
             }
         },
         {
+            "Key": "c631388e-7a5d-42bf-9bf0-def8e8498243",
+            "Value": {
+                "id": "69924498-7885-4442-ae33-6842ae1c3b87",
+                "resourcePath": "objects\\oAblilityCaster\\oAblilityCaster.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c641afe9-28db-4264-93fa-1a7899b1f9c2",
             "Value": {
                 "id": "23670875-045b-419b-9a93-5bd688cfb644",
@@ -1191,6 +1207,14 @@
             }
         },
         {
+            "Key": "e104fea5-507a-4831-8efb-84d2cf49c5cc",
+            "Value": {
+                "id": "a558cb6d-62a2-4b73-88b7-ac8ff16b99b1",
+                "resourcePath": "scripts\\AbilityCaster_Setup\\AbilityCaster_Setup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e3f3b1bb-a032-4f2f-836e-1fbfecf6256d",
             "Value": {
                 "id": "e6a615d4-23f9-48bd-af50-ca2a247fca71",
@@ -1295,6 +1319,14 @@
             }
         },
         {
+            "Key": "f7bcfd81-1068-450c-bb05-897a4f9a0636",
+            "Value": {
+                "id": "c976124a-491b-4d2a-99f2-310aeb541e10",
+                "resourcePath": "views\\f7bcfd81-1068-450c-bb05-897a4f9a0636.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f962ab3b-37db-4564-b828-08b1ca825e3f",
             "Value": {
                 "id": "71bdab9d-f7f3-401f-b577-26deedc823b7",
@@ -1328,19 +1360,20 @@
         }
     ],
     "script_order": [
-        "962eca4e-73ad-4ca9-96ec-39008b0d0407",
-        "6ba78cdc-94f3-4bc6-826d-29ce6cae4d19",
-        "8be3c514-640f-40e1-9c76-610645044d21",
-        "f48e2262-356e-42ea-a531-73a8520effab",
-        "ee8d00b1-d6fa-4dad-9ede-909ba88c75fb",
-        "98686718-de60-4009-8a1c-2944a2256b0b",
-        "0db22e2e-3408-41f8-9260-9c6986ab5116",
-        "47c8485b-6ca0-49b9-9bbf-056f759c67b0",
         "b374a22c-d3cb-4343-a592-6589bd653137",
         "17cfa7ef-64ed-45b9-a340-6b101bc875a7",
         "3b3c4477-a0ac-491f-b657-d8112c5cb1b1",
         "b9f64c9c-de2b-42dc-9f53-851fb64dd88e",
         "89d392c5-25a1-456a-ba54-c00528827f41",
+        "962eca4e-73ad-4ca9-96ec-39008b0d0407",
+        "6ba78cdc-94f3-4bc6-826d-29ce6cae4d19",
+        "8be3c514-640f-40e1-9c76-610645044d21",
+        "f48e2262-356e-42ea-a531-73a8520effab",
+        "98686718-de60-4009-8a1c-2944a2256b0b",
+        "0db22e2e-3408-41f8-9260-9c6986ab5116",
+        "ee8d00b1-d6fa-4dad-9ede-909ba88c75fb",
+        "47c8485b-6ca0-49b9-9bbf-056f759c67b0",
+        "e104fea5-507a-4831-8efb-84d2cf49c5cc",
         "31e5af31-f0e8-410f-8dd9-1606fb179c65",
         "33db9249-5aa2-4fae-983e-707e95187397",
         "2baf54b8-9a1c-4b18-94ff-f4d32ade13f6",
