@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "44bfa373-5427-4f7d-a7d7-af5e832ef401",
+            "Value": {
+                "id": "912957e0-d45f-4ecf-8057-a2fdd3e038a3",
+                "resourcePath": "scripts\\Slash_Cast\\Slash_Cast.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "45db5103-06d2-4a92-b962-946562bb26f8",
             "Value": {
                 "id": "379e4c11-e51e-4c5e-8a0f-4f6611114084",
@@ -711,11 +719,27 @@
             }
         },
         {
+            "Key": "82b33001-d1cb-4581-a738-b4cfb5e8706d",
+            "Value": {
+                "id": "fe704b80-1a98-4196-b82d-20c882fd30d5",
+                "resourcePath": "views\\82b33001-d1cb-4581-a738-b4cfb5e8706d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "83802678-3ac5-4cfc-94ee-ad3acd6a2cdc",
             "Value": {
                 "id": "7b1f8e4a-d6c1-466e-9412-d273fb92bb0f",
                 "resourcePath": "scripts\\AbilityTree_GetLeftAbility\\AbilityTree_GetLeftAbility.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "83d0e630-3592-4a46-914f-a58bd3023f7e",
+            "Value": {
+                "id": "a330606f-18da-4aa8-bb03-5754c2006e3d",
+                "resourcePath": "views\\83d0e630-3592-4a46-914f-a58bd3023f7e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1079,6 +1103,14 @@
             }
         },
         {
+            "Key": "c9cde87c-30c8-4e4c-a5a3-ebcb349fbab8",
+            "Value": {
+                "id": "b3473415-6cb0-4457-a5da-9c1ad69581da",
+                "resourcePath": "scripts\\ShieldBash_Cast\\ShieldBash_Cast.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cab8a90f-96b5-4ec2-beda-06f6a6392b25",
             "Value": {
                 "id": "de621b7c-4660-47c1-b04d-e57120911eff",
@@ -1409,9 +1441,6 @@
     ],
     "script_order": [
         "b374a22c-d3cb-4343-a592-6589bd653137",
-        "89d392c5-25a1-456a-ba54-c00528827f41",
-        "cceefd20-7a1a-44b4-a834-5a9fa2d8fcb9",
-        "c742911c-21dc-4403-b628-14ddaede0227",
         "962eca4e-73ad-4ca9-96ec-39008b0d0407",
         "6ba78cdc-94f3-4bc6-826d-29ce6cae4d19",
         "8be3c514-640f-40e1-9c76-610645044d21",
@@ -1422,6 +1451,11 @@
         "47c8485b-6ca0-49b9-9bbf-056f759c67b0",
         "e104fea5-507a-4831-8efb-84d2cf49c5cc",
         "31e5af31-f0e8-410f-8dd9-1606fb179c65",
+        "89d392c5-25a1-456a-ba54-c00528827f41",
+        "44bfa373-5427-4f7d-a7d7-af5e832ef401",
+        "c9cde87c-30c8-4e4c-a5a3-ebcb349fbab8",
+        "cceefd20-7a1a-44b4-a834-5a9fa2d8fcb9",
+        "c742911c-21dc-4403-b628-14ddaede0227",
         "33db9249-5aa2-4fae-983e-707e95187397",
         "2baf54b8-9a1c-4b18-94ff-f4d32ade13f6",
         "d35ffb5b-b302-4261-98a7-d4ae0c243d29",
