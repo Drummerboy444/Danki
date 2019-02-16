@@ -1,8 +1,8 @@
 {
-    "id": "3b3c4477-a0ac-491f-b657-d8112c5cb1b1",
+    "id": "cceefd20-7a1a-44b4-a834-5a9fa2d8fcb9",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "Slash_Cast",
+    "name": "OneShot_Setup",
     "IsCompatibility": false,
     "IsDnD": false
 }

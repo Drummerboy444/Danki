@@ -1,19 +1,10 @@
 {
-    "id": "810e893e-da5f-4cbc-8235-5ce193aebefb",
+    "id": "1278af16-60a2-4687-a3a1-0fbf6f9cb360",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oSlash",
+    "name": "oChannel",
     "eventList": [
-        {
-            "id": "55519d91-8a53-443e-8cf6-1637a096be67",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "810e893e-da5f-4cbc-8235-5ce193aebefb"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
