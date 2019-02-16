@@ -1,5 +1,5 @@
 event_inherited();
-Mortal_Setup(10);
+Mortal_Setup(10, true, true);
 
 // Enumerable containing the movement modes that the player may utilise
 enum Enum_PlayerMoveModes {
