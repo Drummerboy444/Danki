@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0d9984fd-30c9-4f76-9003-72f3c97884df",
+            "Value": {
+                "id": "6cce7a03-e347-45ba-a42b-e8ee047eb3f5",
+                "resourcePath": "scripts\\AbilityManager_GetAbilityType\\AbilityManager_GetAbilityType.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0db22e2e-3408-41f8-9260-9c6986ab5116",
             "Value": {
                 "id": "0a886356-a48c-493a-b9dc-7dcdc8b82e40",
@@ -327,6 +335,14 @@
             }
         },
         {
+            "Key": "3fc43dcc-f9f8-4907-a2ba-72693b132108",
+            "Value": {
+                "id": "a759467d-cb4f-48db-b1c7-40ebc2c71c9b",
+                "resourcePath": "views\\3fc43dcc-f9f8-4907-a2ba-72693b132108.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "41b359af-0e03-42ad-99c0-59a813c1377b",
             "Value": {
                 "id": "b8897550-5bc2-4c99-bbf7-fb9af7ba5efe",
@@ -371,6 +387,14 @@
             "Value": {
                 "id": "cb6c0d0d-32b3-4e09-9db0-c9f88091e670",
                 "resourcePath": "scripts\\Passive_Setup\\Passive_Setup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "496f4f8e-53cb-447d-8321-bd97343b2855",
+            "Value": {
+                "id": "278729e9-2916-412c-88df-0d98b84cd98d",
+                "resourcePath": "scripts\\AbilityManager_GetFinishChannelScript\\AbilityManager_GetFinishChannelScript.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -527,6 +551,14 @@
             }
         },
         {
+            "Key": "6d5be836-7b1d-426b-b04d-5aad94158e4d",
+            "Value": {
+                "id": "df5f2f9e-3be4-4385-8e02-dafc3f499f4d",
+                "resourcePath": "scripts\\AbilityManager_GetStartChannelScript\\AbilityManager_GetStartChannelScript.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "713beafa-9bb8-4e3a-8615-85e0b91f6989",
             "Value": {
                 "id": "0ed447eb-c218-4d76-a6f3-791a7dd7d269",
@@ -556,6 +588,14 @@
                 "id": "f98299b4-30b8-47f5-8bd7-129c8e54077c",
                 "resourcePath": "views\\71e2762a-0a64-49f4-ba7c-7fab8a474e0d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "72b2a2ab-0e0d-43ee-8bdd-dfb8d224a852",
+            "Value": {
+                "id": "962fa1e6-31e2-4aa6-b5fc-4b1340d7221a",
+                "resourcePath": "scripts\\AbilityManager_GetChannelScript\\AbilityManager_GetChannelScript.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -911,6 +951,14 @@
             }
         },
         {
+            "Key": "a8017978-dbe5-48ea-98bb-dc86aeac5977",
+            "Value": {
+                "id": "a6e61cb3-b784-4975-84fa-b210679e5abd",
+                "resourcePath": "scripts\\AbilityManager_GetCastScript\\AbilityManager_GetCastScript.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "aa33c175-8498-4234-b943-33f6b897c1d8",
             "Value": {
                 "id": "47fb2cb8-63ce-4ff7-b9d3-f6ed3b40beda",
@@ -1027,6 +1075,14 @@
             "Value": {
                 "id": "eddccc29-df53-4169-8a00-3a321de5a3f0",
                 "resourcePath": "scripts\\Camera_SetTarget\\Camera_SetTarget.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c1932678-31f4-4c5d-b643-6534c8606bb8",
+            "Value": {
+                "id": "98aee9be-c8ee-40ba-8168-7a3a6649cc0c",
+                "resourcePath": "scripts\\AbilityManager_GetCancelChannelScript\\AbilityManager_GetCancelChannelScript.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1402,7 +1458,13 @@
         "64532481-8318-49e3-b1d1-147193d77b7d",
         "2fea52bc-570c-4317-b357-2e671ff5b561",
         "5b497336-be8a-4a38-b365-f7618350ec58",
-        "f60dc071-4831-4802-b0b7-a6d1bcaa3762"
+        "f60dc071-4831-4802-b0b7-a6d1bcaa3762",
+        "a8017978-dbe5-48ea-98bb-dc86aeac5977",
+        "6d5be836-7b1d-426b-b04d-5aad94158e4d",
+        "72b2a2ab-0e0d-43ee-8bdd-dfb8d224a852",
+        "c1932678-31f4-4c5d-b643-6534c8606bb8",
+        "496f4f8e-53cb-447d-8321-bd97343b2855",
+        "0d9984fd-30c9-4f76-9003-72f3c97884df"
     ],
     "tutorial": ""
 }
