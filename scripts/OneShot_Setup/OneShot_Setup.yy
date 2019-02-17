@@ -1,8 +1,8 @@
 {
-    "id": "c9cde87c-30c8-4e4c-a5a3-ebcb349fbab8",
+    "id": "cceefd20-7a1a-44b4-a834-5a9fa2d8fcb9",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "ShieldBash_Cast",
+    "name": "OneShot_Setup",
     "IsCompatibility": false,
     "IsDnD": false
 }

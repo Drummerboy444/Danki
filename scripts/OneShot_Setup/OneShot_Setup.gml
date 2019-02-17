@@ -2,4 +2,4 @@
 /// @function Ability_Setup()
 #endregion
 
-Depth_Setup();
+Ability_Setup();
