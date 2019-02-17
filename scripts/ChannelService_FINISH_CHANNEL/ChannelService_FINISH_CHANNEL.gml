@@ -9,4 +9,3 @@ script_execute(scr_finishChannel);
 
 num_currentTimer = 0;
 bool_channelling = false;
-bool_hasFinished = true;

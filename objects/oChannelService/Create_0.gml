@@ -8,5 +8,5 @@ scr_finishChannel = noone;
 
 num_currentTimer = 0;
 bool_channelling = false;
-bool_hasFinished = false; // true if the current channel has called its finish script
 bool_attemptingToChannel = false; // true if the owner of the service is attempting to channel
+bool_haveStoppedInput = true; // true if the owner of the service has stopped calling the channel script

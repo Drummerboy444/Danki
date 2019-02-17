@@ -21,14 +21,14 @@ var _num_channelLength = argument[4];
 
 
 var _enum_abilityType = AbilityManager_GetAbilityType(_enum_ability);
-if (_enum_ability != Enum_AbilityTypes.CHANNEL) {
+if (_enum_abilityType != Enum_AbilityTypes.CHANNEL) {
 	// TODO: throw error
 	return false;
 }
 
 _id_channelService.bool_attemptingToChannel = true;
 
-if (!_id_channelService.bool_channelling) {
+if (!_id_channelService.bool_channelling && _id_channelService.bool_haveStoppedInput) {
 	with (_id_channelService) {
 		ChannelService_START_CHANNEL(_enum_ability, _num_targetX, _num_targetY, _num_channelLength);
 	}
@@ -38,7 +38,7 @@ if (!_id_channelService.bool_channelling) {
 _id_channelService.num_currentTimer--;
 
 if (_id_channelService.num_currentTimer <= 0) {
-	if (!_id_channelService.bool_hasFinished) {
+	if (_id_channelService.bool_channelling) {
 		with (_id_channelService) {
 			ChannelService_FINISH_CHANNEL();
 		}

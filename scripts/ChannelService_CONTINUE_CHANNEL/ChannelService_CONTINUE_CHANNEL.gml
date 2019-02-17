@@ -5,3 +5,5 @@
 
 // TODO: Decide which variables should be handed to this script
 script_execute(scr_channel);
+
+bool_channelling = true;

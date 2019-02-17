@@ -9,11 +9,8 @@
 var _enum_ability = argument[0];
 var _num_targetX = argument[1];
 var _num_targetY = argument[2];
-var _num_channelLength = argument[4];
+var _num_channelLength = argument[3];
 
-
-// TODO: Decide which variables should be handed to this script
-script_execute(scr_startChannel);
 
 scr_startChannel = AbilityManager_GetStartChannelScript(_enum_ability);
 scr_channel = AbilityManager_GetChannelScript(_enum_ability);
@@ -22,4 +19,7 @@ scr_finishChannel = AbilityManager_GetFinishChannelScript(_enum_ability);
 
 num_currentTimer = _num_channelLength;
 bool_channelling = true;
-bool_hasFinished = false;
+bool_haveStoppedInput = false;
+
+// TODO: Decide which variables should be handed to this script
+script_execute(scr_startChannel);
