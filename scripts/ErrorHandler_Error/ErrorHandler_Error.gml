@@ -1,6 +1,6 @@
 #region Doc
-/// @function ErrorHandler_FatalError(str_message) Prints a formatted error message as a popup window, and then
-///		ends the game. This also gives information about the stackframe when the error is thrown.
+/// @function ErrorHandler_Error(str_message) Prints a formatted error message as a popup window, and then
+///		ends the game.
 /// @param {str_message} str_message to be displayed as part of the error.
 
 //----------------------------- ERROR -----------------------------
@@ -19,4 +19,4 @@ var _str_instanceID = string(id);
 
 var _str_errorMessage = ErrorHandler_CONSTRUCT_STRING(_str_objectName, _str_instanceID, _str_message);
 
-show_error(_str_errorMessage, true);
+show_debug_message(_str_errorMessage);
