@@ -28,7 +28,7 @@ if (_enum_abilityType != Enum_AbilityTypes.CHANNEL) {
 
 _id_channelService.bool_attemptingToChannel = true;
 
-if (!_id_channelService.bool_channelling && _id_channelService.bool_haveStoppedInput) {
+if (_id_channelService.bool_readyToChannel) {
 	with (_id_channelService) {
 		ChannelService_START_CHANNEL(_enum_ability, _num_targetX, _num_targetY, _num_channelLength);
 	}
@@ -40,13 +40,14 @@ _id_channelService.num_currentTimer--;
 if (_id_channelService.num_currentTimer <= 0) {
 	if (_id_channelService.bool_channelling) {
 		with (_id_channelService) {
-			ChannelService_FINISH_CHANNEL();
+			ChannelService_FINISH_CHANNEL(_num_targetX, _num_targetY);
 		}
 	}
-	return true;
+	return true; // This goes outside the other if statement so that we continue to return true
+	             // even after the channel has finished
 }
 
 with (_id_channelService) {
-	ChannelService_CONTINUE_CHANNEL();
+	ChannelService_CONTINUE_CHANNEL(_num_targetX, _num_targetY);
 }
 return false;

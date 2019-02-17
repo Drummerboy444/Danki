@@ -19,7 +19,7 @@ scr_finishChannel = AbilityManager_GetFinishChannelScript(_enum_ability);
 
 num_currentTimer = _num_channelLength;
 bool_channelling = true;
-bool_haveStoppedInput = false;
+bool_readyToChannel = false;
 
 // TODO: Decide which variables should be handed to this script
 script_execute(scr_startChannel);
