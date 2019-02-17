@@ -7,7 +7,7 @@
 var _enum_ability = argument[0];
 
 // Return noone if not a CHANNEL ability
-if(AbilityManager_GetAbilityType(_enum_ability) != Enum_Ability_types.CHANNEL){
+if(AbilityManager_GetAbilityType(_enum_ability) != Enum_AbilityTypes.CHANNEL){
 	return noone;
 }
 

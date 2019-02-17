@@ -3,14 +3,14 @@ enum Enum_Abilities {
 	SHIELDBASH
 }
 
-enum Enum_Ability_types {
+enum Enum_AbilityTypes {
 	ONESHOT,
 	CHANNEL
 }
 
 map_ability_to_type = ds_map_create();
-map_ability_to_type[? Enum_Abilities.SLASH] = [Enum_Ability_types.ONESHOT];
-map_ability_to_type[? Enum_Abilities.SHIELDBASH] = [Enum_Ability_types.ONESHOT];
+map_ability_to_type[? Enum_Abilities.SLASH] = [Enum_AbilityTypes.ONESHOT];
+map_ability_to_type[? Enum_Abilities.SHIELDBASH] = [Enum_AbilityTypes.ONESHOT];
 
 // The Scripts array has the following structure:
 // For ONESHOT abilities:

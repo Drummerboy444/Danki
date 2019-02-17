@@ -7,7 +7,7 @@
 var _enum_ability = argument[0];
 
 // Return noone if not a ONESHOT ability
-if(AbilityManager_GetAbilityType(_enum_ability) != Enum_Ability_types.ONESHOT){
+if(AbilityManager_GetAbilityType(_enum_ability) != Enum_AbilityTypes.ONESHOT){
 	return noone;
 }
 

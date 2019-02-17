@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oChannelService",
     "eventList": [
-        
+        {
+            "id": "98373bd5-89ff-4c4d-bde7-aeb8aad85d47",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "5cd76c0c-4641-468f-9a55-f5c76cd5df0f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
