@@ -26,6 +26,8 @@ if (_enum_ability != Enum_AbilityTypes.CHANNEL) {
 	return false;
 }
 
+_id_channelService.bool_attemptingToChannel = true;
+
 if (!_id_channelService.bool_channelling) {
 	with (_id_channelService) {
 		ChannelService_START_CHANNEL(_enum_ability, _num_targetX, _num_targetY, _num_channelLength);

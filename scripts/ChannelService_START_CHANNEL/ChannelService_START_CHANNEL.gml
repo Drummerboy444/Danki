@@ -12,6 +12,9 @@ var _num_targetY = argument[2];
 var _num_channelLength = argument[4];
 
 
+// TODO: Decide which variables should be handed to this script
+script_execute(scr_startChannel);
+
 scr_startChannel = AbilityManager_GetStartChannelScript(_enum_ability);
 scr_channel = AbilityManager_GetChannelScript(_enum_ability);
 scr_cancelChannel = AbilityManager_GetCancelChannelScript(_enum_ability);

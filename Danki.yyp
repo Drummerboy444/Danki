@@ -535,6 +535,14 @@
             }
         },
         {
+            "Key": "5f97dfc6-355e-40a5-a713-95655f4473a8",
+            "Value": {
+                "id": "b039e14e-bd61-4258-8bba-ba3dd2c20e0f",
+                "resourcePath": "scripts\\ChannelService_CANCEL_CHANNEL\\ChannelService_CANCEL_CHANNEL.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "634aedb1-e265-4b23-955f-d02adf565381",
             "Value": {
                 "id": "2623d92c-558c-48f8-934b-62d917655150",
@@ -1525,8 +1533,9 @@
         "5b497336-be8a-4a38-b365-f7618350ec58",
         "39d18eca-980e-4b40-8643-84f141303315",
         "471be7ef-65f3-49b9-8b3b-2e2320dce385",
-        "1769c56c-140f-475a-9e4c-63ccabae40c0",
         "4bedb04f-8ed2-420c-8eb9-4847f35cd41d",
+        "5f97dfc6-355e-40a5-a713-95655f4473a8",
+        "1769c56c-140f-475a-9e4c-63ccabae40c0",
         "f60dc071-4831-4802-b0b7-a6d1bcaa3762",
         "a8017978-dbe5-48ea-98bb-dc86aeac5977",
         "6d5be836-7b1d-426b-b04d-5aad94158e4d",
