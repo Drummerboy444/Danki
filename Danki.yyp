@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "5f7d7077-3f5c-43c9-a8e7-4002d7378eae",
+            "Value": {
+                "id": "ba8e817c-5d57-447e-a628-07d661dacccd",
+                "resourcePath": "scripts\\AbilityManager_GetChannelLength\\AbilityManager_GetChannelLength.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5f97dfc6-355e-40a5-a713-95655f4473a8",
             "Value": {
                 "id": "b039e14e-bd61-4258-8bba-ba3dd2c20e0f",
@@ -1574,6 +1582,7 @@
         "72b2a2ab-0e0d-43ee-8bdd-dfb8d224a852",
         "c1932678-31f4-4c5d-b643-6534c8606bb8",
         "496f4f8e-53cb-447d-8321-bd97343b2855",
+        "5f7d7077-3f5c-43c9-a8e7-4002d7378eae",
         "0d9984fd-30c9-4f76-9003-72f3c97884df",
         "379f7407-196e-454c-b9fa-45031583c512",
         "35f584f0-b7ce-4087-808a-eb0311f14160",
