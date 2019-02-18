@@ -6,5 +6,4 @@
 // TODO: Decide which variables should be handed to this script
 script_execute(scr_cancelChannel);
 
-num_currentTimer = 0;
 bool_channelling = false;
