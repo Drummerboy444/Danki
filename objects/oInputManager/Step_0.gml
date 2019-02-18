@@ -1,12 +1,10 @@
 #region Check left ability
 if (InputManager_CHECK_DOWN(map_keyBindings[? Enum_Actions.LEFT_ABILITY])){
-	with (oPlayer) {
-		ChannelService_Channel(id_channelService, Enum_Abilities.CHANNEL_TEST, 0, 0);
-	}
+	show_debug_message("left is down");
 }
 #endregion
 #region Check right ability
 if (InputManager_CHECK_DOWN(map_keyBindings[? Enum_Actions.RIGHT_ABILITY])){
-	show_debug_message("pressing right");
+	show_debug_message("right is down");
 }
 #endregion

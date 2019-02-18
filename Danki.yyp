@@ -175,14 +175,6 @@
             }
         },
         {
-            "Key": "2131b901-a303-43ca-ad51-da2e47e66118",
-            "Value": {
-                "id": "7e095d7b-2752-45fb-970f-c837b1eb38e6",
-                "resourcePath": "scripts\\finishChannelTest\\finishChannelTest.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "23bc6576-02b4-4b67-95f3-dc1a5bd35903",
             "Value": {
                 "id": "c1e3f4ba-98ae-46fb-912f-bf48efb2663d",
@@ -295,27 +287,11 @@
             }
         },
         {
-            "Key": "35f584f0-b7ce-4087-808a-eb0311f14160",
-            "Value": {
-                "id": "cdca2092-e4a2-449d-baf9-bbf5ce6077e8",
-                "resourcePath": "scripts\\channelTest\\channelTest.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "37622558-a4ae-4116-9e98-80fce13f1e33",
             "Value": {
                 "id": "cdacbdbe-0c3a-4080-ab2b-09174632da31",
                 "resourcePath": "objects\\oDepth\\oDepth.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "379f7407-196e-454c-b9fa-45031583c512",
-            "Value": {
-                "id": "161d90bb-c61c-4103-b6f8-b22b8d878316",
-                "resourcePath": "scripts\\startChannelTest\\startChannelTest.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -1391,14 +1367,6 @@
             }
         },
         {
-            "Key": "ed608b0c-b076-4a30-9819-59826c58281b",
-            "Value": {
-                "id": "155081a8-2f6a-454e-b14c-d12335850cad",
-                "resourcePath": "scripts\\cancelChannelTest\\cancelChannelTest.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "ee2c50dd-58c8-4ebf-ba8f-b56cd287605d",
             "Value": {
                 "id": "249b3767-246a-4d74-bfd2-3f1f3b07a602",
@@ -1583,11 +1551,7 @@
         "c1932678-31f4-4c5d-b643-6534c8606bb8",
         "496f4f8e-53cb-447d-8321-bd97343b2855",
         "5f7d7077-3f5c-43c9-a8e7-4002d7378eae",
-        "0d9984fd-30c9-4f76-9003-72f3c97884df",
-        "379f7407-196e-454c-b9fa-45031583c512",
-        "35f584f0-b7ce-4087-808a-eb0311f14160",
-        "ed608b0c-b076-4a30-9819-59826c58281b",
-        "2131b901-a303-43ca-ad51-da2e47e66118"
+        "0d9984fd-30c9-4f76-9003-72f3c97884df"
     ],
     "tutorial": ""
 }
