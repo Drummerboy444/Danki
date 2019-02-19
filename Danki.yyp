@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "1f8d5427-6fd2-4e52-917a-c414756b3ca7",
+            "Value": {
+                "id": "78738ca2-63db-4ceb-8170-98937abc57cb",
+                "resourcePath": "scripts\\OneShotService_Cast\\OneShotService_Cast.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "23bc6576-02b4-4b67-95f3-dc1a5bd35903",
             "Value": {
                 "id": "c1e3f4ba-98ae-46fb-912f-bf48efb2663d",
@@ -1539,6 +1547,7 @@
         "64532481-8318-49e3-b1d1-147193d77b7d",
         "2fea52bc-570c-4317-b357-2e671ff5b561",
         "5b497336-be8a-4a38-b365-f7618350ec58",
+        "1f8d5427-6fd2-4e52-917a-c414756b3ca7",
         "39d18eca-980e-4b40-8643-84f141303315",
         "471be7ef-65f3-49b9-8b3b-2e2320dce385",
         "4bedb04f-8ed2-420c-8eb9-4847f35cd41d",
