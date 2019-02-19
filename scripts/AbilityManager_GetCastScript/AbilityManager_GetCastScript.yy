@@ -1,8 +1,8 @@
 {
-    "id": "17cfa7ef-64ed-45b9-a340-6b101bc875a7",
+    "id": "a8017978-dbe5-48ea-98bb-dc86aeac5977",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "Ability_CastAbility",
+    "name": "AbilityManager_GetCastScript",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -2,4 +2,4 @@
 /// @function Ability_Setup()
 #endregion
 
-Collidable_Setup();
+Depth_Setup();
