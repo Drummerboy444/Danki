@@ -407,6 +407,22 @@
             }
         },
         {
+            "Key": "4e6e8b48-5325-4f72-8752-7e28b46e6b28",
+            "Value": {
+                "id": "c520974c-4d62-47f5-950c-4250ec1bd7cc",
+                "resourcePath": "scripts\\ErrorHandler_FatalError\\ErrorHandler_FatalError.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4e850814-3c08-49b0-9016-e2cebec39c1e",
+            "Value": {
+                "id": "2ed2f866-c9cf-4936-bf20-93f0e1db2869",
+                "resourcePath": "scripts\\ErrorHandler_Error\\ErrorHandler_Error.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "496f4f8e-53cb-447d-8321-bd97343b2855",
             "Value": {
                 "id": "278729e9-2916-412c-88df-0d98b84cd98d",
@@ -548,6 +564,14 @@
                 "id": "b039e14e-bd61-4258-8bba-ba3dd2c20e0f",
                 "resourcePath": "scripts\\ChannelService_CANCEL_CHANNEL\\ChannelService_CANCEL_CHANNEL.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6123ad7e-53ac-4225-af34-3cf70621c097",
+            "Value": {
+                "id": "7ee0e113-c182-4de2-a5c1-4ccc3a85bef7",
+                "resourcePath": "views\\6123ad7e-53ac-4225-af34-3cf70621c097.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1087,6 +1111,14 @@
             }
         },
         {
+            "Key": "b5c473d4-e2b5-416b-8fbb-0e257744f0f6",
+            "Value": {
+                "id": "a4e749f2-1d7f-426f-b66a-cd70afc98114",
+                "resourcePath": "views\\b5c473d4-e2b5-416b-8fbb-0e257744f0f6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b75db745-7244-4527-911b-f65430753860",
             "Value": {
                 "id": "db3e55c2-d457-467c-a05e-bfae8d4ed80b",
@@ -1479,6 +1511,14 @@
             }
         },
         {
+            "Key": "fa26f447-b264-47d5-9e60-33fa72da4a67",
+            "Value": {
+                "id": "a0a88013-985f-4779-81c4-2def1a48d8c9",
+                "resourcePath": "scripts\\ErrorHandler_CONSTRUCT_STRING\\ErrorHandler_CONSTRUCT_STRING.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fa3aceaa-0b06-48e8-ae91-6bb97cd978e7",
             "Value": {
                 "id": "e570b662-c897-4030-ad2f-ca61715b3521",
@@ -1545,6 +1585,9 @@
         "5f97dfc6-355e-40a5-a713-95655f4473a8",
         "1769c56c-140f-475a-9e4c-63ccabae40c0",
         "f60dc071-4831-4802-b0b7-a6d1bcaa3762",
+        "4e850814-3c08-49b0-9016-e2cebec39c1e",
+        "4e6e8b48-5325-4f72-8752-7e28b46e6b28",
+        "fa26f447-b264-47d5-9e60-33fa72da4a67",
         "a8017978-dbe5-48ea-98bb-dc86aeac5977",
         "6d5be836-7b1d-426b-b04d-5aad94158e4d",
         "72b2a2ab-0e0d-43ee-8bdd-dfb8d224a852",
