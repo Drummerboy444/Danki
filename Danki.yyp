@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "496f4f8e-53cb-447d-8321-bd97343b2855",
+            "Value": {
+                "id": "278729e9-2916-412c-88df-0d98b84cd98d",
+                "resourcePath": "scripts\\AbilityManager_GetFinishChannelScript\\AbilityManager_GetFinishChannelScript.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4e6e8b48-5325-4f72-8752-7e28b46e6b28",
             "Value": {
                 "id": "c520974c-4d62-47f5-950c-4250ec1bd7cc",
@@ -395,14 +403,6 @@
             "Value": {
                 "id": "2ed2f866-c9cf-4936-bf20-93f0e1db2869",
                 "resourcePath": "scripts\\ErrorHandler_Error\\ErrorHandler_Error.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "496f4f8e-53cb-447d-8321-bd97343b2855",
-            "Value": {
-                "id": "278729e9-2916-412c-88df-0d98b84cd98d",
-                "resourcePath": "scripts\\AbilityManager_GetFinishChannelScript\\AbilityManager_GetFinishChannelScript.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -499,6 +499,14 @@
             "Value": {
                 "id": "920fb773-a949-4bbd-8f89-ff212254ffe1",
                 "resourcePath": "views\\5dcfd10d-dc48-4ac6-bf23-02d84feade36.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5e20f364-05d0-4019-9475-82fae34e0324",
+            "Value": {
+                "id": "6430d645-f8b9-44aa-86ae-efe31a867369",
+                "resourcePath": "views\\5e20f364-05d0-4019-9475-82fae34e0324.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1124,6 +1132,14 @@
                 "id": "98aee9be-c8ee-40ba-8168-7a3a6649cc0c",
                 "resourcePath": "scripts\\AbilityManager_GetCancelChannelScript\\AbilityManager_GetCancelChannelScript.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c4bf9521-9376-4cb5-948c-2c35fbe96730",
+            "Value": {
+                "id": "5477ac99-f873-4039-8a33-f07a4052b035",
+                "resourcePath": "objects\\oEffectsManager\\oEffectsManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
