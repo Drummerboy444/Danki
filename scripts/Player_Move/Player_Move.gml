@@ -17,13 +17,13 @@ var _bool_dash = argument[4];
 // This region determines the direction of movement based on which direction keys are pressed
 #region Movement setup
 var _bool_isMovingHorizontally = _bool_left xor _bool_right;
-var _bool_inMovingVertically = _bool_up xor _bool_down;
+var _bool_isMovingVertically = _bool_up xor _bool_down;
 
 var _num_horizontalMovement = _bool_right - _bool_left;
 var _num_verticalMovement = _bool_down - _bool_up;
 
 var _num_movementSpeed = oPlayer.num_movementSpeed;
-if (_bool_isMovingHorizontally && _bool_inMovingVertically) {
+if (_bool_isMovingHorizontally && _bool_isMovingVertically) {
 	var _num_movementSpeed = _num_movementSpeed / sqrt(2);
 }
 #endregion
@@ -37,7 +37,7 @@ with (oPlayer) {
 		case Enum_PlayerMoveModes.FREEMOVE:
 			_num_horizontalMovementDistance = _num_horizontalMovement * _num_movementSpeed;
 			_num_verticalMovementDistance = _num_verticalMovement * _num_movementSpeed;
-			if (_bool_dash) {
+			if (_bool_dash && (_bool_isMovingHorizontally || _bool_isMovingVertically)) {
 				num_dashTimer = 0;
 				num_slowTimer = 0;
 				num_xDashMovement = _num_horizontalMovement;
