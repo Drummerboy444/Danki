@@ -839,6 +839,14 @@
             }
         },
         {
+            "Key": "946153f8-a9ef-43fb-b7ad-b622d5e06b01",
+            "Value": {
+                "id": "095cd9bd-1dee-4cc5-974c-df2ec38bc788",
+                "resourcePath": "scripts\\InputManager_GET_KEY_BINDING\\InputManager_GET_KEY_BINDING.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "962eca4e-73ad-4ca9-96ec-39008b0d0407",
             "Value": {
                 "id": "a759c5b5-a605-4364-8b71-a4dfc9735fa2",
@@ -963,6 +971,14 @@
             "Value": {
                 "id": "a1293167-dc77-46e7-bdf5-24ee6dbb9ea9",
                 "resourcePath": "scripts\\AbilityTree_CanGoRight\\AbilityTree_CanGoRight.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a7c7fe45-c41b-4056-9408-ac1f2c955440",
+            "Value": {
+                "id": "359b843d-6d72-4046-9270-eee1bc69ece9",
+                "resourcePath": "scripts\\InputManager_GET_INPUT_TYPE\\InputManager_GET_INPUT_TYPE.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1511,6 +1527,8 @@
         "14077e11-df97-4f4f-aab0-8b79eed5037b",
         "713beafa-9bb8-4e3a-8615-85e0b91f6989",
         "9a05a829-0151-4caf-8c2c-6012312162e3",
+        "946153f8-a9ef-43fb-b7ad-b622d5e06b01",
+        "a7c7fe45-c41b-4056-9408-ac1f2c955440",
         "aa33c175-8498-4234-b943-33f6b897c1d8",
         "a5b3e778-ba20-47d9-b145-5ab21b589405",
         "83802678-3ac5-4cfc-94ee-ad3acd6a2cdc",
