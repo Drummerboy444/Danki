@@ -11,7 +11,7 @@ var _enum_damageType = argument[1];
 var _num_damageAmount = argument[2];
 
 if(!Utility_ObjectIsAncestorOfInstance(oMortal,_id_target)){
-	// TODO throw error
+	ErrorHandler_Error("Damage target not mortal!")
 	return false;	
 }
 
