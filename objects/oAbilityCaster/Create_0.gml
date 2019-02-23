@@ -7,7 +7,7 @@ map_baseStats = StatsManager_GenerateEmptyStats();
 map_currentStats = StatsManager_GenerateEmptyStats();
 
 // Effects buffer list has entries of form:
-//		[enum_effect, arr_arguments]
+//		[enum_effect, arr_arguments, num_totalSteps]
 list_effectsBuffer = ds_list_create();
 // Active effects list has entries of form:
 //		[enum_effect, arr_arguments, num_remainingSteps]
