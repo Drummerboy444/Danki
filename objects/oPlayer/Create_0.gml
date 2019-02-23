@@ -10,7 +10,7 @@ enum Enum_PlayerMoveModes {
 
 enum_currentMoveMode = Enum_PlayerMoveModes.FREEMOVE;	// Sets the default movement mode to FREEMOVE
 
-// Movement
+// Movement todo: make a script for this
 map_baseStats[? Enum_Stats.SPEED] = 3;
 
 // Dash

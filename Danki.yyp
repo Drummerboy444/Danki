@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02251f78-f573-46be-a826-66cdf21a45a2",
+            "Value": {
+                "id": "d3b6cb01-d5a1-4215-825b-2da4050ad6a2",
+                "resourcePath": "scripts\\AbilityCaster_APPLY_EFFECTS_TO_STATS\\AbilityCaster_APPLY_EFFECTS_TO_STATS.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "02aa19f6-6531-4e34-94a9-38d7d7ca17d0",
             "Value": {
                 "id": "40e75907-fd92-4b41-81fb-5389ecd8aadb",
@@ -1660,6 +1668,7 @@
         "e104fea5-507a-4831-8efb-84d2cf49c5cc",
         "96d72d00-e496-4523-b5e3-47fda98fa6e6",
         "64332ebb-c9f9-4b16-a535-1624703a8032",
+        "02251f78-f573-46be-a826-66cdf21a45a2",
         "31e5af31-f0e8-410f-8dd9-1606fb179c65",
         "89d392c5-25a1-456a-ba54-c00528827f41",
         "44bfa373-5427-4f7d-a7d7-af5e832ef401",
