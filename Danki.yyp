@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "02aa19f6-6531-4e34-94a9-38d7d7ca17d0",
+            "Value": {
+                "id": "40e75907-fd92-4b41-81fb-5389ecd8aadb",
+                "resourcePath": "views\\02aa19f6-6531-4e34-94a9-38d7d7ca17d0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "04b8a123-ea1e-43e1-9676-75e06db1ecc8",
             "Value": {
                 "id": "e3a1060e-4d7d-4f62-9338-6def5708b1da",
@@ -551,6 +559,14 @@
             }
         },
         {
+            "Key": "64332ebb-c9f9-4b16-a535-1624703a8032",
+            "Value": {
+                "id": "602e3c21-677f-4add-b41a-7daad306a869",
+                "resourcePath": "scripts\\AbilityCaster_ADD_BUFFER_EFFECTS\\AbilityCaster_ADD_BUFFER_EFFECTS.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "64532481-8318-49e3-b1d1-147193d77b7d",
             "Value": {
                 "id": "f3e38cfd-9d23-4ede-9daa-236c66dfa9c0",
@@ -875,6 +891,14 @@
             "Value": {
                 "id": "a759c5b5-a605-4364-8b71-a4dfc9735fa2",
                 "resourcePath": "scripts\\Player_Move\\Player_Move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "96d72d00-e496-4523-b5e3-47fda98fa6e6",
+            "Value": {
+                "id": "de5c1429-f053-42ca-992a-2dcbfc92631e",
+                "resourcePath": "scripts\\AbilityCaster_TICK_EFFECTS\\AbilityCaster_TICK_EFFECTS.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1554,6 +1578,8 @@
         "ee8d00b1-d6fa-4dad-9ede-909ba88c75fb",
         "47c8485b-6ca0-49b9-9bbf-056f759c67b0",
         "e104fea5-507a-4831-8efb-84d2cf49c5cc",
+        "96d72d00-e496-4523-b5e3-47fda98fa6e6",
+        "64332ebb-c9f9-4b16-a535-1624703a8032",
         "31e5af31-f0e8-410f-8dd9-1606fb179c65",
         "89d392c5-25a1-456a-ba54-c00528827f41",
         "44bfa373-5427-4f7d-a7d7-af5e832ef401",

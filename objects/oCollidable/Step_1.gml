@@ -1,1 +1,0 @@
-num_movementSpeed = num_baseMovementSpeed;
