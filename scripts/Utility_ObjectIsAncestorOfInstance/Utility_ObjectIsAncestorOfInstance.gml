@@ -1,6 +1,6 @@
 #region Doc
-/// @function Utility_ObjectIsAncestorOfInstance(obj_object, id_instance) Asserts an object is an ancestor of a 
-/// type and amount. Throws an error if the target isn't an oMortal.
+/// @function Utility_ObjectIsAncestorOfInstance(obj_object, id_instance) Asserts an object is an ancestor of an
+/// instance. Throws an error if the target isn't an oMortal.
 /// @param {obj} obj_object The object that may be an ancestor
 /// @param {id} id_instance The instance whose object may be a decendant
 /// @returns {boolean} Asserts object ancestor of instance
