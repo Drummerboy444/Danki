@@ -7,10 +7,10 @@
 var _enum_ability = argument[0];
 
 // Return noone if not a CHANNEL ability
-if(AbilityManager_GetAbilityType(_enum_ability) != Enum_Ability_types.CHANNEL){
+if(AbilityManager_GetAbilityType(_enum_ability) != Enum_AbilityTypes.CHANNEL){
 	return noone;
 }
 
-var _arr_abilityScripts = oAbilityManager.map_ability_to_scripts[? _enum_ability];
+var _arr_abilityScripts = oAbilityManager.map_abilityToScripts[? _enum_ability];
 
 return _arr_abilityScripts[2];
