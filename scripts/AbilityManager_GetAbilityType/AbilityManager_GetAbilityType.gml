@@ -5,4 +5,4 @@
 #endregion
 var _enum_ability = argument[0];
 
-return oAbilityManager.map_ability_to_type[? _enum_ability];
+return oAbilityManager.map_abilityToType[? _enum_ability];
