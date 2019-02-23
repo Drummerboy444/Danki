@@ -423,6 +423,14 @@
             }
         },
         {
+            "Key": "4bedb04f-8ed2-420c-8eb9-4847f35cd41d",
+            "Value": {
+                "id": "2211eaa7-a6a0-41bd-a0b7-c66132a7c473",
+                "resourcePath": "scripts\\ChannelService_CONTINUE_CHANNEL\\ChannelService_CONTINUE_CHANNEL.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4e6e8b48-5325-4f72-8752-7e28b46e6b28",
             "Value": {
                 "id": "c520974c-4d62-47f5-950c-4250ec1bd7cc",
@@ -435,14 +443,6 @@
             "Value": {
                 "id": "2ed2f866-c9cf-4936-bf20-93f0e1db2869",
                 "resourcePath": "scripts\\ErrorHandler_Error\\ErrorHandler_Error.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "4bedb04f-8ed2-420c-8eb9-4847f35cd41d",
-            "Value": {
-                "id": "2211eaa7-a6a0-41bd-a0b7-c66132a7c473",
-                "resourcePath": "scripts\\ChannelService_CONTINUE_CHANNEL\\ChannelService_CONTINUE_CHANNEL.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -460,6 +460,14 @@
                 "id": "fa134820-7bc6-43c6-b6e8-607bbd89505b",
                 "resourcePath": "views\\5264e2e5-92cb-4340-997d-ceaff09a3304.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "52b6549c-63ee-406d-865b-d8b0053f1ddf",
+            "Value": {
+                "id": "2497a40b-37c2-478b-8bea-bd9eda168527",
+                "resourcePath": "scripts\\StatsManager_GenerateEmptyStats\\StatsManager_GenerateEmptyStats.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -636,6 +644,14 @@
                 "id": "df5f2f9e-3be4-4385-8e02-dafc3f499f4d",
                 "resourcePath": "scripts\\AbilityManager_GetStartChannelScript\\AbilityManager_GetStartChannelScript.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6da958bb-feae-4bce-8bc4-ed771af2a654",
+            "Value": {
+                "id": "03e9cefb-31a6-4d4d-96a4-627f066a25b8",
+                "resourcePath": "views\\6da958bb-feae-4bce-8bc4-ed771af2a654.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1015,6 +1031,14 @@
             }
         },
         {
+            "Key": "a295c299-5a54-4ff8-884e-3089aca906b9",
+            "Value": {
+                "id": "aeb6f6c8-9802-4f21-81a3-4ada6f7bbf53",
+                "resourcePath": "views\\a295c299-5a54-4ff8-884e-3089aca906b9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a3ff8d4a-66e3-43d0-92af-011ee19ec8dd",
             "Value": {
                 "id": "af6e55d5-4670-4446-bd23-a94d4b5e0031",
@@ -1196,6 +1220,14 @@
                 "id": "98aee9be-c8ee-40ba-8168-7a3a6649cc0c",
                 "resourcePath": "scripts\\AbilityManager_GetCancelChannelScript\\AbilityManager_GetCancelChannelScript.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c1f00c93-5111-4cf2-a33d-0cbdb424405c",
+            "Value": {
+                "id": "26f1e12b-b1be-4c61-8193-bbe745493034",
+                "resourcePath": "objects\\oStatsManager\\oStatsManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1637,7 +1669,8 @@
         "c1932678-31f4-4c5d-b643-6534c8606bb8",
         "496f4f8e-53cb-447d-8321-bd97343b2855",
         "5f7d7077-3f5c-43c9-a8e7-4002d7378eae",
-        "0d9984fd-30c9-4f76-9003-72f3c97884df"
+        "0d9984fd-30c9-4f76-9003-72f3c97884df",
+        "52b6549c-63ee-406d-865b-d8b0053f1ddf"
     ],
     "tutorial": ""
 }

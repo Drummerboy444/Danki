@@ -8,9 +8,9 @@ enum Enum_AbilityTypes {
 	CHANNEL
 }
 
-mat_abilityToType = ds_map_create();
-mat_abilityToType[? Enum_Abilities.SLASH] = Enum_AbilityTypes.ONE_SHOT;
-mat_abilityToType[? Enum_Abilities.SHIELD_BASH] = Enum_AbilityTypes.ONE_SHOT;
+map_abilityToType = ds_map_create();
+map_abilityToType[? Enum_Abilities.SLASH] = Enum_AbilityTypes.ONE_SHOT;
+map_abilityToType[? Enum_Abilities.SHIELD_BASH] = Enum_AbilityTypes.ONE_SHOT;
 
 // The Scripts array has the following structure:
 // For ONE_SHOT abilities:
