@@ -10,7 +10,7 @@
         "02aa19f6-6531-4e34-94a9-38d7d7ca17d0"
     ],
     "filterType": "GMScript",
-    "folderName": "Ablility Caster",
+    "folderName": "Ability Caster",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

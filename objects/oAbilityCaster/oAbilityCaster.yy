@@ -2,7 +2,7 @@
     "id": "c631388e-7a5d-42bf-9bf0-def8e8498243",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oAblilityCaster",
+    "name": "oAbilityCaster",
     "eventList": [
         {
             "id": "0452b1b2-b37d-4144-b1c6-bcb9aabcb760",
