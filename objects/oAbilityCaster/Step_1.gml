@@ -4,8 +4,8 @@ AbilityCaster_TICK_EFFECTS();
 // Add effects from buffer
 AbilityCaster_ADD_BUFFER_EFFECTS();
 
-// Reset current stats to base stats
-map_currentStats = map_baseStats;
+// Reset copy stats to frameStats
+ds_map_copy(map_frameStats, map_stats);
 
 //Apply effects to stats (mostly todo)
 AbilityCaster_APPLY_EFFECTS_TO_STATS();

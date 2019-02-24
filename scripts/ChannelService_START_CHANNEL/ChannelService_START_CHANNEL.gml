@@ -20,4 +20,4 @@ bool_channelling = true;
 bool_readyToChannel = false;
 
 // TODO: Decide which variables should be handed to this script
-script_execute(scr_startChannel);
+script_execute(scr_startChannel, _num_targetX, _num_targetY);

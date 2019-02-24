@@ -1,5 +1,10 @@
 event_inherited();
-Mortal_Setup(10, true, true);
+
+var _map_baseStats = ds_map_create();
+_map_baseStats[? Enum_Stats.SPEED] = 3;
+_map_baseStats[? Enum_Stats.HEALTH] = 20;
+
+Mortal_Setup(_map_baseStats, true, true);
 
 // Enumerable containing the movement modes that the player may utilise
 enum Enum_PlayerMoveModes {
@@ -9,9 +14,6 @@ enum Enum_PlayerMoveModes {
 }
 
 enum_currentMoveMode = Enum_PlayerMoveModes.FREEMOVE;	// Sets the default movement mode to FREEMOVE
-
-// Movement todo: make a script for this
-map_baseStats[? Enum_Stats.SPEED] = 3;
 
 // Dash
 num_dashSpeed = 10 / 3;
