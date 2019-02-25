@@ -15,7 +15,7 @@ var _num_targetY = argument[3];
 
 var _enum_abilityType = AbilityManager_GetAbilityType(_enum_ability);
 if (_enum_abilityType != Enum_AbilityTypes.ONE_SHOT) {
-	// TODO: throw error
+	ErrorHandler_Error("Cannot cast an ability whose type is not ONE_SHOT");
 	return false;
 }
 
