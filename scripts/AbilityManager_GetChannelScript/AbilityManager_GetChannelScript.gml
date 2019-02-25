@@ -8,6 +8,7 @@ var _enum_ability = argument[0];
 
 // Return noone if not a CHANNEL ability
 if(AbilityManager_GetAbilityType(_enum_ability) != Enum_AbilityTypes.CHANNEL){
+	ErrorHandler_Error("Cannot get the channel script of an ability whose type is not CHANNEL");
 	return noone;
 }
 
