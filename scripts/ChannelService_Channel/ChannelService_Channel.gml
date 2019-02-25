@@ -19,7 +19,7 @@ var _num_targetY = argument[3];
 
 var _enum_abilityType = AbilityManager_GetAbilityType(_enum_ability);
 if (_enum_abilityType != Enum_AbilityTypes.CHANNEL) {
-	// TODO: throw error
+	ErrorHandler_Error("Cannot channel an ability whose type is not CHANNEL");
 	return false;
 }
 
