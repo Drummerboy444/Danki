@@ -8,6 +8,7 @@ var _enum_ability = argument[0];
 
 // Return noone if not a ONE_SHOT ability
 if(AbilityManager_GetAbilityType(_enum_ability) != Enum_AbilityTypes.ONE_SHOT){
+	ErrorHandler_Error("Cannot get the cast script of an ability whose type is not ONE_SHOT");
 	return noone;
 }
 
