@@ -258,7 +258,7 @@
             "Key": "304d5ba2-c0d7-4180-a3d9-331adf514530",
             "Value": {
                 "id": "7015d5c7-52ab-4a22-8009-93512dd6e0a0",
-                "resourcePath": "scripts\\StatsManager_getSpeed\\StatsManager_getSpeed.yy",
+                "resourcePath": "scripts\\StatsManager_GetSpeed\\StatsManager_GetSpeed.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1194,7 +1194,7 @@
             "Key": "af637d30-6ad9-4979-aae2-61e56fddee88",
             "Value": {
                 "id": "48f3ec93-2830-4358-b2bf-78f4de47bf54",
-                "resourcePath": "scripts\\StatsManager_getHealth\\StatsManager_getHealth.yy",
+                "resourcePath": "scripts\\StatsManager_GetHealth\\StatsManager_GetHealth.yy",
                 "resourceType": "GMScript"
             }
         },

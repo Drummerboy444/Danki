@@ -22,7 +22,7 @@ var _bool_isMovingVertically = _bool_up xor _bool_down;
 var _num_horizontalMovement = _bool_right - _bool_left;
 var _num_verticalMovement = _bool_down - _bool_up;
 
-var _num_movementSpeed = StatsManager_getSpeed(oPlayer.id);
+var _num_movementSpeed = StatsManager_GetSpeed(oPlayer.id);
 if (_bool_isMovingHorizontally && _bool_isMovingVertically) {
 	var _num_movementSpeed = _num_movementSpeed / sqrt(2);
 }

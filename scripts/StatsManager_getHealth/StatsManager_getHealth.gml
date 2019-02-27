@@ -1,4 +1,4 @@
-/// @function StatsManager_getHealth(id_abilityCaster) Checks if the given instance is an ability caster, if so
+/// @function StatsManager_GetHealth(id_abilityCaster) Checks if the given instance is an ability caster, if so
 ///		returns the casters health, otherwise throws and error and returns noone.
 /// @param {id} id_abilityCaster The id of the ability caster
 /// @returns {number | noone} The health of the ability caster
