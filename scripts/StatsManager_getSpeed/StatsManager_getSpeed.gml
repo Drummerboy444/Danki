@@ -11,4 +11,4 @@ if (!Utility_ObjectIsAncestorOfInstance(oAbilityCaster, _id_abilityCaster)) {
 	return noone;
 }
 
-return _id_abilityCaster.map_currentStats[? Enum_Stats.SPEED];
+return _id_abilityCaster.map_frameStats[? Enum_Stats.SPEED];
