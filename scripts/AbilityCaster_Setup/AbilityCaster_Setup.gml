@@ -15,5 +15,6 @@ id_oneShotService = _bool_hasOneShotService ? Service_Instantiate(id, oOneShotSe
 id_channelService = _bool_hasChannelService ? Service_Instantiate(id, oChannelService) : noone;
 
 ds_map_copy(map_baseStats, _map_baseStats);
-ds_map_copy(map_stats, map_baseStats); // TODO: hook into whatever system we'll use for setting stats
-                                       //       due to things like armor, passive effects etc.
+ds_map_copy(map_stats, map_baseStats);    // TODO: Hook into whatever system we'll use for setting stats
+                                          //       due to things like armor, passive effects etc.
+ds_map_copy(map_frameStats, map_stats);   // To give stats on the ability casters first step.

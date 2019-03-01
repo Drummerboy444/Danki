@@ -2,7 +2,8 @@ event_inherited();
 
 var _map_baseStats = StatsManager_GenerateEmptyStats();
 _map_baseStats[? Enum_Stats.SPEED] = 3;
-Mortal_Setup(10, true, true, _map_baseStats);
+_map_baseStats[? Enum_Stats.HEALTH] = 10;
+Mortal_Setup(true, true, _map_baseStats);
 
 // Enumerable containing the movement modes that the player may utilise
 enum Enum_PlayerMoveModes {

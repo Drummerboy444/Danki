@@ -10,3 +10,5 @@ var _map_baseStats = argument[2];
 
 
 AbilityCaster_Setup(_bool_hasOneShotService, _bool_hasChannelService, _map_baseStats);
+
+ds_map_destroy(_map_baseStats);
