@@ -290,7 +290,7 @@
             "Key": "3063df91-d5ae-427d-a56f-0ff0435078c9",
             "Value": {
                 "id": "0361e3b9-4406-455c-a8ef-541d02151128",
-                "resourcePath": "scripts\\DOTBucketHandler\\DOTBucketHandler.yy",
+                "resourcePath": "scripts\\DOT_BucketHandler\\DOT_BucketHandler.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -962,7 +962,7 @@
             "Key": "8acafac4-1b22-476d-ab32-d9fe1ee53540",
             "Value": {
                 "id": "fcc83b6e-93bb-4d5a-a36e-98b452372fbe",
-                "resourcePath": "scripts\\SlowBucketHandler\\SlowBucketHandler.yy",
+                "resourcePath": "scripts\\Slow_BucketHandler\\Slow_BucketHandler.yy",
                 "resourceType": "GMScript"
             }
         },
