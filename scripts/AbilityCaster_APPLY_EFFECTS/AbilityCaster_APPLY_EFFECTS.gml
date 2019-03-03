@@ -8,3 +8,8 @@ for (var i = 0; i < ds_list_size(list_activeEffects); i++) {
 	var _list_bucket = map_effectToBucket[? _enum_effect];
 	ds_list_add(_list_bucket, _arr_activeEffect);
 }
+
+for (var i = 0; i < Enum_Effects.length; i++) {
+	var _scr_bucketHandlerScript = EffectsManager_GetBucketHandler(i);
+	script_execute(_scr_bucketHandlerScript);
+}
