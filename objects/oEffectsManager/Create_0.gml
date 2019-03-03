@@ -1,5 +1,5 @@
 enum Enum_Effects {
-	SLOWED,
-	POISONED,
-	WEAK
+	SLOW,
+	DOT,
+	length
 }

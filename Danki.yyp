@@ -34,7 +34,7 @@
             "Key": "02251f78-f573-46be-a826-66cdf21a45a2",
             "Value": {
                 "id": "d3b6cb01-d5a1-4215-825b-2da4050ad6a2",
-                "resourcePath": "scripts\\AbilityCaster_APPLY_EFFECTS_TO_STATS\\AbilityCaster_APPLY_EFFECTS_TO_STATS.yy",
+                "resourcePath": "scripts\\AbilityCaster_APPLY_EFFECTS\\AbilityCaster_APPLY_EFFECTS.yy",
                 "resourceType": "GMScript"
             }
         },
