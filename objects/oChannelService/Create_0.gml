@@ -1,6 +1,8 @@
 event_inherited();
 
 
+id_ability = noone;
+
 scr_startChannel = noone;
 scr_channel = noone;
 scr_cancelChannel = noone;
