@@ -8,8 +8,8 @@ map_stats = StatsManager_GenerateEmptyStats();
 map_frameStats = StatsManager_GenerateEmptyStats();
 
 // Effects buffer list has entries of form:
-//		[enum_effect, arr_arguments, num_totalSteps]
+//		[enum_effect, arr_arguments, num_totalSteps, id_caster]
 list_effectsBuffer = ds_list_create();
 // Active effects list has entries of form:
-//		[enum_effect, arr_arguments, num_remainingSteps]
+//		[enum_effect, arr_arguments, num_remainingSteps, id_caster]
 list_activeEffects = ds_list_create();
