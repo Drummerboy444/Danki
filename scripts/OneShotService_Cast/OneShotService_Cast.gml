@@ -21,5 +21,15 @@ if (_enum_abilityType != Enum_AbilityTypes.ONE_SHOT) {
 
 var _cast_script = AbilityManager_GetCastScript(_enum_ability);
 // TODO: Decide which variables should be handed to this script
-script_execute(_cast_script);
+var _id_ability = script_execute(_cast_script);
+
+if (!_id_ability) {
+	ErrorHandler_Error("Cast script did not return a value");
+	return false;
+} else if (!Utility_ObjectIsAncestorOfInstance(oChannel, _id_ability)) {
+	ErrorHandler_Error("Cast script did not return an id of a one shot object");
+	return false;
+}
+
+id_ability = _id_ability;
 return true;
