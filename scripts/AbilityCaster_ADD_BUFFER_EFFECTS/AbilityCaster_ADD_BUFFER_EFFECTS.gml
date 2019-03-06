@@ -4,9 +4,9 @@
 for(var i=0; i<ds_list_size(list_effectsBuffer); i++){
 	var _arr_effect = list_effectsBuffer[| i];
 	
+	// delete any active effects if the effect is the same and the caster is the same
 	for (var j = ds_list_size(list_activeEffects) - 1; j >= 0; j--) {
 		var _arr_activeEffect = list_activeEffects[| j];
-		// override if the effect is the same and the caster is the same
 		if (_arr_effect[0] == _arr_activeEffect[0] && _arr_effect[3] == _arr_activeEffect[3]) {
 			var _num_index = ds_list_find_index(list_activeEffects, _arr_activeEffect);
 			ds_list_delete(list_activeEffects, _num_index);

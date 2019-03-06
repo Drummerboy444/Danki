@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "oOneShotService",
     "eventList": [
-        
+        {
+            "id": "a1a5ad71-f4c2-4cf3-801d-e53bac1a27e3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "81320fce-cdbc-423c-91f8-e3881a8adbf7"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

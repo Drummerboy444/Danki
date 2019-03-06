@@ -9,6 +9,6 @@ var _num_targetY = argument[1];
 
 
 // TODO: Decide which variables should be handed to this script
-script_execute(scr_finishChannel);
+script_execute(scr_finishChannel, id_ability);
 
 bool_channelling = false;

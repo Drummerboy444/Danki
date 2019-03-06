@@ -20,4 +20,10 @@ bool_channelling = true;
 bool_readyToChannel = false;
 
 // TODO: Decide which variables should be handed to this script
-script_execute(scr_startChannel);
+id_ability = script_execute(scr_startChannel);
+
+if (!id_ability) {
+	ErrorHandler_Error("Start channel script did not return a value");
+} else if (!Utility_ObjectIsAncestorOfInstance(oChannel, id_ability)) {
+	ErrorHandler_Error("Start channel script did not return an id of a channel object");
+}
