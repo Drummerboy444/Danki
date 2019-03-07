@@ -13,3 +13,8 @@ list_effectsBuffer = ds_list_create();
 // Active effects list has entries of form:
 //		[enum_effect, arr_arguments, num_remainingSteps]
 list_activeEffects = ds_list_create();
+
+map_effectToBucket = ds_map_create();
+for (var i = 0; i < Enum_Effects.length; i++) {
+	map_effectToBucket[? i] = ds_list_create();
+}

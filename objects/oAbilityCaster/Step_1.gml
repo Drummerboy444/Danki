@@ -8,4 +8,4 @@ AbilityCaster_ADD_BUFFER_EFFECTS();
 ds_map_copy(map_frameStats, map_stats);
 
 //Apply effects to stats (mostly todo)
-AbilityCaster_APPLY_EFFECTS_TO_STATS();
+AbilityCaster_APPLY_EFFECTS();
