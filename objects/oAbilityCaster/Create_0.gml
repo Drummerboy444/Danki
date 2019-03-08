@@ -7,11 +7,11 @@ map_baseStats = StatsManager_GenerateEmptyStats();
 map_stats = StatsManager_GenerateEmptyStats();
 map_frameStats = StatsManager_GenerateEmptyStats();
 
-// Effects buffer list has entries of form:
-//		[enum_effect, arr_arguments, num_totalSteps]
+// Effects buffer list has effect data entries of form:
+//		[enum_effect, arr_arguments, num_totalSteps, id_caster]
 list_effectsBuffer = ds_list_create();
-// Active effects list has entries of form:
-//		[enum_effect, arr_arguments, num_remainingSteps]
+// Active effects list has effect data entries of form:
+//		[enum_effect, arr_arguments, num_remainingSteps, id_caster]
 list_activeEffects = ds_list_create();
 
 map_effectToBucket = ds_map_create();
