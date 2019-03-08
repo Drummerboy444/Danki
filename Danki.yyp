@@ -1650,7 +1650,7 @@
             "Key": "ed4191c2-49f5-4393-a87b-02d4935f878e",
             "Value": {
                 "id": "81bd2e57-e79e-445a-aa13-3e6595732e82",
-                "resourcePath": "scripts\\AbilityCaster_SET_STEPS\\AbilityCaster_SET_STEPS.yy",
+                "resourcePath": "scripts\\AbilityCaster_SET_STEPS_FOR_EFFECT\\AbilityCaster_SET_STEPS_FOR_EFFECT.yy",
                 "resourceType": "GMScript"
             }
         },
