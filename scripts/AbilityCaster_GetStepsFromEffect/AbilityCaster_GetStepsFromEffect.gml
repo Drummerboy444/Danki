@@ -1,4 +1,4 @@
-/// @function AbilityCaster_GetSteps(arr_effectData) Gets the steps (remaining or total) from an array
+/// @function AbilityCaster_GetStepsFromEffect(arr_effectData) Gets the steps (remaining or total) from an array
 ///		of effect data.
 /// @param {array} arr_effectData The array of effect data.
 /// @returns {number} The effect steps.
