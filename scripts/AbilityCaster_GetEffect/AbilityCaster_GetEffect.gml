@@ -1,4 +1,4 @@
-/// @function AbilityCaster_GET_EFFECT(arr_effectData) Gets the effect enum value from an array of effect data.
+/// @function AbilityCaster_GetEffect(arr_effectData) Gets the effect enum value from an array of effect data.
 /// @param {array} arr_effectData The array of effect data.
 /// @returns {enum} The effect enum.
 var _arr_effectData = argument[0];

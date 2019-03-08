@@ -3,7 +3,7 @@
 // Loop through backwards so we check each element exactly once (list length may change throughout this loop).
 for(var i=ds_list_size(list_activeEffects)-1; i>=0; i--){
 	var _arr_effectData = list_activeEffects[| i];
-	var _num_remainingSteps = AbilityCaster_GET_STEPS(_arr_effectData);
+	var _num_remainingSteps = AbilityCaster_GetSteps(_arr_effectData);
 	
 	// Check if effect has expired (0 steps remaining):
 	if(_num_remainingSteps <= 0){

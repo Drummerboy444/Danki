@@ -4,7 +4,7 @@ AbilityCaster_EMPTY_BUCKETS();
 
 for (var i = 0; i < ds_list_size(list_activeEffects); i++) {
 	var _arr_activeEffectData = list_activeEffects[| i];
-	var _enum_effect = AbilityCaster_GET_EFFECT(_arr_activeEffectData);
+	var _enum_effect = AbilityCaster_GetEffect(_arr_activeEffectData);
 	var _list_bucket = map_effectToBucket[? _enum_effect];
 	ds_list_add(_list_bucket, _arr_activeEffectData);
 }
