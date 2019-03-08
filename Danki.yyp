@@ -647,6 +647,14 @@
             }
         },
         {
+            "Key": "644590be-6864-451f-877a-a94b082c5ad0",
+            "Value": {
+                "id": "e6954850-fa58-42b2-813f-34e5cfecb495",
+                "resourcePath": "scripts\\AbilityCaster_GET_CASTER_ID\\AbilityCaster_GET_CASTER_ID.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "64532481-8318-49e3-b1d1-147193d77b7d",
             "Value": {
                 "id": "f3e38cfd-9d23-4ede-9daa-236c66dfa9c0",
@@ -931,6 +939,14 @@
             "Value": {
                 "id": "0c2f6d2e-e1e4-4288-863e-05ae6cc5d17e",
                 "resourcePath": "scripts\\Enemy_Setup\\Enemy_Setup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8bec86ed-5382-49ce-82a0-20647d120237",
+            "Value": {
+                "id": "3aa8a2e3-c286-4108-ba27-0518dae30072",
+                "resourcePath": "scripts\\AbilityCaster_GET_STEPS\\AbilityCaster_GET_STEPS.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1343,6 +1359,14 @@
             }
         },
         {
+            "Key": "cbd68cbf-6304-4a41-85b0-cee87d3128b6",
+            "Value": {
+                "id": "3023e683-3e3d-4ba6-823a-0f1742dc9ab4",
+                "resourcePath": "scripts\\AbilityCaster_GET_EFFECT\\AbilityCaster_GET_EFFECT.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc631f99-c293-4ecb-9046-6046d31a3d66",
             "Value": {
                 "id": "eff3c5e3-084b-48cf-b798-8f4f69f34e94",
@@ -1371,6 +1395,14 @@
             "Value": {
                 "id": "3cece5f3-cc6e-4fdf-844a-965d8b3c90f2",
                 "resourcePath": "scripts\\OneShot_Setup\\OneShot_Setup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ce0736f2-4326-4547-9193-d2c2e5d80ef7",
+            "Value": {
+                "id": "ee8769e7-f863-4955-a1c8-8f1fd5d01e73",
+                "resourcePath": "scripts\\AbilityCaster_GET_ARGUMENTS\\AbilityCaster_GET_ARGUMENTS.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1685,6 +1717,10 @@
         "96d72d00-e496-4523-b5e3-47fda98fa6e6",
         "64332ebb-c9f9-4b16-a535-1624703a8032",
         "02251f78-f573-46be-a826-66cdf21a45a2",
+        "cbd68cbf-6304-4a41-85b0-cee87d3128b6",
+        "ce0736f2-4326-4547-9193-d2c2e5d80ef7",
+        "8bec86ed-5382-49ce-82a0-20647d120237",
+        "644590be-6864-451f-877a-a94b082c5ad0",
         "31e5af31-f0e8-410f-8dd9-1606fb179c65",
         "89d392c5-25a1-456a-ba54-c00528827f41",
         "44bfa373-5427-4f7d-a7d7-af5e832ef401",
