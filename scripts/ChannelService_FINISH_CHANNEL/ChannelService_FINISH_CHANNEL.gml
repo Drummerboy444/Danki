@@ -7,8 +7,6 @@
 var _num_targetX = argument[0];
 var _num_targetY = argument[1];
 
-
-// TODO: Decide which variables should be handed to this script
-script_execute(scr_finishChannel, id_ability);
+script_execute(scr_finishChannel, id_owner, _num_targetX, _num_targetY, id_ability);
 
 bool_channelling = false;

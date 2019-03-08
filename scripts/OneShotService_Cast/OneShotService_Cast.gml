@@ -12,24 +12,25 @@ var _enum_ability = argument[1];
 var _num_targetX = argument[2];
 var _num_targetY = argument[3];
 
+with(_id_oneShotService){
+	var _enum_abilityType = AbilityManager_GetAbilityType(_enum_ability);
+	if (_enum_abilityType != Enum_AbilityTypes.ONE_SHOT) {
+		ErrorHandler_Error("Cannot cast an ability whose type is not ONE_SHOT");
+		return false;
+	}
 
-var _enum_abilityType = AbilityManager_GetAbilityType(_enum_ability);
-if (_enum_abilityType != Enum_AbilityTypes.ONE_SHOT) {
-	ErrorHandler_Error("Cannot cast an ability whose type is not ONE_SHOT");
-	return false;
+	var _cast_script = AbilityManager_GetCastScript(_enum_ability);
+
+	var _id_ability = script_execute(_cast_script, id_owner, _num_targetX, _num_targetY);
+
+	if (!_id_ability) {
+		ErrorHandler_Error("Cast script did not return a value");
+		return false;
+	} else if (!Utility_ObjectIsAncestorOfInstance(oChannel, _id_ability)) {
+		ErrorHandler_Error("Cast script did not return an id of a one shot object");
+		return false;
+	}
+
+	id_ability = _id_ability;
 }
-
-var _cast_script = AbilityManager_GetCastScript(_enum_ability);
-// TODO: Decide which variables should be handed to this script
-var _id_ability = script_execute(_cast_script);
-
-if (!_id_ability) {
-	ErrorHandler_Error("Cast script did not return a value");
-	return false;
-} else if (!Utility_ObjectIsAncestorOfInstance(oChannel, _id_ability)) {
-	ErrorHandler_Error("Cast script did not return an id of a one shot object");
-	return false;
-}
-
-id_ability = _id_ability;
 return true;
