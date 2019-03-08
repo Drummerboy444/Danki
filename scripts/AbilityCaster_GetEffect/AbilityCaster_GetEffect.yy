@@ -1,8 +1,8 @@
 {
-    "id": "ce0736f2-4326-4547-9193-d2c2e5d80ef7",
+    "id": "cbd68cbf-6304-4a41-85b0-cee87d3128b6",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "AbilityCaster_GET_ARGUMENTS",
+    "name": "AbilityCaster_GetEffect",
     "IsCompatibility": false,
     "IsDnD": false
 }

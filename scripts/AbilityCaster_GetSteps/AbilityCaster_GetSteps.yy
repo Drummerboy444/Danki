@@ -1,8 +1,8 @@
 {
-    "id": "cbd68cbf-6304-4a41-85b0-cee87d3128b6",
+    "id": "8bec86ed-5382-49ce-82a0-20647d120237",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "AbilityCaster_GET_EFFECT",
+    "name": "AbilityCaster_GetSteps",
     "IsCompatibility": false,
     "IsDnD": false
 }
