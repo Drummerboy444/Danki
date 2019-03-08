@@ -14,6 +14,6 @@ for (var i = 0; i < Enum_Effects.length; i++) {
 	var _scr_bucketHandlerScript = EffectsManager_GetBucketHandler(i);
 	var _list_bucket = map_effectToBucket[? i];
 	if(!ds_list_empty(_list_bucket)) {
-		script_execute(_scr_bucketHandlerScript, _list_bucket);
+		script_execute(_scr_bucketHandlerScript, id, _list_bucket);
 	}
 }

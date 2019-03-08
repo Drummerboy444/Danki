@@ -16,35 +16,33 @@ var _enum_ability = argument[1];
 var _num_targetX = argument[2];
 var _num_targetY = argument[3];
 
-
-var _enum_abilityType = AbilityManager_GetAbilityType(_enum_ability);
-if (_enum_abilityType != Enum_AbilityTypes.CHANNEL) {
-	ErrorHandler_Error("Cannot channel an ability whose type is not CHANNEL");
-	return false;
-}
-
-_id_channelService.bool_attemptingToChannel = true;
-
-if (_id_channelService.bool_readyToChannel) {
-	with (_id_channelService) {
-		ChannelService_START_CHANNEL(_enum_ability, _num_targetX, _num_targetY);
+with(_id_channelService){
+	
+	var _enum_abilityType = AbilityManager_GetAbilityType(_enum_ability);
+	if (_enum_abilityType != Enum_AbilityTypes.CHANNEL) {
+		ErrorHandler_Error("Cannot channel an ability whose type is not CHANNEL");
+		return false;
 	}
-	return false;
-}
 
-_id_channelService.num_currentTimer--;
+	_id_channeidlService.bool_attemptingToChannel = true;
 
-if (_id_channelService.num_currentTimer <= 0) {
-	if (_id_channelService.bool_channelling) {
-		with (_id_channelService) {
+	if (bool_readyToChannel) {
+		ChannelService_START_CHANNEL(_enum_ability, _num_targetX, _num_targetY);
+		return false;
+	}
+	
+	num_currentTimer--;
+
+	if (num_currentTimer <= 0) {
+		if (bool_channelling) {
 			ChannelService_FINISH_CHANNEL(_num_targetX, _num_targetY);
 		}
+		return true; // This goes outside the other if statement so that we continue to return true
+		             // even after the channel has finished
 	}
-	return true; // This goes outside the other if statement so that we continue to return true
-	             // even after the channel has finished
-}
 
-with (_id_channelService) {
 	ChannelService_CONTINUE_CHANNEL(_num_targetX, _num_targetY);
+
+	return false;
+	
 }
-return false;
