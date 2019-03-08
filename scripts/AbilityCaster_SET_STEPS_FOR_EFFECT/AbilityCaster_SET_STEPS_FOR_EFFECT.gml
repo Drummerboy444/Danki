@@ -1,4 +1,4 @@
-/// @function AbilityCaster_SET_STEPS(arr_effectData, num_steps) Creates a new effect data array, with the
+/// @function AbilityCaster_SET_STEPS_FOR_EFFECT(arr_effectData, num_steps) Creates a new effect data array, with the
 ///		steps value set to the given steps, and returns it.
 /// @param {array} arr_effectData The effect data to update.
 /// @param {number} num_steps The new number of steps.

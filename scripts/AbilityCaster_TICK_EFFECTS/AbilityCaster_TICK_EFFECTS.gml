@@ -9,7 +9,7 @@ for(var i=ds_list_size(list_activeEffects)-1; i>=0; i--){
 	if(_num_remainingSteps <= 0){
 		ds_list_delete(list_activeEffects, i);	
 	} else {
-		var _arr_newEffectData = AbilityCaster_SET_STEPS(_arr_effectData, _num_remainingSteps - 1);
+		var _arr_newEffectData = AbilityCaster_SET_STEPS_FOR_EFFECT(_arr_effectData, _num_remainingSteps - 1);
 		list_activeEffects[| i] = _arr_newEffectData;
 	}
 }
