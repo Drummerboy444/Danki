@@ -11,7 +11,7 @@ var _arr_effectData = argument[1];
 //All effectData should have 4 entries.
 if (array_length_1d(_arr_effectData) == 4){
 	with (_id_target){
-	ds_list_add(_id_target.list_effectsBuffer, _arr_effectData);
+	ds_list_add(list_effectsBuffer, _arr_effectData);
 	}
 } else {
 	ErrorHandler_Error("Invalid effectData array was asked to be added to our buffer.");	
