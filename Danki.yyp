@@ -1439,6 +1439,14 @@
             }
         },
         {
+            "Key": "c9a87b71-7b03-468a-bf8d-df799ffd823f",
+            "Value": {
+                "id": "4f1d82c7-8b90-4f1d-93f9-bbb57856c908",
+                "resourcePath": "scripts\\AbilityCaster_AddEffectToBuffer\\AbilityCaster_AddEffectToBuffer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c9cde87c-30c8-4e4c-a5a3-ebcb349fbab8",
             "Value": {
                 "id": "b3473415-6cb0-4457-a5da-9c1ad69581da",
@@ -1857,11 +1865,12 @@
         "0db22e2e-3408-41f8-9260-9c6986ab5116",
         "ee8d00b1-d6fa-4dad-9ede-909ba88c75fb",
         "47c8485b-6ca0-49b9-9bbf-056f759c67b0",
-        "e104fea5-507a-4831-8efb-84d2cf49c5cc",
         "cbd68cbf-6304-4a41-85b0-cee87d3128b6",
         "ce0736f2-4326-4547-9193-d2c2e5d80ef7",
         "8bec86ed-5382-49ce-82a0-20647d120237",
         "644590be-6864-451f-877a-a94b082c5ad0",
+        "e104fea5-507a-4831-8efb-84d2cf49c5cc",
+        "c9a87b71-7b03-468a-bf8d-df799ffd823f",
         "96d72d00-e496-4523-b5e3-47fda98fa6e6",
         "64332ebb-c9f9-4b16-a535-1624703a8032",
         "02251f78-f573-46be-a826-66cdf21a45a2",
