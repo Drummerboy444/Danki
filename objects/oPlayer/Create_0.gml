@@ -23,6 +23,3 @@ num_dashTimer = 0;
 num_dashLength = 6;
 num_slowTimer = 0;
 num_slowLength = 20;
-
-
-AbilityCaster_AddEffectDataToBuffer(id, EffectData_new(Enum_Effects.SLOW, [], 120, id))
