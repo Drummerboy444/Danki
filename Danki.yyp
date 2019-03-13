@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "6b29155b-0b29-4f5a-9fab-3b0c4cfb4eee",
+            "Value": {
+                "id": "f1c4be8e-fa16-42cc-a5f9-2d2ca281ae02",
+                "resourcePath": "scripts\\EffectData_instanceOf\\EffectData_instanceOf.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6ba78cdc-94f3-4bc6-826d-29ce6cae4d19",
             "Value": {
                 "id": "58e7c473-3672-4973-b994-cca1021f195a",
@@ -1474,7 +1482,7 @@
             "Key": "c9a87b71-7b03-468a-bf8d-df799ffd823f",
             "Value": {
                 "id": "4f1d82c7-8b90-4f1d-93f9-bbb57856c908",
-                "resourcePath": "scripts\\AbilityCaster_AddEffectToBuffer\\AbilityCaster_AddEffectToBuffer.yy",
+                "resourcePath": "scripts\\AbilityCaster_AddEffectDataToBuffer\\AbilityCaster_AddEffectDataToBuffer.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1953,6 +1961,7 @@
         "8acafac4-1b22-476d-ab32-d9fe1ee53540",
         "3063df91-d5ae-427d-a56f-0ff0435078c9",
         "fd3511ad-8e22-4375-9cf1-c6edefc5b666",
+        "6b29155b-0b29-4f5a-9fab-3b0c4cfb4eee",
         "b1be6216-2ef7-4aef-9b44-01e85a6aa4f8",
         "1f41b31d-5c42-4f36-9a27-1b24c684d02a",
         "f647eb31-a403-4b50-b879-9f20dc24c82e",
