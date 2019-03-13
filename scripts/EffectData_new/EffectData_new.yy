@@ -1,8 +1,8 @@
 {
-    "id": "cbd68cbf-6304-4a41-85b0-cee87d3128b6",
+    "id": "fd3511ad-8e22-4375-9cf1-c6edefc5b666",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "AbilityCaster_GetEffectFromEffect",
+    "name": "EffectData_new",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -4,14 +4,14 @@
 for(var i=0; i<ds_list_size(list_effectsBuffer); i++){
 	var _arr_effectData = list_effectsBuffer[| i];
 	
-	var _enum_effect = AbilityCaster_GetEffectFromEffect(_arr_effectData);
-	var _id_caster = AbilityCaster_GetCasterIdFromEffect(_arr_effectData);
+	var _enum_effect = EffectData_getEffect(_arr_effectData);
+	var _id_caster = EffectData_getCasterId(_arr_effectData);
 	
 	// delete any active effects if the effect is the same and the caster is the same
 	for (var j = ds_list_size(list_activeEffects) - 1; j >= 0; j--) {
 		var _arr_activeEffectData = list_activeEffects[| j];
-		var _enum_activeEffect = AbilityCaster_GetEffectFromEffect(_arr_activeEffectData);
-		var _id_activeCaster = AbilityCaster_GetCasterIdFromEffect(_arr_activeEffectData);
+		var _enum_activeEffect = EffectData_getEffect(_arr_activeEffectData);
+		var _id_activeCaster = EffectData_getCasterId(_arr_activeEffectData);
 		
 		if (_enum_effect == _enum_activeEffect && _id_caster == _id_activeCaster) {
 			ds_list_delete(list_activeEffects, j);
