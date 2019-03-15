@@ -3,10 +3,10 @@
 AbilityCaster_EMPTY_BUCKETS();
 
 for (var i = 0; i < ds_list_size(list_activeEffects); i++) {
-	var _arr_activeEffectData = list_activeEffects[| i];
-	var _enum_effect = AbilityCaster_GetEffectFromEffect(_arr_activeEffectData);
+	var _EffectData_active = list_activeEffects[| i];
+	var _enum_effect = EffectData_getEffect(_EffectData_active);
 	var _list_bucket = map_effectToBucket[? _enum_effect];
-	ds_list_add(_list_bucket, _arr_activeEffectData);
+	ds_list_add(_list_bucket, _EffectData_active);
 }
 
 

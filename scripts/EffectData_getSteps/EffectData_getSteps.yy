@@ -1,8 +1,8 @@
 {
-    "id": "c9a87b71-7b03-468a-bf8d-df799ffd823f",
+    "id": "f647eb31-a403-4b50-b879-9f20dc24c82e",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "AbilityCaster_AddEffectToBuffer",
+    "name": "EffectData_getSteps",
     "IsCompatibility": false,
     "IsDnD": false
 }

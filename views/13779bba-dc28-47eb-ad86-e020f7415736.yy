@@ -1,0 +1,13 @@
+{
+    "id": "13779bba-dc28-47eb-ad86-e020f7415736",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "13779bba-dc28-47eb-ad86-e020f7415736",
+    "children": [
+        "a64c7c71-c4f0-422b-8471-3b5c00561561"
+    ],
+    "filterType": "GMScript",
+    "folderName": "Custom Types",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}
