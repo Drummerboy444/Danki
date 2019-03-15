@@ -1,8 +1,8 @@
 {
-    "id": "3537edbd-c2fa-435a-8334-3708962ada36",
+    "id": "6c1e0975-abc1-43e3-81ef-1f61aa33cdba",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "EffectData_GetCasterId",
+    "name": "DamageData_New",
     "IsCompatibility": false,
     "IsDnD": false
 }

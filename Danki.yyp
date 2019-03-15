@@ -226,7 +226,7 @@
             "Key": "1f41b31d-5c42-4f36-9a27-1b24c684d02a",
             "Value": {
                 "id": "c1160216-2c35-4b83-b548-e6ec63963dde",
-                "resourcePath": "scripts\\EffectData_getArguments\\EffectData_getArguments.yy",
+                "resourcePath": "scripts\\EffectData_GetArguments\\EffectData_GetArguments.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -276,6 +276,14 @@
                 "id": "0c2882b6-7f7d-4a5c-b5d6-284bd2e72e05",
                 "resourcePath": "views\\282c350d-3e9b-438d-8d63-797fc6801b11.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "282e9036-4d8d-49dc-98d1-7b31bbd3c69f",
+            "Value": {
+                "id": "2a41104f-18b0-4fca-93dc-eef666e21913",
+                "resourcePath": "scripts\\DamageData_GetDamageType\\DamageData_GetDamageType.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -394,7 +402,15 @@
             "Key": "3537edbd-c2fa-435a-8334-3708962ada36",
             "Value": {
                 "id": "bc43c49d-f058-49b6-98a6-261e96adf1b1",
-                "resourcePath": "scripts\\EffectData_getCasterId\\EffectData_getCasterId.yy",
+                "resourcePath": "scripts\\EffectData_GetCasterId\\EffectData_GetCasterId.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "358b62ee-69c5-410d-a0b3-1cea3ae23983",
+            "Value": {
+                "id": "7899280d-93dc-452d-89ac-7cc455e05a73",
+                "resourcePath": "scripts\\DamageData_GetDamageAmount\\DamageData_GetDamageAmount.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -762,7 +778,7 @@
             "Key": "6b29155b-0b29-4f5a-9fab-3b0c4cfb4eee",
             "Value": {
                 "id": "f1c4be8e-fa16-42cc-a5f9-2d2ca281ae02",
-                "resourcePath": "scripts\\EffectData_instanceOf\\EffectData_instanceOf.yy",
+                "resourcePath": "scripts\\EffectData_InstanceOf\\EffectData_InstanceOf.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -771,6 +787,14 @@
             "Value": {
                 "id": "58e7c473-3672-4973-b994-cca1021f195a",
                 "resourcePath": "scripts\\Friendly_Setup\\Friendly_Setup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6c1e0975-abc1-43e3-81ef-1f61aa33cdba",
+            "Value": {
+                "id": "1a40fe94-0cf4-420b-8885-0adc05210336",
+                "resourcePath": "scripts\\DamageData_New\\DamageData_New.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -795,6 +819,14 @@
             "Value": {
                 "id": "1176ce1f-7733-4ea1-806b-42515eb76998",
                 "resourcePath": "views\\6f5135ab-4a22-4be4-b46a-39b2a69c02d0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6f71d717-7bdc-4769-a549-e0e886fdb716",
+            "Value": {
+                "id": "52ca6b33-0e33-4e8e-8267-6d4aefd8e795",
+                "resourcePath": "views\\6f71d717-7bdc-4769-a549-e0e886fdb716.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -842,7 +874,7 @@
             "Key": "74733f70-3701-44aa-a893-27f5971f44e2",
             "Value": {
                 "id": "fc7ef381-3adc-41b1-a3f6-0dd580f85c6b",
-                "resourcePath": "scripts\\EffectData_setSteps\\EffectData_setSteps.yy",
+                "resourcePath": "scripts\\EffectData_SetSteps\\EffectData_SetSteps.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1338,7 +1370,7 @@
             "Key": "b1be6216-2ef7-4aef-9b44-01e85a6aa4f8",
             "Value": {
                 "id": "62491c83-58e7-4db4-92e0-3d939d0097fe",
-                "resourcePath": "scripts\\EffectData_getEffect\\EffectData_getEffect.yy",
+                "resourcePath": "scripts\\EffectData_GetEffect\\EffectData_GetEffect.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1452,6 +1484,14 @@
                 "id": "5477ac99-f873-4039-8a33-f07a4052b035",
                 "resourcePath": "objects\\oEffectsManager\\oEffectsManager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c5d79dc4-0153-4720-b653-64ffd6bfdfc1",
+            "Value": {
+                "id": "d543d1ff-413b-49b5-ad27-b63cb807e361",
+                "resourcePath": "scripts\\DamageData_InstanceOf\\DamageData_InstanceOf.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1759,6 +1799,14 @@
             }
         },
         {
+            "Key": "f13aca0d-57a5-41bc-8fd5-fcf38eb1831e",
+            "Value": {
+                "id": "73d5c72a-24db-44de-90ef-8280c0a4902e",
+                "resourcePath": "views\\f13aca0d-57a5-41bc-8fd5-fcf38eb1831e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f1bb7e87-4ad2-4e08-ad26-d502c33a5739",
             "Value": {
                 "id": "ccc8c792-53db-4236-a8f0-f2fce445a94e",
@@ -1802,7 +1850,7 @@
             "Key": "f647eb31-a403-4b50-b879-9f20dc24c82e",
             "Value": {
                 "id": "b362406b-3fe3-4543-92ad-6b7df891c9b7",
-                "resourcePath": "scripts\\EffectData_getSteps\\EffectData_getSteps.yy",
+                "resourcePath": "scripts\\EffectData_GetSteps\\EffectData_GetSteps.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1874,7 +1922,7 @@
             "Key": "fd3511ad-8e22-4375-9cf1-c6edefc5b666",
             "Value": {
                 "id": "c8c53684-d883-4157-8cab-6fb8d5b855be",
-                "resourcePath": "scripts\\EffectData_new\\EffectData_new.yy",
+                "resourcePath": "scripts\\EffectData_New\\EffectData_New.yy",
                 "resourceType": "GMScript"
             }
         }
@@ -1966,7 +2014,11 @@
         "1f41b31d-5c42-4f36-9a27-1b24c684d02a",
         "f647eb31-a403-4b50-b879-9f20dc24c82e",
         "3537edbd-c2fa-435a-8334-3708962ada36",
-        "74733f70-3701-44aa-a893-27f5971f44e2"
+        "74733f70-3701-44aa-a893-27f5971f44e2",
+        "6c1e0975-abc1-43e3-81ef-1f61aa33cdba",
+        "c5d79dc4-0153-4720-b653-64ffd6bfdfc1",
+        "282e9036-4d8d-49dc-98d1-7b31bbd3c69f",
+        "358b62ee-69c5-410d-a0b3-1cea3ae23983"
     ],
     "tutorial": ""
 }
