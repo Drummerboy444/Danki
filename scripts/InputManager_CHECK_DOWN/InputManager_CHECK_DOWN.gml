@@ -5,9 +5,10 @@
 #endregion
 var _enum_action = argument[0];
 
+var _InputKey_key = map_keyBindings[? _enum_action];
 
-var _num_keyBinding = InputManager_GET_KEY_BINDING(_enum_action);
-var _enum_inputType = InputManager_GET_INPUT_TYPE(_enum_action);
+var _num_keyBinding = InputKey_GetKeycode(_InputKey_key);
+var _enum_inputType = InputKey_GetInputDevice(_InputKey_key);
 
 switch (_enum_inputType) {
 	case Enum_InputType.KEYBOARD:

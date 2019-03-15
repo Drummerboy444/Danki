@@ -1,8 +1,8 @@
 {
-    "id": "a7c7fe45-c41b-4056-9408-ac1f2c955440",
+    "id": "a9a9cb58-4536-4e7b-a7e4-cb12a0d8af87",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "InputManager_GET_INPUT_TYPE",
+    "name": "InputKey_GetKeycode",
     "IsCompatibility": false,
     "IsDnD": false
 }
