@@ -8,7 +8,7 @@ var _id_target = argument[0];
 var _EffectData_data = argument[1];
 
 
-if (EffectData_instanceOf(_EffectData_data)){
+if (EffectData_InstanceOf(_EffectData_data)){
 	with (_id_target){
 		ds_list_add(list_effectsBuffer, _EffectData_data);
 	}

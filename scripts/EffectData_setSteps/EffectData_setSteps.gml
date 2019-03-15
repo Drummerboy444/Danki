@@ -6,9 +6,6 @@
 var _EffectData_toUpdate = argument[0];
 var _num_steps = argument[1];
 
+_EffectData_toUpdate[2] = _num_steps;
 
-var _enum_effect = EffectData_getEffect(_EffectData_toUpdate);
-var _arr_arguments = EffectData_getArguments(_EffectData_toUpdate);
-var _id_caster = EffectData_getCasterId(_EffectData_toUpdate);
-
-return EffectData_new(_enum_effect, _arr_arguments, _num_steps, _id_caster)
+return _EffectData_toUpdate

@@ -1,20 +1,23 @@
 #region Doc
-/// @function DamageManager_ApplyDamage(id_target, enum_damageType, num_damageAmount) Adds an entry in the target's damage list with the damage
-/// type and amount. Throws an error if the target isn't an oMortal.
+/// @function DamageManager_ApplyDamage(id_target, DamageData_data) Adds an entry in the target's damage list with the damage
+/// data. Throws an error if the target isn't an oMortal.
 /// @param {id} id_target The target to whos list the damage should be appended
-/// @param {enum} enum_damageType The damage type
-/// @param {num} num_damageAmount The amount of damage
+/// @param {DamageData} DamageData_data The damage type and amount
 /// @returns {boolean} Asserts damage dealt
 #endregion
 var _id_target = argument[0];
-var _enum_damageType = argument[1];
-var _num_damageAmount = argument[2];
+var _DamageData_data = argument[1];
 
 if(!Utility_ObjectIsAncestorOfInstance(oMortal,_id_target)){
-	ErrorHandler_Error("Damage target not mortal!")
+	ErrorHandler_FatalError("Damage target not mortal!");
 	return false;	
 }
 
-ds_list_add(_id_target.list_damageList, [_enum_damageType, _num_damageAmount]);
+if(!DamageData_InstanceOf(_DamageData_data)){
+	ErrorHandler_FatalError("Non-damage data passed as damage data! Damage data: " + _DamageData_data);
+	return false;	
+}
+
+ds_list_add(_id_target.list_damageList, _DamageData_data);
 
 return true;

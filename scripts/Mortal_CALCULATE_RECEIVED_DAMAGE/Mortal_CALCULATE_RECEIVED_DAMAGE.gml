@@ -1,12 +1,12 @@
 #region Doc
-/// @function Mortal_CALCULATE_RECEIVED_DAMAGE(arr_damageArray)
-/// @param {array} arr_damageArray The damage array from a given list location.
+/// @function Mortal_CALCULATE_RECEIVED_DAMAGE(DamageData_data)
+/// @param {DamageData} DamageData_data The damage data.
 /// @return {number} The amount of damage to recieve.
 #endregion
-var _arr_damageArray = argument[0];
+var _DamageData_data = argument[0];
 
-var _enum_damageType = _arr_damageArray[0];
-var _num_damageAmount = _arr_damageArray[1];
+var _enum_damageType = DamageData_GetDamageType(_DamageData_data);
+var _num_damageAmount = DamageData_GetDamageAmount(_DamageData_data);
 
 return _num_damageAmount;
 // further calculations involving the Mortals effects with respect to damage type and amount
