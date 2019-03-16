@@ -3,6 +3,8 @@
 /// @returns {array} The effect arguments.
 var _EffectData_data = argument[0];
 
-if(!EffectData_InstanceOf(_EffectData_data)) ErrorHandler_FatalError("Tried to get arguments from non EffectData structure.");
+if(!EffectData_InstanceOf(_EffectData_data)){
+	ErrorHandler_FatalError("Tried to get arguments from non EffectData structure.");
+}
 
 return _EffectData_data[1];
