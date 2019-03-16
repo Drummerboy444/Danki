@@ -1,8 +1,8 @@
 {
-    "id": "a7c7fe45-c41b-4056-9408-ac1f2c955440",
+    "id": "baf5c7a0-2fe5-4c93-8bdb-f57541b42aa7",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "InputManager_GET_INPUT_TYPE",
+    "name": "ChannelScripts_GetCancelChannel",
     "IsCompatibility": false,
     "IsDnD": false
 }

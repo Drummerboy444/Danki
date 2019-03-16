@@ -12,6 +12,6 @@ if(AbilityManager_GetAbilityType(_enum_ability) != Enum_AbilityTypes.CHANNEL){
 	return noone;
 }
 
-var _arr_abilityScripts = oAbilityManager.map_abilityToScripts[? _enum_ability];
+var _ChannelScripts_scripts = oAbilityManager.map_abilityToScripts[? _enum_ability];
 
-return _arr_abilityScripts[1];
+return ChannelScripts_GetContinueChannel(_ChannelScripts_scripts);

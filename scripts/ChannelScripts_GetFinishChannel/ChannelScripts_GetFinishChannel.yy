@@ -1,8 +1,8 @@
 {
-    "id": "946153f8-a9ef-43fb-b7ad-b622d5e06b01",
+    "id": "3ddcc400-d086-40fc-89d6-8fa26abfc22e",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "InputManager_GET_KEY_BINDING",
+    "name": "ChannelScripts_GetFinishChannel",
     "IsCompatibility": false,
     "IsDnD": false
 }
