@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "00bb4d6b-7b32-4450-bd76-1cf3139c2697",
+            "Value": {
+                "id": "8830823b-4a1a-4a5e-8cb4-0e3ba655116c",
+                "resourcePath": "sprites\\sTargetDummy\\sTargetDummy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "02251f78-f573-46be-a826-66cdf21a45a2",
             "Value": {
                 "id": "d3b6cb01-d5a1-4215-825b-2da4050ad6a2",
@@ -179,6 +187,14 @@
             "Value": {
                 "id": "69c1fa23-1cda-4bfc-8cfb-243c661ed6ff",
                 "resourcePath": "views\\16c28767-ad36-43f7-bf1d-da1f53bca6c8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "16dcdc17-cf49-40e2-9b67-07a40eec0426",
+            "Value": {
+                "id": "20e4cb7e-81f8-4d11-9b7a-8f706a223de0",
+                "resourcePath": "views\\16dcdc17-cf49-40e2-9b67-07a40eec0426.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -340,6 +356,14 @@
                 "id": "12f1c188-bbf2-4380-b132-a1662fb2b0e6",
                 "resourcePath": "scripts\\Template_Cast\\Template_Cast.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2d4ff550-20c3-4fc1-8a6f-7561b6b48186",
+            "Value": {
+                "id": "0a4a3b7d-bc4e-484b-a68b-985fe372e5dc",
+                "resourcePath": "views\\2d4ff550-20c3-4fc1-8a6f-7561b6b48186.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1732,6 +1756,14 @@
                 "id": "cab18613-ec78-4ac7-a5c9-a4712f82a198",
                 "resourcePath": "views\\d45029c3-e934-4c74-86bf-9da152b0f773.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d457cf2f-eed5-4ac2-bd4e-b71c0738e42f",
+            "Value": {
+                "id": "e92b53f4-44c5-418b-b77b-64b0f2734fab",
+                "resourcePath": "objects\\oTargetDummy\\oTargetDummy.yy",
+                "resourceType": "GMObject"
             }
         },
         {
