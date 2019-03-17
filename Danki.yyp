@@ -183,11 +183,27 @@
             }
         },
         {
+            "Key": "13e291a6-74e9-40ba-be90-24df67d4c379",
+            "Value": {
+                "id": "338010bb-2126-4569-8c61-0bc581231483",
+                "resourcePath": "scripts\\ds_Plan_Destroy\\ds_Plan_Destroy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "14077e11-df97-4f4f-aab0-8b79eed5037b",
             "Value": {
                 "id": "c121f483-9b12-4b77-a4f3-7963bfacc398",
                 "resourcePath": "scripts\\Pauseable_Setup\\Pauseable_Setup.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "163c22ec-8f72-4efc-b5fb-503b2674ed73",
+            "Value": {
+                "id": "278527e5-8c1f-4681-a451-0d584d316763",
+                "resourcePath": "views\\163c22ec-8f72-4efc-b5fb-503b2674ed73.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -371,6 +387,14 @@
             "Value": {
                 "id": "da9b9707-33af-4f66-9432-9a0e33e794ff",
                 "resourcePath": "scripts\\Depth_Setup\\Depth_Setup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2c77a88a-79e7-469f-9998-40283b22e8bd",
+            "Value": {
+                "id": "e56c66e2-9668-4834-8cf7-8f8ea8017dd3",
+                "resourcePath": "scripts\\ds_Plan_InstanceOf\\ds_Plan_InstanceOf.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -827,6 +851,14 @@
             "Value": {
                 "id": "b039e14e-bd61-4258-8bba-ba3dd2c20e0f",
                 "resourcePath": "scripts\\ChannelService_CANCEL_CHANNEL\\ChannelService_CANCEL_CHANNEL.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "610a29fc-cd86-4212-98c4-a969087b97f4",
+            "Value": {
+                "id": "6795ae6f-24b0-4c26-975b-beef7717b1b5",
+                "resourcePath": "scripts\\ds_Plan_Includes\\ds_Plan_Includes.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1423,6 +1455,14 @@
             }
         },
         {
+            "Key": "a4cf5dc7-8915-46cb-9dcb-bce8621b3e8d",
+            "Value": {
+                "id": "4665cdf9-40d0-4721-ba84-2694f1bad4fb",
+                "resourcePath": "scripts\\ds_Plan_New\\ds_Plan_New.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a5b3e778-ba20-47d9-b145-5ab21b589405",
             "Value": {
                 "id": "a1293167-dc77-46e7-bdf5-24ee6dbb9ea9",
@@ -1967,6 +2007,14 @@
             }
         },
         {
+            "Key": "ed10c7b2-478c-471a-ba67-d52d9efa0600",
+            "Value": {
+                "id": "1b7c5dcc-443c-4395-846a-64e664d88d24",
+                "resourcePath": "scripts\\ds_Plan_SetIntention\\ds_Plan_SetIntention.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ee2c50dd-58c8-4ebf-ba8f-b56cd287605d",
             "Value": {
                 "id": "249b3767-246a-4d74-bfd2-3f1f3b07a602",
@@ -2299,7 +2347,12 @@
         "0864c5b2-a188-4d7e-adca-97f06d5e0964",
         "74b05822-4ca1-4386-b4db-d95a47216db4",
         "5cf51ab3-14d4-4f24-baac-ed16e825cbac",
-        "7429a1db-a4c6-4500-b274-83f7028c225f"
+        "7429a1db-a4c6-4500-b274-83f7028c225f",
+        "a4cf5dc7-8915-46cb-9dcb-bce8621b3e8d",
+        "13e291a6-74e9-40ba-be90-24df67d4c379",
+        "610a29fc-cd86-4212-98c4-a969087b97f4",
+        "ed10c7b2-478c-471a-ba67-d52d9efa0600",
+        "2c77a88a-79e7-469f-9998-40283b22e8bd"
     ],
     "tutorial": ""
 }
