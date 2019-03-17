@@ -5,8 +5,9 @@
 var _enum_Action = argument[0];
 var _ds_Personality_personality = argument[1];
 
-if(!ds_exists(_any_input, ds_type_map)){
+if(!ds_Personality_InstanceOf(_ds_Personality_personality)){
+	ErrorHandler_Error(typeof(_ds_Personality_personality) + _ds_Personality_personality + " not a ds_Personality.");
 	return noone;	
-};
+}
 
 return _ds_Personality_personality[? _enum_Action];

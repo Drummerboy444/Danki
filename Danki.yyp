@@ -991,6 +991,14 @@
             }
         },
         {
+            "Key": "7429a1db-a4c6-4500-b274-83f7028c225f",
+            "Value": {
+                "id": "18c739b0-2529-4449-a2c0-7e1dcdbc889c",
+                "resourcePath": "scripts\\ds_Personality_InstanceOf\\ds_Personality_InstanceOf.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "74733f70-3701-44aa-a893-27f5971f44e2",
             "Value": {
                 "id": "fc7ef381-3adc-41b1-a3f6-0dd580f85c6b",
@@ -1191,6 +1199,14 @@
             }
         },
         {
+            "Key": "895b996a-bef5-49b9-9fdc-5d29e23f7ade",
+            "Value": {
+                "id": "fa3bdb8e-016d-4e93-8319-5b1387a9e2b7",
+                "resourcePath": "scripts\\AbilityCaster_EVADE_DEFAULT\\AbilityCaster_EVADE_DEFAULT.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "89b4d326-de81-4396-bd46-5af7eb7ef7eb",
             "Value": {
                 "id": "e284029e-708e-4898-8a84-dc1204109ce6",
@@ -1215,19 +1231,19 @@
             }
         },
         {
+            "Key": "8add84a1-29d3-4696-8455-962d678ed079",
+            "Value": {
+                "id": "e13a4791-8323-410f-9124-e46516886d10",
+                "resourcePath": "scripts\\AbilityCaster_CAST_DEFAULT\\AbilityCaster_CAST_DEFAULT.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8be3c514-640f-40e1-9c76-610645044d21",
             "Value": {
                 "id": "0c2f6d2e-e1e4-4288-863e-05ae6cc5d17e",
                 "resourcePath": "scripts\\Enemy_Setup\\Enemy_Setup.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "8cfe5cb2-6238-41a5-9c21-14afa67705b3",
-            "Value": {
-                "id": "f666801c-8cc4-4614-a048-e68268dd5bc8",
-                "resourcePath": "views\\8cfe5cb2-6238-41a5-9c21-14afa67705b3.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -1595,14 +1611,6 @@
             "Value": {
                 "id": "cfe07b1e-5b9a-400b-be70-995a62bd2080",
                 "resourcePath": "scripts\\ChannelScripts_GetCancelChannel\\ChannelScripts_GetCancelChannel.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "bb4f3d3e-0be1-441f-845e-5b4ffb2e786f",
-            "Value": {
-                "id": "b7ea48ae-fde7-4052-9590-96b327d65ec2",
-                "resourcePath": "scripts\\Mortal_RECEIVE_DAMAGE_DEFAULT\\Mortal_RECEIVE_DAMAGE_DEFAULT.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2071,6 +2079,14 @@
             }
         },
         {
+            "Key": "f6e4ba3f-4bf7-4cc5-8f21-548d58456241",
+            "Value": {
+                "id": "4a8db0b4-af1d-4276-b39f-a528546b0873",
+                "resourcePath": "scripts\\AbilityCaster_APPROACH_DEFAULT\\AbilityCaster_APPROACH_DEFAULT.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f73470aa-bba4-436b-92d3-d3d9d39b79fc",
             "Value": {
                 "id": "dd8fbe8a-4ead-4f35-b2a5-ec313bd22fcf",
@@ -2183,7 +2199,6 @@
         "f48e2262-356e-42ea-a531-73a8520effab",
         "98686718-de60-4009-8a1c-2944a2256b0b",
         "0db22e2e-3408-41f8-9260-9c6986ab5116",
-        "bb4f3d3e-0be1-441f-845e-5b4ffb2e786f",
         "ee8d00b1-d6fa-4dad-9ede-909ba88c75fb",
         "47c8485b-6ca0-49b9-9bbf-056f759c67b0",
         "e104fea5-507a-4831-8efb-84d2cf49c5cc",
@@ -2193,6 +2208,9 @@
         "02251f78-f573-46be-a826-66cdf21a45a2",
         "2efd68fd-1a45-44be-a364-2b033df4542b",
         "f1d71037-ea52-4622-9347-eaf4ae0ad92c",
+        "895b996a-bef5-49b9-9fdc-5d29e23f7ade",
+        "f6e4ba3f-4bf7-4cc5-8f21-548d58456241",
+        "8add84a1-29d3-4696-8455-962d678ed079",
         "31e5af31-f0e8-410f-8dd9-1606fb179c65",
         "89d392c5-25a1-456a-ba54-c00528827f41",
         "44bfa373-5427-4f7d-a7d7-af5e832ef401",
@@ -2280,7 +2298,8 @@
         "0f0d7f77-482e-497d-aa9b-4a3b60acc49c",
         "0864c5b2-a188-4d7e-adca-97f06d5e0964",
         "74b05822-4ca1-4386-b4db-d95a47216db4",
-        "5cf51ab3-14d4-4f24-baac-ed16e825cbac"
+        "5cf51ab3-14d4-4f24-baac-ed16e825cbac",
+        "7429a1db-a4c6-4500-b274-83f7028c225f"
     ],
     "tutorial": ""
 }
