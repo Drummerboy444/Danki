@@ -23,10 +23,3 @@ num_dashTimer = 0;
 num_dashLength = 6;
 num_slowTimer = 0;
 num_slowLength = 20;
-
-
-
-
-show_debug_message("-----------------");
-
-show_debug_message("-----------------");
