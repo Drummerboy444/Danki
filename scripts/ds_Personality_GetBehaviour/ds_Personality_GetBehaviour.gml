@@ -6,7 +6,7 @@ var _enum_Action = argument[0];
 var _ds_Personality_personality = argument[1];
 
 if(!ds_Personality_InstanceOf(_ds_Personality_personality)){
-	ErrorHandler_Error(typeof(_ds_Personality_personality) + _ds_Personality_personality + " not a ds_Personality.");
+	ErrorHandler_Error("Unable to get behaviour from argument of type " + typeof(_ds_Personality_personality));
 	return noone;	
 }
 
