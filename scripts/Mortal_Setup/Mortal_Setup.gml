@@ -1,15 +1,17 @@
 #region Doc
-/// @function Mortal_Setup(bool_hasOneShotService, bool_hasChannelService, map_baseStats)
+/// @function Mortal_Setup(bool_hasOneShotService, bool_hasChannelService, map_baseStats, scr_plan)
 /// @param {boolean} bool_hasOneShotService Whether the mortal object should have a one shot service.
 /// @param {boolean} bool_hasChannelService Whether the mortal object should have a channel service.
 /// @param {map} map_baseStats The immutable base stats of the mortal: map from stats to their values.
+/// @param {script} scr_plan The plan script for the mortal.
 #endregion
 var _bool_hasOneShotService = argument[0];
 var _bool_hasChannelService = argument[1];
 var _map_baseStats = argument[2];
+var _scr_plan = argument[3];
 
 
-AbilityCaster_Setup(_bool_hasOneShotService, _bool_hasChannelService, _map_baseStats);
+AbilityCaster_Setup(_bool_hasOneShotService, _bool_hasChannelService, _map_baseStats, _scr_plan);
 
 var _num_health = StatsManager_GetHealth(id);
 if (_num_health <= 0) {
