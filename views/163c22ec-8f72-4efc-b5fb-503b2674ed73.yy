@@ -11,7 +11,7 @@
         "2c77a88a-79e7-469f-9998-40283b22e8bd"
     ],
     "filterType": "GMScript",
-    "folderName": "ds_Plan",
+    "folderName": "ds_Agenda",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

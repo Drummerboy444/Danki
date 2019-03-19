@@ -186,7 +186,7 @@
             "Key": "13e291a6-74e9-40ba-be90-24df67d4c379",
             "Value": {
                 "id": "338010bb-2126-4569-8c61-0bc581231483",
-                "resourcePath": "scripts\\ds_Plan_Destroy\\ds_Plan_Destroy.yy",
+                "resourcePath": "scripts\\ds_Agenda_Destroy\\ds_Agenda_Destroy.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -394,7 +394,7 @@
             "Key": "2c77a88a-79e7-469f-9998-40283b22e8bd",
             "Value": {
                 "id": "e56c66e2-9668-4834-8cf7-8f8ea8017dd3",
-                "resourcePath": "scripts\\ds_Plan_InstanceOf\\ds_Plan_InstanceOf.yy",
+                "resourcePath": "scripts\\ds_Agenda_InstanceOf\\ds_Agenda_InstanceOf.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -858,7 +858,7 @@
             "Key": "610a29fc-cd86-4212-98c4-a969087b97f4",
             "Value": {
                 "id": "6795ae6f-24b0-4c26-975b-beef7717b1b5",
-                "resourcePath": "scripts\\ds_Plan_Includes\\ds_Plan_Includes.yy",
+                "resourcePath": "scripts\\ds_Agenda_Includes\\ds_Agenda_Includes.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1458,7 +1458,7 @@
             "Key": "a4cf5dc7-8915-46cb-9dcb-bce8621b3e8d",
             "Value": {
                 "id": "4665cdf9-40d0-4721-ba84-2694f1bad4fb",
-                "resourcePath": "scripts\\ds_Plan_New\\ds_Plan_New.yy",
+                "resourcePath": "scripts\\ds_Agenda_New\\ds_Agenda_New.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2010,7 +2010,7 @@
             "Key": "ed10c7b2-478c-471a-ba67-d52d9efa0600",
             "Value": {
                 "id": "1b7c5dcc-443c-4395-846a-64e664d88d24",
-                "resourcePath": "scripts\\ds_Plan_SetIntention\\ds_Plan_SetIntention.yy",
+                "resourcePath": "scripts\\ds_Agenda_SetIntention\\ds_Agenda_SetIntention.yy",
                 "resourceType": "GMScript"
             }
         },

@@ -1,8 +1,8 @@
 {
-    "id": "ed10c7b2-478c-471a-ba67-d52d9efa0600",
+    "id": "2c77a88a-79e7-469f-9998-40283b22e8bd",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "ds_Plan_SetIntention",
+    "name": "ds_Agenda_InstanceOf",
     "IsCompatibility": false,
     "IsDnD": false
 }
