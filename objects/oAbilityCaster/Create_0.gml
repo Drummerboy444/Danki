@@ -7,6 +7,8 @@ map_baseStats = StatsManager_GenerateEmptyStats();
 map_stats = StatsManager_GenerateEmptyStats();
 map_frameStats = StatsManager_GenerateEmptyStats();
 
+scr_plan = AbilityCaster_NO_OP_PLAN;
+
 // Effects buffer list has EffectData entries
 list_effectsBuffer = ds_list_create();
 // Active effects list has EffectData entries
