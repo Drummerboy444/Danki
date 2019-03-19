@@ -1,8 +1,8 @@
 {
-    "id": "e4df80b4-2d8f-456e-9db6-010a9d54671a",
+    "id": "e5ba95fc-dab1-4c7a-a7dc-3417becf8756",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "AbilityCaster_EVADE_DEFAULT",
+    "name": "AbilityCaster_ADVANCE_DEFAULT",
     "IsCompatibility": false,
     "IsDnD": false
 }
