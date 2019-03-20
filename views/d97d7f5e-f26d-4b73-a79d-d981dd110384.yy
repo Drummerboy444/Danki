@@ -5,7 +5,8 @@
     "name": "d97d7f5e-f26d-4b73-a79d-d981dd110384",
     "children": [
         "7174e75b-5c78-4858-b673-3788bf3a2348",
-        "f57806d8-c0b8-4bb9-89c3-64b2a7252cd7"
+        "f57806d8-c0b8-4bb9-89c3-64b2a7252cd7",
+        "9de546c0-c580-4e0a-a02e-c0ca82be9375"
     ],
     "filterType": "GMSprite",
     "folderName": "Depth",

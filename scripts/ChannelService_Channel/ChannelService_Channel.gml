@@ -16,6 +16,12 @@ var _enum_ability = argument[1];
 var _num_targetX = argument[2];
 var _num_targetY = argument[3];
 
+
+if (!Utility_InstanceOfObject(_id_channelService, oChannelService)) {
+	ErrorHandler_Error("Cannot channel ability as _id_channelService was not an instance of oChannelService");
+	return true;
+}
+
 with(_id_channelService){
 	
 	var _enum_abilityType = AbilityManager_GetAbilityType(_enum_ability);
