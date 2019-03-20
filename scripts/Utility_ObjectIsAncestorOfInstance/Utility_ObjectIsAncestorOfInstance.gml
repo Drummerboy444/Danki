@@ -11,5 +11,3 @@ var _id_instance = argument[1];
 var _obj_instanceObject = _id_instance.object_index;
 
 return object_is_ancestor(_obj_instanceObject, _obj_object);
-
-

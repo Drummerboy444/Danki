@@ -12,6 +12,12 @@ var _enum_ability = argument[1];
 var _num_targetX = argument[2];
 var _num_targetY = argument[3];
 
+
+if (!Utility_InstanceOfObject(_id_oneShotService, oOneShotService)) {
+	ErrorHandler_Error("Cannot cast ability as _id_oneShotService was not an instance of oOneShotService");
+	return false;
+}
+
 with(_id_oneShotService){
 	var _enum_abilityType = AbilityManager_GetAbilityType(_enum_ability);
 	if (_enum_abilityType != Enum_AbilityTypes.ONE_SHOT) {
@@ -26,7 +32,7 @@ with(_id_oneShotService){
 	if (!_id_ability) {
 		ErrorHandler_Error("Cast script did not return a value");
 		return false;
-	} else if (!Utility_ObjectIsAncestorOfInstance(oChannel, _id_ability)) {
+	} else if (!Utility_ObjectIsAncestorOfInstance(oOneShot, _id_ability)) {
 		ErrorHandler_Error("Cast script did not return an id of a one shot object");
 		return false;
 	}
