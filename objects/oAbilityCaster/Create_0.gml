@@ -8,6 +8,8 @@ map_stats = StatsManager_GenerateEmptyStats();
 map_frameStats = StatsManager_GenerateEmptyStats();
 
 scr_plan = AbilityCaster_NO_OP_PLAN;
+ds_Agenda_agenda = ds_Agenda_New();
+ds_Personality_personality = ds_Personality_CreateDefault();
 
 // Effects buffer list has EffectData entries
 list_effectsBuffer = ds_list_create();

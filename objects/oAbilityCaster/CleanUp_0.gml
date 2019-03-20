@@ -11,3 +11,5 @@ for (var i = 0; i < Enum_Effects.length; i++) {
 	ds_list_destroy(map_effectToBucket[? i]);
 }
 ds_map_destroy(map_effectToBucket);
+
+ds_Agenda_Destroy(ds_Agenda_agenda);
