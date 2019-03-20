@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "3f67f02e-23fb-4685-9580-0a1fcb91d37d",
+            "Value": {
+                "id": "43c38d75-ff70-4f4d-8988-d869e899403c",
+                "resourcePath": "views\\3f67f02e-23fb-4685-9580-0a1fcb91d37d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3fc43dcc-f9f8-4907-a2ba-72693b132108",
             "Value": {
                 "id": "a759467d-cb4f-48db-b1c7-40ebc2c71c9b",
@@ -2143,6 +2151,14 @@
             }
         },
         {
+            "Key": "f3eac8ff-e7b0-4a4d-902f-f29ffebb4b8b",
+            "Value": {
+                "id": "59cff589-afe4-454f-869f-b5e8064ba010",
+                "resourcePath": "scripts\\YellowCircle_Cast\\YellowCircle_Cast.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f4590818-8f1e-4fe5-beb3-880fc74af294",
             "Value": {
                 "id": "db1dbebe-f46e-47a3-96fc-05b02cd0fc6b",
@@ -2329,6 +2345,7 @@
         "89d392c5-25a1-456a-ba54-c00528827f41",
         "44bfa373-5427-4f7d-a7d7-af5e832ef401",
         "c9cde87c-30c8-4e4c-a5a3-ebcb349fbab8",
+        "f3eac8ff-e7b0-4a4d-902f-f29ffebb4b8b",
         "2cd3eea9-97b8-4d36-8d96-de802be574ad",
         "cceefd20-7a1a-44b4-a834-5a9fa2d8fcb9",
         "f883a509-b7c6-4809-a4ec-25f283397d08",
