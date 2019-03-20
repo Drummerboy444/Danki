@@ -1711,6 +1711,14 @@
             }
         },
         {
+            "Key": "be7f9b78-4966-4cf3-a7b3-f700c5373d02",
+            "Value": {
+                "id": "17b71a2b-3b41-431e-a521-63b9b9ad4ee8",
+                "resourcePath": "scripts\\AbilityCaster_NO_OP_PLAN\\AbilityCaster_NO_OP_PLAN.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bfb0e410-d019-4640-81b7-35c9572dac5d",
             "Value": {
                 "id": "51a6b937-7004-48ca-a1fb-9469d5743ffc",
@@ -2349,6 +2357,7 @@
         "e5ba95fc-dab1-4c7a-a7dc-3417becf8756",
         "a1ffc825-e717-4e03-976f-8d05fc7d23c2",
         "e4df80b4-2d8f-456e-9db6-010a9d54671a",
+        "be7f9b78-4966-4cf3-a7b3-f700c5373d02",
         "31e5af31-f0e8-410f-8dd9-1606fb179c65",
         "89d392c5-25a1-456a-ba54-c00528827f41",
         "44bfa373-5427-4f7d-a7d7-af5e832ef401",
