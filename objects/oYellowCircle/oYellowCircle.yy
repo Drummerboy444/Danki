@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "oYellowCircle",
     "eventList": [
-        
+        {
+            "id": "5d5e0114-56d3-49cd-90de-6a27b2f3d008",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "9ee57f53-5906-477e-86a6-5f61b0ce374c"
+        },
+        {
+            "id": "c9ad1869-9fc1-4cf4-8df1-e955562f0671",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "9ee57f53-5906-477e-86a6-5f61b0ce374c"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
