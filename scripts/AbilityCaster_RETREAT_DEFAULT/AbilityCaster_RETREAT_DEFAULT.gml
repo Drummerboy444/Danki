@@ -3,22 +3,22 @@
 #endregion
 
 
-if(target == noone){
+if(id_target == noone){
 	return
 }
 
 var _num_retreatDistance = 40;
 
 // Get displacement from target on both axes.
-var dispX = x - target.x;
-var dispY = y - target.y;
+var _num_dispX = x - id_target.x;
+var _num_dispY = y - id_target.y;
 
 // Calculate displacement from target.
-var disp = sqrt(sqr(dispX) + sqr(dispY));
+var _numdisp = sqrt(sqr(_num_dispX) + sqr(_num_dispY));
 
 // Add 20px in direction from target to self.
-var destX = x + _num_retreatDistance*dispX/disp;
-var destY = y + _num_retreatDistance*dispY/disp;
+var _num_destX = x + _num_retreatDistance*_num_dispX/_num_disp;
+var _num_destY = y + _num_retreatDistance*_num_dispY/_num_disp;
 
 // TODO: QueueMovement(self, destX, destY);
 
