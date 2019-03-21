@@ -17,8 +17,8 @@ var dispY = y - target.y;
 var disp = sqrt(sqr(dispX) + sqr(dispY));
 
 // Add 20px in direction from target to self.
-var destX = x + 40*dispX/disp;
-var destY = x + 40*dispY/disp;
+var destX = x + _num_retreatDistance*dispX/disp;
+var destY = y + _num_retreatDistance*dispY/disp;
 
 // TODO: QueueMovement(self, destX, destY);
 
