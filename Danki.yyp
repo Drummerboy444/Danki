@@ -1063,6 +1063,14 @@
             }
         },
         {
+            "Key": "7812c134-eecc-4498-b396-534f87a0d081",
+            "Value": {
+                "id": "1e605688-a57a-46d2-b6e9-c79709a83786",
+                "resourcePath": "scripts\\AbilityCaster_PLAN_TEST\\AbilityCaster_PLAN_TEST.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "79203823-47b0-4a20-b692-d005312e619a",
             "Value": {
                 "id": "4700889e-b3d9-4c62-84ed-0fed89399613",
@@ -2358,6 +2366,7 @@
         "a1ffc825-e717-4e03-976f-8d05fc7d23c2",
         "e4df80b4-2d8f-456e-9db6-010a9d54671a",
         "be7f9b78-4966-4cf3-a7b3-f700c5373d02",
+        "7812c134-eecc-4498-b396-534f87a0d081",
         "31e5af31-f0e8-410f-8dd9-1606fb179c65",
         "89d392c5-25a1-456a-ba54-c00528827f41",
         "44bfa373-5427-4f7d-a7d7-af5e832ef401",
