@@ -1,14 +1,14 @@
 #region Doc
-/// @function OneShotService_Cast(id_oneShotService, enum_ability, num_targetX, num_targetY)
+/// @function OneShotService_Cast(id_oneShotService, OneShot_oneShot, num_targetX, num_targetY)
 ///		
 /// @param   {id}      id_oneShotService The id of the one shot service to use.
-/// @param   {enum}    enum_ability      The ability to cast.
+/// @param   {OneShot}    OneShot_oneShot      The ability to cast.
 /// @param   {number}  num_targetX       The x target of the ability.
 /// @param   {number}  num_targetY       The y target of the ability.
 /// @returns {boolean} True if the ability was successfully  cast.
 #endregion
 var _id_oneShotService = argument[0];
-var _enum_ability = argument[1];
+var _OneShot_oneShot = argument[1];
 var _num_targetX = argument[2];
 var _num_targetY = argument[3];
 
@@ -19,13 +19,14 @@ if (!Utility_InstanceOfObject(_id_oneShotService, oOneShotService)) {
 }
 
 with(_id_oneShotService){
-	var _enum_abilityType = AbilityManager_GetAbilityType(_enum_ability);
-	if (_enum_abilityType != Enum_AbilityTypes.ONE_SHOT) {
-		ErrorHandler_Error("Cannot cast an ability whose type is not ONE_SHOT");
+	if (!OneShot_InstanceOf(_OneShot_oneShot)) {
+		ErrorHandler_Error("Cannot cast, input not a valid OneShot");
 		return false;
 	}
 
-	var _cast_script = AbilityManager_GetCastScript(_enum_ability);
+	var _cast_script = OneShotScripts_GetCastScript(
+		OneShot_GetOneShotScripts(_OneShot_oneShot)
+	);
 
 	var _id_ability = script_execute(_cast_script, id_owner, _num_targetX, _num_targetY);
 

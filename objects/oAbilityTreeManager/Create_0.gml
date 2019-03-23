@@ -8,14 +8,14 @@ id_abilityTree = noone; // Should call AbilityTree_Instantiate when we get rid o
 var treeMap = ds_map_create();
 var leftChild = ds_map_create();
 var leftChild2 = ds_map_create();
-ds_map_add(leftChild2, "ability", Enum_Abilities.SLASH);
+ds_map_add(leftChild2, "ability", oAbilityManager.Ability_slash);
 ds_map_add(leftChild2, "leftChild", noone);
 ds_map_add(leftChild2, "rightChild", noone);
-ds_map_add(leftChild, "ability", Enum_Abilities.SLASH);
+ds_map_add(leftChild, "ability", oAbilityManager.Ability_slash);
 ds_map_add(leftChild, "leftChild", leftChild2);
 ds_map_add(leftChild, "rightChild", noone);
 var rightChild = ds_map_create();
-ds_map_add(rightChild, "ability", Enum_Abilities.SHIELD_BASH);
+ds_map_add(rightChild, "ability", oAbilityManager.Ability_shieldBash);
 ds_map_add(rightChild, "leftChild", noone);
 ds_map_add(rightChild, "rightChild", noone);
 ds_map_add(treeMap, "leftChild", leftChild);
