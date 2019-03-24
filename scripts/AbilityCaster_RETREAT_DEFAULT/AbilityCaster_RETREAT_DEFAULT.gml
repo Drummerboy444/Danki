@@ -16,7 +16,7 @@ var _num_dispY = y - id_target.y;
 // Calculate displacement from target.
 var _numdisp = sqrt(sqr(_num_dispX) + sqr(_num_dispY));
 
-// Add 20px in direction from target to self.
+// Add 40px in direction from target to self.
 var _num_destX = x + _num_retreatDistance*_num_dispX/_num_disp;
 var _num_destY = y + _num_retreatDistance*_num_dispY/_num_disp;
 
