@@ -3,6 +3,8 @@ event_inherited();
 id_oneShotService = noone;
 id_channelService = noone;
 
+id_target = noone;
+
 map_baseStats = StatsManager_GenerateEmptyStats();
 map_stats = StatsManager_GenerateEmptyStats();
 map_frameStats = StatsManager_GenerateEmptyStats();
