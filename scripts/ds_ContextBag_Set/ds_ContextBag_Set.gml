@@ -17,7 +17,7 @@ if(!ds_ContextBag_InstanceOf(_ds_ContextBag_contextBag)){
 	return false;
 }
 
-if (!script_exists(_scr_script)) {
+if (!is_real(_scr_script) || !script_exists(_scr_script)) {
 	ErrorHandler_Error("Cannot add to context bag as script " + string(_scr_script) + " does not exist");
 	return false;
 }
