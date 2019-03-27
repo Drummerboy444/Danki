@@ -9,7 +9,7 @@
         "22c5c504-3f34-47dc-a414-ac54d2c809b0"
     ],
     "filterType": "GMScript",
-    "folderName": "One Shot",
+    "folderName": "ds_OneShot",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

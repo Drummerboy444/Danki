@@ -9,7 +9,7 @@
         "f072baca-088d-4dbc-af08-3e3a8de7d246"
     ],
     "filterType": "GMScript",
-    "folderName": "Ability objects",
+    "folderName": "Ability",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

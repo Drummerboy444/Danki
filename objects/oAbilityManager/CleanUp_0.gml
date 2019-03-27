@@ -1,0 +1,5 @@
+ds_Ability_Destroy(ds_Ability_slash);
+ds_Ability_Destroy(ds_Ability_shieldBash);
+ds_Ability_Destroy(ds_Ability_yellowCircle);
+
+ds_map_destroy(map_EnumToAbility);

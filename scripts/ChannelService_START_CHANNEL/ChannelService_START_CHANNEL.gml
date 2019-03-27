@@ -1,22 +1,22 @@
 #region Doc
-/// @function ChannelService_START_CHANNEL(Channel_channel, num_targetX, num_targetY) Sets up the relevant
+/// @function ChannelService_START_CHANNEL(enum_ability, num_targetX, num_targetY) Sets up the relevant
 ///		variables of the channel service depending on the ability to channel.
-/// @param {Channel}   Channel_channel      The ability to begin channelling.
+/// @param {enum}   enum_ability      The ability to begin channelling.
 /// @param {number} num_targetX       The x target of the channel.
 /// @param {number} num_targetY       The y target of the channel.
 #endregion
-var _Channel_channel = argument[0];
+var _enum_ability = argument[0];
 var _num_targetX = argument[1];
 var _num_targetY = argument[2];
 
-var ChannelScripts_scripts = Channel_GetChannelScripts(_Channel_channel);
+var _ds_Channel_channel = AbilityManager_GetAbilityFromEnum(_enum_ability);
 
-scr_startChannel = ChannelScripts_GetStartChannel(ChannelScripts_scripts);
-scr_channel = ChannelScripts_GetContinueChannel(ChannelScripts_scripts);
-scr_cancelChannel = ChannelScripts_GetCancelChannel(ChannelScripts_scripts);
-scr_finishChannel = ChannelScripts_GetFinishChannel(ChannelScripts_scripts);
+scr_startChannel = ds_Channel_GetStartChannelScript(_ds_Channel_channel);
+scr_channel = ds_Channel_GetContinueChannelScript(_ds_Channel_channel);
+scr_cancelChannel = ds_Channel_GetCancelChannelScript(_ds_Channel_channel);
+scr_finishChannel = ds_Channel_GetFinishChannelScript(_ds_Channel_channel);
 
-num_currentTimer = Channel_GetDuration(_Channel_channel);
+num_currentTimer = ds_Channel_GetDuration(_ds_Channel_channel);
 bool_channelling = true;
 bool_readyToChannel = false;
 
