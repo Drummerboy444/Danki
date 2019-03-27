@@ -2,7 +2,7 @@
 ///		all values on the agenda to write to to false and returns it. This is to represent a plan that
 ///		does nothing.
 /// @param {ds_Agenda} ds_Agenda_previousAgenda The previous agenda.
-/// @param {ds_Agenda} ds_Agenda_toWriteTo The previous agenda.
+/// @param {ds_Agenda} ds_Agenda_toWriteTo The blank agenda to write the new values to.
 /// @returns {ds_Agenda} An agenda with all intentions set to false.
 var _ds_Agenda_previousAgenda = argument[0];
 var _ds_Agenda_toWriteTo = argument[1];

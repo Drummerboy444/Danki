@@ -12,6 +12,7 @@ for (var i = 0; i < Enum_Effects.length; i++) {
 }
 ds_map_destroy(map_effectToBucket);
 
+ds_Agenda_Destroy(ds_Agenda_previousAgenda)
 ds_Agenda_Destroy(ds_Agenda_agenda);
 
 ds_Personality_Destroy(ds_Personality_personality);
