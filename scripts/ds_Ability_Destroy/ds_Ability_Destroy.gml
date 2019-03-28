@@ -4,7 +4,7 @@
 var _ds_Ability_ability = argument[0];
 
 if(!ds_Ability_INSTANCE_OF(_ds_Ability_ability)){
-	ErrorHandler_Error("Tried to get object from non ds_Ability structure.");
+	ErrorHandler_Error("Tried to destroy non ds_Ability structure.");
 	return false;
 }
 

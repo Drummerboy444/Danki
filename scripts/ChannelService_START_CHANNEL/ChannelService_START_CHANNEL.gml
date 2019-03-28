@@ -12,7 +12,7 @@ var _num_targetY = argument[2];
 var _ds_Channel_channel = AbilityManager_GetAbilityFromEnum(_enum_ability);
 
 scr_startChannel = ds_Channel_GetStartChannelScript(_ds_Channel_channel);
-scr_channel = ds_Channel_GetContinueChannelScript(_ds_Channel_channel);
+scr_continueChannel = ds_Channel_GetContinueChannelScript(_ds_Channel_channel);
 scr_cancelChannel = ds_Channel_GetCancelChannelScript(_ds_Channel_channel);
 scr_finishChannel = ds_Channel_GetFinishChannelScript(_ds_Channel_channel);
 

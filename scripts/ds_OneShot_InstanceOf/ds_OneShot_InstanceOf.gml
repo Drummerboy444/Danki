@@ -4,5 +4,7 @@
 var _any_data = argument[0];
 
 return 
-	ds_Ability_INSTANCE_OF(_any_data) &&
-	ds_Ability_GetType(_any_data) == Enum_AbilityTypes.ONE_SHOT;
+	ds_Ability_INSTANCE_OF(_any_data)
+	and ds_Ability_GetType(_any_data) == Enum_AbilityTypes.ONE_SHOT
+	and ds_map_exists(_any_data, "castScript")
+	and script_exists(ds_map_exists[? "castScript"]);

@@ -1,6 +1,6 @@
-/// @function AbilityManager_GetAbilityFromEnum(enum_Ability) Returns the ds_Ability of the ability enum.
-/// @param {enum} enum_Ability the ability enum.
+/// @function AbilityManager_GetAbilityFromEnum(enum_ability) Returns the ds_Ability of the ability enum.
+/// @param {enum} enum_ability the ability enum.
 /// @returns {ds_Ability} The ds_Ability
-var _enum_Ability = argument[0];
+var _enum_ability = argument[0];
 
-return oAbilityManager.map_EnumToAbility[? _enum_Ability];
+return oAbilityManager.map_EnumToAbility[? _enum_ability];

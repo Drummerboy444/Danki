@@ -4,7 +4,7 @@
 var _ds_Channel_channel = argument[0];
 
 if(!ds_Channel_InstanceOf(_ds_Channel_channel)){
-	ErrorHandler_FatalError("Tried to get type from non Channel structure.");
+	ErrorHandler_FatalError("Tried to get duration from non Channel structure.");
 }
 
 return _ds_Channel_channel[? "duration"];
