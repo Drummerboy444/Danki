@@ -4,7 +4,7 @@ event_inherited();
 id_ability = noone;
 
 scr_startChannel = noone;
-scr_channel = noone;
+scr_continueChannel = noone;
 scr_cancelChannel = noone;
 scr_finishChannel = noone;
 
