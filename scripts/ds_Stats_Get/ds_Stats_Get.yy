@@ -1,8 +1,8 @@
 {
-    "id": "304d5ba2-c0d7-4180-a3d9-331adf514530",
+    "id": "d054bc3b-96a3-4fc7-a057-7546a269f330",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "StatsManager_GetSpeed",
+    "name": "ds_Stats_Get",
     "IsCompatibility": false,
     "IsDnD": false
 }

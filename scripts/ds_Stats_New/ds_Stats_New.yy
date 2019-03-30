@@ -1,8 +1,8 @@
 {
-    "id": "52b6549c-63ee-406d-865b-d8b0053f1ddf",
+    "id": "d34901bf-03ae-49af-b820-71993cdbe80d",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "StatsManager_GenerateEmptyStats",
+    "name": "ds_Stats_New",
     "IsCompatibility": false,
     "IsDnD": false
 }
