@@ -6,7 +6,7 @@
 ///		script depending on what state of the channel we're in. This script returns false until the channel
 ///		has finished, then it returns true.
 /// @param   {id}      id_channelService The id of the channel service to use.
-/// @param   {enum}    enum_ability      The ability to channel.
+/// @param   {enum}	   enum_ability      The ability to channel.
 /// @param   {number}  num_targetX       The x target of the channel.
 /// @param   {number}  num_targetY       The y target of the channel.
 /// @returns {boolean} True if the channel has finished, otherwise false.
@@ -17,6 +17,8 @@ var _num_targetX = argument[2];
 var _num_targetY = argument[3];
 
 
+var _ds_Channel_channel = AbilityManager_GetAbilityFromEnum(_enum_ability);
+
 if (!Utility_InstanceOfObject(_id_channelService, oChannelService)) {
 	ErrorHandler_Error("Cannot channel ability as _id_channelService was not an instance of oChannelService");
 	return true;
@@ -24,13 +26,12 @@ if (!Utility_InstanceOfObject(_id_channelService, oChannelService)) {
 
 with(_id_channelService){
 	
-	var _enum_abilityType = AbilityManager_GetAbilityType(_enum_ability);
-	if (_enum_abilityType != Enum_AbilityTypes.CHANNEL) {
-		ErrorHandler_Error("Cannot channel an ability whose type is not CHANNEL");
+	if (!ds_Channel_InstanceOf(_ds_Channel_channel)) {
+		ErrorHandler_Error("Cannot channel input Channel type invalid");
 		return false;
 	}
 
-	_id_channeidlService.bool_attemptingToChannel = true;
+	bool_attemptingToChannel = true;
 
 	if (bool_readyToChannel) {
 		ChannelService_START_CHANNEL(_enum_ability, _num_targetX, _num_targetY);

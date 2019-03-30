@@ -9,12 +9,14 @@ var _enum_ability = argument[0];
 var _num_targetX = argument[1];
 var _num_targetY = argument[2];
 
-scr_startChannel = AbilityManager_GetStartChannelScript(_enum_ability);
-scr_channel = AbilityManager_GetChannelScript(_enum_ability);
-scr_cancelChannel = AbilityManager_GetCancelChannelScript(_enum_ability);
-scr_finishChannel = AbilityManager_GetFinishChannelScript(_enum_ability);
+var _ds_Channel_channel = AbilityManager_GetAbilityFromEnum(_enum_ability);
 
-num_currentTimer = AbilityManager_GetChannelLength(_enum_ability);
+scr_startChannel = ds_Channel_GetStartChannelScript(_ds_Channel_channel);
+scr_continueChannel = ds_Channel_GetContinueChannelScript(_ds_Channel_channel);
+scr_cancelChannel = ds_Channel_GetCancelChannelScript(_ds_Channel_channel);
+scr_finishChannel = ds_Channel_GetFinishChannelScript(_ds_Channel_channel);
+
+num_currentTimer = ds_Channel_GetDuration(_ds_Channel_channel);
 bool_channelling = true;
 bool_readyToChannel = false;
 

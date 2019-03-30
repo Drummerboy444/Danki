@@ -1,7 +1,8 @@
 enum Enum_Abilities {
 	SLASH,
 	SHIELD_BASH,
-	YELLOW_CIRCLE
+	YELLOW_CIRCLE,
+	length
 }
 
 enum Enum_AbilityTypes {
@@ -9,15 +10,11 @@ enum Enum_AbilityTypes {
 	CHANNEL
 }
 
-map_abilityToType = ds_map_create();
-map_abilityToType[? Enum_Abilities.SLASH] = Enum_AbilityTypes.ONE_SHOT;
-map_abilityToType[? Enum_Abilities.SHIELD_BASH] = Enum_AbilityTypes.ONE_SHOT;
-map_abilityToType[? Enum_Abilities.YELLOW_CIRCLE] = Enum_AbilityTypes.ONE_SHOT;
+ds_Ability_slash = ds_OneShot_New("Slash", oSlash, 20, true, Slash_Cast);
+ds_Ability_shieldBash = ds_OneShot_New("Shield bash", oShieldBash, 15, true, ShieldBash_Cast);
+ds_Ability_yellowCircle = ds_OneShot_New("Yellow circle", oYellowCircle, 100, true, YellowCircle_Cast);
 
-// Channel abilities map to ChannelScripts type, OneShot abilities map to OneShotScripts type
-map_abilityToScripts = ds_map_create();
-map_abilityToScripts[? Enum_Abilities.SLASH] = OneShotScripts_New(Slash_Cast);
-map_abilityToScripts[? Enum_Abilities.SHIELD_BASH] = OneShotScripts_New(ShieldBash_Cast);
-map_abilityToScripts[? Enum_Abilities.YELLOW_CIRCLE] = OneShotScripts_New(YellowCircle_Cast);
-
-map_channelToLength = ds_map_create();
+map_EnumToAbility = ds_map_create();
+map_EnumToAbility[? Enum_Abilities.SLASH] = ds_Ability_slash;
+map_EnumToAbility[? Enum_Abilities.SHIELD_BASH] = ds_Ability_shieldBash;
+map_EnumToAbility[? Enum_Abilities.YELLOW_CIRCLE] = ds_Ability_yellowCircle;

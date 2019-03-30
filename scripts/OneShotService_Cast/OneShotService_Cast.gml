@@ -13,20 +13,20 @@ var _num_targetX = argument[2];
 var _num_targetY = argument[3];
 
 
+var _ds_OneShot_oneShot = AbilityManager_GetAbilityFromEnum(_enum_ability);
+
 if (!Utility_InstanceOfObject(_id_oneShotService, oOneShotService)) {
 	ErrorHandler_Error("Cannot cast ability as _id_oneShotService was not an instance of oOneShotService");
 	return false;
 }
 
 with(_id_oneShotService){
-	var _enum_abilityType = AbilityManager_GetAbilityType(_enum_ability);
-	if (_enum_abilityType != Enum_AbilityTypes.ONE_SHOT) {
-		ErrorHandler_Error("Cannot cast an ability whose type is not ONE_SHOT");
+	if (!ds_OneShot_InstanceOf(_ds_OneShot_oneShot)) {
+		ErrorHandler_Error("Cannot cast, input not a valid OneShot");
 		return false;
 	}
 
-	var _cast_script = AbilityManager_GetCastScript(_enum_ability);
-
+	var _cast_script = ds_OneShot_GetCastScript(_ds_OneShot_oneShot)
 	var _id_ability = script_execute(_cast_script, id_owner, _num_targetX, _num_targetY);
 
 	if (!_id_ability) {
