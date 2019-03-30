@@ -16,7 +16,6 @@ var _enum_ability = argument[1];
 var _num_targetX = argument[2];
 var _num_targetY = argument[3];
 
-
 var _ds_Channel_channel = AbilityManager_GetAbilityFromEnum(_enum_ability);
 
 if (!Utility_InstanceOfObject(_id_channelService, oChannelService)) {
@@ -25,6 +24,8 @@ if (!Utility_InstanceOfObject(_id_channelService, oChannelService)) {
 }
 
 with(_id_channelService){
+	num_targetX = _num_targetX;
+	num_targetY = _num_targetY;
 	
 	if (!ds_Channel_InstanceOf(_ds_Channel_channel)) {
 		ErrorHandler_Error("Cannot channel input Channel type invalid");
@@ -34,7 +35,7 @@ with(_id_channelService){
 	bool_attemptingToChannel = true;
 
 	if (bool_readyToChannel) {
-		ChannelService_START_CHANNEL(_enum_ability, _num_targetX, _num_targetY);
+		ChannelService_START_CHANNEL(_enum_ability, num_targetX, num_targetY);
 		return false;
 	}
 	
@@ -42,13 +43,13 @@ with(_id_channelService){
 
 	if (num_currentTimer <= 0) {
 		if (bool_channelling) {
-			ChannelService_FINISH_CHANNEL(_num_targetX, _num_targetY);
+			ChannelService_FINISH_CHANNEL(num_targetX, num_targetY);
 		}
 		return true; // This goes outside the other if statement so that we continue to return true
 		             // even after the channel has finished
 	}
 
-	ChannelService_CONTINUE_CHANNEL(_num_targetX, _num_targetY);
+	ChannelService_CONTINUE_CHANNEL(num_targetX, num_targetY);
 
 	return false;
 	
