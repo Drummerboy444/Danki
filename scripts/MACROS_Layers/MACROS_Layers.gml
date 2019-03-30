@@ -1,2 +1,2 @@
-#macro ABILITIES "Abilities"
-#macro INSTANCES "Instances"
+#macro LAYERS_ABILITIES "Abilities"
+#macro LAYERS_INSTANCES "Instances"
