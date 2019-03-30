@@ -1,21 +1,21 @@
 #region Doc
-/// @function Mortal_Setup(bool_hasOneShotService, bool_hasChannelService, map_baseStats, scr_plan, num_aggroRange)
+/// @function Mortal_Setup(bool_hasOneShotService, bool_hasChannelService, ds_Stats_baseStats, scr_plan, num_aggroRange)
 /// @param {boolean} bool_hasOneShotService Whether the mortal object should have a one shot service.
 /// @param {boolean} bool_hasChannelService Whether the mortal object should have a channel service.
-/// @param {map} map_baseStats The immutable base stats of the mortal: map from stats to their values.
+/// @param {ds_Stats} ds_Stats_baseStats The immutable base stats of the mortal.
 /// @param {script} scr_plan The plan script for the mortal.
 /// @param {number} num_aggroRange The aggro range of the mortal.
 #endregion
 var _bool_hasOneShotService = argument[0];
 var _bool_hasChannelService = argument[1];
-var _map_baseStats = argument[2];
+var _ds_Stats_baseStats = argument[2];
 var _scr_plan = argument[3];
 var _num_aggroRange = argument[4];
 
 
-AbilityCaster_Setup(_bool_hasOneShotService, _bool_hasChannelService, _map_baseStats, _scr_plan, _num_aggroRange);
+AbilityCaster_Setup(_bool_hasOneShotService, _bool_hasChannelService, _ds_Stats_baseStats, _scr_plan, _num_aggroRange);
 
-var _num_health = StatsManager_GetHealth(id);
+var _num_health = ds_Stats_Get(ds_Stats_frameStats, Enum_Stats.HEALTH);
 if (_num_health <= 0) {
 	var _str_healthAsString = string(_num_health);
 	ErrorHandler_Error("Attempting to instantiate an oMortal with health <= 0, value was: " + _str_healthAsString);

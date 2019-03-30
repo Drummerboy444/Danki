@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "132828fe-a67b-4e46-8a68-5d1164da6959",
+            "Value": {
+                "id": "9c3e7bdd-1352-4dac-903f-d9bc17975e29",
+                "resourcePath": "scripts\\ds_Stats_InstanceOf\\ds_Stats_InstanceOf.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "13779bba-dc28-47eb-ad86-e020f7415736",
             "Value": {
                 "id": "9e7f0686-c869-46ea-b868-416465924fc0",
@@ -455,6 +463,14 @@
             }
         },
         {
+            "Key": "2bd98004-1485-4879-952b-3c4485486a35",
+            "Value": {
+                "id": "d0145322-4419-4431-8029-ca302bcd1dd0",
+                "resourcePath": "scripts\\ds_Stats_Destroy\\ds_Stats_Destroy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2c77a88a-79e7-469f-9998-40283b22e8bd",
             "Value": {
                 "id": "e56c66e2-9668-4834-8cf7-8f8ea8017dd3",
@@ -491,14 +507,6 @@
             "Value": {
                 "id": "59ffb55e-92b0-4d8d-a343-b63a7dd87c5b",
                 "resourcePath": "scripts\\AbilityTree_RECURSIVELY_DELETE\\AbilityTree_RECURSIVELY_DELETE.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "304d5ba2-c0d7-4180-a3d9-331adf514530",
-            "Value": {
-                "id": "7015d5c7-52ab-4a22-8009-93512dd6e0a0",
-                "resourcePath": "scripts\\StatsManager_GetSpeed\\StatsManager_GetSpeed.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -815,19 +823,19 @@
             }
         },
         {
+            "Key": "4fe91f54-56dd-4aa1-8a98-d1390d94407b",
+            "Value": {
+                "id": "3d52684a-d506-4cb4-bcdc-68210a9ed13d",
+                "resourcePath": "scripts\\ds_Stats_Set\\ds_Stats_Set.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5264e2e5-92cb-4340-997d-ceaff09a3304",
             "Value": {
                 "id": "fa134820-7bc6-43c6-b6e8-607bbd89505b",
                 "resourcePath": "views\\5264e2e5-92cb-4340-997d-ceaff09a3304.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "52b6549c-63ee-406d-865b-d8b0053f1ddf",
-            "Value": {
-                "id": "2497a40b-37c2-478b-8bea-bd9eda168527",
-                "resourcePath": "scripts\\StatsManager_GenerateEmptyStats\\StatsManager_GenerateEmptyStats.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -1719,14 +1727,6 @@
             }
         },
         {
-            "Key": "af637d30-6ad9-4979-aae2-61e56fddee88",
-            "Value": {
-                "id": "48f3ec93-2830-4358-b2bf-78f4de47bf54",
-                "resourcePath": "scripts\\StatsManager_GetHealth\\StatsManager_GetHealth.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "b117c1a9-fe0d-4204-b9f8-17b1ed1f8c66",
             "Value": {
                 "id": "47b93417-6890-4ddc-8bf0-81766851e72e",
@@ -1804,6 +1804,14 @@
                 "id": "a9476753-070e-4da6-9582-aa1d73869171",
                 "resourcePath": "scripts\\InputKey_GetInputDevice\\InputKey_GetInputDevice.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b8ebdd09-7796-485c-a6a0-f2054707c5d6",
+            "Value": {
+                "id": "10037372-3d67-4dfe-b540-68e3ac32f63e",
+                "resourcePath": "views\\b8ebdd09-7796-485c-a6a0-f2054707c5d6.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2039,6 +2047,14 @@
             }
         },
         {
+            "Key": "d054bc3b-96a3-4fc7-a057-7546a269f330",
+            "Value": {
+                "id": "0a40cd4b-c768-4ceb-839f-9baa8a455e75",
+                "resourcePath": "scripts\\ds_Stats_Get\\ds_Stats_Get.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d1afe542-e1b9-47e8-8a18-068a0e0239a0",
             "Value": {
                 "id": "882db37c-267a-48b1-9a76-e96259b0f2d4",
@@ -2052,6 +2068,14 @@
                 "id": "52e6810e-3243-49a0-8d84-0e34f1f89d04",
                 "resourcePath": "views\\d341ffc1-af0d-45d1-8d52-f084eac5fd95.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d34901bf-03ae-49af-b820-71993cdbe80d",
+            "Value": {
+                "id": "6e8d35c5-482c-464d-b619-d5b861d10971",
+                "resourcePath": "scripts\\ds_Stats_New\\ds_Stats_New.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2572,9 +2596,6 @@
         "4e6e8b48-5325-4f72-8752-7e28b46e6b28",
         "fa26f447-b264-47d5-9e60-33fa72da4a67",
         "093139d9-83f0-4f70-9b88-7ad5f9dec689",
-        "52b6549c-63ee-406d-865b-d8b0053f1ddf",
-        "304d5ba2-c0d7-4180-a3d9-331adf514530",
-        "af637d30-6ad9-4979-aae2-61e56fddee88",
         "1dd89395-6479-45c8-af27-837abb0ca326",
         "8acafac4-1b22-476d-ab32-d9fe1ee53540",
         "3063df91-d5ae-427d-a56f-0ff0435078c9",
@@ -2627,7 +2648,12 @@
         "1ab20fcc-ea7d-436a-b3a9-e327020f2991",
         "258a2823-8687-4b52-9afc-7b861adc82dc",
         "f3fbc6f8-529d-4327-aff7-4ed6d4674aa2",
-        "1f57a265-6be6-4d18-8fc5-275d96224432"
+        "1f57a265-6be6-4d18-8fc5-275d96224432",
+        "d34901bf-03ae-49af-b820-71993cdbe80d",
+        "2bd98004-1485-4879-952b-3c4485486a35",
+        "d054bc3b-96a3-4fc7-a057-7546a269f330",
+        "4fe91f54-56dd-4aa1-8a98-d1390d94407b",
+        "132828fe-a67b-4e46-8a68-5d1164da6959"
     ],
     "tutorial": ""
 }

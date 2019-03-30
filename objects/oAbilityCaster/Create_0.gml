@@ -5,9 +5,9 @@ id_channelService = noone;
 
 id_target = noone;
 
-map_baseStats = StatsManager_GenerateEmptyStats();
-map_stats = StatsManager_GenerateEmptyStats();
-map_frameStats = StatsManager_GenerateEmptyStats();
+ds_Stats_baseStats = ds_Stats_New();
+ds_Stats_stats = ds_Stats_New();
+ds_Stats_frameStats = ds_Stats_New();
 
 scr_plan = AbilityCaster_NO_OP_PLAN;
 ds_Agenda_previousAgenda = ds_Agenda_New();

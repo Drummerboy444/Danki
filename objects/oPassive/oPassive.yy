@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "oPassive",
     "eventList": [
-        {
-            "id": "18fb5c79-d16c-4825-83f2-e3ae0fa6d4a6",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "58e790bd-2b90-4772-b07e-de77e27f23ad"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
