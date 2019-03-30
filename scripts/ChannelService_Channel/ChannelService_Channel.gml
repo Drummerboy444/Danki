@@ -24,6 +24,7 @@ if (!Utility_InstanceOfObject(_id_channelService, oChannelService)) {
 }
 
 with(_id_channelService){
+	
 	num_targetX = _num_targetX;
 	num_targetY = _num_targetY;
 	
@@ -35,7 +36,7 @@ with(_id_channelService){
 	bool_attemptingToChannel = true;
 
 	if (bool_readyToChannel) {
-		ChannelService_START_CHANNEL(_enum_ability, num_targetX, num_targetY);
+		ChannelService_START_CHANNEL(_enum_ability);
 		return false;
 	}
 	
@@ -43,13 +44,13 @@ with(_id_channelService){
 
 	if (num_currentTimer <= 0) {
 		if (bool_channelling) {
-			ChannelService_FINISH_CHANNEL(num_targetX, num_targetY);
+			ChannelService_FINISH_CHANNEL();
 		}
 		return true; // This goes outside the other if statement so that we continue to return true
 		             // even after the channel has finished
 	}
 
-	ChannelService_CONTINUE_CHANNEL(num_targetX, num_targetY);
+	ChannelService_CONTINUE_CHANNEL();
 
 	return false;
 	

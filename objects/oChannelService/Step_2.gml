@@ -1,7 +1,7 @@
 if (!bool_attemptingToChannel) {
 	bool_readyToChannel = true;
 	if (bool_channelling) {
-		ChannelService_CANCEL_CHANNEL(num_targetX, num_targetY);
+		ChannelService_CANCEL_CHANNEL();
 	}
 }
 
