@@ -13,7 +13,7 @@ var _scr_plan = argument[3];
 
 AbilityCaster_Setup(_bool_hasOneShotService, _bool_hasChannelService, _ds_Stats_baseStats, _scr_plan);
 
-var _num_health = ds_Stats_Get(ds_Stats_frameStats, Enum_Stats.SPEED);
+var _num_health = ds_Stats_Get(ds_Stats_frameStats, Enum_Stats.HEALTH);
 if (_num_health <= 0) {
 	var _str_healthAsString = string(_num_health);
 	ErrorHandler_Error("Attempting to instantiate an oMortal with health <= 0, value was: " + _str_healthAsString);
