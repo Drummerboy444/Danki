@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d",
+            "Value": {
+                "id": "67867885-fa62-480e-b853-52931c479a69",
+                "resourcePath": "scripts\\MACROS_ds_Ability\\MACROS_ds_Ability.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1278af16-60a2-4687-a3a1-0fbf6f9cb360",
             "Value": {
                 "id": "c535490d-67c1-460b-ae97-43279758b0bb",
@@ -1279,6 +1287,14 @@
             }
         },
         {
+            "Key": "7ed8b9ea-6716-4370-968d-708a0d022ced",
+            "Value": {
+                "id": "a66c77fd-6124-4dcf-961e-21ebd518b4b8",
+                "resourcePath": "scripts\\MACROS_Layers\\MACROS_Layers.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7f28c208-e256-44b2-81a7-6466b3c012c6",
             "Value": {
                 "id": "d0989820-54ac-46ec-90f7-419576e9d60e",
@@ -1927,6 +1943,14 @@
             }
         },
         {
+            "Key": "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
+            "Value": {
+                "id": "ae1604ea-8140-4af3-aa50-1e2fe710d8f6",
+                "resourcePath": "scripts\\MACROS_General\\MACROS_General.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c5d79dc4-0153-4720-b653-64ffd6bfdfc1",
             "Value": {
                 "id": "d543d1ff-413b-49b5-ad27-b63cb807e361",
@@ -2503,6 +2527,14 @@
             }
         },
         {
+            "Key": "fc127a8e-fa12-4719-b0e4-68ea6f0dede6",
+            "Value": {
+                "id": "03b0f2f6-d4c3-4b11-b9be-150ed98068de",
+                "resourcePath": "views\\fc127a8e-fa12-4719-b0e4-68ea6f0dede6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "fd3511ad-8e22-4375-9cf1-c6edefc5b666",
             "Value": {
                 "id": "c8c53684-d883-4157-8cab-6fb8d5b855be",
@@ -2653,7 +2685,10 @@
         "2bd98004-1485-4879-952b-3c4485486a35",
         "d054bc3b-96a3-4fc7-a057-7546a269f330",
         "4fe91f54-56dd-4aa1-8a98-d1390d94407b",
-        "132828fe-a67b-4e46-8a68-5d1164da6959"
+        "132828fe-a67b-4e46-8a68-5d1164da6959",
+        "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
+        "7ed8b9ea-6716-4370-968d-708a0d022ced",
+        "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d"
     ],
     "tutorial": ""
 }

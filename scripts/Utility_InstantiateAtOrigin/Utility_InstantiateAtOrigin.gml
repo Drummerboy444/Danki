@@ -6,4 +6,4 @@
 var _obj_toInstantiate = argument[0];
 
 
-return instance_create_layer(0, 0, "Instances", _obj_toInstantiate);
+return instance_create_layer(0, 0, INSTANCES, _obj_toInstantiate);

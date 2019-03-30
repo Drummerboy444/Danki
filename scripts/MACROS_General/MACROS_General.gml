@@ -1,0 +1,1 @@
+#macro GLOBAL_COOLDOWN 100

@@ -7,4 +7,4 @@ if(!ds_Ability_INSTANCE_OF(_ds_Ability_ability)){
 	ErrorHandler_FatalError("Tried to get type from non Ability structure.");
 }
 
-return _ds_Ability_ability[? "type"];
+return _ds_Ability_ability[? DS_ABILITY_TYPE];

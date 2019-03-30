@@ -7,4 +7,4 @@ if(!ds_Channel_InstanceOf(_ds_Channel_channel)){
 	ErrorHandler_FatalError("Tried to get the continue channel script for a non ds_Channel structure.");
 }
 
-return _ds_Channel_channel[? "continueChannelScript"];
+return _ds_Channel_channel[? DS_CHANNEL_CONTINUE_CHANNEL_SCRIPT];

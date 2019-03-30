@@ -6,5 +6,5 @@ var _any_data = argument[0];
 return 
 	ds_Ability_INSTANCE_OF(_any_data)
 	and ds_Ability_GetType(_any_data) == Enum_AbilityTypes.ONE_SHOT
-	and ds_map_exists(_any_data, "castScript")
-	and script_exists(_any_data[? "castScript"]);
+	and ds_map_exists(_any_data, DS_ONE_SHOT_CAST_SCRIPT)
+	and script_exists(_any_data[? DS_ONE_SHOT_CAST_SCRIPT]);

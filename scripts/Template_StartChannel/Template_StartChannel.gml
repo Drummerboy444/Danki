@@ -11,6 +11,6 @@ var _num_targetX = argument[1];
 var _num_targetY = argument[2];
 
 // Note: we obviously won't want to return a generic abilit like this.
-var ability = instance_create_layer(0,0,"Instances",oAbility);
+var ability = instance_create_layer(0, 0, ABILITIES, oAbility);
 
 return ability;
