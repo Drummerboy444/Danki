@@ -1,5 +1,5 @@
 // Reset frame stats to stats
-ds_map_copy(map_frameStats, map_stats);
+ds_map_copy(ds_Stats_frameStats, ds_Stats_stats);
 
 // Tick down effects, remove if expired
 AbilityCaster_TICK_EFFECTS();

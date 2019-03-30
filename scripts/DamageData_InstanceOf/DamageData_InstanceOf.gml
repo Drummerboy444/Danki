@@ -7,5 +7,5 @@ return
 	is_array(_any_data) &&
 	array_length_1d(_any_data) == 2 &&
 	is_real(_any_data[0]) &&
-	_any_data[0] < ENUM_DamageTypes.length &&
+	_any_data[0] < Enum_DamageTypes.length &&
 	is_real(_any_data[1]);

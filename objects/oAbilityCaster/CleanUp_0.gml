@@ -4,8 +4,9 @@ instance_destroy(id_channelService);
 ds_list_destroy(list_effectsBuffer);
 ds_list_destroy(list_activeEffects);
 
-ds_map_destroy(map_stats);
-ds_map_destroy(map_frameStats);
+ds_Stats_Destroy(ds_Stats_baseStats);
+ds_Stats_Destroy(ds_Stats_stats);
+ds_Stats_Destroy(ds_Stats_frameStats);
 
 for (var i = 0; i < Enum_Effects.length; i++) {
 	ds_list_destroy(map_effectToBucket[? i]);
