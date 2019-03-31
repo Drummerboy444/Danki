@@ -7,4 +7,4 @@ if(!ds_Channel_InstanceOf(_ds_Channel_channel)){
 	ErrorHandler_FatalError("Tried to get the finish channel script for a non Channel structure.");
 }
 
-return _ds_Channel_channel[? "finishChannelScript"];
+return _ds_Channel_channel[? DS_CHANNEL_FINISH_CHANNEL_SCRIPT];

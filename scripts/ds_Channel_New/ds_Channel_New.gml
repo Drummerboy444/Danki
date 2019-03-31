@@ -29,10 +29,10 @@ var _ds_Channel_channel = ds_Ability_NEW(
 	_num_range,
 	_bool_offensive);
 	
-_ds_Channel_channel[? "duration"] = _num_duration;
-_ds_Channel_channel[? "startChannelScript"] = _scr_startChannel;
-_ds_Channel_channel[? "continueChannelScript"] = _scr_continueChannel;
-_ds_Channel_channel[? "cancelChannelScript"] = _scr_cancelChannel;
-_ds_Channel_channel[? "finishChannelScript"] = _scr_finishChannel;
+_ds_Channel_channel[? DS_CHANNEL_DURATION] = _num_duration;
+_ds_Channel_channel[? DS_CHANNEL_START_CHANNEL_SCRIPT] = _scr_startChannel;
+_ds_Channel_channel[? DS_CHANNEL_CONTINUE_CHANNEL_SCRIPT] = _scr_continueChannel;
+_ds_Channel_channel[? DS_CHANNEL_CANCEL_CHANNEL_SCRIPT] = _scr_cancelChannel;
+_ds_Channel_channel[? DS_CHANNEL_FINISH_CHANNEL_SCRIPT] = _scr_finishChannel;
 
 return _ds_Channel_channel;

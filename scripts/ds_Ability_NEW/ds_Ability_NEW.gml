@@ -13,10 +13,10 @@ var _bool_offensive = argument[4];
 
 var _ds_Ability_ability = ds_map_create();
 
-_ds_Ability_ability[? "name"] = _string_name;
-_ds_Ability_ability[? "ability"] = _obj_ability;
-_ds_Ability_ability[? "type"] = _enum_type;
-_ds_Ability_ability[? "range"] = _num_range;
-_ds_Ability_ability[? "offensive"] = _bool_offensive;
+_ds_Ability_ability[? DS_ABILITY_NAME] = _string_name;
+_ds_Ability_ability[? DS_ABILITY_ABILITY] = _obj_ability;
+_ds_Ability_ability[? DS_ABILITY_TYPE] = _enum_type;
+_ds_Ability_ability[? DS_ABILITY_RANGE] = _num_range;
+_ds_Ability_ability[? DS_ABILITY_OFFENSIVE] = _bool_offensive;
 
 return _ds_Ability_ability;

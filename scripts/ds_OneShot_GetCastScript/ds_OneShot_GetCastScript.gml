@@ -7,4 +7,4 @@ if(!ds_OneShot_InstanceOf(_ds_OneShot_oneShot)){
 	ErrorHandler_FatalError("Tried to get cast script from non OneShot structure.");
 }
 
-return _ds_OneShot_oneShot[? "castScript"];
+return _ds_OneShot_oneShot[? DS_ONE_SHOT_CAST_SCRIPT];

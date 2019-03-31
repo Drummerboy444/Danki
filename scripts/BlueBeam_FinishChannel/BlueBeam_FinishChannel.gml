@@ -11,6 +11,6 @@ var _num_targetX = argument[1];
 var _num_targetY = argument[2];
 var _id_blueBeam = argument[3];
 
-instance_create_layer(_num_targetX, _num_targetY, "Abilities", oBlueBeamExplosion);
+instance_create_layer(_num_targetX, _num_targetY, LAYERS_ABILITIES, oBlueBeamExplosion);
 
 instance_destroy(_id_blueBeam);

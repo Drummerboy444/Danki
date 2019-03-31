@@ -10,8 +10,8 @@ var _id_caster = argument[0];
 var _num_targetX = argument[1];
 var _num_targetY = argument[2];
 
-var id_blueBeam = instance_create_layer(_id_caster.x, _id_caster.y, "Abilities", oBlueBeam);
-id_blueBeam.num_targetX = _num_targetX;
-id_blueBeam.num_targetY = _num_targetY;
+var _id_blueBeam = instance_create_layer(_id_caster.x, _id_caster.y, LAYERS_ABILITIES, oBlueBeam);
+_id_blueBeam.num_targetX = _num_targetX;
+_id_blueBeam.num_targetY = _num_targetY;
 
-return id_blueBeam;
+return _id_blueBeam;

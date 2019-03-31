@@ -6,12 +6,13 @@ var _any_data = argument[0];
 return 
 	ds_Ability_INSTANCE_OF(_any_data) &&
 	ds_Ability_GetType(_any_data) == Enum_AbilityTypes.CHANNEL
-	and ds_map_exists(_any_data, "startChannelScript")
-		and script_exists(_any_data[? "startChannelScript"])
-	and ds_map_exists(_any_data, "continueChannelScript")
-		and script_exists(_any_data[? "continueChannelScript"])
-	and ds_map_exists(_any_data, "cancelChannelScript")
-		and script_exists(_any_data[? "cancelChannelScript"])
-	and ds_map_exists(_any_data, "finishChannelScript")
-		and script_exists(_any_data[? "finishChannelScript"])
-	and ds_map_exists(_any_data, "duration");
+	and ds_map_exists(_any_data, DS_CHANNEL_START_CHANNEL_SCRIPT)
+		and script_exists(_any_data[? DS_CHANNEL_START_CHANNEL_SCRIPT])
+	and ds_map_exists(_any_data, DS_CHANNEL_CONTINUE_CHANNEL_SCRIPT)
+		and script_exists(_any_data[? DS_CHANNEL_CONTINUE_CHANNEL_SCRIPT])
+	and ds_map_exists(_any_data, DS_CHANNEL_CANCEL_CHANNEL_SCRIPT)
+		and script_exists(_any_data[? DS_CHANNEL_CANCEL_CHANNEL_SCRIPT])
+	and ds_map_exists(_any_data, DS_CHANNEL_FINISH_CHANNEL_SCRIPT)
+		and script_exists(_any_data[? DS_CHANNEL_FINISH_CHANNEL_SCRIPT])
+	and ds_map_exists(_any_data, DS_CHANNEL_DURATION)
+		and is_real(_any_data[? DS_CHANNEL_DURATION]);

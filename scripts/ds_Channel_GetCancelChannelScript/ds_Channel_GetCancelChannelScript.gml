@@ -7,4 +7,4 @@ if(!ds_Channel_InstanceOf(_ds_Channel_channel)){
 	ErrorHandler_FatalError("Tried to get the cancel channel script for a non ds_Channel structure.");
 }
 
-return _ds_Channel_channel[? "cancelChannelScript"];
+return _ds_Channel_channel[? DS_CHANNEL_CANCEL_CHANNEL_SCRIPT];

@@ -7,4 +7,4 @@ if(!ds_Ability_INSTANCE_OF(_ds_Ability_ability)){
 	ErrorHandler_FatalError("Tried to get object from non Ability structure.");
 }
 
-return _ds_Ability_ability[? "ability"];
+return _ds_Ability_ability[? DS_ABILITY_ABILITY];
