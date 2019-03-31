@@ -2335,6 +2335,14 @@
             }
         },
         {
+            "Key": "defd0e62-22de-4b82-bf0d-c605c40a0b71",
+            "Value": {
+                "id": "ad134f18-bce2-42d7-971c-45ecf5724335",
+                "resourcePath": "views\\defd0e62-22de-4b82-bf0d-c605c40a0b71.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e051c39b-88a2-42ed-8d8f-25ee1f158b95",
             "Value": {
                 "id": "5b7fcf19-6931-4ed9-88c5-7a6272d3eeab",
@@ -2498,7 +2506,7 @@
             "Key": "f1f65b3d-9c86-4053-af3d-37dbf2a687af",
             "Value": {
                 "id": "fa9e62b6-714b-4ce9-853c-3156261dfbd9",
-                "resourcePath": "scripts\\AbilityCaster_ResetGlobalCooldown\\AbilityCaster_ResetGlobalCooldown.yy",
+                "resourcePath": "scripts\\AbilityCaster_StartGlobalCooldown\\AbilityCaster_StartGlobalCooldown.yy",
                 "resourceType": "GMScript"
             }
         },
