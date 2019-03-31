@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "070d4877-df44-4ec0-84a4-3040dc5940ad",
+            "Value": {
+                "id": "d71b8525-c571-4f17-b2ef-a634ff800159",
+                "resourcePath": "scripts\\BlueBeam_ContinueChannel\\BlueBeam_ContinueChannel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "071eac61-c948-4085-87a8-2e14ef99a4cd",
             "Value": {
                 "id": "354f78c5-6b82-4f7a-862f-2ff0b75bcc65",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "15e078d9-6b31-4b59-8415-3deb80686b21",
+            "Value": {
+                "id": "2d3b2246-f026-4f01-b28b-d942fc13b8f4",
+                "resourcePath": "views\\15e078d9-6b31-4b59-8415-3deb80686b21.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "163c22ec-8f72-4efc-b5fb-503b2674ed73",
             "Value": {
                 "id": "278527e5-8c1f-4681-a451-0d584d316763",
@@ -244,6 +260,14 @@
                 "id": "20e4cb7e-81f8-4d11-9b7a-8f706a223de0",
                 "resourcePath": "views\\16dcdc17-cf49-40e2-9b67-07a40eec0426.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "16ea90e5-e44f-43a3-b7d3-241bb05279ee",
+            "Value": {
+                "id": "f0ea5e69-d22f-420e-88e2-9a78bb69ce83",
+                "resourcePath": "sprites\\sBlueBeamExplosion\\sBlueBeamExplosion.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -364,6 +388,14 @@
                 "id": "78738ca2-63db-4ceb-8170-98937abc57cb",
                 "resourcePath": "scripts\\OneShotService_Cast\\OneShotService_Cast.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "211d6a64-af54-41d8-827e-dd2b9b1c06e7",
+            "Value": {
+                "id": "81830028-2bb3-4666-95ee-c4750514e379",
+                "resourcePath": "objects\\oBlueBeam\\oBlueBeam.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -567,6 +599,14 @@
             }
         },
         {
+            "Key": "34768675-7a0f-4ef5-8f0f-b6d9aab447ec",
+            "Value": {
+                "id": "f4a9a82c-1056-4b70-8c2e-a9e9f4ef0503",
+                "resourcePath": "scripts\\BlueBeam_FinishChannel\\BlueBeam_FinishChannel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3537edbd-c2fa-435a-8334-3708962ada36",
             "Value": {
                 "id": "bc43c49d-f058-49b6-98a6-261e96adf1b1",
@@ -612,6 +652,14 @@
                 "id": "9f9bd0ea-4278-4bd5-b53f-c108e35c4689",
                 "resourcePath": "scripts\\ChannelService_Channel\\ChannelService_Channel.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "39f78343-c9c1-4355-b32e-6735ecb6cb76",
+            "Value": {
+                "id": "e5c3d374-1a0f-4a4d-ba72-014d4ec77718",
+                "resourcePath": "objects\\oBlueBeamExplosion\\oBlueBeamExplosion.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1343,6 +1391,14 @@
             }
         },
         {
+            "Key": "83005ba0-2646-4a3f-b80c-e8adba202414",
+            "Value": {
+                "id": "72f53649-d84a-492e-8a9a-957038717b43",
+                "resourcePath": "views\\83005ba0-2646-4a3f-b80c-e8adba202414.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "83802678-3ac5-4cfc-94ee-ad3acd6a2cdc",
             "Value": {
                 "id": "7b1f8e4a-d6c1-466e-9412-d273fb92bb0f",
@@ -1879,6 +1935,14 @@
             }
         },
         {
+            "Key": "c12c3438-8059-46a6-990f-299e726674d0",
+            "Value": {
+                "id": "31eb6f52-7515-499a-8f4a-dbf48a75b92e",
+                "resourcePath": "scripts\\BlueBeam_StartChannel\\BlueBeam_StartChannel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c16c12eb-f0da-4796-a031-de73be2be4ad",
             "Value": {
                 "id": "8efa7a6b-b29c-4cd4-87db-ab0a4691711b",
@@ -2127,6 +2191,14 @@
             }
         },
         {
+            "Key": "d8e8cee5-34c6-498a-9808-c390150dc495",
+            "Value": {
+                "id": "bd64996d-b91d-480e-a2bb-008a6c0552a0",
+                "resourcePath": "views\\d8e8cee5-34c6-498a-9808-c390150dc495.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d97d7f5e-f26d-4b73-a79d-d981dd110384",
             "Value": {
                 "id": "b36bc071-722c-4014-a28e-f6b8e0dd88ff",
@@ -2292,6 +2364,14 @@
                 "id": "2eef5ad8-22a9-4f86-bb60-3595e3c60504",
                 "resourcePath": "views\\ed415dd0-3d54-42ca-998c-4ee486d1611f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "edc57933-9ed3-484f-ba9d-b6ba647405ea",
+            "Value": {
+                "id": "12c4c9e2-a273-4286-9291-f16996f22d3a",
+                "resourcePath": "scripts\\BlueBeam_CancelChannel\\BlueBeam_CancelChannel.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2553,6 +2633,10 @@
         "e6fc4da6-3bbe-40ab-a463-c1dd40397719",
         "25ed4a9c-9326-4040-913f-eb6a35c5358a",
         "d1afe542-e1b9-47e8-8a18-068a0e0239a0",
+        "c12c3438-8059-46a6-990f-299e726674d0",
+        "070d4877-df44-4ec0-84a4-3040dc5940ad",
+        "edc57933-9ed3-484f-ba9d-b6ba647405ea",
+        "34768675-7a0f-4ef5-8f0f-b6d9aab447ec",
         "c742911c-21dc-4403-b628-14ddaede0227",
         "33db9249-5aa2-4fae-983e-707e95187397",
         "2baf54b8-9a1c-4b18-94ff-f4d32ade13f6",
