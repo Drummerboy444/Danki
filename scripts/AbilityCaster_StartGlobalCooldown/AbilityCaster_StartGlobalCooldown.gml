@@ -8,6 +8,6 @@ if (!Utility_ObjectIsAncestorOfInstance(oAbilityCaster, _id_abilityCaster)) {
 	ErrorHandler_FatalError("Cannot start the global cooldown of an instance that is not an oAbilityCaster");
 }
 
-_id_abilityCaster.num_globalCooldownRemaining = GLOBAL_COOLDOWN;
+_id_abilityCaster.num_globalCooldownRemaining = GENERAL_GLOBAL_COOLDOWN;
 _id_abilityCaster.bool_onGlobalCooldown = true;
 return true;

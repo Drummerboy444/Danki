@@ -9,4 +9,4 @@ if (!Utility_ObjectIsAncestorOfInstance(oAbilityCaster, _id_abilityCaster)) {
 	ErrorHandler_FatalError("Cannot get the remaining cooldown proportion of a non oAbilityCaster");
 }
 
-return _id_abilityCaster.num_globalCooldownRemaining / GLOBAL_COOLDOWN;
+return _id_abilityCaster.num_globalCooldownRemaining / GENERAL_GLOBAL_COOLDOWN;
