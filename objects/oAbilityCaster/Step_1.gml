@@ -10,6 +10,10 @@ AbilityCaster_ADD_BUFFER_EFFECTS();
 // Apply effects to stats
 AbilityCaster_APPLY_EFFECTS();
 
+if (bool_onGlobalCooldown) {
+	AbilityCaster_TICK_GLOBAL_COOLDOWN();
+}
+
 // Use last frame's agenda to plan next agenda
 ds_Agenda_Copy(ds_Agenda_previousAgenda, ds_Agenda_agenda);
 ds_Agenda_Clear(ds_Agenda_agenda);

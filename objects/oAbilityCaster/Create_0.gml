@@ -2,6 +2,8 @@ event_inherited();
 
 id_oneShotService = noone;
 id_channelService = noone;
+bool_onGlobalCooldown = false;
+num_globalCooldownRemaining = 0;
 
 id_target = noone;
 
