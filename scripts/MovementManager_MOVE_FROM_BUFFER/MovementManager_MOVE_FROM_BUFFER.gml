@@ -12,6 +12,19 @@ with(_id_thingToMove) {
 	var _num_distanceVector = point_distance(x, y, _num_terminusX, _num_terminusY);
 	var _num_speed = StatsManager_GetSpeed(_id_thingToMove);
 	
-	x += (_num_xDistance/_num_distanceVector)*_num_speed;
-	y += (_num_yDistance/_num_distanceVector)*_num_speed;
+	if(_num_distanceVector == 0) {
+		x = _num_terminusX;
+		y = _num_terminusY;
+	} else {
+		if(abs(_num_xDistance) <= abs((_num_xDistance/_num_distanceVector)*_num_speed)) {
+			x = _num_terminusX;
+		} else {
+			x += (_num_xDistance/_num_distanceVector)*_num_speed;
+		}
+		if(abs(_num_yDistance) <= abs((_num_yDistance/_num_distanceVector)*_num_speed)) {
+			y = _num_terminusY;
+		} else {
+			y += (_num_yDistance/_num_distanceVector)*_num_speed;
+		}
+	}
 }
