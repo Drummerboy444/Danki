@@ -711,6 +711,14 @@
             }
         },
         {
+            "Key": "3d36a122-da9a-46f4-8104-fbeb89827f11",
+            "Value": {
+                "id": "a6670053-bc88-4439-ad23-a09354bd873d",
+                "resourcePath": "views\\3d36a122-da9a-46f4-8104-fbeb89827f11.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3ea04435-ca44-4bd9-b36e-f94ab2a53481",
             "Value": {
                 "id": "c1c6c630-2f68-4616-bfab-75b75f55bfae",
@@ -1887,6 +1895,14 @@
             }
         },
         {
+            "Key": "b76419ff-bb7d-4716-ae0d-2e3320dbc913",
+            "Value": {
+                "id": "50eb133a-9ddd-4b9e-9bc5-9a23d8d48696",
+                "resourcePath": "scripts\\DamageData_SetDamageAmount\\DamageData_SetDamageAmount.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b7f3c696-6921-4528-b9f3-0d45914d97d6",
             "Value": {
                 "id": "9db4a4c5-ee01-47b6-b57e-6dd00b0b937c",
@@ -2794,6 +2810,7 @@
         "c5d79dc4-0153-4720-b653-64ffd6bfdfc1",
         "282e9036-4d8d-49dc-98d1-7b31bbd3c69f",
         "358b62ee-69c5-410d-a0b3-1cea3ae23983",
+        "b76419ff-bb7d-4716-ae0d-2e3320dbc913",
         "04596b5f-ede2-4ef7-bb10-e004d6a53705",
         "a9a9cb58-4536-4e7b-a7e4-cb12a0d8af87",
         "b86767b5-dc54-45be-89a6-11a0c42a7516",
