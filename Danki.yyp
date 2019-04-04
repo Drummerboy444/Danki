@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "08d5b0d4-ae0d-4796-96cd-709d89a4a9c4",
+            "Value": {
+                "id": "3795d5ab-40fc-4914-9197-76ffeb7a726a",
+                "resourcePath": "scripts\\ds_EffectHookScripts_InstanceOf\\ds_EffectHookScripts_InstanceOf.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "093139d9-83f0-4f70-9b88-7ad5f9dec689",
             "Value": {
                 "id": "68f73011-8ba9-49a3-848e-ab1a6ea38523",
@@ -443,6 +451,14 @@
             "Value": {
                 "id": "9ef9deb6-bcfa-4720-8e4a-2e09f2350324",
                 "resourcePath": "scripts\\ds_Channel_New\\ds_Channel_New.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "23f58612-d331-4985-85d1-53efab459f12",
+            "Value": {
+                "id": "b078cf5d-f96d-47a3-8dc1-bcccd58b09d6",
+                "resourcePath": "scripts\\ds_EffectHookScripts_GetScript\\ds_EffectHookScripts_GetScript.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1171,6 +1187,14 @@
             "Value": {
                 "id": "c857ef28-d415-4bb5-9255-e35eabba014f",
                 "resourcePath": "views\\647aa399-636c-499e-8787-1f17580372e4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "66b4f7eb-be06-4e83-b9c6-c651472ec7b6",
+            "Value": {
+                "id": "6fd9e759-d948-4b2c-8d43-cb107344f160",
+                "resourcePath": "views\\66b4f7eb-be06-4e83-b9c6-c651472ec7b6.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -2023,6 +2047,14 @@
             }
         },
         {
+            "Key": "ba399e5c-4627-4fb7-a63b-b840c98f7d9a",
+            "Value": {
+                "id": "7d08a499-a1cd-45c0-be44-90e5b8db963f",
+                "resourcePath": "scripts\\ds_EffectHookScripts_Destroy\\ds_EffectHookScripts_Destroy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "bb96347b-7e88-40c8-8d8d-3a23c4dc42f4",
             "Value": {
                 "id": "3b77fef2-2165-4ed0-b5d1-331433054aaa",
@@ -2279,6 +2311,22 @@
             }
         },
         {
+            "Key": "d1ea4949-c83e-48fb-ac48-ef7957569af4",
+            "Value": {
+                "id": "c9be7f53-c53a-461e-80c3-07347d153265",
+                "resourcePath": "scripts\\ds_EffectHookScripts_SetScript\\ds_EffectHookScripts_SetScript.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d3097fde-b6c3-4a58-939a-d604232d3c21",
+            "Value": {
+                "id": "bb8774d1-3f86-48a7-a8ce-9dd1ed347255",
+                "resourcePath": "scripts\\ds_EffectHookScripts_New\\ds_EffectHookScripts_New.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d341ffc1-af0d-45d1-8d52-f084eac5fd95",
             "Value": {
                 "id": "52e6810e-3243-49a0-8d84-0e34f1f89d04",
@@ -2455,19 +2503,19 @@
             }
         },
         {
-            "Key": "e02f1891-1d02-4d12-b616-3073a6f187df",
-            "Value": {
-                "id": "9eb7d962-6c4e-4e94-9818-81dd38c85e59",
-                "resourcePath": "scripts\\MovementManager_MOVE_FROM_BUFFER\\MovementManager_MOVE_FROM_BUFFER.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "defd0e62-22de-4b82-bf0d-c605c40a0b71",
             "Value": {
                 "id": "ad134f18-bce2-42d7-971c-45ecf5724335",
                 "resourcePath": "views\\defd0e62-22de-4b82-bf0d-c605c40a0b71.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e02f1891-1d02-4d12-b616-3073a6f187df",
+            "Value": {
+                "id": "9eb7d962-6c4e-4e94-9818-81dd38c85e59",
+                "resourcePath": "scripts\\MovementManager_MOVE_FROM_BUFFER\\MovementManager_MOVE_FROM_BUFFER.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2675,6 +2723,14 @@
             "Value": {
                 "id": "e771e128-d70e-4dce-b71e-432c66acfae9",
                 "resourcePath": "scripts\\NPC_Setup\\NPC_Setup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f52275da-d779-4cbc-955d-96f173640da4",
+            "Value": {
+                "id": "d53fe140-b914-4d89-9af1-047c3d5f156f",
+                "resourcePath": "scripts\\ds_EffectHookScripts_ScriptExists\\ds_EffectHookScripts_ScriptExists.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2957,6 +3013,12 @@
         "d054bc3b-96a3-4fc7-a057-7546a269f330",
         "4fe91f54-56dd-4aa1-8a98-d1390d94407b",
         "132828fe-a67b-4e46-8a68-5d1164da6959",
+        "d3097fde-b6c3-4a58-939a-d604232d3c21",
+        "ba399e5c-4627-4fb7-a63b-b840c98f7d9a",
+        "08d5b0d4-ae0d-4796-96cd-709d89a4a9c4",
+        "23f58612-d331-4985-85d1-53efab459f12",
+        "f52275da-d779-4cbc-955d-96f173640da4",
+        "d1ea4949-c83e-48fb-ac48-ef7957569af4",
         "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
         "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d"
