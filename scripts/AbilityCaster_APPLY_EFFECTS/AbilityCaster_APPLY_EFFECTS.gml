@@ -1,4 +1,4 @@
-/// @function AbilityCaster_APPLY_EFFECTS() Applies active effects to player stats.
+/// @function AbilityCaster_APPLY_EFFECTS() Applies active effects to the ability caster.
 
 AbilityCaster_EMPTY_BUCKETS();
 

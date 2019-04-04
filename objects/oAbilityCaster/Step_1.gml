@@ -1,5 +1,5 @@
 // Reset frame stats to stats
-ds_map_copy(map_frameStats, map_stats);
+ds_map_copy(ds_Stats_frameStats, ds_Stats_stats);
 
 // Tick down effects, remove if expired
 AbilityCaster_TICK_EFFECTS();
@@ -9,6 +9,10 @@ AbilityCaster_ADD_BUFFER_EFFECTS();
 
 // Apply effects to stats
 AbilityCaster_APPLY_EFFECTS();
+
+if (bool_onGlobalCooldown) {
+	AbilityCaster_TICK_GLOBAL_COOLDOWN();
+}
 
 // Use last frame's agenda to plan next agenda
 ds_Agenda_Copy(ds_Agenda_previousAgenda, ds_Agenda_agenda);

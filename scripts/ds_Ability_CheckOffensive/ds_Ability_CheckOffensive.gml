@@ -7,4 +7,4 @@ if(!ds_Ability_INSTANCE_OF(_ds_Ability_ability)){
 	ErrorHandler_FatalError("Tried to check offensiveness of non ds_Ability structure.");
 }
 
-return _ds_Ability_ability[? "offensive"];
+return _ds_Ability_ability[? DS_ABILITY_OFFENSIVE];

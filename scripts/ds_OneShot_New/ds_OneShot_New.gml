@@ -18,6 +18,6 @@ var _ds_OneShot_oneShot = ds_Ability_NEW(
 	_num_range,
 	_bool_offensive);
 	
-_ds_OneShot_oneShot[? "castScript"] = _scr_castScript;
+_ds_OneShot_oneShot[? DS_ONE_SHOT_CAST_SCRIPT] = _scr_castScript;
 
 return _ds_OneShot_oneShot;

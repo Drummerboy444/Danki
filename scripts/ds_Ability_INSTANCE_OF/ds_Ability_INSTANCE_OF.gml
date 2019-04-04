@@ -4,8 +4,8 @@
 var _any_data = argument[0];
 
 return ds_exists(_any_data, ds_type_map)
-	and ds_map_exists(_any_data, "name")
-	and ds_map_exists(_any_data, "ability")
-	and ds_map_exists(_any_data, "type")
-	and ds_map_exists(_any_data, "range")
-	and ds_map_exists(_any_data, "offensive");
+	and ds_map_exists(_any_data, DS_ABILITY_NAME)
+	and ds_map_exists(_any_data, DS_ABILITY_ABILITY)
+	and ds_map_exists(_any_data, DS_ABILITY_TYPE)
+	and ds_map_exists(_any_data, DS_ABILITY_RANGE)
+	and ds_map_exists(_any_data, DS_ABILITY_OFFENSIVE);

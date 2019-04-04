@@ -11,4 +11,4 @@ var _num_targetX = argument[1];
 var _num_targetY = argument[2];
 
 
-return instance_create_layer(_num_targetX, _num_targetY, "Abilities", oYellowCircle);
+return instance_create_layer(_num_targetX, _num_targetY, LAYERS_ABILITIES, oYellowCircle);
