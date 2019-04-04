@@ -13,8 +13,7 @@ with(_id_thingToMove) {
 	var _num_speed = StatsManager_GetSpeed(_id_thingToMove);
 	
 	if(_num_distanceVector == 0) {
-		x = _num_terminusX;
-		y = _num_terminusY;
+		return;
 	} else {
 		if(abs(_num_xDistance) <= abs((_num_xDistance/_num_distanceVector)*_num_speed)) {
 			x = _num_terminusX;
