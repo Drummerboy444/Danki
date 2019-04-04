@@ -10,7 +10,7 @@ with(_id_thingToMove) {
 	var _num_xDistance = _num_terminusX - x;
 	var _num_yDistance = _num_terminusY - y;
 	var _num_distanceVector = point_distance(x, y, _num_terminusX, _num_terminusY);
-	var _num_speed = StatsManager_GetSpeed(_id_thingToMove);
+	var _num_speed = ds_Stats_Get(_id_thingToMove.ds_Stats_frameStats, Enum_Stats.SPEED);
 	
 	if(_num_distanceVector == 0) {
 		return;
