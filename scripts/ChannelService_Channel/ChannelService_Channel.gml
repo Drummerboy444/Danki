@@ -44,6 +44,9 @@ with(_id_channelService){
 			return false;
 		}
 		ChannelService_START_CHANNEL(_enum_ability);
+		
+		AbilityCaster_applyOnCastEffects(id_owner);
+		
 		if (!_bool_overrideGlobalCooldown) {
 			AbilityCaster_StartGlobalCooldown(id_owner);
 		}

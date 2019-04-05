@@ -1,8 +1,8 @@
 {
-    "id": "1dd89395-6479-45c8-af27-837abb0ca326",
+    "id": "8df3311d-fa27-4e25-a0c1-d3ffe03c4a39",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "EffectsManager_GetBucketHandler",
+    "name": "AbilityCaster_applyOnCastEffects",
     "IsCompatibility": false,
     "IsDnD": false
 }

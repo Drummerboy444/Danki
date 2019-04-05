@@ -50,6 +50,9 @@ with(_id_oneShotService){
 	if (!_bool_overrideGlobalCooldown) {
 		AbilityCaster_StartGlobalCooldown(id_owner);
 	}
+
+	AbilityCaster_applyOnCastEffects(id_owner);
+	
 	return true;
 }
 
