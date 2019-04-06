@@ -7,8 +7,8 @@ AbilityCaster_TICK_EFFECTS();
 // Add effects from buffer
 AbilityCaster_ADD_BUFFER_EFFECTS();
 
-// Apply effects to stats
-AbilityCaster_APPLY_EFFECTS();
+// Apply effects
+AbilityCaster_applyOnBeginStepEffects(id);
 
 if (bool_onGlobalCooldown) {
 	AbilityCaster_TICK_GLOBAL_COOLDOWN();

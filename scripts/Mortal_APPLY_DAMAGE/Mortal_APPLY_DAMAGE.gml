@@ -12,4 +12,8 @@ for (var i = 0; i < _num_damageListSize; i++){
 
 num_currentHealth -= _num_applyDamage;
 
+if(num_currentHealth < 0){
+	AbilityCaster_applyOnDeathEffects(id);
+}
+
 ds_list_clear(list_damageList);

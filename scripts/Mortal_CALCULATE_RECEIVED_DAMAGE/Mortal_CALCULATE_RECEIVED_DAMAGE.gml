@@ -5,7 +5,8 @@
 #endregion
 var _DamageData_data = argument[0];
 
-var _enum_damageType = DamageData_GetDamageType(_DamageData_data);
+_DamageData_data = AbilityCaster_applyOnReceiveDamageEffects(_id_source, _DamageData_data);
+
 var _num_damageAmount = DamageData_GetDamageAmount(_DamageData_data);
 
 var _num_armour = ds_Stats_Get(ds_Stats_frameStats, Enum_Stats.ARMOUR);

@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "1399d18e-4ae4-4f3f-877e-9a4e414c5e03",
+            "Value": {
+                "id": "a69bab7f-71f9-4a90-a718-45c54a2a8792",
+                "resourcePath": "scripts\\AbilityCaster_applyOnDeathEffects\\AbilityCaster_applyOnDeathEffects.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "13e291a6-74e9-40ba-be90-24df67d4c379",
             "Value": {
                 "id": "338010bb-2126-4569-8c61-0bc581231483",
@@ -371,14 +379,6 @@
             "Value": {
                 "id": "1d04c021-fb6e-40cb-a32f-71a3af2b53a7",
                 "resourcePath": "scripts\\ds_ContextBag_New\\ds_ContextBag_New.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "1dd89395-6479-45c8-af27-837abb0ca326",
-            "Value": {
-                "id": "d3c6c757-de4f-4fdc-ad3a-157997c67a68",
-                "resourcePath": "scripts\\EffectsManager_GetBucketHandler\\EffectsManager_GetBucketHandler.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -663,6 +663,14 @@
             }
         },
         {
+            "Key": "34a59828-3f0e-4a00-8ee1-e8d08c3b37fe",
+            "Value": {
+                "id": "9289a983-5312-4735-8073-a324a112ebcc",
+                "resourcePath": "scripts\\AbilityCaster_applyOnBeginStepEffects\\AbilityCaster_applyOnBeginStepEffects.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3537edbd-c2fa-435a-8334-3708962ada36",
             "Value": {
                 "id": "bc43c49d-f058-49b6-98a6-261e96adf1b1",
@@ -915,6 +923,14 @@
             "Value": {
                 "id": "5bb4fd6d-9c9e-4052-bdc5-6144042e49dc",
                 "resourcePath": "scripts\\ds_Channel_GetContinueChannelScript\\ds_Channel_GetContinueChannelScript.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4cce76fa-4bd5-4a03-b9aa-c3e1992901ea",
+            "Value": {
+                "id": "a8798469-5972-4045-9c61-2126ea8a18cb",
+                "resourcePath": "scripts\\AbilityCaster_applyOnReceiveDamageEffects\\AbilityCaster_applyOnReceiveDamageEffects.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1623,6 +1639,14 @@
             }
         },
         {
+            "Key": "8df3311d-fa27-4e25-a0c1-d3ffe03c4a39",
+            "Value": {
+                "id": "d96e5f16-cdb9-4987-99b1-9129ca0fbc03",
+                "resourcePath": "scripts\\AbilityCaster_applyOnCastEffects\\AbilityCaster_applyOnCastEffects.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8f556e70-343e-4ba4-9247-77e42319b739",
             "Value": {
                 "id": "5a17e088-6b63-4aa1-9d76-7fc7c87e1406",
@@ -1804,6 +1828,14 @@
                 "id": "dcdc8e7d-6b91-456d-be2a-1d0f175891fa",
                 "resourcePath": "objects\\oYellowCircle\\oYellowCircle.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9f687757-f815-4a67-91c3-f68815ae4ec9",
+            "Value": {
+                "id": "7ab1a9dc-7b5e-4c93-b599-5ca65ad832b2",
+                "resourcePath": "views\\9f687757-f815-4a67-91c3-f68815ae4ec9.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2407,6 +2439,14 @@
             }
         },
         {
+            "Key": "d7d3eeb4-cf8b-4608-a82c-f53157733d45",
+            "Value": {
+                "id": "6b94f826-c6c9-4c6a-a6f1-d9f98c557cdc",
+                "resourcePath": "scripts\\AbilityCaster_applyOnDealDamageEffects\\AbilityCaster_applyOnDealDamageEffects.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d8e8cee5-34c6-498a-9808-c390150dc495",
             "Value": {
                 "id": "bd64996d-b91d-480e-a2bb-008a6c0552a0",
@@ -2878,10 +2918,15 @@
         "f1f65b3d-9c86-4053-af3d-37dbf2a687af",
         "084d93a9-a22b-49f6-bdf7-b3a0ab51f472",
         "d65bcd72-f93b-411a-9e57-dd33a633cf09",
+        "8df3311d-fa27-4e25-a0c1-d3ffe03c4a39",
+        "1399d18e-4ae4-4f3f-877e-9a4e414c5e03",
+        "34a59828-3f0e-4a00-8ee1-e8d08c3b37fe",
+        "d7d3eeb4-cf8b-4608-a82c-f53157733d45",
+        "4cce76fa-4bd5-4a03-b9aa-c3e1992901ea",
         "96d72d00-e496-4523-b5e3-47fda98fa6e6",
         "64332ebb-c9f9-4b16-a535-1624703a8032",
-        "02251f78-f573-46be-a826-66cdf21a45a2",
         "2efd68fd-1a45-44be-a364-2b033df4542b",
+        "02251f78-f573-46be-a826-66cdf21a45a2",
         "f1d71037-ea52-4622-9347-eaf4ae0ad92c",
         "bb96347b-7e88-40c8-8d8d-3a23c4dc42f4",
         "79b5de27-5e8f-415a-a417-f9d37e9b2456",
@@ -2950,7 +2995,6 @@
         "4e6e8b48-5325-4f72-8752-7e28b46e6b28",
         "fa26f447-b264-47d5-9e60-33fa72da4a67",
         "093139d9-83f0-4f70-9b88-7ad5f9dec689",
-        "1dd89395-6479-45c8-af27-837abb0ca326",
         "8acafac4-1b22-476d-ab32-d9fe1ee53540",
         "3063df91-d5ae-427d-a56f-0ff0435078c9",
         "fd3511ad-8e22-4375-9cf1-c6edefc5b666",
