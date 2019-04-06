@@ -6,8 +6,9 @@ var _ds_EffectHookScripts_data = argument[0];
 
 if (!ds_EffectHookScripts_InstanceOf(_ds_EffectHookScripts_data)) {
 	ErrorHandler_Error(
-		"Variable was not destroyed as it was of type " + typeof(_ds_EffectHookScripts_data) + " and not of type ds_EffectHookScripts"
-	);
+		"Variable was not destroyed as it was of type "
+		+ typeof(_ds_EffectHookScripts_data)
+		+ " and not of type ds_EffectHookScripts");
 	return false;
 }
 
