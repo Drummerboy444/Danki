@@ -10,8 +10,9 @@ var _scr_script = argument[2];
 
 if (!ds_EffectHookScripts_InstanceOf(_ds_EffectHookScripts_data)) {
 	ErrorHandler_Error(
-		"Could not set script for input, as it was of type " + typeof(_ds_EffectHookScripts_data) + " and not of type ds_EffectHookScripts"
-	);
+		"Could not set script for input, as it was of type "
+		+ typeof(_ds_EffectHookScripts_data)
+		+ " and not of type ds_EffectHookScripts");
 	return false;
 }
 

@@ -14,12 +14,10 @@ if(!ds_map_empty(_any_data)){
 }
 
 for(var _num_key = 0; _num_key < ds_map_size(_any_data); _num_key++) {
-	if(!is_real(_any_currentKey) or !script_exists(_any_data[? _any_currentKey])){
+	if(!is_real(_any_currentKey) or !script_exists(_any_data[? _any_currentKey]))
+	{
 		return false;
 	}
-	
-	_any_currentKey = ds_map_find_next(_any_data, _any_currentKey);
-	if(_any_currentKey == undefined) break;
 }
 
 return true;
