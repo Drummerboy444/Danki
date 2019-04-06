@@ -20,9 +20,13 @@ if(!DamageData_InstanceOf(_DamageData_data)){
 	return false;	
 }
 
-_num_strength = ds_Stats_Get(_id_source.ds_Stats_frameStats, Enum_Stats.STRENGTH);
 _num_damageAmount = DamageData_GetDamageAmount(_DamageData_data);
-_DamageData_data = DamageData_SetDamageAmount(_DamageData_data, _num_strength * _num_damageAmount);
+
+_num_strength = ds_Stats_Get(_id_source.ds_Stats_frameStats, Enum_Stats.STRENGTH);
+_num_damageAfterStats = _num_strength * _num_damageAmount;
+_DamageData_data = DamageData_SetDamageAmount(_DamageData_data, _num_damageAfterStats);
+
+_DamageData_data = AbilityCaster_applyOnDealDamageEffects(_id_source, _DamageData_data);
 
 ds_list_add(_id_target.list_damageList, _DamageData_data);
 

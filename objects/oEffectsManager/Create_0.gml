@@ -5,10 +5,11 @@ enum Enum_Effects {
 }
 
 enum Enum_EventHooks {
-	ON_CALCULATE_STATS,
+	ON_BEGIN_STEP,
 	ON_MOVE,
 	ON_CAST,
 	ON_RECEIVE_DAMAGE,
+	ON_DEAL_DAMAGE,
 	ON_DEATH,
 	length
 }
@@ -20,11 +21,11 @@ map_effectToEventHookScripts = ds_map_create();
 map_effectToEventHookScripts[? Enum_Effects.SLOW] = ds_EffectHookScripts_New();
 ds_EffectHookScripts_SetScript(
 	map_effectToEventHookScripts[? Enum_Effects.SLOW],
-	Enum_EventHooks.ON_CALCULATE_STATS,
+	Enum_EventHooks.ON_BEGIN_STEP,
 	Slow_BucketHandler);
 
 map_effectToEventHookScripts[? Enum_Effects.DOT] = ds_EffectHookScripts_New();
 ds_EffectHookScripts_SetScript(
 	map_effectToEventHookScripts[? Enum_Effects.DOT],
-	Enum_EventHooks.ON_CALCULATE_STATS,
+	Enum_EventHooks.ON_BEGIN_STEP,
 	DOT_BucketHandler);
