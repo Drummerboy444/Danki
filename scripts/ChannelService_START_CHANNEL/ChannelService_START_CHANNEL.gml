@@ -23,3 +23,5 @@ if (!id_ability) {
 } else if (!Utility_ObjectIsAncestorOfInstance(oChannel, id_ability)) {
 	ErrorHandler_Error("Start channel script did not return an id of a channel object");
 }
+
+id_ability.id_source = id_owner;

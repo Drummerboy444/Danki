@@ -47,6 +47,8 @@ with(_id_oneShotService){
 	}
 
 	id_ability = _id_ability;
+	id_ability.id_source = id_owner;
+	
 	if (!_bool_overrideGlobalCooldown) {
 		AbilityCaster_StartGlobalCooldown(id_owner);
 	}
