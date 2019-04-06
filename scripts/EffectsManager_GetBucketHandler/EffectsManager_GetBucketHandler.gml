@@ -3,7 +3,10 @@
 /// @returns {script} handler script.
 var _enum_effect = argument[0];
 
-var _scr_effectHandlerScript = oEffectsManager.map_effectToBucketHandler[? _enum_effect];
+var _scr_effectHandlerScript = ds_EffectHookScripts_GetScript(
+	oEffectsManager.map_effectToEventHookScripts[? _enum_effect],
+	Enum_EventHooks.ON_CALCULATE_STATS
+)
 
 if( is_undefined(_scr_effectHandlerScript)) {
 	ErrorHandler_Error("No bucket handler script for given effects enum.")
