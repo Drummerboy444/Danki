@@ -5,7 +5,7 @@
 #endregion
 var _DamageData_data = argument[0];
 
-_DamageData_data = AbilityCaster_applyOnReceiveDamageEffects(_id_source, _DamageData_data);
+_DamageData_data = AbilityCaster_applyOnReceiveDamageEffects(id, _DamageData_data);
 
 var _num_damageAmount = DamageData_GetDamageAmount(_DamageData_data);
 
