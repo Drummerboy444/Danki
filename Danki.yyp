@@ -1450,7 +1450,7 @@
             "Key": "7e4759a3-d185-4edc-892e-1fd278ca01b1",
             "Value": {
                 "id": "7863bad2-53db-4aff-aaa4-10f591213e69",
-                "resourcePath": "scripts\\MovementData_GetThingToMoveId\\MovementData_GetThingToMoveId.yy",
+                "resourcePath": "scripts\\MovementData_GetInstanceToMove\\MovementData_GetInstanceToMove.yy",
                 "resourceType": "GMScript"
             }
         },
