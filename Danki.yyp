@@ -2871,6 +2871,14 @@
             }
         },
         {
+            "Key": "fb173e43-83ce-4ea8-94e4-de457814d905",
+            "Value": {
+                "id": "dd688386-cdef-42b4-bb3d-e2ce6aa3a9d6",
+                "resourcePath": "scripts\\Mortal_BASIC_DEATH_SCRIPT\\Mortal_BASIC_DEATH_SCRIPT.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fc0fba15-bdb3-44bc-b6d8-409d7cdd361f",
             "Value": {
                 "id": "e41475a9-3840-4a32-b0cf-3410fa20bcd9",
@@ -2911,6 +2919,7 @@
         "f48e2262-356e-42ea-a531-73a8520effab",
         "98686718-de60-4009-8a1c-2944a2256b0b",
         "0db22e2e-3408-41f8-9260-9c6986ab5116",
+        "fb173e43-83ce-4ea8-94e4-de457814d905",
         "ee8d00b1-d6fa-4dad-9ede-909ba88c75fb",
         "47c8485b-6ca0-49b9-9bbf-056f759c67b0",
         "e104fea5-507a-4831-8efb-84d2cf49c5cc",
