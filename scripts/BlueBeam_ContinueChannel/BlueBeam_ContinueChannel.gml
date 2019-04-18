@@ -15,3 +15,8 @@ _id_blueBeam.x = _id_caster.x;
 _id_blueBeam.y = _id_caster.y;
 _id_blueBeam.num_targetX = _num_targetX;
 _id_blueBeam.num_targetY = _num_targetY;
+
+var _id_nearestEnemy = instance_nearest(_num_targetX, _num_targetY, oEnemy);
+if(point_distance(_num_targetX, _num_targetY, _id_nearestEnemy.x, _id_nearestEnemy.y) < 40){
+	AbilityCaster_AddEffectDataToBuffer(_id_nearestEnemy, EffectData_New(Enum_Effects.SLOW, [1], 20, _id_caster));	
+}
