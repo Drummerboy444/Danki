@@ -16,6 +16,8 @@ ds_Agenda_previousAgenda = ds_Agenda_New();
 ds_Agenda_agenda = ds_Agenda_New();
 ds_Personality_personality = ds_Personality_CreateDefault();
 
+path_currentPath = path_add();
+
 num_aggroRange = 0;
 
 // Effects buffer list has EffectData entries
