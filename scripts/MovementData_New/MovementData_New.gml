@@ -1,9 +1,9 @@
-/// @function MovementData_New(terminusX, terminusY, id_instanceToMove, bool_linearMovement)
+/// @function MovementData_New(terminusX, terminusY, id_instanceToMove, ?bool_linearMovement)
 /// Creates new movement data.
 /// @param {number} num_terminusX  Target X coordinate
 /// @param {number} num_terminusY  Target Y coordinate
 /// @param {id} id_instanceToMove     ID of instance to move
-/// @param {bool} bool_linearMovement  Boolean on whether the movement should be linear rather than path
+/// @param {bool} ?bool_linearMovement  Boolean on whether the movement should be linear rather than path
 /// @return {MovementData}
 var _num_terminusX = argument[0];
 var _num_terminusY = argument[1];
