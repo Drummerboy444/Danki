@@ -1,3 +1,2 @@
 ds_list_destroy(list_movementBuffer);
-ds_list_destroy(list_sortedMovementBuffer);
 ds_grid_destroy(grid_movementSequencer);
