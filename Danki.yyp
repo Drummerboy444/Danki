@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "14a9eb96-3fc6-4144-a948-886067038447",
+            "Value": {
+                "id": "1dd4ad79-eb8f-42c0-9b94-8dea3722feb2",
+                "resourcePath": "scripts\\AbilityCaster_CheckInstanceHasEffect\\AbilityCaster_CheckInstanceHasEffect.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "15e078d9-6b31-4b59-8415-3deb80686b21",
             "Value": {
                 "id": "2d3b2246-f026-4f01-b28b-d942fc13b8f4",
@@ -2031,6 +2039,14 @@
             }
         },
         {
+            "Key": "b6cfac04-2938-4df6-8d3b-42a518c352ab",
+            "Value": {
+                "id": "dae924a6-1a7d-421a-9f64-6d9be9107bb0",
+                "resourcePath": "views\\b6cfac04-2938-4df6-8d3b-42a518c352ab.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b75db745-7244-4527-911b-f65430753860",
             "Value": {
                 "id": "db3e55c2-d457-467c-a05e-bfae8d4ed80b",
@@ -2931,7 +2947,6 @@
         "ee8d00b1-d6fa-4dad-9ede-909ba88c75fb",
         "47c8485b-6ca0-49b9-9bbf-056f759c67b0",
         "e104fea5-507a-4831-8efb-84d2cf49c5cc",
-        "c9a87b71-7b03-468a-bf8d-df799ffd823f",
         "f1f65b3d-9c86-4053-af3d-37dbf2a687af",
         "084d93a9-a22b-49f6-bdf7-b3a0ab51f472",
         "d65bcd72-f93b-411a-9e57-dd33a633cf09",
@@ -2940,6 +2955,8 @@
         "34a59828-3f0e-4a00-8ee1-e8d08c3b37fe",
         "d7d3eeb4-cf8b-4608-a82c-f53157733d45",
         "4cce76fa-4bd5-4a03-b9aa-c3e1992901ea",
+        "14a9eb96-3fc6-4144-a948-886067038447",
+        "c9a87b71-7b03-468a-bf8d-df799ffd823f",
         "96d72d00-e496-4523-b5e3-47fda98fa6e6",
         "64332ebb-c9f9-4b16-a535-1624703a8032",
         "2efd68fd-1a45-44be-a364-2b033df4542b",
