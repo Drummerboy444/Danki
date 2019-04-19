@@ -8,10 +8,10 @@ var _id_instanceToMove = MovementData_GetInstanceToMove(_MovementData_data);
 var _num_bufferSize = ds_list_size(oMovementManager.list_movementBuffer);
 
 for (var i = 0; i < _num_bufferSize; i++) {
-	var _MovementData_movement = list_movementBuffer[| i];
+	var _MovementData_movement = oMovementManager.list_movementBuffer[| i];
 	var _id_entry = MovementData_GetInstanceToMove(_MovementData_movement);
 	if (_id_entry == _id_instanceToMove) {
-		ds_list_delete(list_movementBuffer, i);
+		ds_list_delete(oMovementManager.list_movementBuffer, i);
 	}
 }
 
