@@ -11,11 +11,14 @@ var _num_targetX = argument[1];
 var _num_targetY = argument[2];
 var _id_blueBeam = argument[3];
 
+instance_destroy(_id_blueBeam);
+
 instance_create_layer(_num_targetX, _num_targetY, LAYERS_ABILITIES, oBlueBeamExplosion);
 
 var _id_nearestEnemy = instance_nearest(_num_targetX, _num_targetY, oEnemy);
+
+if(_id_nearestEnemy == noone) return;
+
 if(point_distance(_num_targetX, _num_targetY, _id_nearestEnemy.x, _id_nearestEnemy.y) < 60){
 	AbilityCaster_AddEffectDataToBuffer(_id_nearestEnemy, EffectData_New(Enum_Effects.SLOW, [0], 60, _id_caster));	
 }
-
-instance_destroy(_id_blueBeam);
