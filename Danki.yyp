@@ -1279,6 +1279,14 @@
             }
         },
         {
+            "Key": "70e1e3bc-7dac-4983-95b3-5d18610017fa",
+            "Value": {
+                "id": "fa61381d-973c-4b95-8c0a-4235a98e93c2",
+                "resourcePath": "scripts\\Utility_DistanceBetweenObjectCentres\\Utility_DistanceBetweenObjectCentres.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "71340c6d-c585-4302-a991-3dc05b1cdc9c",
             "Value": {
                 "id": "e3bff15a-0f43-4212-a061-52be5959d1d8",
@@ -2993,6 +3001,7 @@
         "5679edf1-7a81-4ffe-9851-674eb591214b",
         "910ace5c-bf11-40ec-bc16-6b838982888b",
         "b861f221-6b40-4ea4-b9f1-6a971f39c1d1",
+        "70e1e3bc-7dac-4983-95b3-5d18610017fa",
         "1f8d5427-6fd2-4e52-917a-c414756b3ca7",
         "39d18eca-980e-4b40-8643-84f141303315",
         "471be7ef-65f3-49b9-8b3b-2e2320dce385",
