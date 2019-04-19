@@ -6,7 +6,8 @@
     "children": [
         "3644396b-1bea-4fce-a975-4e8d16e7a026",
         "3f80f3a5-a07d-4585-a324-8cebc431ed78",
-        "7e4759a3-d185-4edc-892e-1fd278ca01b1"
+        "7e4759a3-d185-4edc-892e-1fd278ca01b1",
+        "16bab596-d49e-4682-aa58-e5d026a73fc6"
     ],
     "filterType": "GMScript",
     "folderName": "Getters",

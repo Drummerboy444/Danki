@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "16bab596-d49e-4682-aa58-e5d026a73fc6",
+            "Value": {
+                "id": "571217c0-9e93-4c72-b1f1-ed77da08245e",
+                "resourcePath": "scripts\\MovementData_CheckMovementIsLinear\\MovementData_CheckMovementIsLinear.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "16c28767-ad36-43f7-bf1d-da1f53bca6c8",
             "Value": {
                 "id": "69c1fa23-1cda-4bfc-8cfb-243c661ed6ff",
@@ -3034,6 +3042,7 @@
         "3644396b-1bea-4fce-a975-4e8d16e7a026",
         "3f80f3a5-a07d-4585-a324-8cebc431ed78",
         "7e4759a3-d185-4edc-892e-1fd278ca01b1",
+        "16bab596-d49e-4682-aa58-e5d026a73fc6",
         "0f0d7f77-482e-497d-aa9b-4a3b60acc49c",
         "0864c5b2-a188-4d7e-adca-97f06d5e0964",
         "74b05822-4ca1-4386-b4db-d95a47216db4",
