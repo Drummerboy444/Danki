@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0374fb1c-ce7e-46e6-8386-23d0db831639",
+            "Value": {
+                "id": "29c1c7ae-87f2-45bb-b1c8-f1a685b29d2f",
+                "resourcePath": "scripts\\Dash_BucketHandler\\Dash_BucketHandler.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "04596b5f-ede2-4ef7-bb10-e004d6a53705",
             "Value": {
                 "id": "e385ced0-24c9-47fd-8f31-620625626036",
@@ -1043,6 +1051,14 @@
             "Value": {
                 "id": "ab8c7d82-9e21-44e1-ab6b-8e21e29cf5cc",
                 "resourcePath": "views\\570794d9-48e6-44b0-bcc3-8074b222402c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "57b2b6bd-f479-4c03-80d0-6bcc73a195e5",
+            "Value": {
+                "id": "a8edcdbd-43d5-4d88-9fef-164f39c74179",
+                "resourcePath": "views\\57b2b6bd-f479-4c03-80d0-6bcc73a195e5.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -3040,6 +3056,7 @@
         "093139d9-83f0-4f70-9b88-7ad5f9dec689",
         "8acafac4-1b22-476d-ab32-d9fe1ee53540",
         "3063df91-d5ae-427d-a56f-0ff0435078c9",
+        "0374fb1c-ce7e-46e6-8386-23d0db831639",
         "fd3511ad-8e22-4375-9cf1-c6edefc5b666",
         "6b29155b-0b29-4f5a-9fab-3b0c4cfb4eee",
         "b1be6216-2ef7-4aef-9b44-01e85a6aa4f8",
