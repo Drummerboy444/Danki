@@ -8,11 +8,6 @@ ds_Stats_Set(_ds_Stats_baseStats, Enum_Stats.HASTE, 5);
 Mortal_Setup(true, true, _ds_Stats_baseStats, AbilityCaster_NO_OP_PLAN, Mortal_BASIC_DEATH_SCRIPT, 0);
 
 // Dash
-num_dashSpeed = 10 / 3;
-num_dashedSlow = 1 / 4;
 num_xDashMovement = 0;
 num_yDashMovement = 0;
-num_dashLength = 6;
-num_slowLength = 20;
 num_dashCooldownRemaining = 0;
-num_dashCooldown = 60;

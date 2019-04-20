@@ -535,6 +535,14 @@
             }
         },
         {
+            "Key": "27e24ea1-60d5-41f0-a64c-451b3a958ce4",
+            "Value": {
+                "id": "ce74f261-c09b-4dc2-976c-5c0e2c52f224",
+                "resourcePath": "scripts\\MACROS_oPlayer\\MACROS_oPlayer.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "282c350d-3e9b-438d-8d63-797fc6801b11",
             "Value": {
                 "id": "0c2882b6-7f7d-4a5c-b5d6-284bd2e72e05",
@@ -3192,6 +3200,7 @@
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
         "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d",
         "3b33ada8-925d-4f0e-953b-a9d603d8798f",
+        "27e24ea1-60d5-41f0-a64c-451b3a958ce4",
         "c845fac9-ec2d-42a6-a577-f27a78ce1765",
         "c17ac245-3720-47d9-abed-c4a7ece6fe19",
         "670dcdd1-5c68-43ab-898f-2d647addf723"
