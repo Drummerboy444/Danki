@@ -775,6 +775,14 @@
             }
         },
         {
+            "Key": "3b33ada8-925d-4f0e-953b-a9d603d8798f",
+            "Value": {
+                "id": "c4c79f32-fd00-4f32-93ab-e50a6f94fc99",
+                "resourcePath": "scripts\\MACROS_MovementGridManager\\MACROS_MovementGridManager.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3b63738d-1dcf-4e2c-a510-f8aaf110ccb7",
             "Value": {
                 "id": "1cba85b8-ec9a-40ea-a6f5-fe1be9bfb1b4",
@@ -1244,6 +1252,14 @@
                 "id": "6fd9e759-d948-4b2c-8d43-cb107344f160",
                 "resourcePath": "views\\66b4f7eb-be06-4e83-b9c6-c651472ec7b6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "670dcdd1-5c68-43ab-898f-2d647addf723",
+            "Value": {
+                "id": "5b5519c6-5406-4050-a003-44f01e9f1099",
+                "resourcePath": "scripts\\MovementGridManager_REGENERATE\\MovementGridManager_REGENERATE.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1735,6 +1751,14 @@
             }
         },
         {
+            "Key": "951c87e1-4d40-4c50-bef1-6fe2907a2022",
+            "Value": {
+                "id": "0e8e949c-cd0c-4800-befa-60f2f65a3f1d",
+                "resourcePath": "views\\951c87e1-4d40-4c50-bef1-6fe2907a2022.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "962eca4e-73ad-4ca9-96ec-39008b0d0407",
             "Value": {
                 "id": "a759c5b5-a605-4364-8b71-a4dfc9735fa2",
@@ -1999,6 +2023,14 @@
             }
         },
         {
+            "Key": "acf08f7e-87da-4e89-b3f5-3375e23b6ef2",
+            "Value": {
+                "id": "0f9f8825-c1a7-42d0-9a11-d50461323900",
+                "resourcePath": "objects\\oMovementGridManager\\oMovementGridManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "aea10709-c7e3-4c83-b1b3-dd0edb149e27",
             "Value": {
                 "id": "174bbbd4-2a69-4e37-ae2e-7fb1fb4d16fa",
@@ -2207,6 +2239,14 @@
             }
         },
         {
+            "Key": "c17ac245-3720-47d9-abed-c4a7ece6fe19",
+            "Value": {
+                "id": "2f4a7a41-b877-4406-bd38-ebff193e0007",
+                "resourcePath": "scripts\\MovementGridManager_QueueRegeneration\\MovementGridManager_QueueRegeneration.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c1f00c93-5111-4cf2-a33d-0cbdb424405c",
             "Value": {
                 "id": "26f1e12b-b1be-4c61-8193-bbe745493034",
@@ -2287,6 +2327,14 @@
             }
         },
         {
+            "Key": "c845fac9-ec2d-42a6-a577-f27a78ce1765",
+            "Value": {
+                "id": "22ad1cc1-2720-441c-8dc0-c18ce1fb6cd1",
+                "resourcePath": "scripts\\MovementGridManager_Initialise\\MovementGridManager_Initialise.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c9a87b71-7b03-468a-bf8d-df799ffd823f",
             "Value": {
                 "id": "4f1d82c7-8b90-4f1d-93f9-bbb57856c908",
@@ -2315,6 +2363,14 @@
             "Value": {
                 "id": "de621b7c-4660-47c1-b04d-e57120911eff",
                 "resourcePath": "views\\cab8a90f-96b5-4ec2-beda-06f6a6392b25.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "caf5c85b-2b55-4efe-b866-5be38f1ccad2",
+            "Value": {
+                "id": "3c7f4182-f785-49c5-a489-57c6b00e8757",
+                "resourcePath": "views\\caf5c85b-2b55-4efe-b866-5be38f1ccad2.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -2659,6 +2715,14 @@
             "Value": {
                 "id": "1a909ac6-d380-45c5-997c-e8b2ebd52fa0",
                 "resourcePath": "views\\e8f40619-5065-4247-b7d8-55590ac11cba.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ec99578b-0565-430c-8761-c8f237f3cfe0",
+            "Value": {
+                "id": "ccc0e47f-e99b-40cb-b53b-4bbfa0258c70",
+                "resourcePath": "views\\ec99578b-0565-430c-8761-c8f237f3cfe0.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -3126,7 +3190,11 @@
         "d1ea4949-c83e-48fb-ac48-ef7957569af4",
         "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
-        "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d"
+        "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d",
+        "3b33ada8-925d-4f0e-953b-a9d603d8798f",
+        "c845fac9-ec2d-42a6-a577-f27a78ce1765",
+        "c17ac245-3720-47d9-abed-c4a7ece6fe19",
+        "670dcdd1-5c68-43ab-898f-2d647addf723"
     ],
     "tutorial": ""
 }
