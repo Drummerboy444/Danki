@@ -6,8 +6,8 @@ with (oMovementGridManager) {
 		mp_grid_destroy(mp_grid_roomGrid);
 	}
 	
-	var _num_hCells = 20;
-	var _num_vCells = 20;
+	var _num_hCells = ceil(room_width / MOVEMENT_GRID_MANAGER_GRID_WIDTH);
+	var _num_vCells = ceil(room_height / MOVEMENT_GRID_MANAGER_GRID_HEIGHT);
 	
 	mp_grid_roomGrid = mp_grid_create(
 		0,
