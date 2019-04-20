@@ -1,1 +1,3 @@
-mpgrid_grid = undefined;
+mp_grid_roomGrid = undefined;
+
+MovementGridManager_Initialise();

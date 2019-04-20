@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "3b33ada8-925d-4f0e-953b-a9d603d8798f",
+            "Value": {
+                "id": "c4c79f32-fd00-4f32-93ab-e50a6f94fc99",
+                "resourcePath": "scripts\\MACROS_MovementGridManager\\MACROS_MovementGridManager.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3b63738d-1dcf-4e2c-a510-f8aaf110ccb7",
             "Value": {
                 "id": "1cba85b8-ec9a-40ea-a6f5-fe1be9bfb1b4",
@@ -3133,6 +3141,7 @@
         "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
         "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d",
+        "3b33ada8-925d-4f0e-953b-a9d603d8798f",
         "c845fac9-ec2d-42a6-a577-f27a78ce1765",
         "c17ac245-3720-47d9-abed-c4a7ece6fe19"
     ],
