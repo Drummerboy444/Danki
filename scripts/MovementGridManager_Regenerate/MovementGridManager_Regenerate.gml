@@ -1,3 +1,6 @@
-// queues a regeneration of the mp grid NOTE: If we don't change rooms, and so the grid size stays the same,
-// then we probably just want to clear the grid and then use mp_grid_add_instances. We'll have to call
-// initialise again when we change rooms...
+/// function MovementGridManager_REGENERATE() This will regenerate the current mp grid, that is to clear the
+///		grid and repopulate with the current position of oCollidables.
+
+mp_grid_clear_all(mp_grid_roomGrid);
+mp_grid_add_instances(mp_grid_roomGrid, oCollidable, MOVEMENT_GRID_MANAGER_PRECISE);
+

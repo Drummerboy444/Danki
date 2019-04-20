@@ -1231,6 +1231,14 @@
             }
         },
         {
+            "Key": "670dcdd1-5c68-43ab-898f-2d647addf723",
+            "Value": {
+                "id": "5b5519c6-5406-4050-a003-44f01e9f1099",
+                "resourcePath": "scripts\\MovementGridManager_REGENERATE\\MovementGridManager_REGENERATE.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6893fcea-3a16-407e-9bbb-e19dffd675eb",
             "Value": {
                 "id": "3dd7472b-7c86-4700-b5bf-1bbc297b7c7c",
@@ -2202,7 +2210,7 @@
             "Key": "c17ac245-3720-47d9-abed-c4a7ece6fe19",
             "Value": {
                 "id": "2f4a7a41-b877-4406-bd38-ebff193e0007",
-                "resourcePath": "scripts\\MovementGridManager_Regenerate\\MovementGridManager_Regenerate.yy",
+                "resourcePath": "scripts\\MovementGridManager_QueueRegeneration\\MovementGridManager_QueueRegeneration.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2323,6 +2331,14 @@
             "Value": {
                 "id": "de621b7c-4660-47c1-b04d-e57120911eff",
                 "resourcePath": "views\\cab8a90f-96b5-4ec2-beda-06f6a6392b25.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "caf5c85b-2b55-4efe-b866-5be38f1ccad2",
+            "Value": {
+                "id": "3c7f4182-f785-49c5-a489-57c6b00e8757",
+                "resourcePath": "views\\caf5c85b-2b55-4efe-b866-5be38f1ccad2.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -3143,7 +3159,8 @@
         "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d",
         "3b33ada8-925d-4f0e-953b-a9d603d8798f",
         "c845fac9-ec2d-42a6-a577-f27a78ce1765",
-        "c17ac245-3720-47d9-abed-c4a7ece6fe19"
+        "c17ac245-3720-47d9-abed-c4a7ece6fe19",
+        "670dcdd1-5c68-43ab-898f-2d647addf723"
     ],
     "tutorial": ""
 }

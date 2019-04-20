@@ -6,8 +6,8 @@ with (oMovementGridManager) {
 		mp_grid_destroy(mp_grid_roomGrid);
 	}
 	
-	var _num_hCells = 4;
-	var _num_vCells = 4;
+	var _num_hCells = 20;
+	var _num_vCells = 20;
 	
 	mp_grid_roomGrid = mp_grid_create(
 		0,
@@ -17,4 +17,6 @@ with (oMovementGridManager) {
 		MOVEMENT_GRID_MANAGER_GRID_WIDTH,
 		MOVEMENT_GRID_MANAGER_GRID_HEIGHT
 	);
+	
+	mp_grid_add_instances(mp_grid_roomGrid, oCollidable, MOVEMENT_GRID_MANAGER_PRECISE);
 }
