@@ -3,4 +3,5 @@
 
 mp_grid_clear_all(mp_grid_roomGrid);
 mp_grid_add_instances(mp_grid_roomGrid, oCollidable, MOVEMENT_GRID_MANAGER_PRECISE);
-
+num_debounceTimer = MOVEMENT_GRID_MANAGER_DEBOUNCE_TIME;
+bool_regenerationQueued = false;

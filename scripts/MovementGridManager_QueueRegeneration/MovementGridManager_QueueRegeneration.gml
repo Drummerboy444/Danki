@@ -7,7 +7,6 @@
 with (oMovementGridManager) {
 	if (num_debounceTimer <= 0) {
 		MovementGridManager_REGENERATE();
-		num_debounceTimer = MOVEMENT_GRID_MANAGER_DEBOUNCE_TIME;
 	} else {
 		bool_regenerationQueued = true;
 	}
