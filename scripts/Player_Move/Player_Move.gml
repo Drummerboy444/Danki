@@ -26,34 +26,42 @@ if (_bool_isMovingHorizontally && _bool_isMovingVertically) {
 }
 
 with (oPlayer) {
+	var _num_xOffset;
+	var _num_yOffset;
 	
 	if(AbilityCaster_CheckInstanceHasEffect(id, Enum_Effects.DASH)){
-		MovementData_Movement = MovementData_New(
-			x + 100 * num_xDashMovement,
-			y + 100 * num_yDashMovement,
-			id, true);
+		// Dashing in direction set at start of dash
+		_num_xOffset = 100 * num_xDashMovement;
+		_num_yOffset = 100 * num_yDashMovement;
 	}
 	else{
-		MovementData_Movement = MovementData_New(
-			x + 100 * _num_horizontalMovement,
-			y + 100 * _num_verticalMovement,
-			id, true);
-			
-		if (_bool_dash and num_dashCooldownRemaining <= 0 and (_bool_isMovingHorizontally || _bool_isMovingVertically)) {
-			num_dashCooldownRemaining = PLAYER_DASH_DURATION + PLAYER_DASH_SLOW_DURATION;
-			num_xDashMovement = _num_horizontalMovement;
-			num_yDashMovement = _num_verticalMovement;
-			AbilityCaster_AddEffectDataToBuffer(
-				id,
-				EffectData_New(
-					Enum_Effects.DASH,
-					[PLAYER_DASH_SPEED, PLAYER_DASH_SLOW, PLAYER_DASH_SLOW_DURATION],
-					PLAYER_DASH_DURATION,
-					id
-				)
-			);
-		}
+		// Walking in direction dictated by arrow keys
+		_num_xOffset = 100 * _num_horizontalMovement;
+		_num_yOffset = 100 * _num_verticalMovement;
 	}
 	
-	MovementManager_QueueMovement(MovementData_Movement);
+	if (_bool_dash and num_dashCooldownRemaining <= 0 and (_bool_isMovingHorizontally || _bool_isMovingVertically)) {
+		//Initiate a dash
+		num_dashCooldownRemaining = PLAYER_DASH_DURATION + PLAYER_DASH_SLOW_DURATION;
+		num_xDashMovement = _num_horizontalMovement;
+		num_yDashMovement = _num_verticalMovement;
+		AbilityCaster_AddEffectDataToBuffer(
+			id,
+			EffectData_New(
+				Enum_Effects.DASH,
+				[PLAYER_DASH_SPEED, PLAYER_DASH_SLOW, PLAYER_DASH_SLOW_DURATION],
+				PLAYER_DASH_DURATION,
+				id
+			)
+		);
+	}
+	
+	MovementManager_QueueMovement(
+		MovementData_New(
+			x + _num_xOffset,
+			y + _num_yOffset,
+			id,
+			true
+		)
+	);
 }
