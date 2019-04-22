@@ -40,7 +40,7 @@ with (oPlayer) {
 			id, true);
 			
 		if (_bool_dash and num_dashCooldownRemaining <= 0 and (_bool_isMovingHorizontally || _bool_isMovingVertically)) {
-			num_dashCooldownRemaining= PLAYER_DASH_COOLDOWN;
+			num_dashCooldownRemaining = PLAYER_DASH_DURATION + PLAYER_DASH_SLOW_DURATION;
 			num_xDashMovement = _num_horizontalMovement;
 			num_yDashMovement = _num_verticalMovement;
 			AbilityCaster_AddEffectDataToBuffer(
