@@ -13,7 +13,7 @@ var _num_CurrentSpeed = ds_Stats_Get(_id_abilityCaster.ds_Stats_frameStats, Enum
 	
 ds_Stats_Set(_id_abilityCaster.ds_Stats_frameStats, Enum_Stats.SPEED, _num_CurrentSpeed * _arr_arguments[0]);
 
-if(EffectData_GetSteps(_EffectData_data) = 0){
+if(EffectData_GetSteps(_EffectData_data) <= 0){
 	AbilityCaster_AddEffectDataToBuffer(
 		_id_abilityCaster,
 		EffectData_New(Enum_Effects.SLOW, [_arr_arguments[1]], _arr_arguments[2], _id_abilityCaster)
