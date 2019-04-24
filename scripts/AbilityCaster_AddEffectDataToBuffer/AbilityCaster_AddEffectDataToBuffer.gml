@@ -1,9 +1,7 @@
-#region Doc
 /// @function AbilityCaster_AddEffectDataToBuffer(id_target, EffectData_data) Add a an effect data to the given AbilityCaster's effect buffer
 ///		via an already made EffectData object, constructed via the EffectData_new script.
 /// @param {id} id of the ability caster to add the effect to.
 /// @param {EffectData_data} EffectData_data to add to the buffer.
-#endregion
 var _id_target = argument[0];
 var _EffectData_data = argument[1];
 

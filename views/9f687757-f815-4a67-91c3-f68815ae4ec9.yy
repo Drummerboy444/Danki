@@ -11,7 +11,7 @@
         "4cce76fa-4bd5-4a03-b9aa-c3e1992901ea"
     ],
     "filterType": "GMScript",
-    "folderName": "Effect Handling",
+    "folderName": "Effect Triggers",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
