@@ -20,27 +20,22 @@ var _bool_isMovingVertically = _bool_up xor _bool_down;
 var _num_horizontalMovement = _bool_right - _bool_left;
 var _num_verticalMovement = _bool_down - _bool_up;
 
-var _num_movementSpeed = ds_Stats_Get(oPlayer.ds_Stats_frameStats, Enum_Stats.SPEED);
-if (_bool_isMovingHorizontally && _bool_isMovingVertically) {
-	var _num_movementSpeed = _num_movementSpeed / sqrt(2);
-}
-
 with (oPlayer) {
 	var _num_xOffset;
 	var _num_yOffset;
 	
 	if(AbilityCaster_CheckInstanceHasEffect(id, Enum_Effects.DASH)){
 		// Dashing in direction set at start of dash
-		_num_xOffset = 100 * num_xDashMovement;
-		_num_yOffset = 100 * num_yDashMovement;
+		_num_xOffset = 1000000 * num_xDashMovement;
+		_num_yOffset = 1000000 * num_yDashMovement;
 	}
 	else{
 		// Walking in direction dictated by arrow keys
-		_num_xOffset = 100 * _num_horizontalMovement;
-		_num_yOffset = 100 * _num_verticalMovement;
+		_num_xOffset = 1000000 * _num_horizontalMovement;
+		_num_yOffset = 1000000 * _num_verticalMovement;
 	}
 	
-	if (_bool_dash and num_dashCooldownRemaining <= 0 and (_bool_isMovingHorizontally || _bool_isMovingVertically)) {
+	if (_bool_dash and num_dashCooldownRemaining <= 0 and (_bool_isMovingHorizontally or _bool_isMovingVertically)) {
 		//Initiate a dash
 		num_dashCooldownRemaining = PLAYER_DASH_DURATION + PLAYER_DASH_SLOW_DURATION;
 		num_xDashMovement = _num_horizontalMovement;
