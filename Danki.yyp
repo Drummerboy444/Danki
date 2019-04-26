@@ -474,7 +474,7 @@
             "Key": "1f41b31d-5c42-4f36-9a27-1b24c684d02a",
             "Value": {
                 "id": "c1160216-2c35-4b83-b548-e6ec63963dde",
-                "resourcePath": "scripts\\EffectData_GetArguments\\EffectData_GetArguments.yy",
+                "resourcePath": "scripts\\EffectData_GET_ARGUMENTS\\EffectData_GET_ARGUMENTS.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3274,7 +3274,6 @@
         "3063df91-d5ae-427d-a56f-0ff0435078c9",
         "0374fb1c-ce7e-46e6-8386-23d0db831639",
         "b1be6216-2ef7-4aef-9b44-01e85a6aa4f8",
-        "1f41b31d-5c42-4f36-9a27-1b24c684d02a",
         "f647eb31-a403-4b50-b879-9f20dc24c82e",
         "3537edbd-c2fa-435a-8334-3708962ada36",
         "74733f70-3701-44aa-a893-27f5971f44e2",
@@ -3290,6 +3289,7 @@
         "081d7200-5fdf-4b35-baad-7d0986adccec",
         "fd3511ad-8e22-4375-9cf1-c6edefc5b666",
         "6b29155b-0b29-4f5a-9fab-3b0c4cfb4eee",
+        "1f41b31d-5c42-4f36-9a27-1b24c684d02a",
         "6c1e0975-abc1-43e3-81ef-1f61aa33cdba",
         "c5d79dc4-0153-4720-b653-64ffd6bfdfc1",
         "282e9036-4d8d-49dc-98d1-7b31bbd3c69f",
