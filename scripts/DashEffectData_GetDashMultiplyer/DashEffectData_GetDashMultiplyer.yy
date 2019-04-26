@@ -1,8 +1,8 @@
 {
-    "id": "fd3511ad-8e22-4375-9cf1-c6edefc5b666",
+    "id": "2a15a7d7-c188-48fb-bc6b-11809428c50c",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "EffectData_NEW",
+    "name": "DashEffectData_GetDashMultiplyer",
     "IsCompatibility": false,
     "IsDnD": false
 }

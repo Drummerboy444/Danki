@@ -9,7 +9,7 @@ for(var i=ds_list_size(list_activeEffects)-1; i>=0; i--){
 	if(_num_remainingSteps <= 0){
 		ds_list_delete(list_activeEffects, i);	
 	} else {
-		var _EffectData_new = EffectData_SetSteps(_EffectData_active, _num_remainingSteps - 1);
-		list_activeEffects[| i] = _EffectData_new;
+		var _EffectData_NEW = EffectData_SetSteps(_EffectData_active, _num_remainingSteps - 1);
+		list_activeEffects[| i] = _EffectData_NEW;
 	}
 }

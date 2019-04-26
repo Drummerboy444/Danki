@@ -42,7 +42,7 @@ with (oPlayer) {
 		num_yDashMovement = _num_verticalMovement;
 		AbilityCaster_AddEffectDataToBuffer(
 			id,
-			EffectData_New(
+			EffectData_NEW(
 				Enum_Effects.DASH,
 				[PLAYER_DASH_SPEED, PLAYER_DASH_SLOW, PLAYER_DASH_SLOW_DURATION],
 				PLAYER_DASH_DURATION,

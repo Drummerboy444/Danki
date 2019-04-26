@@ -3,7 +3,7 @@
 /// @returns {id} The instance id of the caster.
 var _EffectData_data = argument[0];
 
-if(!EffectData_InstanceOf(_EffectData_data)){
+if(!EffectData_INSTANCE_OF(_EffectData_data)){
 	ErrorHandler_FatalError("Tried to get caster id from non EffectData structure.");
 }
 

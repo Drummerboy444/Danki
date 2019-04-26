@@ -21,6 +21,6 @@ var _id_nearestEnemy = instance_nearest(_num_targetX, _num_targetY, oEnemy);
 if(_id_nearestEnemy == noone) return;
 
 if(point_distance(_num_targetX, _num_targetY, _id_nearestEnemy.x, _id_nearestEnemy.y) < 40){
-	AbilityCaster_AddEffectDataToBuffer(_id_nearestEnemy, EffectData_New(Enum_Effects.SLOW, [0.5], 20, _id_caster));
+	AbilityCaster_AddEffectDataToBuffer(_id_nearestEnemy, EffectData_NEW(Enum_Effects.SLOW, [0.5], 20, _id_caster));
 	DamageManager_ApplyDamage(id_owner, _id_nearestEnemy, DamageData_New(Enum_DamageTypes.ICE, 1))
 }

@@ -1,8 +1,8 @@
 {
-    "id": "fd3511ad-8e22-4375-9cf1-c6edefc5b666",
+    "id": "9887333b-7622-4782-8f65-89d8361795fa",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "EffectData_NEW",
+    "name": "DOTEffectData_New",
     "IsCompatibility": false,
     "IsDnD": false
 }
