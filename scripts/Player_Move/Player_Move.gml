@@ -14,63 +14,49 @@ var _bool_right = argument[3];
 var _bool_dash = argument[4];
 
 
-// This region determines the direction of movement based on which direction keys are pressed
-#region Movement setup
 var _bool_isMovingHorizontally = _bool_left xor _bool_right;
 var _bool_isMovingVertically = _bool_up xor _bool_down;
 
 var _num_horizontalMovement = _bool_right - _bool_left;
 var _num_verticalMovement = _bool_down - _bool_up;
 
-var _num_movementSpeed = ds_Stats_Get(oPlayer.ds_Stats_frameStats, Enum_Stats.SPEED);
-if (_bool_isMovingHorizontally && _bool_isMovingVertically) {
-	var _num_movementSpeed = _num_movementSpeed / sqrt(2);
-}
-#endregion
-
-// These regions control the actual movement (FREEMOVE), dashing (DASHING) and post dash slow (DASHED)
-var _num_horizontalMovementDistance = 0;
-var _num_verticalMovementDistance = 0;
 with (oPlayer) {
-	switch (enum_currentMoveMode) {
-		#region Movement (FREEMOVE)
-		case Enum_PlayerMoveModes.FREEMOVE:
-			_num_horizontalMovementDistance = _num_horizontalMovement * _num_movementSpeed;
-			_num_verticalMovementDistance = _num_verticalMovement * _num_movementSpeed;
-			if (_bool_dash && (_bool_isMovingHorizontally || _bool_isMovingVertically)) {
-				num_dashTimer = 0;
-				num_slowTimer = 0;
-				num_xDashMovement = _num_horizontalMovement;
-				num_yDashMovement = _num_verticalMovement;
-				enum_currentMoveMode = Enum_PlayerMoveModes.DASHING;
-			}
-			break;
-		#endregion
-		#region Dashing (DASHING)
-		case Enum_PlayerMoveModes.DASHING:
-			_num_horizontalMovementDistance = num_xDashMovement * _num_movementSpeed * num_dashSpeed;
-			_num_verticalMovementDistance = num_yDashMovement * _num_movementSpeed * num_dashSpeed;
-			if (num_dashTimer >= num_dashLength) {
-				num_dashTimer = 0;
-				enum_currentMoveMode = Enum_PlayerMoveModes.DASHED;
-			} else {
-				num_dashTimer++;
-			}
-			break;
-		#endregion
-		#region Post dash slow (DASHED)
-		case Enum_PlayerMoveModes.DASHED:
-			_num_horizontalMovementDistance = _num_horizontalMovement * _num_movementSpeed * num_dashedSlow;
-			_num_verticalMovementDistance = _num_verticalMovement * _num_movementSpeed * num_dashedSlow;
-			if (num_slowTimer >= num_slowLength) {
-				num_slowTimer = 0;
-				enum_currentMoveMode = Enum_PlayerMoveModes.FREEMOVE;
-			} else {
-				num_slowTimer++;
-			}
-			break;	
-		#endregion
+	var _num_xOffset;
+	var _num_yOffset;
+	
+	if(AbilityCaster_CheckInstanceHasEffect(id, Enum_Effects.DASH)){
+		// Dashing in direction set at start of dash
+		_num_xOffset = 1000000 * num_xDashMovement;
+		_num_yOffset = 1000000 * num_yDashMovement;
 	}
-	x += _num_horizontalMovementDistance;
-	y += _num_verticalMovementDistance;
+	else{
+		// Walking in direction dictated by arrow keys
+		_num_xOffset = 1000000 * _num_horizontalMovement;
+		_num_yOffset = 1000000 * _num_verticalMovement;
+	}
+	
+	if (_bool_dash and num_dashCooldownRemaining <= 0 and (_bool_isMovingHorizontally or _bool_isMovingVertically)) {
+		//Initiate a dash
+		num_dashCooldownRemaining = PLAYER_DASH_DURATION + PLAYER_DASH_SLOW_DURATION;
+		num_xDashMovement = _num_horizontalMovement;
+		num_yDashMovement = _num_verticalMovement;
+		AbilityCaster_AddEffectDataToBuffer(
+			id,
+			EffectData_New(
+				Enum_Effects.DASH,
+				[PLAYER_DASH_SPEED, PLAYER_DASH_SLOW, PLAYER_DASH_SLOW_DURATION],
+				PLAYER_DASH_DURATION,
+				id
+			)
+		);
+	}
+	
+	MovementManager_QueueMovement(
+		MovementData_New(
+			x + _num_xOffset,
+			y + _num_yOffset,
+			id,
+			true
+		)
+	);
 }

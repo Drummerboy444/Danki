@@ -7,7 +7,8 @@
         "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
         "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d",
-        "3b33ada8-925d-4f0e-953b-a9d603d8798f"
+        "3b33ada8-925d-4f0e-953b-a9d603d8798f",
+        "27e24ea1-60d5-41f0-a64c-451b3a958ce4"
     ],
     "filterType": "GMScript",
     "folderName": "MACROS",
