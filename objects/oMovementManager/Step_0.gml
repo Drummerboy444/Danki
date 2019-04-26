@@ -17,7 +17,6 @@ ds_grid_sort(grid_movementSequencer, 1, true);
 for (var i = 0; i < _num_bufferSize; i++) {
 	var _num_index = grid_movementSequencer[# 0, i];
 	var _MovementData_movement = list_movementBuffer[| _num_index];
-	MovementGridManager_UpdatePath(_MovementData_movement);
 	MovementManager_MOVE_FROM_BUFFER(_MovementData_movement);
 }
 ds_list_clear(list_movementBuffer);
