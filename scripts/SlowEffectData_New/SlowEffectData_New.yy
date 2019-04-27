@@ -1,8 +1,8 @@
 {
-    "id": "fd3511ad-8e22-4375-9cf1-c6edefc5b666",
+    "id": "17b5079f-ae83-4ca8-ba0c-7bcae8c70726",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "EffectData_NEW",
+    "name": "SlowEffectData_New",
     "IsCompatibility": false,
     "IsDnD": false
 }
