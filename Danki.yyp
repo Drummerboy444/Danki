@@ -1490,7 +1490,7 @@
             "Key": "748b54de-474c-47e7-840a-8581b8b22227",
             "Value": {
                 "id": "7fb6d250-3196-446b-be79-6279b0fc3498",
-                "resourcePath": "scripts\\DashEffectData_GetSlowDuration\\DashEffectData_GetSlowDuration.yy",
+                "resourcePath": "scripts\\DashEffectData_GetSlowSteps\\DashEffectData_GetSlowSteps.yy",
                 "resourceType": "GMScript"
             }
         },
