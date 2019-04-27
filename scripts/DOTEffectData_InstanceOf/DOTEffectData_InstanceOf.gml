@@ -5,6 +5,6 @@ var _any_data = argument[0];
 
 
 return
-	EffectData_INSTANCE_OF(_any_data) &&
+	EffectData_InstanceOf(_any_data) &&
 	EffectData_GetEffect(_any_data) == Enum_Effects.DOT &&
 	array_length_1d(_any_data[1]) == 0;
