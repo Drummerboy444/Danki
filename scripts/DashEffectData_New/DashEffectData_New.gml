@@ -5,7 +5,7 @@
 /// @param {number} num_dashMultiplier The multiplicative effect of the dash on the targets speed.
 /// @param {number} num_slowMultiplier The multiplicative effect of the subsequent slow on the targets speed.
 /// @param {number} num_slowSteps The number of steps for the subsequent slow.
-/// @returns {DOTEffectData} The new slow effect data.
+/// @returns {DashEffectData} The new dash effect data.
 var _num_steps = argument[0];
 var _id_caster = argument[1];
 var _num_dashMultiplier = argument[2];
