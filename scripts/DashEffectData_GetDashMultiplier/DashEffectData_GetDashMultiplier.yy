@@ -1,8 +1,8 @@
 {
-    "id": "6b43deb7-7479-49ca-99f8-b72db377631c",
+    "id": "2a15a7d7-c188-48fb-bc6b-11809428c50c",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "SlowEffectData_GetSlowMultiplyer",
+    "name": "DashEffectData_GetDashMultiplier",
     "IsCompatibility": false,
     "IsDnD": false
 }
