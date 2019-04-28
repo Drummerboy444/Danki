@@ -44,7 +44,8 @@ with(_id_instanceToMove) {
 		return;	
 	}
 	
-	// Binary search for the farthest distance we can move without a collision, accuracy is half a pixel, always underestimates max distance.
+	// Binary search for the farthest linear distance we can move without a collision.
+	// Accuracy is half a pixel, always underestimates max distance.
 	var _num_cycles = log2(_num_frameDistance) + 1;
 	var _num_moveProportion = 0;
 	var _bool_collides = false;
@@ -68,6 +69,16 @@ with(_id_instanceToMove) {
 			_num_newX = _num_tryX;
 			_num_newY = _num_tryY;
 		}
+	}
+	
+	// Slide to frameTerminusX if possible.
+	if(!place_meeting(_num_frameTerminusX, _num_newY, oCollidable)){
+			_num_newX = _num_frameTerminusX;
+	}
+	
+	// Slide to frameTerminusY if possible.
+	if(!place_meeting(_num_newX, _num_frameTerminusY, oCollidable)){
+			_num_newY = _num_frameTerminusY;
 	}
 	
 	x = _num_newX;
