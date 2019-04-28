@@ -1,8 +1,8 @@
 {
-    "id": "fd3511ad-8e22-4375-9cf1-c6edefc5b666",
+    "id": "748b54de-474c-47e7-840a-8581b8b22227",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "EffectData_NEW",
+    "name": "DashEffectData_GetSlowSteps",
     "IsCompatibility": false,
     "IsDnD": false
 }
