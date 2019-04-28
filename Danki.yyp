@@ -618,7 +618,7 @@
             "Key": "2a15a7d7-c188-48fb-bc6b-11809428c50c",
             "Value": {
                 "id": "37c47d48-7b3e-4aa5-a6a7-42c24ec6b641",
-                "resourcePath": "scripts\\DashEffectData_GetDashMultiplyer\\DashEffectData_GetDashMultiplyer.yy",
+                "resourcePath": "scripts\\DashEffectData_GetDashMultiplier\\DashEffectData_GetDashMultiplier.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -994,7 +994,7 @@
             "Key": "470967ca-4024-4b49-8952-e25c40a50740",
             "Value": {
                 "id": "cdfafa5a-86e2-4997-9c07-8d275580d512",
-                "resourcePath": "scripts\\DashEffectData_GetSlowMultiplyer\\DashEffectData_GetSlowMultiplyer.yy",
+                "resourcePath": "scripts\\DashEffectData_GetSlowMultiplier\\DashEffectData_GetSlowMultiplier.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1402,7 +1402,7 @@
             "Key": "6b43deb7-7479-49ca-99f8-b72db377631c",
             "Value": {
                 "id": "ab0709e0-bcfe-4baa-8701-43ba364186de",
-                "resourcePath": "scripts\\SlowEffectData_GetSlowMultiplyer\\SlowEffectData_GetSlowMultiplyer.yy",
+                "resourcePath": "scripts\\SlowEffectData_GetSlowMultiplier\\SlowEffectData_GetSlowMultiplier.yy",
                 "resourceType": "GMScript"
             }
         },

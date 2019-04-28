@@ -8,13 +8,13 @@ var _list_bucket = argument[1];
 if(ds_list_size(_list_bucket)==0) return;
 
 var _DashEffectData_data = _list_bucket[| 0];
-var _num_dashMultiplyer = DashEffectData_GetDashMultiplyer(_DashEffectData_data);
-var _num_slowMultiplyer = DashEffectData_GetSlowMultiplyer(_DashEffectData_data);
+var _num_dashMultiplier = DashEffectData_GetDashMultiplier(_DashEffectData_data);
+var _num_slowMultiplier = DashEffectData_GetSlowMultiplier(_DashEffectData_data);
 var _num_slowSteps = DashEffectData_GetSlowSteps(_DashEffectData_data);
 
 var _num_CurrentSpeed = ds_Stats_Get(_id_abilityCaster.ds_Stats_frameStats, Enum_Stats.SPEED);
 	
-ds_Stats_Set(_id_abilityCaster.ds_Stats_frameStats, Enum_Stats.SPEED, _num_CurrentSpeed * _num_dashMultiplyer);
+ds_Stats_Set(_id_abilityCaster.ds_Stats_frameStats, Enum_Stats.SPEED, _num_CurrentSpeed * _num_dashMultiplier);
 
 if(EffectData_IsOnLastStep(_DashEffectData_data)){
 	AbilityCaster_AddEffectDataToBuffer(
@@ -22,7 +22,7 @@ if(EffectData_IsOnLastStep(_DashEffectData_data)){
 		SlowEffectData_New(
 			_num_slowSteps,
 			_id_abilityCaster,
-			_num_slowMultiplyer
+			_num_slowMultiplier
 		)
 	)
 }
