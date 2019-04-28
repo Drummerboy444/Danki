@@ -3181,6 +3181,14 @@
                 "resourcePath": "scripts\\ds_Ability_GetType\\ds_Ability_GetType.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "ffbf56cb-6d11-460e-be81-a79ef7043f01",
+            "Value": {
+                "id": "fd85ba55-2c7b-4be7-a3be-dea39d632187",
+                "resourcePath": "scripts\\DOTEffectData_GetDamageType\\DOTEffectData_GetDamageType.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
@@ -3297,6 +3305,7 @@
         "9887333b-7622-4782-8f65-89d8361795fa",
         "081d7200-5fdf-4b35-baad-7d0986adccec",
         "5c10440b-65ec-435e-afc1-dfa58fb25b00",
+        "ffbf56cb-6d11-460e-be81-a79ef7043f01",
         "fd3511ad-8e22-4375-9cf1-c6edefc5b666",
         "1f41b31d-5c42-4f36-9a27-1b24c684d02a",
         "6c1e0975-abc1-43e3-81ef-1f61aa33cdba",

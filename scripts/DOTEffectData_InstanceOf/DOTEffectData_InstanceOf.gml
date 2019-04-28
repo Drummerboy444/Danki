@@ -11,5 +11,6 @@ if (!EffectData_InstanceOf(_any_data) || !EffectData_GetEffect(_any_data) == Enu
 var _arr_arguments = EffectData_GET_ARGUMENTS(_any_data);
 
 return
-	array_length_1d(_arr_arguments) == 1 &&
-	is_real(_arr_arguments[0]);
+	array_length_1d(_arr_arguments) == 2 &&
+	is_real(_arr_arguments[0]) &&
+	_arr_arguments[1] < Enum_DamageTypes.length;
