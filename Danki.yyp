@@ -1111,6 +1111,14 @@
             }
         },
         {
+            "Key": "52b22b3b-f95d-4762-b6fd-bd2080586fce",
+            "Value": {
+                "id": "0495d870-b344-42f3-ba7e-ab2525a789f4",
+                "resourcePath": "scripts\\MovementGridManager_UpdatePath\\MovementGridManager_UpdatePath.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "54c63f3e-a617-4585-a3a7-28148618a26c",
             "Value": {
                 "id": "f8c02f2a-f4bf-4c25-a43a-1844e18fa58c",
@@ -3370,6 +3378,7 @@
         "d1ea4949-c83e-48fb-ac48-ef7957569af4",
         "c845fac9-ec2d-42a6-a577-f27a78ce1765",
         "c17ac245-3720-47d9-abed-c4a7ece6fe19",
+        "52b22b3b-f95d-4762-b6fd-bd2080586fce",
         "670dcdd1-5c68-43ab-898f-2d647addf723",
         "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
