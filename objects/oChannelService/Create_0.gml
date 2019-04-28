@@ -3,6 +3,8 @@ event_inherited();
 
 id_ability = noone;
 
+obj_targetType = oAbilityCaster;
+
 num_targetX = 0;
 num_targetY = 0;
 

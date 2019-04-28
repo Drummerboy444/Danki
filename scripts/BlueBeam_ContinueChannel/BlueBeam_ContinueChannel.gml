@@ -16,7 +16,7 @@ _id_blueBeam.y = _id_caster.y;
 _id_blueBeam.num_targetX = _num_targetX;
 _id_blueBeam.num_targetY = _num_targetY;
 
-var _id_nearestEnemy = instance_nearest(_num_targetX, _num_targetY, oEnemy);
+var _id_nearestEnemy = instance_nearest(_num_targetX, _num_targetY, _id_caster.id_channelService.obj_targetType);
 
 if(_id_nearestEnemy == noone) return;
 
