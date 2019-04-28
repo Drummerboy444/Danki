@@ -37,16 +37,17 @@ with (oPlayer) {
 	
 	if (_bool_dash and num_dashCooldownRemaining <= 0 and (_bool_isMovingHorizontally or _bool_isMovingVertically)) {
 		//Initiate a dash
-		num_dashCooldownRemaining = PLAYER_DASH_DURATION + PLAYER_DASH_SLOW_DURATION;
+		num_dashCooldownRemaining = PLAYER_DASH_STEPS + PLAYER_DASH_SLOW_STEPS;
 		num_xDashMovement = _num_horizontalMovement;
 		num_yDashMovement = _num_verticalMovement;
 		AbilityCaster_AddEffectDataToBuffer(
 			id,
-			EffectData_New(
-				Enum_Effects.DASH,
-				[PLAYER_DASH_SPEED, PLAYER_DASH_SLOW, PLAYER_DASH_SLOW_DURATION],
-				PLAYER_DASH_DURATION,
-				id
+			DashEffectData_New(
+				PLAYER_DASH_STEPS,
+				id,
+				PLAYER_DASH_SPEED_MULTIPLIER,
+				PLAYER_DASH_SLOW_MULTIPLIER,
+				PLAYER_DASH_SLOW_STEPS
 			)
 		);
 	}

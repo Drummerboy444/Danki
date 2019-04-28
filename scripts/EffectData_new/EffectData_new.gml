@@ -1,4 +1,4 @@
-/// @function EffectData_new(enum_effect, arr_arguments, num_steps, id_caster) Creates a new EffectData
+/// @function EffectData_NEW(enum_effect, arr_arguments, num_steps, id_caster) Creates a new EffectData
 /// @param {enum} enum_effect The effect type.
 /// @param {array} arr_arguments The array of arguments.
 /// @param {number} num_steps The number of steps.

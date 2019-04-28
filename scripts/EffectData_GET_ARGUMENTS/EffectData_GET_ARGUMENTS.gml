@@ -1,4 +1,4 @@
-/// @function EffectData_getArguments(EffectData_data) Gets the arguments from an EffectData.
+/// @function EffectData_GET_ARGUMENTS(EffectData_data) Gets the arguments from an EffectData.
 /// @param {EffectData} EffectData_data The effect data.
 /// @returns {array} The effect arguments.
 var _EffectData_data = argument[0];

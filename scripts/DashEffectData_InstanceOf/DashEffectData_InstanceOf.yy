@@ -1,8 +1,8 @@
 {
-    "id": "fd3511ad-8e22-4375-9cf1-c6edefc5b666",
+    "id": "433c826c-4ddd-4edd-9861-57404b3263a3",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "EffectData_NEW",
+    "name": "DashEffectData_InstanceOf",
     "IsCompatibility": false,
     "IsDnD": false
 }
