@@ -4,7 +4,12 @@
 var _any_data = argument[0];
 
 
+if (!EffectData_InstanceOf(_any_data) || !EffectData_GetEffect(_any_data) == Enum_Effects.DOT) {
+	return false;
+}
+
+var _arr_arguments = EffectData_GET_ARGUMENTS(_any_data);
+
 return
-	EffectData_InstanceOf(_any_data) &&
-	EffectData_GetEffect(_any_data) == Enum_Effects.DOT &&
-	array_length_1d(_any_data[1]) == 0;
+	array_length_1d(_arr_arguments) == 1 &&
+	is_real(_arr_arguments[0]);

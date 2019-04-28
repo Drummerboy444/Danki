@@ -1207,6 +1207,14 @@
             }
         },
         {
+            "Key": "5c10440b-65ec-435e-afc1-dfa58fb25b00",
+            "Value": {
+                "id": "81ff9ad6-5015-4937-9a00-a5b898e33cd3",
+                "resourcePath": "scripts\\DOTEffectData_GetDamagePerStep\\DOTEffectData_GetDamagePerStep.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5cd76c0c-4641-468f-9a55-f5c76cd5df0f",
             "Value": {
                 "id": "1c6793c2-dcaf-4eb6-a5e4-5f0eba580bc4",
@@ -3288,6 +3296,7 @@
         "748b54de-474c-47e7-840a-8581b8b22227",
         "9887333b-7622-4782-8f65-89d8361795fa",
         "081d7200-5fdf-4b35-baad-7d0986adccec",
+        "5c10440b-65ec-435e-afc1-dfa58fb25b00",
         "fd3511ad-8e22-4375-9cf1-c6edefc5b666",
         "1f41b31d-5c42-4f36-9a27-1b24c684d02a",
         "6c1e0975-abc1-43e3-81ef-1f61aa33cdba",
