@@ -3,7 +3,9 @@ var _num_bufferSize = ds_list_size(list_movementBuffer);
 // Update paths for all movers.
 for (var i = 0; i < _num_bufferSize; i++) {
 	var _MovementData_movement = list_movementBuffer[| i];
-	MovementGridManager_UpdatePath(_MovementData_movement);
+	if(MovementData_CheckMovementIsLinear(_MovementData_movement)){
+		MovementGridManager_UpdatePath(_MovementData_movement);
+	}
 }
 
 // Make and sort the movement sequencer grid.
