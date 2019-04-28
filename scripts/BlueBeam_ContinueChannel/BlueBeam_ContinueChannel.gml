@@ -20,10 +20,14 @@ var _id_nearestEnemy = instance_nearest(_num_targetX, _num_targetY, oEnemy);
 
 if(_id_nearestEnemy == noone) return;
 
-if(point_distance(_num_targetX, _num_targetY, _id_nearestEnemy.x, _id_nearestEnemy.y) < 40){
+if(position_meeting(_num_targetX, _num_targetY, _id_nearestEnemy)){
 	AbilityCaster_AddEffectDataToBuffer(
 		_id_nearestEnemy,
-		SlowEffectData_New(20, _id_caster, 0.5)
+		SlowEffectData_New(BLUE_BEAM_SLOW_DURATION, _id_caster, BLUE_BEAM_SLOW_MULTIPLIER)
 	);
-	DamageManager_ApplyDamage(id_owner, _id_nearestEnemy, DamageData_New(Enum_DamageTypes.ICE, 1))
+	DamageManager_ApplyDamage(
+		id_owner,
+		_id_nearestEnemy,
+		DamageData_New(Enum_DamageTypes.ICE, BLUE_BEAM_STEP_DAMAGE)
+	)
 }
