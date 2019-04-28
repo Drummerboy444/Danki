@@ -671,6 +671,14 @@
             }
         },
         {
+            "Key": "2ee5983e-d57a-4255-90ed-fbf23a52d452",
+            "Value": {
+                "id": "909a527e-36ed-4bcf-9c47-cc659e68b451",
+                "resourcePath": "views\\2ee5983e-d57a-4255-90ed-fbf23a52d452.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2efd68fd-1a45-44be-a364-2b033df4542b",
             "Value": {
                 "id": "6a7efc9c-cf09-43c5-a152-9452c6acc434",
@@ -2959,6 +2967,14 @@
             }
         },
         {
+            "Key": "ef8397c3-cf94-4c6a-8b24-a10e16f91b85",
+            "Value": {
+                "id": "dfd98443-2414-4fba-9d07-ad792af39736",
+                "resourcePath": "scripts\\MACROS_YellowCircle\\MACROS_YellowCircle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f072baca-088d-4dbc-af08-3e3a8de7d246",
             "Value": {
                 "id": "ecfdceed-58bb-4219-9924-9fe5f5d4be77",
@@ -3384,7 +3400,8 @@
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
         "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d",
         "3b33ada8-925d-4f0e-953b-a9d603d8798f",
-        "27e24ea1-60d5-41f0-a64c-451b3a958ce4"
+        "27e24ea1-60d5-41f0-a64c-451b3a958ce4",
+        "ef8397c3-cf94-4c6a-8b24-a10e16f91b85"
     ],
     "tutorial": ""
 }
