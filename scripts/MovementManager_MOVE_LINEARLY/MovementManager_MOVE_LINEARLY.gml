@@ -72,6 +72,4 @@ with(_id_instanceToMove) {
 	
 	x = _num_newX;
 	y = _num_newY;
-	
-	return;
 }
