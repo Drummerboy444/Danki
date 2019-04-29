@@ -671,6 +671,14 @@
             }
         },
         {
+            "Key": "2ee5983e-d57a-4255-90ed-fbf23a52d452",
+            "Value": {
+                "id": "909a527e-36ed-4bcf-9c47-cc659e68b451",
+                "resourcePath": "views\\2ee5983e-d57a-4255-90ed-fbf23a52d452.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2efd68fd-1a45-44be-a364-2b033df4542b",
             "Value": {
                 "id": "6a7efc9c-cf09-43c5-a152-9452c6acc434",
@@ -1219,6 +1227,14 @@
             "Value": {
                 "id": "7e169ec1-d1f5-427d-bdeb-c1c586a6e18c",
                 "resourcePath": "scripts\\ds_OneShot_New\\ds_OneShot_New.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5c10440b-65ec-435e-afc1-dfa58fb25b00",
+            "Value": {
+                "id": "81ff9ad6-5015-4937-9a00-a5b898e33cd3",
+                "resourcePath": "scripts\\DOTEffectData_GetDamagePerStep\\DOTEffectData_GetDamagePerStep.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2959,6 +2975,14 @@
             }
         },
         {
+            "Key": "ef8397c3-cf94-4c6a-8b24-a10e16f91b85",
+            "Value": {
+                "id": "dfd98443-2414-4fba-9d07-ad792af39736",
+                "resourcePath": "scripts\\MACROS_YellowCircle\\MACROS_YellowCircle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f072baca-088d-4dbc-af08-3e3a8de7d246",
             "Value": {
                 "id": "ecfdceed-58bb-4219-9924-9fe5f5d4be77",
@@ -3189,6 +3213,14 @@
                 "resourcePath": "scripts\\ds_Ability_GetType\\ds_Ability_GetType.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "ffbf56cb-6d11-460e-be81-a79ef7043f01",
+            "Value": {
+                "id": "fd85ba55-2c7b-4be7-a3be-dea39d632187",
+                "resourcePath": "scripts\\DOTEffectData_GetDamageType\\DOTEffectData_GetDamageType.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
@@ -3305,6 +3337,8 @@
         "748b54de-474c-47e7-840a-8581b8b22227",
         "9887333b-7622-4782-8f65-89d8361795fa",
         "081d7200-5fdf-4b35-baad-7d0986adccec",
+        "5c10440b-65ec-435e-afc1-dfa58fb25b00",
+        "ffbf56cb-6d11-460e-be81-a79ef7043f01",
         "fd3511ad-8e22-4375-9cf1-c6edefc5b666",
         "1f41b31d-5c42-4f36-9a27-1b24c684d02a",
         "6c1e0975-abc1-43e3-81ef-1f61aa33cdba",
@@ -3375,7 +3409,8 @@
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
         "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d",
         "3b33ada8-925d-4f0e-953b-a9d603d8798f",
-        "27e24ea1-60d5-41f0-a64c-451b3a958ce4"
+        "27e24ea1-60d5-41f0-a64c-451b3a958ce4",
+        "ef8397c3-cf94-4c6a-8b24-a10e16f91b85"
     ],
     "tutorial": ""
 }

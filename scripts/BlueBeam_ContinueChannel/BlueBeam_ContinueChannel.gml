@@ -25,5 +25,5 @@ if(point_distance(_num_targetX, _num_targetY, _id_nearestEnemy.x, _id_nearestEne
 		_id_nearestEnemy,
 		SlowEffectData_New(20, _id_caster, 0.5)
 	);
-	DamageManager_ApplyDamage(id_owner, _id_nearestEnemy, DamageData_New(Enum_DamageTypes.ICE, 1))
+	DamageManager_ApplyDamage(_id_caster, _id_nearestEnemy, DamageData_New(Enum_DamageTypes.ICE, 1))
 }
