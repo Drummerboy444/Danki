@@ -1031,6 +1031,14 @@
             }
         },
         {
+            "Key": "49844ad9-bff8-4311-bf7b-2c722f251c18",
+            "Value": {
+                "id": "ef153ed5-1598-4691-8272-b3503e83535d",
+                "resourcePath": "scripts\\EffectData_IsOnLastStep\\EffectData_IsOnLastStep.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "49ecfca8-1c6a-48c6-9963-5c2716880a73",
             "Value": {
                 "id": "be057897-00bf-4c6b-ba0e-492b363b2f49",
@@ -3339,6 +3347,7 @@
         "0374fb1c-ce7e-46e6-8386-23d0db831639",
         "7f0ad5f5-3a36-4ca1-a36b-a84a8bbc9719",
         "6b29155b-0b29-4f5a-9fab-3b0c4cfb4eee",
+        "49844ad9-bff8-4311-bf7b-2c722f251c18",
         "b1be6216-2ef7-4aef-9b44-01e85a6aa4f8",
         "f647eb31-a403-4b50-b879-9f20dc24c82e",
         "3537edbd-c2fa-435a-8334-3708962ada36",
