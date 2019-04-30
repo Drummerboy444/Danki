@@ -35,23 +35,13 @@ with(_id_instanceToMove) {
 		return;
 	}
 	
-	// If you can't move at least half a pixel, don't move at all.
-	if(place_meeting(
-		x + 0.5 * _num_frameTerminusX/_num_frameDistance,
-		y + 0.5 * _num_frameTerminusY/_num_frameDistance,
-		oCollidable)
-	){
-		return;	
-	}
-	
 	// Binary search for the farthest linear distance we can move without a collision.
 	// Accuracy is half a pixel, always underestimates max distance.
 	var _num_cycles = log2(_num_frameDistance) + 1;
+	
 	var _num_moveProportion = 0;
 	var _bool_collides = false;
-	
 	var _num_newX = x;
-	var _num_newY = y;
 	
 	for(var i=1; i<=_num_cycles; i++){
 		if(_bool_collides){
@@ -61,26 +51,33 @@ with(_id_instanceToMove) {
 		}
 		
 		var _num_tryX = x + _num_moveProportion * (_num_frameTerminusX - x);
-		var _num_tryY = y + _num_moveProportion * (_num_frameTerminusY - y);
 		
-		_bool_collides = place_meeting(_num_tryX, _num_tryY, oCollidable);
+		_bool_collides = place_meeting(_num_tryX, y, oCollidable);
 		
 		if(!_bool_collides){
 			_num_newX = _num_tryX;
+		}
+	}
+	x = _num_newX;
+	
+	var _num_moveProportion = 0;
+	var _bool_collides = false;
+	var _num_newY = y;
+	
+	for(var i=1; i<=_num_cycles; i++){
+		if(_bool_collides){
+			_num_moveProportion -= 1/power(2,i);
+		} else{
+			_num_moveProportion += 1/power(2,i);
+		}
+		
+		var _num_tryY = y + _num_moveProportion * (_num_frameTerminusY - y);
+		
+		_bool_collides = place_meeting(x, _num_tryY, oCollidable);
+		
+		if(!_bool_collides){
 			_num_newY = _num_tryY;
 		}
 	}
-	
-	// Slide to frameTerminusX if possible.
-	if(!place_meeting(_num_frameTerminusX, _num_newY, oCollidable)){
-			_num_newX = _num_frameTerminusX;
-	}
-	
-	// Slide to frameTerminusY if possible.
-	if(!place_meeting(_num_newX, _num_frameTerminusY, oCollidable)){
-			_num_newY = _num_frameTerminusY;
-	}
-	
-	x = _num_newX;
 	y = _num_newY;
 }
