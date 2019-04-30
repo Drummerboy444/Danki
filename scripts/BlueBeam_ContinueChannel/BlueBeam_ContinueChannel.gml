@@ -26,7 +26,7 @@ if(position_meeting(_num_targetX, _num_targetY, _id_nearestEnemy)){
 		SlowEffectData_New(BLUE_BEAM_SLOW_DURATION, _id_caster, BLUE_BEAM_SLOW_MULTIPLIER)
 	);
 	DamageManager_ApplyDamage(
-		id_owner,
+		_id_caster,
 		_id_nearestEnemy,
 		DamageData_New(Enum_DamageTypes.ICE, BLUE_BEAM_STEP_DAMAGE)
 	)
