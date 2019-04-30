@@ -1,5 +1,6 @@
 enum Enum_Effects {
 	SLOW,
+	STUN,
 	DASH,
 	DOT,
 	length
@@ -24,6 +25,12 @@ ds_EffectHookScripts_SetScript(
 	map_effectToEventHookScripts[? Enum_Effects.SLOW],
 	Enum_EventHooks.ON_BEGIN_STEP,
 	Slow_BucketHandler);
+
+map_effectToEventHookScripts[? Enum_Effects.STUN] = ds_EffectHookScripts_New();
+ds_EffectHookScripts_SetScript(
+	map_effectToEventHookScripts[? Enum_Effects.STUN],
+	Enum_EventHooks.ON_BEGIN_STEP,
+	Stun_BucketHandler);
 
 map_effectToEventHookScripts[? Enum_Effects.DASH] = ds_EffectHookScripts_New();
 ds_EffectHookScripts_SetScript(

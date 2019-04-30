@@ -2,7 +2,7 @@
 /// @param {number} num_steps The number of steps.
 /// @param {id} id_caster The instance id of the caster.
 /// @param {number} num_slowMultiplier The multiplicative effect of the slow on the targets speed.
-/// @returns {DOTEffectData} The new slow effect data.
+/// @returns {SlowEffectData} The new slow effect data.
 var _num_steps = argument[0];
 var _id_caster = argument[1];
 var _num_slowMultiplier = argument[2];
