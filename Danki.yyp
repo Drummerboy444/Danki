@@ -1031,6 +1031,14 @@
             }
         },
         {
+            "Key": "4793315f-6596-4ec6-9535-cb6d2d0f3992",
+            "Value": {
+                "id": "87558341-8ac4-4486-89f3-43cac111de9d",
+                "resourcePath": "scripts\\MovementManager_MOVE_LINEARLY\\MovementManager_MOVE_LINEARLY.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "47c8485b-6ca0-49b9-9bbf-056f759c67b0",
             "Value": {
                 "id": "cb6c0d0d-32b3-4e09-9db0-c9f88091e670",
@@ -3336,6 +3344,7 @@
         "14077e11-df97-4f4f-aab0-8b79eed5037b",
         "84756f76-1ea4-4bfc-abe9-2b64214fb665",
         "e02f1891-1d02-4d12-b616-3073a6f187df",
+        "4793315f-6596-4ec6-9535-cb6d2d0f3992",
         "713beafa-9bb8-4e3a-8615-85e0b91f6989",
         "9a05a829-0151-4caf-8c2c-6012312162e3",
         "aa33c175-8498-4234-b943-33f6b897c1d8",
