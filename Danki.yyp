@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "0e45712d-5aac-45ce-990c-74c6ed152b06",
+            "Value": {
+                "id": "882342e8-a94a-4500-85eb-c604aa01bad9",
+                "resourcePath": "scripts\\TargetDummy_DEATH_SCRIPT\\TargetDummy_DEATH_SCRIPT.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0f0d7f77-482e-497d-aa9b-4a3b60acc49c",
             "Value": {
                 "id": "c1622db3-1834-41e7-9db1-3fc2498b3271",
@@ -383,6 +391,14 @@
             }
         },
         {
+            "Key": "17814a72-56a1-4126-8a59-d9fbfa418b68",
+            "Value": {
+                "id": "4cb08d60-c146-45b8-b9b5-868cbd3206c1",
+                "resourcePath": "scripts\\TargetDummy_ATTACK\\TargetDummy_ATTACK.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "17b5079f-ae83-4ca8-ba0c-7bcae8c70726",
             "Value": {
                 "id": "6da295fe-c608-4885-a04d-0e1261d2f024",
@@ -459,6 +475,14 @@
             "Value": {
                 "id": "1d04c021-fb6e-40cb-a32f-71a3af2b53a7",
                 "resourcePath": "scripts\\ds_ContextBag_New\\ds_ContextBag_New.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1db54d5f-92c9-49c6-b582-636a01d2747b",
+            "Value": {
+                "id": "cd82b30f-5ab2-4f91-9525-8b359189ba65",
+                "resourcePath": "scripts\\TargetDummy_DEFEND\\TargetDummy_DEFEND.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -884,6 +908,14 @@
                 "id": "1cba85b8-ec9a-40ea-a6f5-fe1be9bfb1b4",
                 "resourcePath": "views\\3b63738d-1dcf-4e2c-a510-f8aaf110ccb7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3c0cf1ba-0e66-4a99-84ec-7abf2f8a3c77",
+            "Value": {
+                "id": "32b98ba1-98bc-4e99-8dc2-5a43ffb8c814",
+                "resourcePath": "scripts\\TargetDummy_EVADE\\TargetDummy_EVADE.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1647,6 +1679,14 @@
             }
         },
         {
+            "Key": "7c62aa8e-0136-40cb-b771-3f08f694ad26",
+            "Value": {
+                "id": "904e049e-2e76-435b-8393-844ec44ba638",
+                "resourcePath": "views\\7c62aa8e-0136-40cb-b771-3f08f694ad26.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7c8f3052-10d6-47bc-8a69-102928800ccd",
             "Value": {
                 "id": "3b849a09-0db8-422d-bc98-03800fe5577a",
@@ -1828,6 +1868,14 @@
                 "id": "128185be-2cc5-4c03-bdfc-b27546140094",
                 "resourcePath": "views\\86a3bf12-f2f2-4e6c-b01f-9fa3aa0be490.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "86e71d64-5199-4f7d-90fc-7c8f24e99c2c",
+            "Value": {
+                "id": "f72fee0c-e6f4-48e3-8cc6-d19bef3af692",
+                "resourcePath": "scripts\\TargetDummy_RETREAT\\TargetDummy_RETREAT.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2196,6 +2244,14 @@
                 "id": "8af1ad6d-e57c-47a4-89f4-e4bf49a32fd5",
                 "resourcePath": "views\\a64c7c71-c4f0-422b-8471-3b5c00561561.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a74d7c6d-8ccc-4c63-bf10-bfc082b07240",
+            "Value": {
+                "id": "24f46787-6469-4d59-9263-546b878cf131",
+                "resourcePath": "scripts\\TargetDummy_FIND_TARGET\\TargetDummy_FIND_TARGET.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2599,6 +2655,14 @@
             }
         },
         {
+            "Key": "cc5b35fd-0a3d-4241-b77c-919b8c40223c",
+            "Value": {
+                "id": "51aa5e90-2df5-4f5e-ad47-dc4c74bf661e",
+                "resourcePath": "scripts\\TargetDummy_PLAN\\TargetDummy_PLAN.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc631f99-c293-4ecb-9046-6046d31a3d66",
             "Value": {
                 "id": "eff3c5e3-084b-48cf-b798-8f4f69f34e94",
@@ -2620,6 +2684,14 @@
                 "id": "19476cab-785e-41bc-935f-d986c23b1d7a",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ccc728cd-0aee-4129-865c-0bfbe5f64191",
+            "Value": {
+                "id": "dcb72cad-ebc0-4abb-baf0-cfb2608cfc4a",
+                "resourcePath": "views\\ccc728cd-0aee-4129-865c-0bfbe5f64191.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -3135,6 +3207,14 @@
             }
         },
         {
+            "Key": "f53b7689-d856-4540-8dce-97bbbe2683be",
+            "Value": {
+                "id": "ddda74a0-a629-42e2-99c7-603a6a83d403",
+                "resourcePath": "scripts\\TargetDummy_ADVANCE\\TargetDummy_ADVANCE.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f57806d8-c0b8-4bb9-89c3-64b2a7252cd7",
             "Value": {
                 "id": "e4beb12d-fe49-42fb-85da-fcb7b25f4550",
@@ -3284,6 +3364,14 @@
         "962eca4e-73ad-4ca9-96ec-39008b0d0407",
         "6ba78cdc-94f3-4bc6-826d-29ce6cae4d19",
         "8be3c514-640f-40e1-9c76-610645044d21",
+        "cc5b35fd-0a3d-4241-b77c-919b8c40223c",
+        "0e45712d-5aac-45ce-990c-74c6ed152b06",
+        "17814a72-56a1-4126-8a59-d9fbfa418b68",
+        "a74d7c6d-8ccc-4c63-bf10-bfc082b07240",
+        "1db54d5f-92c9-49c6-b582-636a01d2747b",
+        "f53b7689-d856-4540-8dce-97bbbe2683be",
+        "86e71d64-5199-4f7d-90fc-7c8f24e99c2c",
+        "3c0cf1ba-0e66-4a99-84ec-7abf2f8a3c77",
         "f48e2262-356e-42ea-a531-73a8520effab",
         "98686718-de60-4009-8a1c-2944a2256b0b",
         "0db22e2e-3408-41f8-9260-9c6986ab5116",
