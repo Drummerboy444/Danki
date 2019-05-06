@@ -24,4 +24,5 @@ if (_num_terminusToPathDistance > MOVEMENT_GRID_MANAGER_PATH_END_PRECISION) {
 		_num_terminusY,
 		MOVEMENT_GRID_MANAGER_ALLOW_DIAG
 	);
+	_id_instanceToMove.num_pathPosition = 0;
 }

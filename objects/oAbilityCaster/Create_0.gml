@@ -17,6 +17,7 @@ ds_Agenda_agenda = ds_Agenda_New();
 ds_Personality_personality = ds_Personality_CreateDefault();
 
 path_currentPath = path_add();
+num_pathPosition = 0;
 
 num_aggroRange = 0;
 
