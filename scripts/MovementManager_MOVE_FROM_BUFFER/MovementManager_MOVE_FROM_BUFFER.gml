@@ -2,8 +2,8 @@
 /// @param {MovementData} MovementData_data
 var _MovementData_data = argument[0];
 
-//if(MovementData_CheckMovementIsLinear(_MovementData_data)){
-	MovementManager_MOVE_LINEARLY(_MovementData_data)
-//}
-
-// Else we handle movement according to the path.
+switch (MovementData_GetMovementType(_MovementData_data)) {
+	case Enum_MovementType.LINEAR_SLIDING:
+		MovementManager_MOVE_LINEAR_SLIDING(_MovementData_data);
+		break;
+}
