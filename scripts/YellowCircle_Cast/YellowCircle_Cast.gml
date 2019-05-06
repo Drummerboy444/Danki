@@ -10,13 +10,14 @@ var _id_caster = argument[0];
 var _num_targetX = argument[1];
 var _num_targetY = argument[2];
 
-var _id_nearestEnemy = instance_nearest(_num_targetX, _num_targetY, oEnemy);
+var _obj_hostileType = AbilityCaster_GetHostileType(_id_caster);
+var _id_nearestHostile = instance_nearest(_num_targetX, _num_targetY, _obj_hostileType);
 
-if(_id_nearestEnemy == noone) return;
+if(_id_nearestHostile == noone) return;
 
-if(position_meeting(_num_targetX, _num_targetY, oEnemy)){
+if(position_meeting(_num_targetX, _num_targetY, _obj_hostileType)){
 	AbilityCaster_AddEffectDataToBuffer(
-		_id_nearestEnemy,
+		_id_nearestHostile,
 		DOTEffectData_New(
 			YELLOW_CIRCLE_DOT_DURATION,
 			_id_caster,

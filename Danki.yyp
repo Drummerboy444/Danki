@@ -2023,6 +2023,14 @@
             }
         },
         {
+            "Key": "9788ed7d-90f8-4c7d-abe8-caae4cd62f35",
+            "Value": {
+                "id": "5d324384-32b8-4616-8937-c0c55abad433",
+                "resourcePath": "scripts\\AbilityCaster_GetHostileType\\AbilityCaster_GetHostileType.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "982aed17-0302-4a2d-ab65-ed231a632812",
             "Value": {
                 "id": "9f878714-b847-4835-b594-c9600d4a7eda",
@@ -3389,6 +3397,7 @@
         "4cce76fa-4bd5-4a03-b9aa-c3e1992901ea",
         "14a9eb96-3fc6-4144-a948-886067038447",
         "c9a87b71-7b03-468a-bf8d-df799ffd823f",
+        "9788ed7d-90f8-4c7d-abe8-caae4cd62f35",
         "96d72d00-e496-4523-b5e3-47fda98fa6e6",
         "64332ebb-c9f9-4b16-a535-1624703a8032",
         "2efd68fd-1a45-44be-a364-2b033df4542b",

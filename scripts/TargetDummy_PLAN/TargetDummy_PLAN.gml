@@ -27,7 +27,6 @@ if(
 	_num_distanceToTarget > 2 * _num_idealRange
 	or (bool_advancing and _num_distanceToTarget > _num_idealRange)
 ){
-	show_debug_message("Advance");
 	ds_Agenda_SetIntention(_ds_Agenda_toWriteTo, Enum_Actions.ADVANCE, true);
 	ds_Agenda_SetIntention(_ds_Agenda_toWriteTo, Enum_Actions.ATTACK, true);
 }
@@ -35,11 +34,9 @@ else if(
 	_num_distanceToTarget < 0.5 * _num_idealRange
 	or (bool_retreating and _num_distanceToTarget < 2*_num_idealRange)
 ){
-	show_debug_message("Retreat");
 	ds_Agenda_SetIntention(_ds_Agenda_toWriteTo, Enum_Actions.RETREAT, true);
 }
 else {
-	show_debug_message("Evade");
 	ds_Agenda_SetIntention(_ds_Agenda_toWriteTo, Enum_Actions.EVADE, true);
 	ds_Agenda_SetIntention(_ds_Agenda_toWriteTo, Enum_Actions.ATTACK, true);
 }

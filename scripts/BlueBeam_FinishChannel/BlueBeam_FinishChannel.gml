@@ -15,13 +15,14 @@ instance_destroy(_id_blueBeam);
 
 instance_create_layer(_num_targetX, _num_targetY, LAYERS_ABILITIES, oBlueBeamExplosion);
 
-var _id_nearestEnemy = instance_nearest(_num_targetX, _num_targetY, oEnemy);
+var _obj_hostileType = AbilityCaster_GetHostileType(_id_caster);
+var _id_nearestHostile = instance_nearest(_num_targetX, _num_targetY, _obj_hostileType);
 
-if(_id_nearestEnemy == noone) return;
+if(_id_nearestHostile == noone) return;
 
-if(point_distance(_num_targetX, _num_targetY, _id_nearestEnemy.x, _id_nearestEnemy.y) < BLUE_BEAM_STUN_RADIUS){
+if(point_distance(_num_targetX, _num_targetY, _id_nearestHostile.x, _id_nearestHostile.y) < BLUE_BEAM_STUN_RADIUS){
 	AbilityCaster_AddEffectDataToBuffer(
-		_id_nearestEnemy,
+		_id_nearestHostile,
 		StunEffectData_New(BLUE_BEAM_STUN_DURATION, _id_caster)
 	);
 }
