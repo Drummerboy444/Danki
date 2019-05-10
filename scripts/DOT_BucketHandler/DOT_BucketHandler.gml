@@ -7,7 +7,7 @@ var _list_bucket = argument[1];
 
 for (var i = 0; i < ds_list_size(_list_bucket); i++) {
 	var _DOTEffectData_data = _list_bucket[| i];
-	var _id_source = EffectData_GetCasterId(_DOTEffectData_data);
+	var _id_source = ds_EffectData_GetCasterId(_DOTEffectData_data);
 	var _num_damagePerStep = DOTEffectData_GetDamagePerStep(_DOTEffectData_data);
 	var _enum_damageType = DOTEffectData_GetDamageType(_DOTEffectData_data);
 	DamageManager_ApplyDamage(

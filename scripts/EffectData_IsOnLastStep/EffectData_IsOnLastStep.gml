@@ -3,8 +3,8 @@
 /// @returns {bool} True if the effect is on it's final step.
 var _EffectData_data = argument[0];
 
-if(!EffectData_InstanceOf(_EffectData_data)){
+if(!ds_EffectData_InstanceOf(_EffectData_data)){
 	ErrorHandler_FatalError("Expected EffectData input. Received type: " + typeof(_EffectData_data));
 }
 
-return EffectData_GetSteps(_EffectData_data) <= 0
+return ds_EffectData_GetSteps(_EffectData_data) <= 0

@@ -1,12 +1,11 @@
-/// @function DashEffectData_GetSlowSteps(DashEffectData_data) Returns the slow steps.
-/// @param {DashEffectData} DashEffectData_data The dash effect data to get the slow steps from.
+/// @function ds_DashEffectData_GetSlowSteps(ds_DashEffectData_data) Returns the slow steps.
+/// @param {ds_DashEffectData} ds_DashEffectData_data The dash effect data to get the slow steps from.
 /// @returns {number} The slow steps.
-var _DashEffectData_data = argument[0];
+var _ds_DashEffectData_data = argument[0];
 
 
-if(!DashEffectData_InstanceOf(_DashEffectData_data)){
+if(!DashEffectData_InstanceOf(_ds_DashEffectData_data)){
 	ErrorHandler_FatalError("Tried to get slow steps from non DashEffectData structure.");
 }
 
-var _arr_arguments = EffectData_GET_ARGUMENTS(_DashEffectData_data);
-return _arr_arguments[2];
+return _ds_DashEffectData_data[? DS_EFFECTDATA_SLOWSTEPS];

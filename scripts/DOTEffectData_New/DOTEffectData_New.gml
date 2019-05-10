@@ -1,4 +1,4 @@
-/// @function DOTEffectData_New(num_steps, id_caster, num_damagePerStep enum_damageType) Creates a new DOT effect data
+/// @function DOTEffectData_New(num_steps, id_caster, num_damagePerStep, enum_damageType) Creates a new DOT effect data
 /// @param {number} num_steps The number of steps.
 /// @param {id} id_caster The instance id of the caster.
 /// @param {number} num_damagePerStep The damage per step.

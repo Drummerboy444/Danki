@@ -1,8 +1,8 @@
 {
-    "id": "b1be6216-2ef7-4aef-9b44-01e85a6aa4f8",
+    "id": "f647eb31-a403-4b50-b879-9f20dc24c82e",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "EffectData_GetEffect",
+    "name": "ds_EffectData_GetSteps",
     "IsCompatibility": false,
     "IsDnD": false
 }

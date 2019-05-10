@@ -12,7 +12,7 @@ if(!Utility_ObjectIsAncestorOfInstance(oAbilityCaster, _id_abilityCaster)){
 var _list_effects = _id_abilityCaster.list_activeEffects;
 
 for(var i=0; i<ds_list_size(_list_effects); i++){
-	if(EffectData_GetEffect(_list_effects[| i]) == _enum_effect) return true;
+	if(ds_EffectData_GetEffect(_list_effects[| i]) == _enum_effect) return true;
 }
 
 return false;

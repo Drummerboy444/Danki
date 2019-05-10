@@ -12,7 +12,7 @@
         "06fa1db2-b181-408a-85ce-f18415631229"
     ],
     "filterType": "GMScript",
-    "folderName": "EffectData",
+    "folderName": "ds_EffectData",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

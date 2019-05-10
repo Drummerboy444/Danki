@@ -4,11 +4,11 @@
 var _any_data = argument[0];
 
 
-if (!EffectData_InstanceOf(_any_data) || !EffectData_GetEffect(_any_data) == Enum_Effects.DOT) {
+if (!ds_EffectData_InstanceOf(_any_data) || !ds_EffectData_GetEffect(_any_data) == Enum_Effects.DOT) {
 	return false;
 }
 
-var _arr_arguments = EffectData_GET_ARGUMENTS(_any_data);
+var _arr_arguments = ds_EffectData_GET_ARGUMENTS_ARRAY(_any_data);
 
 return
 	array_length_1d(_arr_arguments) == 2 &&

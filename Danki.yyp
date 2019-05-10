@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "07007818-2477-47cf-b7af-948bc9ca0612",
+            "Value": {
+                "id": "64b9fb4c-6d9b-4917-b634-d8c7bc9bc8bc",
+                "resourcePath": "scripts\\MACROS_ds_EffectData\\MACROS_ds_EffectData.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "070d4877-df44-4ec0-84a4-3040dc5940ad",
             "Value": {
                 "id": "d71b8525-c571-4f17-b2ef-a634ff800159",
@@ -482,7 +490,7 @@
             "Key": "1f41b31d-5c42-4f36-9a27-1b24c684d02a",
             "Value": {
                 "id": "c1160216-2c35-4b83-b548-e6ec63963dde",
-                "resourcePath": "scripts\\EffectData_GET_ARGUMENTS\\EffectData_GET_ARGUMENTS.yy",
+                "resourcePath": "scripts\\ds_EffectData_GET_ARGUMENTS_ARRAY\\ds_EffectData_GET_ARGUMENTS_ARRAY.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -778,7 +786,7 @@
             "Key": "3537edbd-c2fa-435a-8334-3708962ada36",
             "Value": {
                 "id": "bc43c49d-f058-49b6-98a6-261e96adf1b1",
-                "resourcePath": "scripts\\EffectData_GetCasterId\\EffectData_GetCasterId.yy",
+                "resourcePath": "scripts\\ds_EffectData_GetCasterId\\ds_EffectData_GetCasterId.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1442,7 +1450,7 @@
             "Key": "6b29155b-0b29-4f5a-9fab-3b0c4cfb4eee",
             "Value": {
                 "id": "f1c4be8e-fa16-42cc-a5f9-2d2ca281ae02",
-                "resourcePath": "scripts\\EffectData_InstanceOf\\EffectData_InstanceOf.yy",
+                "resourcePath": "scripts\\ds_EffectData_InstanceOf\\ds_EffectData_InstanceOf.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2282,7 +2290,7 @@
             "Key": "b1be6216-2ef7-4aef-9b44-01e85a6aa4f8",
             "Value": {
                 "id": "62491c83-58e7-4db4-92e0-3d939d0097fe",
-                "resourcePath": "scripts\\EffectData_GetEffect\\EffectData_GetEffect.yy",
+                "resourcePath": "scripts\\ds_EffectData_GetEffect\\ds_EffectData_GetEffect.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3178,7 +3186,7 @@
             "Key": "f647eb31-a403-4b50-b879-9f20dc24c82e",
             "Value": {
                 "id": "b362406b-3fe3-4543-92ad-6b7df891c9b7",
-                "resourcePath": "scripts\\EffectData_GetSteps\\EffectData_GetSteps.yy",
+                "resourcePath": "scripts\\ds_EffectData_GetSteps\\ds_EffectData_GetSteps.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3282,7 +3290,7 @@
             "Key": "fd3511ad-8e22-4375-9cf1-c6edefc5b666",
             "Value": {
                 "id": "c8c53684-d883-4157-8cab-6fb8d5b855be",
-                "resourcePath": "scripts\\EffectData_NEW\\EffectData_NEW.yy",
+                "resourcePath": "scripts\\ds_EffectData_NEW\\ds_EffectData_NEW.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3495,6 +3503,7 @@
         "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d",
         "3b33ada8-925d-4f0e-953b-a9d603d8798f",
         "27e24ea1-60d5-41f0-a64c-451b3a958ce4",
+        "07007818-2477-47cf-b7af-948bc9ca0612",
         "ef8397c3-cf94-4c6a-8b24-a10e16f91b85",
         "9869f945-b443-4700-ba7d-bed8ec595e92"
     ],
