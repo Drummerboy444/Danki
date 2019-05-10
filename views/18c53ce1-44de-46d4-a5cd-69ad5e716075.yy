@@ -9,7 +9,7 @@
         "eb386431-9e9f-4ac0-b1f5-eb4a0ce6cc24"
     ],
     "filterType": "GMScript",
-    "folderName": "DashEffectData",
+    "folderName": "ds_DashEffectData",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

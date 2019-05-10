@@ -138,7 +138,7 @@
             "Key": "081d7200-5fdf-4b35-baad-7d0986adccec",
             "Value": {
                 "id": "de7a9b99-9b5d-451a-93d2-310b8a6ca4b9",
-                "resourcePath": "scripts\\DOTEffectData_InstanceOf\\DOTEffectData_InstanceOf.yy",
+                "resourcePath": "scripts\\ds_DOTEffectData_InstanceOf\\ds_DOTEffectData_InstanceOf.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -394,7 +394,7 @@
             "Key": "17b5079f-ae83-4ca8-ba0c-7bcae8c70726",
             "Value": {
                 "id": "6da295fe-c608-4885-a04d-0e1261d2f024",
-                "resourcePath": "scripts\\SlowEffectData_New\\SlowEffectData_New.yy",
+                "resourcePath": "scripts\\ds_SlowEffectData_New\\ds_SlowEffectData_New.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -634,7 +634,7 @@
             "Key": "2a15a7d7-c188-48fb-bc6b-11809428c50c",
             "Value": {
                 "id": "37c47d48-7b3e-4aa5-a6a7-42c24ec6b641",
-                "resourcePath": "scripts\\DashEffectData_GetDashMultiplier\\DashEffectData_GetDashMultiplier.yy",
+                "resourcePath": "scripts\\ds_DashEffectData_GetDashMultiplier\\ds_DashEffectData_GetDashMultiplier.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -818,7 +818,7 @@
             "Key": "361711c7-af5f-4a02-bb9b-72694073a591",
             "Value": {
                 "id": "24b027f6-2a8e-4fbf-88de-d54f62ebd478",
-                "resourcePath": "scripts\\StunEffectData_InstanceOf\\StunEffectData_InstanceOf.yy",
+                "resourcePath": "scripts\\ds_StunEffectData_InstanceOf\\ds_StunEffectData_InstanceOf.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -970,7 +970,7 @@
             "Key": "433c826c-4ddd-4edd-9861-57404b3263a3",
             "Value": {
                 "id": "d1477555-1806-4a7d-bab7-d0144c27e8d4",
-                "resourcePath": "scripts\\DashEffectData_InstanceOf\\DashEffectData_InstanceOf.yy",
+                "resourcePath": "scripts\\ds_DashEffectData_InstanceOf\\ds_DashEffectData_InstanceOf.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1026,7 +1026,7 @@
             "Key": "470967ca-4024-4b49-8952-e25c40a50740",
             "Value": {
                 "id": "cdfafa5a-86e2-4997-9c07-8d275580d512",
-                "resourcePath": "scripts\\DashEffectData_GetSlowMultiplier\\DashEffectData_GetSlowMultiplier.yy",
+                "resourcePath": "scripts\\ds_DashEffectData_GetSlowMultiplier\\ds_DashEffectData_GetSlowMultiplier.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1058,7 +1058,7 @@
             "Key": "49844ad9-bff8-4311-bf7b-2c722f251c18",
             "Value": {
                 "id": "ef153ed5-1598-4691-8272-b3503e83535d",
-                "resourcePath": "scripts\\EffectData_IsOnLastStep\\EffectData_IsOnLastStep.yy",
+                "resourcePath": "scripts\\ds_EffectData_IsOnLastStep\\ds_EffectData_IsOnLastStep.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1266,7 +1266,7 @@
             "Key": "5c10440b-65ec-435e-afc1-dfa58fb25b00",
             "Value": {
                 "id": "81ff9ad6-5015-4937-9a00-a5b898e33cd3",
-                "resourcePath": "scripts\\DOTEffectData_GetDamagePerStep\\DOTEffectData_GetDamagePerStep.yy",
+                "resourcePath": "scripts\\ds_DOTEffectData_GetDamagePerStep\\ds_DOTEffectData_GetDamagePerStep.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1426,7 +1426,7 @@
             "Key": "67e4c49d-9695-426e-800b-3533ce870786",
             "Value": {
                 "id": "ee45eb9e-d1cf-45d3-bcdd-79c8f79d6e18",
-                "resourcePath": "scripts\\DashEffectData_New\\DashEffectData_New.yy",
+                "resourcePath": "scripts\\ds_DashEffectData_New\\ds_DashEffectData_New.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1458,7 +1458,7 @@
             "Key": "6b43deb7-7479-49ca-99f8-b72db377631c",
             "Value": {
                 "id": "ab0709e0-bcfe-4baa-8701-43ba364186de",
-                "resourcePath": "scripts\\SlowEffectData_GetSlowMultiplier\\SlowEffectData_GetSlowMultiplier.yy",
+                "resourcePath": "scripts\\ds_SlowEffectData_GetSlowMultiplier\\ds_SlowEffectData_GetSlowMultiplier.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1554,7 +1554,7 @@
             "Key": "74733f70-3701-44aa-a893-27f5971f44e2",
             "Value": {
                 "id": "fc7ef381-3adc-41b1-a3f6-0dd580f85c6b",
-                "resourcePath": "scripts\\EffectData_SetSteps\\EffectData_SetSteps.yy",
+                "resourcePath": "scripts\\ds_EffectData_SetSteps\\ds_EffectData_SetSteps.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1562,7 +1562,7 @@
             "Key": "748b54de-474c-47e7-840a-8581b8b22227",
             "Value": {
                 "id": "7fb6d250-3196-446b-be79-6279b0fc3498",
-                "resourcePath": "scripts\\DashEffectData_GetSlowSteps\\DashEffectData_GetSlowSteps.yy",
+                "resourcePath": "scripts\\ds_DashEffectData_GetSlowSteps\\ds_DashEffectData_GetSlowSteps.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2018,7 +2018,7 @@
             "Key": "9887333b-7622-4782-8f65-89d8361795fa",
             "Value": {
                 "id": "919b33d4-98ae-4fae-9b2e-ac7a71fa1156",
-                "resourcePath": "scripts\\DOTEffectData_New\\DOTEffectData_New.yy",
+                "resourcePath": "scripts\\ds_DOTEffectData_New\\ds_DOTEffectData_New.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2322,7 +2322,7 @@
             "Key": "b5b4d40e-45e1-40bc-933a-02bd9806b8c4",
             "Value": {
                 "id": "825bf159-96c6-4203-a085-95d6c3a3dcb3",
-                "resourcePath": "scripts\\SlowEffectData_InstanceOf\\SlowEffectData_InstanceOf.yy",
+                "resourcePath": "scripts\\ds_SlowEffectData_InstanceOf\\ds_SlowEffectData_InstanceOf.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2954,7 +2954,7 @@
             "Key": "e5a5da05-5e1a-4fb3-8e2f-897321551960",
             "Value": {
                 "id": "4fed67b1-49c0-4ece-8389-b30f13ba4755",
-                "resourcePath": "scripts\\StunEffectData_New\\StunEffectData_New.yy",
+                "resourcePath": "scripts\\ds_StunEffectData_New\\ds_StunEffectData_New.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3306,7 +3306,7 @@
             "Key": "ffbf56cb-6d11-460e-be81-a79ef7043f01",
             "Value": {
                 "id": "fd85ba55-2c7b-4be7-a3be-dea39d632187",
-                "resourcePath": "scripts\\DOTEffectData_GetDamageType\\DOTEffectData_GetDamageType.yy",
+                "resourcePath": "scripts\\ds_DOTEffectData_GetDamageType\\ds_DOTEffectData_GetDamageType.yy",
                 "resourceType": "GMScript"
             }
         }

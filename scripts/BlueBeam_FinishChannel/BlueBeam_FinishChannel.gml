@@ -22,6 +22,6 @@ if(_id_nearestEnemy == noone) return;
 if(point_distance(_num_targetX, _num_targetY, _id_nearestEnemy.x, _id_nearestEnemy.y) < BLUE_BEAM_STUN_RADIUS){
 	AbilityCaster_AddEffectDataToBuffer(
 		_id_nearestEnemy,
-		StunEffectData_New(BLUE_BEAM_STUN_DURATION, _id_caster)
+		ds_StunEffectData_New(BLUE_BEAM_STUN_DURATION, _id_caster)
 	);
 }

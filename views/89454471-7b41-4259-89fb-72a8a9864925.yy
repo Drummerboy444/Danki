@@ -9,7 +9,7 @@
         "a2176fdf-e5ca-43e3-9e22-88e68f53b34d"
     ],
     "filterType": "GMScript",
-    "folderName": "SlowEffectData",
+    "folderName": "ds_SlowEffectData",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
