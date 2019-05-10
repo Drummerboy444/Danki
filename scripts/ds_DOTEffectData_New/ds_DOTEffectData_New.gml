@@ -11,4 +11,8 @@ var _num_damagePerStep = argument[2];
 var _enum_damageType = argument[3];
 
 
-return ds_EffectData_NEW(Enum_Effects.DOT, _num_steps, _id_caster, _num_damagePerStep, _enum_damageType);
+var _ds_DOTEffectData_new = ds_EffectData_NEW(Enum_Effects.DOT, _num_steps, _id_caster);
+ds_map_add(_ds_DOTEffectData_new, DS_DOTEFFECTDATA_DAMAGEPERSTEP, _num_damagePerStep);
+ds_map_add(_ds_DOTEffectData_new, DS_DOTEFFECTDATA_DAMAGETYPE, _enum_damageType);
+
+return _ds_DOTEffectData_new;

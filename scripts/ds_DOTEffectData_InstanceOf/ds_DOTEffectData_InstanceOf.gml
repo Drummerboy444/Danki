@@ -5,13 +5,10 @@
 var _any_data = argument[0];
 
 
-if (!ds_EffectData_InstanceOf(_any_data) || !ds_EffectData_GetEffect(_any_data) == Enum_Effects.DOT) {
-	return false;
-}
-
-var _arr_arguments = ds_EffectData_GET_ARGUMENTS_ARRAY(_any_data);
-
 return
-	array_length_1d(_arr_arguments) == 2 &&
-	is_real(_arr_arguments[0]) &&
-	_arr_arguments[1] < Enum_DamageTypes.length;
+ds_EffectData_InstanceOf(_any_data)
+&& ds_EffectData_GetEffect(_any_data) == Enum_Effects.DOT
+&& ds_map_exists(_any_data, DS_DOTEFFECTDATA_DAMAGEPERSTEP)
+&& is_real(_any_data[? DS_DOTEFFECTDATA_DAMAGEPERSTEP])
+&& ds_map_exists(_any_data, DS_DOTEFFECTDATA_DAMAGETYPE)
+&& is_real(_any_data[? DS_DOTEFFECTDATA_DAMAGETYPE]);
