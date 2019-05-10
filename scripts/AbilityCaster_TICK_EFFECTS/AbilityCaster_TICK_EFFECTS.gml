@@ -7,9 +7,9 @@ for(var i=ds_list_size(list_activeEffects)-1; i>=0; i--){
 	
 	// Check if effect has expired (0 steps remaining):
 	if(_num_remainingSteps <= 0){
-		ds_list_delete(list_activeEffects, i);	
+		ds_list_delete(list_activeEffects, i);
+		ds_EffectData_Destroy(_ds_EffectData_active);
 	} else {
-		var _ds_EffectData_new = ds_EffectData_SetSteps(_ds_EffectData_active, _num_remainingSteps - 1);
-		list_activeEffects[| i] = _ds_EffectData_new;
+		ds_EffectData_SetSteps(_ds_EffectData_active, _num_remainingSteps - 1);
 	}
 }

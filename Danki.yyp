@@ -3183,6 +3183,14 @@
             }
         },
         {
+            "Key": "f679d300-e5b5-44b5-ac4c-064ed645d91b",
+            "Value": {
+                "id": "d0c4135e-16f8-4ead-8d42-bc7b764a7e92",
+                "resourcePath": "scripts\\ds_EffectData_Destroy\\ds_EffectData_Destroy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f73470aa-bba4-436b-92d3-d3d9d39b79fc",
             "Value": {
                 "id": "dd8fbe8a-4ead-4f35-b2a5-ec313bd22fcf",
@@ -3419,6 +3427,7 @@
         "d24cf006-d20f-42ca-9e7f-172e1138b508",
         "6b29155b-0b29-4f5a-9fab-3b0c4cfb4eee",
         "49844ad9-bff8-4311-bf7b-2c722f251c18",
+        "f679d300-e5b5-44b5-ac4c-064ed645d91b",
         "b1be6216-2ef7-4aef-9b44-01e85a6aa4f8",
         "f647eb31-a403-4b50-b879-9f20dc24c82e",
         "3537edbd-c2fa-435a-8334-3708962ada36",
