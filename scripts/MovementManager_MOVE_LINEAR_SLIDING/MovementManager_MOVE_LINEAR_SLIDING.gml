@@ -1,4 +1,4 @@
-/// @function MovementManager_MOVE_LINEARLY(MovementData_data) Moves as far as linearly possible (with respect to movement speed and collisions)
+/// @function MovementManager_MOVE_LINEAR_SLIDING(MovementData_data) Moves as far as linearly possible (with respect to movement speed and collisions)
 /// towards the mover's Terminus.
 /// @param {MovementData} MovementData_data
 var _MovementData_data = argument[0];

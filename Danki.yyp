@@ -338,7 +338,7 @@
             "Key": "16bab596-d49e-4682-aa58-e5d026a73fc6",
             "Value": {
                 "id": "571217c0-9e93-4c72-b1f1-ed77da08245e",
-                "resourcePath": "scripts\\MovementData_CheckMovementIsLinear\\MovementData_CheckMovementIsLinear.yy",
+                "resourcePath": "scripts\\MovementData_GetMovementType\\MovementData_GetMovementType.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1034,7 +1034,7 @@
             "Key": "4793315f-6596-4ec6-9535-cb6d2d0f3992",
             "Value": {
                 "id": "87558341-8ac4-4486-89f3-43cac111de9d",
-                "resourcePath": "scripts\\MovementManager_MOVE_LINEARLY\\MovementManager_MOVE_LINEARLY.yy",
+                "resourcePath": "scripts\\MovementManager_MOVE_LINEAR_SLIDING\\MovementManager_MOVE_LINEAR_SLIDING.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1643,6 +1643,14 @@
             "Value": {
                 "id": "035b2f2e-7480-40dc-94c5-a9eee0493b5e",
                 "resourcePath": "views\\7b97437d-3d6e-42c8-ab40-99a721432283.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7c62aa8e-0136-40cb-b771-3f08f694ad26",
+            "Value": {
+                "id": "904e049e-2e76-435b-8393-844ec44ba638",
+                "resourcePath": "views\\7c62aa8e-0136-40cb-b771-3f08f694ad26.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -2623,6 +2631,14 @@
             }
         },
         {
+            "Key": "ccc728cd-0aee-4129-865c-0bfbe5f64191",
+            "Value": {
+                "id": "dcb72cad-ebc0-4abb-baf0-cfb2608cfc4a",
+                "resourcePath": "views\\ccc728cd-0aee-4129-865c-0bfbe5f64191.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cceefd20-7a1a-44b4-a834-5a9fa2d8fcb9",
             "Value": {
                 "id": "3cece5f3-cc6e-4fdf-844a-965d8b3c90f2",
@@ -2675,6 +2691,14 @@
             "Value": {
                 "id": "c9be7f53-c53a-461e-80c3-07347d153265",
                 "resourcePath": "scripts\\ds_EffectHookScripts_SetScript\\ds_EffectHookScripts_SetScript.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d24cf006-d20f-42ca-9e7f-172e1138b508",
+            "Value": {
+                "id": "92d50796-df84-4dc3-a1b2-ffa8ca376fef",
+                "resourcePath": "scripts\\MovementData_ShouldUpdatePath\\MovementData_ShouldUpdatePath.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3414,6 +3438,7 @@
         "3f80f3a5-a07d-4585-a324-8cebc431ed78",
         "7e4759a3-d185-4edc-892e-1fd278ca01b1",
         "16bab596-d49e-4682-aa58-e5d026a73fc6",
+        "d24cf006-d20f-42ca-9e7f-172e1138b508",
         "0f0d7f77-482e-497d-aa9b-4a3b60acc49c",
         "0864c5b2-a188-4d7e-adca-97f06d5e0964",
         "74b05822-4ca1-4386-b4db-d95a47216db4",

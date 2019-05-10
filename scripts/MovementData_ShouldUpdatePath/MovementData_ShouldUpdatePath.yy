@@ -1,8 +1,8 @@
 {
-    "id": "4793315f-6596-4ec6-9535-cb6d2d0f3992",
+    "id": "d24cf006-d20f-42ca-9e7f-172e1138b508",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "MovementManager_MOVE_LINEARLY",
+    "name": "MovementData_ShouldUpdatePath",
     "IsCompatibility": false,
     "IsDnD": false
 }

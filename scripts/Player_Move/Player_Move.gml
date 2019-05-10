@@ -57,7 +57,7 @@ with (oPlayer) {
 			x + _num_xOffset,
 			y + _num_yOffset,
 			id,
-			true
+			Enum_MovementType.LINEAR_SLIDING
 		)
 	);
 }
