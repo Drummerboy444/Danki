@@ -14,9 +14,11 @@ var _num_pathEndY = path_get_y(_id_instanceToMove.path_currentPath, 1);
 
 var _num_terminusToPathDistance = point_distance(_num_terminusX, _num_terminusY, _num_pathEndX, _num_pathEndY);
 
+var _mp_grid_instanceGrid = MovementGridManager_GetGridForInstance(_id_instanceToMove);
+
 if (_num_terminusToPathDistance > MOVEMENT_GRID_MANAGER_PATH_END_PRECISION) {
 	mp_grid_path(
-		oMovementGridManager.mp_grid_roomGrid,
+		oMovementGridManager._mp_grid_instanceGrid,
 		_id_instanceToMove.path_currentPath,
 		_id_instanceToMove.x,
 		_id_instanceToMove.y,
