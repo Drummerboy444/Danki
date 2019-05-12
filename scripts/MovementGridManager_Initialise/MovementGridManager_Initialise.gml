@@ -2,7 +2,7 @@
 ///		generates a new one according to the size of the room.
 
 with (oMovementGridManager) {
-	for(var _num_gridIndex = 0; _num_gridIndex < array_length_1d(arr_maxSizes) -1; _num_gridIndex ++){
+	for(var _num_gridIndex = 0; _num_gridIndex < array_length_1d(arr_maxSizes); _num_gridIndex ++){
 		
 		var _num_gridMaxSize = arr_maxSizes[_num_gridIndex];
 		
