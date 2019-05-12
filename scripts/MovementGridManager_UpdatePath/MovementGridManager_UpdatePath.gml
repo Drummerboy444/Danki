@@ -18,7 +18,7 @@ var _mp_grid_instanceGrid = MovementGridManager_GetGridForInstance(_id_instanceT
 
 if (_num_terminusToPathDistance > MOVEMENT_GRID_MANAGER_PATH_END_PRECISION) {
 	mp_grid_path(
-		oMovementGridManager._mp_grid_instanceGrid,
+		_mp_grid_instanceGrid,
 		_id_instanceToMove.path_currentPath,
 		_id_instanceToMove.x,
 		_id_instanceToMove.y,

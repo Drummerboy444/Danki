@@ -1,7 +1,7 @@
 /// function MovementGridManager_REGENERATE() This will regenerate all mp grids, that is to clear the
 ///		grids and repopulate them with the current position of oCollidables.
 
-for(var _num_gridIndex = 0; _num_gridIndex < arr_maxSizes; _num_gridIndex ++){
+for(var _num_gridIndex = 0; _num_gridIndex < array_length_1d(arr_maxSizes) -1; _num_gridIndex ++){
 	var _num_gridMaxSize = arr_maxSizes[_num_gridIndex];
 	var _mp_grid_movementGrid = map_movementGrids[? _num_gridMaxSize];
 	

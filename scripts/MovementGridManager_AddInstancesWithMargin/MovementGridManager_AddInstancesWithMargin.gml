@@ -7,13 +7,13 @@ var _mp_grid_grid = argument[0];
 var _obj_collider = argument[1];
 var _num_margin = argument[2];
 
-with(obj_collider){
+with(_obj_collider){
 	var _num_left = x - floor(sprite_width/2) - _num_margin;
 	var _num_top = y - floor(sprite_height/2) - _num_margin;
 	var _num_right = x + floor(sprite_width/2) + _num_margin;
 	var _num_bottom = x + floor(sprite_height/2) + _num_margin;
 	mp_grid_add_rectangle(
-		other._mp_grid_grid,
+		_mp_grid_grid,
 		_num_left,
 		_num_top,
 		_num_right,
