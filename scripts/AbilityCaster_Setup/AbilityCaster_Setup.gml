@@ -23,7 +23,7 @@ scr_plan = _scr_plan;
 
 num_aggroRange = _num_aggroRange;
 
-ds_Stats_baseStats = ds_Stats_Copy(_ds_Stats_baseStats);
-ds_Stats_stats = ds_Stats_Copy(ds_Stats_baseStats);    // TODO: Hook into whatever system we'll use for setting stats
+ds_Stats_Copy(ds_Stats_baseStats, _ds_Stats_baseStats);
+ds_Stats_Copy(ds_Stats_stats, ds_Stats_baseStats);    // TODO: Hook into whatever system we'll use for setting stats
                                           //       due to things like armor, passive effects etc.
-ds_Stats_frameStats = ds_Stats_Copy(ds_Stats_stats);   // To give stats on the ability casters first step.
+ds_Stats_Copy(ds_Stats_frameStats, ds_Stats_stats);   // To give stats on the ability casters first step.
