@@ -2,9 +2,13 @@
 /// @param {MovementData} MovementData_data
 var _MovementData_data = argument[0];
 
-
 var _id_instanceToMove = MovementData_GetInstanceToMove(_MovementData_data);
+
 with (_id_instanceToMove) {
+	if (!bool_hasPath) {
+		return;
+	}
+	
 	var _num_speed = ds_Stats_Get(ds_Stats_frameStats, Enum_Stats.SPEED);
 	var _num_pathLength = path_get_length(path_currentPath);
 	var _num_movementProportion = _num_speed / _num_pathLength;
@@ -56,6 +60,7 @@ with (_id_instanceToMove) {
 	
 	x = _num_newX;
 	y = _num_newY;
+	num_pathPosition = _num_newPathPosition;
 }
 
 
