@@ -13,6 +13,5 @@ if (!ds_Stats_InstanceOf(_ds_Stats_copyTo)) {
 	ErrorHandler_Error("Cannot copy stats, as the copyTo was not of type ds_Stats");
 }
 
-ds_Stats_Destroy(_ds_Stats_copyTo);
-_ds_Stats_copyTo = ds_Stats_New();
+ds_map_clear(_ds_Stats_copyTo);
 ds_map_copy(_ds_Stats_copyTo, _ds_Stats_copyFrom);
