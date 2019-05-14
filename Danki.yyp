@@ -1439,6 +1439,14 @@
             }
         },
         {
+            "Key": "69e2bad1-faaa-4b8e-a0ac-5575e8852093",
+            "Value": {
+                "id": "323e8a9f-30e9-4450-829a-5b40f991ec89",
+                "resourcePath": "scripts\\ds_Stats_Copy\\ds_Stats_Copy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6b29155b-0b29-4f5a-9fab-3b0c4cfb4eee",
             "Value": {
                 "id": "f1c4be8e-fa16-42cc-a5f9-2d2ca281ae02",
@@ -3480,6 +3488,7 @@
         "d054bc3b-96a3-4fc7-a057-7546a269f330",
         "4fe91f54-56dd-4aa1-8a98-d1390d94407b",
         "132828fe-a67b-4e46-8a68-5d1164da6959",
+        "69e2bad1-faaa-4b8e-a0ac-5575e8852093",
         "d3097fde-b6c3-4a58-939a-d604232d3c21",
         "ba399e5c-4627-4fb7-a63b-b840c98f7d9a",
         "08d5b0d4-ae0d-4796-96cd-709d89a4a9c4",

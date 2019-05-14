@@ -15,4 +15,4 @@ var _num_aggroRange = argument[4];
 
 AbilityCaster_Setup(_bool_hasOneShotService, _bool_hasChannelService, _ds_Stats_baseStats, _scr_plan, _num_aggroRange);
 
-ds_map_destroy(_ds_Stats_baseStats);
+ds_Stats_Destroy(_ds_Stats_baseStats);
