@@ -2751,6 +2751,14 @@
             }
         },
         {
+            "Key": "d2987cad-9dfa-48ab-aa7b-eff922fe16fc",
+            "Value": {
+                "id": "b509a30a-0173-45b4-99ed-e4613618493d",
+                "resourcePath": "scripts\\ds_EffectData_CopyList\\ds_EffectData_CopyList.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d3097fde-b6c3-4a58-939a-d604232d3c21",
             "Value": {
                 "id": "bb8774d1-3f86-48a7-a8ce-9dd1ed347255",
@@ -3487,6 +3495,7 @@
         "49844ad9-bff8-4311-bf7b-2c722f251c18",
         "f679d300-e5b5-44b5-ac4c-064ed645d91b",
         "575240bc-2d59-4128-a13f-4aafa592b877",
+        "d2987cad-9dfa-48ab-aa7b-eff922fe16fc",
         "b1be6216-2ef7-4aef-9b44-01e85a6aa4f8",
         "f647eb31-a403-4b50-b879-9f20dc24c82e",
         "3537edbd-c2fa-435a-8334-3708962ada36",
