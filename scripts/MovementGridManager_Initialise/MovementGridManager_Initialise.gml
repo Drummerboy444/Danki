@@ -23,7 +23,7 @@ with (oMovementGridManager) {
 		);
 		
 		var _num_marginSize = floor(_num_gridMaxSize/2);
-		MovementGridManager_AddInstancesWithMargin(_mp_grid_newGrid, oCollidable, _num_marginSize);
+		MovementGridManager_AddInstancesWithMargin(_mp_grid_newGrid, MOVEMENT_GRID_MANAGER_CIRCUMNAVIGABLE, _num_marginSize);
 		
 		map_movementGrids[? _num_gridMaxSize] = _mp_grid_newGrid;
 	}

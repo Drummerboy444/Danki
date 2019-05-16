@@ -8,7 +8,7 @@ for(var _num_gridIndex = 0; _num_gridIndex < array_length_1d(arr_maxSizes); _num
 	mp_grid_clear_all(_mp_grid_movementGrid);
 	
 	var _num_marginSize = floor(_num_gridMaxSize/2);
-	MovementGridManager_AddInstancesWithMargin(_mp_grid_movementGrid, oCollidable, _num_marginSize);
+	MovementGridManager_AddInstancesWithMargin(_mp_grid_movementGrid, MOVEMENT_GRID_MANAGER_CIRCUMNAVIGABLE, _num_marginSize);
 }
 
 num_debounceTimer = MOVEMENT_GRID_MANAGER_DEBOUNCE_TIME;
