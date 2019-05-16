@@ -1,1 +1,1 @@
-MovementManager_QueueMovement(MovementData_New(mouse_x, mouse_y, id, Enum_MovementType.PATHING));
+MovementManager_QueueMovement(MovementData_New(oPlayer.x, oPlayer.y, id, Enum_MovementType.PATHING));
