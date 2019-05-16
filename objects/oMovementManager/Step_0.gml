@@ -1,8 +1,8 @@
-var _num_bufferSize = ds_list_size(list_movementBuffer);
+var _num_bufferSize = ds_list_size(list_MovementData_movementBuffer);
 
 // Update paths for all movers.
 for (var i = 0; i < _num_bufferSize; i++) {
-	var _MovementData_movement = list_movementBuffer[| i];
+	var _MovementData_movement = list_MovementData_movementBuffer[| i];
 	if(MovementData_ShouldUpdatePath(_MovementData_movement)){
 		MovementGridManager_UpdatePath(_MovementData_movement);
 	}
@@ -12,7 +12,7 @@ for (var i = 0; i < _num_bufferSize; i++) {
 ds_grid_resize(grid_movementSequencer, 2,_num_bufferSize);
 
 for (var i = 0; i < _num_bufferSize; i++) {
-	var _MovementData_movement = list_movementBuffer[| i];
+	var _MovementData_movement = list_MovementData_movementBuffer[| i];
 	var _num_distanceFromPlayer = Utility_DistanceBetweenObjectCentres(
 		MovementData_GetInstanceToMove(_MovementData_movement),
 		oPlayer
@@ -27,10 +27,10 @@ ds_grid_sort(grid_movementSequencer, 1, true);
 // Move according to sequencer.
 for (var _num_row = 0; _num_row < _num_bufferSize; _num_row++) {
 	var _num_index = grid_movementSequencer[# 0, _num_row];
-	var _MovementData_movement = list_movementBuffer[| _num_index];
+	var _MovementData_movement = list_MovementData_movementBuffer[| _num_index];
 	MovementManager_MOVE_FROM_BUFFER(_MovementData_movement);
 }
 
 // Clean up
-ds_list_clear(list_movementBuffer);
+ds_list_clear(list_MovementData_movementBuffer);
 ds_grid_clear(grid_movementSequencer, 0);

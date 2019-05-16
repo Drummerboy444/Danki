@@ -9,7 +9,7 @@ if(!Utility_ObjectIsAncestorOfInstance(oAbilityCaster, _id_abilityCaster)){
 	ErrorHandler_Error("Tried to check effects on non ability caster.");
 }
 
-var _list_effects = _id_abilityCaster.list_activeEffects;
+var _list_effects = _id_abilityCaster.list_ds_EffectData_activeEffects;
 
 for(var i=0; i<ds_list_size(_list_effects); i++){
 	if(ds_EffectData_GetEffect(_list_effects[| i]) == _enum_effect) return true;

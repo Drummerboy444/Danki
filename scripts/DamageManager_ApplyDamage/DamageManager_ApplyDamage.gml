@@ -28,6 +28,6 @@ _DamageData_data = DamageData_SetDamageAmount(_DamageData_data, _num_damageAfter
 
 _DamageData_data = AbilityCaster_applyOnDealDamageEffects(_id_source, _DamageData_data);
 
-ds_list_add(_id_target.list_damageList, _DamageData_data);
+ds_list_add(_id_target.list_DamageData_damageList, _DamageData_data);
 
 return true;

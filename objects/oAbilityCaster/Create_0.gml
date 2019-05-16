@@ -20,10 +20,8 @@ path_currentPath = path_add();
 
 num_aggroRange = 0;
 
-// Effects buffer list has EffectData entries
-list_effectsBuffer = ds_list_create();
-// Active effects list has EffectData entries
-list_activeEffects = ds_list_create();
+list_ds_EffectData_effectsBuffer = ds_list_create();
+list_ds_EffectData_activeEffects = ds_list_create();
 
 map_effectToBucket = ds_map_create();
 for (var i = 0; i < Enum_Effects.length; i++) {
