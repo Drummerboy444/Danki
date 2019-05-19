@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "0b5b645a-fd49-4ddc-9744-cd23da4eeb6e",
+            "Value": {
+                "id": "949e0739-3e0e-4b28-8e16-ad6d9e132847",
+                "resourcePath": "scripts\\MovementGridManager_GetGridForInstance\\MovementGridManager_GetGridForInstance.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0c126b21-de7f-40d6-a6c9-02ea9e2a0e8b",
             "Value": {
                 "id": "20a98b18-abf8-4582-ac40-51fa001586d2",
@@ -1204,6 +1212,14 @@
                 "id": "ab8c7d82-9e21-44e1-ab6b-8e21e29cf5cc",
                 "resourcePath": "views\\570794d9-48e6-44b0-bcc3-8074b222402c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "573a95ab-18ae-4548-be21-c601c8d80afd",
+            "Value": {
+                "id": "e95377dd-d314-41e6-be66-3efbee679273",
+                "resourcePath": "scripts\\MovementGridManager_AddInstancesWithMargin\\MovementGridManager_AddInstancesWithMargin.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3420,6 +3436,12 @@
         "3063df91-d5ae-427d-a56f-0ff0435078c9",
         "0374fb1c-ce7e-46e6-8386-23d0db831639",
         "7f0ad5f5-3a36-4ca1-a36b-a84a8bbc9719",
+        "c845fac9-ec2d-42a6-a577-f27a78ce1765",
+        "c17ac245-3720-47d9-abed-c4a7ece6fe19",
+        "52b22b3b-f95d-4762-b6fd-bd2080586fce",
+        "573a95ab-18ae-4548-be21-c601c8d80afd",
+        "0b5b645a-fd49-4ddc-9744-cd23da4eeb6e",
+        "670dcdd1-5c68-43ab-898f-2d647addf723",
         "6b29155b-0b29-4f5a-9fab-3b0c4cfb4eee",
         "49844ad9-bff8-4311-bf7b-2c722f251c18",
         "b1be6216-2ef7-4aef-9b44-01e85a6aa4f8",
@@ -3504,10 +3526,6 @@
         "23f58612-d331-4985-85d1-53efab459f12",
         "f52275da-d779-4cbc-955d-96f173640da4",
         "d1ea4949-c83e-48fb-ac48-ef7957569af4",
-        "c845fac9-ec2d-42a6-a577-f27a78ce1765",
-        "c17ac245-3720-47d9-abed-c4a7ece6fe19",
-        "52b22b3b-f95d-4762-b6fd-bd2080586fce",
-        "670dcdd1-5c68-43ab-898f-2d647addf723",
         "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
         "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d",

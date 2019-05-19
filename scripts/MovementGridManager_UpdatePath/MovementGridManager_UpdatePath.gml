@@ -21,8 +21,10 @@ if (is_undefined(_id_instanceToMove.path_currentPath)) {
 	}
 }
 
+var _mp_grid_instanceGrid = MovementGridManager_GetGridForInstance(_id_instanceToMove);
+
 _id_instanceToMove.bool_hasPath = mp_grid_path(
-	oMovementGridManager.mp_grid_roomGrid,
+	_mp_grid_instanceGrid,
 	_id_instanceToMove.path_currentPath,
 	_id_instanceToMove.x,
 	_id_instanceToMove.y,
