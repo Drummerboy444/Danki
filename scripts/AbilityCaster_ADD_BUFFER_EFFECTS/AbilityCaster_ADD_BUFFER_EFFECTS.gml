@@ -15,10 +15,12 @@ for(var i=0; i<ds_list_size(list_effectsBuffer); i++){
 		
 		if (_enum_effect == _enum_activeEffect && _id_caster == _id_activeCaster) {
 			ds_list_delete(list_activeEffects, j);
+			ds_EffectData_Destroy(_ds_EffectData_active);
 		}
 	}
 
 	ds_list_add(list_activeEffects, _ds_EffectData_buffer);
+
 }
 
 // Clear the buffer
