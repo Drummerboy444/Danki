@@ -10,5 +10,5 @@ return
 	&& ds_EffectData_GetEffect(_any_data) == Enum_Effects.DOT
 	&& ds_map_exists(_any_data, DS_DOT_EFFECT_DATA_DAMAGE_PER_STEP)
 	&& is_real(_any_data[? DS_DOT_EFFECT_DATA_DAMAGE_PER_STEP])
-	&& ds_map_exists(_any_data, DS_DOT_EFFECT_DATA_DAMGE_TYPE)
-	&& is_real(_any_data[? DS_DOT_EFFECT_DATA_DAMGE_TYPE]);
+	&& ds_map_exists(_any_data, DS_DOT_EFFECT_DATA_DAMAGE_TYPE)
+	&& is_real(_any_data[? DS_DOT_EFFECT_DATA_DAMAGE_TYPE]);

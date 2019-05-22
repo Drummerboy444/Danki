@@ -9,4 +9,4 @@ if(!ds_DOTEffectData_InstanceOf(_ds_DOTEffectData_data)){
 	ErrorHandler_FatalError("Tried to get damage type from non DOTEffectData structure.");
 }
 
-return _ds_DOTEffectData_data[? DS_DOT_EFFECT_DATA_DAMGE_TYPE];
+return _ds_DOTEffectData_data[? DS_DOT_EFFECT_DATA_DAMAGE_TYPE];

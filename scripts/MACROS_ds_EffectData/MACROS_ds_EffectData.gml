@@ -9,7 +9,7 @@
 
 // DOT effect data
 #macro DS_DOT_EFFECT_DATA_DAMAGE_PER_STEP "damagePerStep"
-#macro DS_DOT_EFFECT_DATA_DAMGE_TYPE "damageType"
+#macro DS_DOT_EFFECT_DATA_DAMAGE_TYPE "damageType"
 
 // Slow effect data
 #macro DS_SLOW_EFFECT_DATA_SLOW_MULTIPLIER "slowMultiplier"

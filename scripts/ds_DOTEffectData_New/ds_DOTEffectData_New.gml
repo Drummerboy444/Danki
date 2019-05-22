@@ -13,6 +13,6 @@ var _enum_damageType = argument[3];
 
 var _ds_DOTEffectData_new = ds_EffectData_NEW(Enum_Effects.DOT, _num_steps, _id_caster);
 _ds_DOTEffectData_new[? DS_DOT_EFFECT_DATA_DAMAGE_PER_STEP] = _num_damagePerStep
-_ds_DOTEffectData_new[? DS_DOT_EFFECT_DATA_DAMGE_TYPE] = _enum_damageType;
+_ds_DOTEffectData_new[? DS_DOT_EFFECT_DATA_DAMAGE_TYPE] = _enum_damageType;
 
 return _ds_DOTEffectData_new;
