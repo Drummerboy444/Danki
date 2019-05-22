@@ -8,6 +8,6 @@ var _id_caster = argument[1];
 var _num_slowMultiplier = argument[2];
 
 var _ds_SlowEffectData_new = ds_EffectData_NEW(Enum_Effects.SLOW, _num_steps, _id_caster);
-ds_map_add(_ds_SlowEffectData_new, DS_SLOWEFFECTDATA_SLOWMULTIPLIER, _num_slowMultiplier);
+_ds_SlowEffectData_new[? DS_SLOW_EFFECT_DATA_SLOW_MULTIPLIER] = _num_slowMultiplier;
 
 return _ds_SlowEffectData_new;

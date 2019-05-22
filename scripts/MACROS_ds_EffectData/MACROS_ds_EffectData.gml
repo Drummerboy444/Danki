@@ -1,18 +1,18 @@
-#macro DS_EFFECTDATA_EFFECT "effect"
-#macro DS_EFFECTDATA_STEPS "steps"
-#macro DS_EFFECTDATA_CASTER "caster"
+#macro DS_EFFECT_DATA_EFFECT "effect"
+#macro DS_EFFECT_DATA_STEPS "steps"
+#macro DS_EFFECT_DATA_CASTER "caster"
 
 // Dash effect data
-#macro DS_DASHEFFECTDATA_DASHMULTIPLIER "dashMultiplier"
-#macro DS_DASHEFFECTDATA_DASHSLOWMULTIPLIER "slowMultiplier"
-#macro DS_DASHEFFECTDATA_SLOWSTEPS "slowSteps"
+#macro DS_DASH_EFFECT_DATA_DASH_MULTIPLIER "dashMultiplier"
+#macro DS_DASH_EFFECT_DATA_SLOW_MULTIPLIER "slowMultiplier"
+#macro DS_DASH_EFFECT_DATA_SLOW_STEPS "slowSteps"
 
 // DOT effect data
-#macro DS_DOTEFFECTDATA_DAMAGEPERSTEP "damagePerStep"
-#macro DS_DOTEFFECTDATA_DAMAGETYPE "damageType"
+#macro DS_DOT_EFFECT_DATA_DAMAGE_PER_STEP "damagePerStep"
+#macro DS_DOT_EFFECT_DATA_DAMGE_TYPE "damageType"
 
 // Slow effect data
-#macro DS_SLOWEFFECTDATA_SLOWMULTIPLIER "slowMultiplier"
+#macro DS_SLOW_EFFECT_DATA_SLOW_MULTIPLIER "slowMultiplier"
 
 // Stun effect data
 	// Intentionally empty

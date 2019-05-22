@@ -7,4 +7,4 @@ if(!ds_EffectData_InstanceOf(_ds_EffectData_data)){
 	ErrorHandler_FatalError("Tried to get effect from non EffectData structure.");
 }
 
-return _ds_EffectData_data[? DS_EFFECTDATA_EFFECT];
+return _ds_EffectData_data[? DS_EFFECT_DATA_EFFECT];

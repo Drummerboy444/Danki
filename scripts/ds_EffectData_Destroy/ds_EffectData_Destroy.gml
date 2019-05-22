@@ -4,6 +4,7 @@
 var _ds_EffectData_effectdata = argument[0];
 
 if(!ds_EffectData_InstanceOf(_ds_EffectData_effectdata)){
+	ErrorHandler_FatalError("Expected EffectData input. Received type: " + typeof(_ds_EffectData_effectdata));
 	return false;	
 }
 

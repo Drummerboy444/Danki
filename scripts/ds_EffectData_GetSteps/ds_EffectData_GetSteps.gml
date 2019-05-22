@@ -7,4 +7,4 @@ if(!ds_EffectData_InstanceOf(_ds_EffectData_data)){
 	ErrorHandler_FatalError("Tried to get steps from non EffectData structure.");
 }
 
-return _ds_EffectData_data[? DS_EFFECTDATA_STEPS];
+return _ds_EffectData_data[? DS_EFFECT_DATA_STEPS];

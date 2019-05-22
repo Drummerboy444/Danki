@@ -6,9 +6,9 @@ var _any_data = argument[0];
 
 
 return
-ds_EffectData_InstanceOf(_any_data)
-&& ds_EffectData_GetEffect(_any_data) == Enum_Effects.DOT
-&& ds_map_exists(_any_data, DS_DOTEFFECTDATA_DAMAGEPERSTEP)
-&& is_real(_any_data[? DS_DOTEFFECTDATA_DAMAGEPERSTEP])
-&& ds_map_exists(_any_data, DS_DOTEFFECTDATA_DAMAGETYPE)
-&& is_real(_any_data[? DS_DOTEFFECTDATA_DAMAGETYPE]);
+	ds_EffectData_InstanceOf(_any_data)
+	&& ds_EffectData_GetEffect(_any_data) == Enum_Effects.DOT
+	&& ds_map_exists(_any_data, DS_DOT_EFFECT_DATA_DAMAGE_PER_STEP)
+	&& is_real(_any_data[? DS_DOT_EFFECT_DATA_DAMAGE_PER_STEP])
+	&& ds_map_exists(_any_data, DS_DOT_EFFECT_DATA_DAMGE_TYPE)
+	&& is_real(_any_data[? DS_DOT_EFFECT_DATA_DAMGE_TYPE]);

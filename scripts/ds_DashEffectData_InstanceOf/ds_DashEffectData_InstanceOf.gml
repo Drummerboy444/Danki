@@ -6,11 +6,11 @@ var _any_data = argument[0];
 
 
 return
-ds_EffectData_InstanceOf(_any_data)
-&& ds_EffectData_GetEffect(_any_data) == Enum_Effects.DASH
-&& ds_map_exists(_any_data, DS_DASHEFFECTDATA_DASHMULTIPLIER)
-&& is_real(_any_data[? DS_DASHEFFECTDATA_DASHMULTIPLIER])
-&& ds_map_exists(_any_data, DS_DASHEFFECTDATA_DASHSLOWMULTIPLIER)
-&& is_real(_any_data[? DS_DASHEFFECTDATA_DASHSLOWMULTIPLIER])
-&& ds_map_exists(_any_data, DS_DASHEFFECTDATA_SLOWSTEPS)
-&& is_real(_any_data[? DS_DASHEFFECTDATA_SLOWSTEPS]);
+	ds_EffectData_InstanceOf(_any_data)
+	&& ds_EffectData_GetEffect(_any_data) == Enum_Effects.DASH
+	&& ds_map_exists(_any_data, DS_DASH_EFFECT_DATA_DASH_MULTIPLIER)
+	&& is_real(_any_data[? DS_DASH_EFFECT_DATA_DASH_MULTIPLIER])
+	&& ds_map_exists(_any_data, DS_DASH_EFFECT_DATA_SLOW_MULTIPLIER)
+	&& is_real(_any_data[? DS_DASH_EFFECT_DATA_SLOW_MULTIPLIER])
+	&& ds_map_exists(_any_data, DS_DASH_EFFECT_DATA_SLOW_STEPS)
+	&& is_real(_any_data[? DS_DASH_EFFECT_DATA_SLOW_STEPS]);

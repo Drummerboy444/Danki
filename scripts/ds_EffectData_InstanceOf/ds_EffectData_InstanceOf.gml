@@ -5,7 +5,11 @@ var _any_data = argument[0];
 
 
 
-return ds_exists(_any_data, ds_type_map)
-	&& ds_map_exists(_any_data, DS_EFFECTDATA_CASTER)
-	&& ds_map_exists(_any_data, DS_EFFECTDATA_EFFECT)
-	&& ds_map_exists(_any_data, DS_EFFECTDATA_STEPS);
+return
+	ds_exists(_any_data, ds_type_map)
+	&& ds_map_exists(_any_data, DS_EFFECT_DATA_CASTER)
+	&& is_real(_any_data[? DS_EFFECT_DATA_CASTER])
+	&& ds_map_exists(_any_data, DS_EFFECT_DATA_EFFECT)
+	&& is_real(_any_data[? DS_EFFECT_DATA_EFFECT])
+	&& ds_map_exists(_any_data, DS_EFFECT_DATA_STEPS)
+	&& is_real(_any_data[? DS_EFFECT_DATA_STEPS]);
