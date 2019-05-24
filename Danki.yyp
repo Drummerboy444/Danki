@@ -1231,18 +1231,18 @@
             }
         },
         {
-            "Key": "575240bc-2d59-4128-a13f-4aafa592b877",
-            "Value": {
-                "id": "47045759-ea0f-4101-98c3-8034cf5fe2ef",
-                "resourcePath": "scripts\\ds_EffectData_Copy\\ds_EffectData_Copy.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "573a95ab-18ae-4548-be21-c601c8d80afd",
             "Value": {
                 "id": "e95377dd-d314-41e6-be66-3efbee679273",
                 "resourcePath": "scripts\\MovementGridManager_AddInstancesWithMargin\\MovementGridManager_AddInstancesWithMargin.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "575240bc-2d59-4128-a13f-4aafa592b877",
+            "Value": {
+                "id": "47045759-ea0f-4101-98c3-8034cf5fe2ef",
+                "resourcePath": "scripts\\ds_EffectData_Copy\\ds_EffectData_Copy.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3510,6 +3510,12 @@
         "3063df91-d5ae-427d-a56f-0ff0435078c9",
         "0374fb1c-ce7e-46e6-8386-23d0db831639",
         "7f0ad5f5-3a36-4ca1-a36b-a84a8bbc9719",
+        "c845fac9-ec2d-42a6-a577-f27a78ce1765",
+        "c17ac245-3720-47d9-abed-c4a7ece6fe19",
+        "52b22b3b-f95d-4762-b6fd-bd2080586fce",
+        "573a95ab-18ae-4548-be21-c601c8d80afd",
+        "0b5b645a-fd49-4ddc-9744-cd23da4eeb6e",
+        "670dcdd1-5c68-43ab-898f-2d647addf723",
         "6c1e0975-abc1-43e3-81ef-1f61aa33cdba",
         "c5d79dc4-0153-4720-b653-64ffd6bfdfc1",
         "282e9036-4d8d-49dc-98d1-7b31bbd3c69f",
@@ -3524,12 +3530,6 @@
         "7e4759a3-d185-4edc-892e-1fd278ca01b1",
         "16bab596-d49e-4682-aa58-e5d026a73fc6",
         "d24cf006-d20f-42ca-9e7f-172e1138b508",
-        "c845fac9-ec2d-42a6-a577-f27a78ce1765",
-        "c17ac245-3720-47d9-abed-c4a7ece6fe19",
-        "52b22b3b-f95d-4762-b6fd-bd2080586fce",
-        "573a95ab-18ae-4548-be21-c601c8d80afd",
-        "0b5b645a-fd49-4ddc-9744-cd23da4eeb6e",
-        "670dcdd1-5c68-43ab-898f-2d647addf723",
         "6b29155b-0b29-4f5a-9fab-3b0c4cfb4eee",
         "49844ad9-bff8-4311-bf7b-2c722f251c18",
         "f679d300-e5b5-44b5-ac4c-064ed645d91b",
