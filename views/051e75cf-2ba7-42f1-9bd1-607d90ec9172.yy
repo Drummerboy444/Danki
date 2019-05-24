@@ -8,7 +8,7 @@
         "ffbf56cb-6d11-460e-be81-a79ef7043f01"
     ],
     "filterType": "GMScript",
-    "folderName": "Arguments Getters",
+    "folderName": "Getters",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -17,7 +17,7 @@ if(_id_nearestEnemy == noone) return;
 if(position_meeting(_num_targetX, _num_targetY, oEnemy)){
 	AbilityCaster_AddEffectDataToBuffer(
 		_id_nearestEnemy,
-		DOTEffectData_New(
+		ds_DOTEffectData_New(
 			YELLOW_CIRCLE_DOT_DURATION,
 			_id_caster,
 			YELLOW_CIRCLE_DOT_DAMAGE_PER_STEP,

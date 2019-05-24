@@ -9,10 +9,10 @@ var _DamageData_data = argument_count<2 ? undefined : argument[1];
 AbilityCaster_EMPTY_BUCKETS();
 
 for (var i = 0; i < ds_list_size(list_activeEffects); i++) {
-	var _EffectData_active = list_activeEffects[| i];
-	var _enum_effect = EffectData_GetEffect(_EffectData_active);
+	var _ds_EffectData_active = list_activeEffects[| i];
+	var _enum_effect = ds_EffectData_GetEffect(_ds_EffectData_active);
 	var _list_bucket = map_effectToBucket[? _enum_effect];
-	ds_list_add(_list_bucket, _EffectData_active);
+	ds_list_add(_list_bucket, _ds_EffectData_active);
 }
 
 

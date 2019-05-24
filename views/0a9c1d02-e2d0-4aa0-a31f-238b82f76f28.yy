@@ -8,7 +8,7 @@
         "361711c7-af5f-4a02-bb9b-72694073a591"
     ],
     "filterType": "GMScript",
-    "folderName": "StunEffectData",
+    "folderName": "ds_StunEffectData",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

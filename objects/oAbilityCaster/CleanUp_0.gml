@@ -1,6 +1,16 @@
 instance_destroy(id_oneShotService);
 instance_destroy(id_channelService);
 
+for (var i = 0; i <= ds_list_size(list_effectsBuffer); i++) {
+	var _ds_EffectData_delete = list_effectsBuffer[| i];
+	ds_EffectData_Destroy(_ds_EffectData_delete);
+}
+
+for (var i = 0; i <= ds_list_size(list_activeEffects); i++) {
+	var _ds_EffectData_delete = list_activeEffects[| i];
+	ds_EffectData_Destroy(_ds_EffectData_delete);
+}
+
 ds_list_destroy(list_effectsBuffer);
 ds_list_destroy(list_activeEffects);
 
