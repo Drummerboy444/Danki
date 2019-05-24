@@ -28,4 +28,6 @@ ds_Agenda_Destroy(ds_Agenda_agenda);
 
 ds_Personality_Destroy(ds_Personality_personality);
 
-path_delete(path_currentPath);
+if (!is_undefined(path_currentPath)) {
+	path_delete(path_currentPath);
+}

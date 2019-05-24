@@ -6,4 +6,7 @@ switch (MovementData_GetMovementType(_MovementData_data)) {
 	case Enum_MovementType.LINEAR_SLIDING:
 		MovementManager_MOVE_LINEAR_SLIDING(_MovementData_data);
 		break;
+	case Enum_MovementType.PATHING:
+		MovementManager_MOVE_PATHING(_MovementData_data);
+		break;
 }

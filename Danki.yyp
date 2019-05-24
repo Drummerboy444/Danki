@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "0b5b645a-fd49-4ddc-9744-cd23da4eeb6e",
+            "Value": {
+                "id": "949e0739-3e0e-4b28-8e16-ad6d9e132847",
+                "resourcePath": "scripts\\MovementGridManager_GetGridForInstance\\MovementGridManager_GetGridForInstance.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0c126b21-de7f-40d6-a6c9-02ea9e2a0e8b",
             "Value": {
                 "id": "20a98b18-abf8-4582-ac40-51fa001586d2",
@@ -227,6 +235,14 @@
             "Value": {
                 "id": "0a886356-a48c-493a-b9dc-7dcdc8b82e40",
                 "resourcePath": "scripts\\Mortal_CALCULATE_RECEIVED_DAMAGE\\Mortal_CALCULATE_RECEIVED_DAMAGE.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0dcdec8b-2d47-44a7-8f44-418dd7051c1a",
+            "Value": {
+                "id": "e780bd1a-f597-4771-b2cd-3bb6c9893514",
+                "resourcePath": "scripts\\MovementManager_MOVE_PATHING\\MovementManager_MOVE_PATHING.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1199,6 +1215,14 @@
             }
         },
         {
+            "Key": "573a95ab-18ae-4548-be21-c601c8d80afd",
+            "Value": {
+                "id": "e95377dd-d314-41e6-be66-3efbee679273",
+                "resourcePath": "scripts\\MovementGridManager_AddInstancesWithMargin\\MovementGridManager_AddInstancesWithMargin.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "57b2b6bd-f479-4c03-80d0-6bcc73a195e5",
             "Value": {
                 "id": "a8edcdbd-43d5-4d88-9fef-164f39c74179",
@@ -1436,6 +1460,14 @@
                 "id": "575736e3-0c97-43fc-9b09-9a21ca231a60",
                 "resourcePath": "views\\68b820f0-f80f-4dee-bea6-12db0fa26d7e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "69e2bad1-faaa-4b8e-a0ac-5575e8852093",
+            "Value": {
+                "id": "323e8a9f-30e9-4450-829a-5b40f991ec89",
+                "resourcePath": "scripts\\ds_Stats_Copy\\ds_Stats_Copy.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3377,6 +3409,7 @@
         "84756f76-1ea4-4bfc-abe9-2b64214fb665",
         "e02f1891-1d02-4d12-b616-3073a6f187df",
         "4793315f-6596-4ec6-9535-cb6d2d0f3992",
+        "0dcdec8b-2d47-44a7-8f44-418dd7051c1a",
         "713beafa-9bb8-4e3a-8615-85e0b91f6989",
         "9a05a829-0151-4caf-8c2c-6012312162e3",
         "aa33c175-8498-4234-b943-33f6b897c1d8",
@@ -3425,6 +3458,12 @@
         "7e4759a3-d185-4edc-892e-1fd278ca01b1",
         "16bab596-d49e-4682-aa58-e5d026a73fc6",
         "d24cf006-d20f-42ca-9e7f-172e1138b508",
+        "c845fac9-ec2d-42a6-a577-f27a78ce1765",
+        "c17ac245-3720-47d9-abed-c4a7ece6fe19",
+        "52b22b3b-f95d-4762-b6fd-bd2080586fce",
+        "573a95ab-18ae-4548-be21-c601c8d80afd",
+        "0b5b645a-fd49-4ddc-9744-cd23da4eeb6e",
+        "670dcdd1-5c68-43ab-898f-2d647addf723",
         "6b29155b-0b29-4f5a-9fab-3b0c4cfb4eee",
         "49844ad9-bff8-4311-bf7b-2c722f251c18",
         "f679d300-e5b5-44b5-ac4c-064ed645d91b",
@@ -3488,16 +3527,13 @@
         "d054bc3b-96a3-4fc7-a057-7546a269f330",
         "4fe91f54-56dd-4aa1-8a98-d1390d94407b",
         "132828fe-a67b-4e46-8a68-5d1164da6959",
+        "69e2bad1-faaa-4b8e-a0ac-5575e8852093",
         "d3097fde-b6c3-4a58-939a-d604232d3c21",
         "ba399e5c-4627-4fb7-a63b-b840c98f7d9a",
         "08d5b0d4-ae0d-4796-96cd-709d89a4a9c4",
         "23f58612-d331-4985-85d1-53efab459f12",
         "f52275da-d779-4cbc-955d-96f173640da4",
         "d1ea4949-c83e-48fb-ac48-ef7957569af4",
-        "c845fac9-ec2d-42a6-a577-f27a78ce1765",
-        "c17ac245-3720-47d9-abed-c4a7ece6fe19",
-        "52b22b3b-f95d-4762-b6fd-bd2080586fce",
-        "670dcdd1-5c68-43ab-898f-2d647addf723",
         "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
         "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d",
