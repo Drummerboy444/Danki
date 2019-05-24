@@ -24,4 +24,4 @@ for(var i=0; i<ds_list_size(list_ds_EffectData_effectsBuffer); i++){
 }
 
 // Clear the buffer
-ds_list_clear(list_effectsBuffer);
+ds_list_clear(list_ds_EffectData_effectsBuffer);
