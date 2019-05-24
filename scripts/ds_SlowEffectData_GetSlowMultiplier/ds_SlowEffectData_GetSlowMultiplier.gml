@@ -8,4 +8,4 @@ if(!ds_SlowEffectData_InstanceOf(_ds_SlowEffectData_data)){
 	ErrorHandler_FatalError("Tried to get slow multiplier from non SlowEffectData structure.");
 }
 
-return _ds_SlowEffectData_data[? DS_DOT_EFFECT_DATA_DAMAGE_TYPE];
+return _ds_SlowEffectData_data[? DS_SLOW_EFFECT_DATA_SLOW_MULTIPLIER];
