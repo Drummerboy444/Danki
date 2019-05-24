@@ -6,7 +6,7 @@ var _any_data = argument[0];
 
 
 return
-ds_EffectData_InstanceOf(_any_data)
-&& ds_EffectData_GetEffect(_any_data) == Enum_Effects.SLOW
-&& ds_map_exists(_any_data, DS_SLOWEFFECTDATA_SLOWMULTIPLIER)
-&& is_real(_any_data[? DS_SLOWEFFECTDATA_SLOWMULTIPLIER]);
+	ds_EffectData_InstanceOf(_any_data)
+	&& ds_EffectData_GetEffect(_any_data) == Enum_Effects.SLOW
+	&& ds_map_exists(_any_data, DS_SLOW_EFFECT_DATA_SLOW_MULTIPLIER)
+	&& is_real(_any_data[? DS_SLOW_EFFECT_DATA_SLOW_MULTIPLIER]);

@@ -6,5 +6,5 @@ var _any_data = argument[0];
 
 
 return
-ds_EffectData_InstanceOf(_any_data)
-&& ds_EffectData_GetEffect(_any_data) == Enum_Effects.STUN;
+	ds_EffectData_InstanceOf(_any_data)
+	&& ds_EffectData_GetEffect(_any_data) == Enum_Effects.STUN;

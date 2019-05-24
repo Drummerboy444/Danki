@@ -8,4 +8,4 @@ if(!ds_DashEffectData_InstanceOf(_ds_DashEffectData_data)){
 	ErrorHandler_FatalError("Tried to get dash multiplier from non DashEffectData structure.");
 }
 
-return _ds_DashEffectData_data[? DS_DASHEFFECTDATA_DASHMULTIPLIER];
+return _ds_DashEffectData_data[? DS_DASH_EFFECT_DATA_DASH_MULTIPLIER];

@@ -1,4 +1,4 @@
-/// @function AbilityCaster_AddEffectDataToBuffer(id_target, EffectData_data) Add a an effect data to the given AbilityCaster's effect buffer
+/// @function AbilityCaster_AddEffectDataToBuffer(id_target, ds_EffectData_data) Add a an effect data to the given AbilityCaster's effect buffer
 ///		via an already made EffectData object.
 /// @param {id} id of the ability caster to add the effect to.
 /// @param {ds_EffectData_data} ds_EffectData_data to add to the buffer.

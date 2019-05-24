@@ -14,8 +14,8 @@ var _num_slowSteps = argument[4];
 
 
 var _ds_DashEffectData_new = ds_EffectData_NEW(Enum_Effects.DASH, _num_steps, _id_caster);
-ds_map_add(_ds_DashEffectData_new, DS_DASHEFFECTDATA_DASHMULTIPLIER, _num_dashMultiplier);
-ds_map_add(_ds_DashEffectData_new, DS_DASHEFFECTDATA_DASHSLOWMULTIPLIER, _num_slowMultiplier);
-ds_map_add(_ds_DashEffectData_new, DS_DASHEFFECTDATA_SLOWSTEPS, _num_slowSteps);
+_ds_DashEffectData_new[? DS_DASH_EFFECT_DATA_DASH_MULTIPLIER] = _num_dashMultiplier;
+_ds_DashEffectData_new[? DS_DASH_EFFECT_DATA_SLOW_MULTIPLIER] = _num_slowMultiplier;
+_ds_DashEffectData_new[? DS_DASH_EFFECT_DATA_SLOW_STEPS] = _num_slowSteps;
 
 return _ds_DashEffectData_new;
