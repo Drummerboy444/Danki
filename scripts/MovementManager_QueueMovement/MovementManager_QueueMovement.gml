@@ -5,14 +5,14 @@ var _MovementData_data = argument[0];
 
 
 var _id_instanceToMove = MovementData_GetInstanceToMove(_MovementData_data);
-var _num_bufferSize = ds_list_size(oMovementManager.list_movementBuffer);
+var _num_bufferSize = ds_list_size(oMovementManager.list_MovementData_movementBuffer);
 
 for (var i = 0; i < _num_bufferSize; i++) {
-	var _MovementData_movement = oMovementManager.list_movementBuffer[| i];
+	var _MovementData_movement = oMovementManager.list_MovementData_movementBuffer[| i];
 	var _id_entry = MovementData_GetInstanceToMove(_MovementData_movement);
 	if (_id_entry == _id_instanceToMove) {
-		ds_list_delete(oMovementManager.list_movementBuffer, i);
+		ds_list_delete(oMovementManager.list_MovementData_movementBuffer, i);
 	}
 }
 
-ds_list_add(oMovementManager.list_movementBuffer, _MovementData_data);
+ds_list_add(oMovementManager.list_MovementData_movementBuffer, _MovementData_data);

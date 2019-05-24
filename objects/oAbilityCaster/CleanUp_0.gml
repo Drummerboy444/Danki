@@ -1,18 +1,18 @@
 instance_destroy(id_oneShotService);
 instance_destroy(id_channelService);
 
-for (var i = 0; i <= ds_list_size(list_effectsBuffer); i++) {
-	var _ds_EffectData_delete = list_effectsBuffer[| i];
+for (var i = 0; i <= ds_list_size(list_ds_EffectData_effectsBuffer); i++) {
+	var _ds_EffectData_delete = list_ds_EffectData_effectsBuffer[| i];
 	ds_EffectData_Destroy(_ds_EffectData_delete);
 }
 
-for (var i = 0; i <= ds_list_size(list_activeEffects); i++) {
-	var _ds_EffectData_delete = list_activeEffects[| i];
+for (var i = 0; i <= ds_list_size(list_ds_EffectData_activeEffects); i++) {
+	var _ds_EffectData_delete = list_ds_EffectData_activeEffects[| i];
 	ds_EffectData_Destroy(_ds_EffectData_delete);
 }
 
-ds_list_destroy(list_effectsBuffer);
-ds_list_destroy(list_activeEffects);
+ds_list_destroy(list_ds_EffectData_effectsBuffer);
+ds_list_destroy(list_ds_EffectData_activeEffects);
 
 ds_Stats_Destroy(ds_Stats_baseStats);
 ds_Stats_Destroy(ds_Stats_stats);
