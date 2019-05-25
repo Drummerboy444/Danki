@@ -1975,6 +1975,14 @@
             }
         },
         {
+            "Key": "8ed1a96a-92cf-42a9-bfd8-f208fd524a5e",
+            "Value": {
+                "id": "f88cf496-531c-4ed8-83af-c4eb0e833c92",
+                "resourcePath": "sprites\\ColourTest\\ColourTest.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8f556e70-343e-4ba4-9247-77e42319b739",
             "Value": {
                 "id": "5a17e088-6b63-4aa1-9d76-7fc7c87e1406",
@@ -2012,6 +2020,14 @@
                 "id": "0912ebc3-e200-4dba-ab63-33c66abb0c95",
                 "resourcePath": "objects\\oPauseable\\oPauseable.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "922ec5be-208c-4013-b45e-0db63b742f7e",
+            "Value": {
+                "id": "80027efc-c341-4208-a113-a054219d139f",
+                "resourcePath": "shaders\\shd_AbilityCaster\\shd_AbilityCaster.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -2123,6 +2139,14 @@
             "Value": {
                 "id": "63936f30-903c-4f0d-a2d1-ddf9fb913b38",
                 "resourcePath": "objects\\oMortal\\oMortal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9bde6498-f39f-478f-9d2d-3678226480bf",
+            "Value": {
+                "id": "173f15d9-eb19-4103-905d-69ffe4c3b7ec",
+                "resourcePath": "objects\\oShaderManager\\oShaderManager.yy",
                 "resourceType": "GMObject"
             }
         },
