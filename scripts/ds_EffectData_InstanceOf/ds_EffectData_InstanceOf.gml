@@ -4,7 +4,6 @@
 var _any_data = argument[0];
 
 
-
 return
 	ds_exists(_any_data, ds_type_map)
 	&& ds_map_exists(_any_data, DS_EFFECT_DATA_CASTER)
@@ -12,4 +11,8 @@ return
 	&& ds_map_exists(_any_data, DS_EFFECT_DATA_EFFECT)
 	&& is_real(_any_data[? DS_EFFECT_DATA_EFFECT])
 	&& ds_map_exists(_any_data, DS_EFFECT_DATA_STEPS)
-	&& is_real(_any_data[? DS_EFFECT_DATA_STEPS]);
+	&& is_real(_any_data[? DS_EFFECT_DATA_STEPS])
+	&& ds_map_exists(_any_data, DS_EFFECT_DATA_CASTING_STATS)
+	&& ds_Stats_InstanceOf(_any_data[? DS_EFFECT_DATA_CASTING_STATS])
+	&& ds_map_exists(_any_data, DS_EFFECT_DATA_CASTING_EFFECTS)
+	&& Utility_DsListInstancesOf(_any_data[? DS_EFFECT_DATA_CASTING_EFFECTS], ds_EffectData_InstanceOf);

@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "1cf86042-9f43-4561-a891-58bbb967fbf9",
+            "Value": {
+                "id": "814605e3-5231-43d5-acfd-d833c2583643",
+                "resourcePath": "scripts\\ds_EffectData_GetCastingEffects\\ds_EffectData_GetCastingEffects.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1d2ef3c4-34e4-4733-9492-983b24ce87e3",
             "Value": {
                 "id": "1d04c021-fb6e-40cb-a32f-71a3af2b53a7",
@@ -2191,6 +2199,14 @@
             }
         },
         {
+            "Key": "a0d8a23e-bc2f-4249-95f9-58ef324b86f3",
+            "Value": {
+                "id": "9b8732d5-83d1-459b-b089-10b2565adf7e",
+                "resourcePath": "scripts\\ds_EffectData_GetCastingStats\\ds_EffectData_GetCastingStats.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a156aea3-c169-4e12-b772-3d0ae4c6f94c",
             "Value": {
                 "id": "df8cee3e-2d38-4734-b11c-21c011abff06",
@@ -2635,6 +2651,14 @@
             "Value": {
                 "id": "c74cc3e4-7753-4ea0-933d-874c15f4a158",
                 "resourcePath": "scripts\\Channel_Setup\\Channel_Setup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c775e166-46c8-408e-a533-1d2e8ab1eb98",
+            "Value": {
+                "id": "594a4b73-b64d-4645-9b51-31ec7e89f9f9",
+                "resourcePath": "scripts\\Utility_DsListInstancesOf\\Utility_DsListInstancesOf.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3493,6 +3517,7 @@
         "910ace5c-bf11-40ec-bc16-6b838982888b",
         "70e1e3bc-7dac-4983-95b3-5d18610017fa",
         "7e69cbe8-f09a-4419-a60f-b005e5e88ec1",
+        "c775e166-46c8-408e-a533-1d2e8ab1eb98",
         "032af51d-b595-4e7e-b570-30078c4d964c",
         "b861f221-6b40-4ea4-b9f1-6a971f39c1d1",
         "1f8d5427-6fd2-4e52-917a-c414756b3ca7",
@@ -3538,6 +3563,8 @@
         "b1be6216-2ef7-4aef-9b44-01e85a6aa4f8",
         "f647eb31-a403-4b50-b879-9f20dc24c82e",
         "3537edbd-c2fa-435a-8334-3708962ada36",
+        "a0d8a23e-bc2f-4249-95f9-58ef324b86f3",
+        "1cf86042-9f43-4561-a891-58bbb967fbf9",
         "74733f70-3701-44aa-a893-27f5971f44e2",
         "17b5079f-ae83-4ca8-ba0c-7bcae8c70726",
         "b5b4d40e-45e1-40bc-933a-02bd9806b8c4",
