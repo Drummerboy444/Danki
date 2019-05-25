@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "26e96dbe-65bb-40e2-906d-a398619a9f2c",
+            "Value": {
+                "id": "5f6d966b-906a-4082-a568-55726d23965b",
+                "resourcePath": "scripts\\ds_EffectContext_GetCastingStats\\ds_EffectContext_GetCastingStats.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "27e24ea1-60d5-41f0-a64c-451b3a958ce4",
             "Value": {
                 "id": "ce74f261-c09b-4dc2-976c-5c0e2c52f224",
@@ -779,6 +787,14 @@
             "Value": {
                 "id": "7028c03e-04f0-4bf9-ba26-52e6088d95e0",
                 "resourcePath": "scripts\\Collidable_Setup\\Collidable_Setup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "32010dbf-4206-41a0-841d-ae5dc9666c0f",
+            "Value": {
+                "id": "af890339-102d-4f85-94ac-22710fad696e",
+                "resourcePath": "scripts\\ds_EffectContext_GetCastingEffects\\ds_EffectContext_GetCastingEffects.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1395,6 +1411,14 @@
             "Value": {
                 "id": "b039e14e-bd61-4258-8bba-ba3dd2c20e0f",
                 "resourcePath": "scripts\\ChannelService_CANCEL_CHANNEL\\ChannelService_CANCEL_CHANNEL.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "60cc74a0-b0ab-46c2-bb15-9586f339a13c",
+            "Value": {
+                "id": "035a6ebf-08b5-40ae-8abc-9d9dd53d7ee5",
+                "resourcePath": "scripts\\ds_EffectContext_GetEffectData\\ds_EffectContext_GetEffectData.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3343,6 +3367,14 @@
             }
         },
         {
+            "Key": "f69f3c07-e91a-40dd-b69f-da82c5fae6cb",
+            "Value": {
+                "id": "69fc5795-cc5f-4ab7-9d5b-e20173a36e12",
+                "resourcePath": "views\\f69f3c07-e91a-40dd-b69f-da82c5fae6cb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f73470aa-bba4-436b-92d3-d3d9d39b79fc",
             "Value": {
                 "id": "dd8fbe8a-4ead-4f35-b2a5-ec313bd22fcf",
@@ -3614,6 +3646,9 @@
         "61c60586-fcfd-49de-8f49-0be6d5502548",
         "898dced4-e18f-494d-a276-ba9ab83a38da",
         "c2525c9c-998a-4068-916e-477cbdded03f",
+        "60cc74a0-b0ab-46c2-bb15-9586f339a13c",
+        "26e96dbe-65bb-40e2-906d-a398619a9f2c",
+        "32010dbf-4206-41a0-841d-ae5dc9666c0f",
         "0f0d7f77-482e-497d-aa9b-4a3b60acc49c",
         "0864c5b2-a188-4d7e-adca-97f06d5e0964",
         "74b05822-4ca1-4386-b4db-d95a47216db4",

@@ -6,7 +6,8 @@
     "children": [
         "61c60586-fcfd-49de-8f49-0be6d5502548",
         "898dced4-e18f-494d-a276-ba9ab83a38da",
-        "c2525c9c-998a-4068-916e-477cbdded03f"
+        "c2525c9c-998a-4068-916e-477cbdded03f",
+        "f69f3c07-e91a-40dd-b69f-da82c5fae6cb"
     ],
     "filterType": "GMScript",
     "folderName": "ds_EffectContext",

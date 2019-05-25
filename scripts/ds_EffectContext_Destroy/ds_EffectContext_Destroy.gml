@@ -7,8 +7,8 @@ if (!ds_EffectContext_InstanceOf(_ds_EffectContext_context)) {
 	ErrorHandler_FatalError("Attempting to destroy object that isn't an instance of EffectContext");
 }
 
-var _ds_EffectData_effect = _ds_EffectContext_context[? DS_EFFECT_CONTEXT_EFFECT];
-ds_EffectData_Destroy(_ds_EffectData_effect);
+var _ds_EffectData_effectData = _ds_EffectContext_context[? DS_EFFECT_CONTEXT_EFFECT_DATA];
+ds_EffectData_Destroy(_ds_EffectData_effectData);
 
 var _ds_Stats_castingStats = _ds_EffectContext_context[? DS_EFFECT_CONTEXT_CASTING_STATS];
 ds_Stats_Destroy(_ds_Stats_castingStats);
