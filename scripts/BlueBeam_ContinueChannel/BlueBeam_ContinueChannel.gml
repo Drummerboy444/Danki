@@ -21,9 +21,17 @@ var _id_nearestEnemy = instance_nearest(_num_targetX, _num_targetY, oEnemy);
 if(_id_nearestEnemy == noone) return;
 
 if(position_meeting(_num_targetX, _num_targetY, _id_nearestEnemy)){
-	AbilityCaster_AddEffectDataToBuffer(
+	AbilityCaster_ApplyEffect(
 		_id_nearestEnemy,
-		ds_SlowEffectData_New(BLUE_BEAM_SLOW_DURATION, _id_caster, BLUE_BEAM_SLOW_MULTIPLIER)
+		ds_EffectContext_New(
+			ds_SlowEffectData_New(
+				BLUE_BEAM_SLOW_DURATION,
+				_id_caster,
+				BLUE_BEAM_SLOW_MULTIPLIER
+			),
+			_id_caster.ds_Stats_frameStats,
+			ds_EffectContext_ListToEffectData(_id_caster.list_ds_EffectContext_activeEffects)
+		)
 	);
 	DamageManager_ApplyDamage(
 		_id_caster,
