@@ -19,7 +19,10 @@ ds_Stats_Destroy(ds_Stats_stats);
 ds_Stats_Destroy(ds_Stats_frameStats);
 
 for (var i = 0; i < Enum_Effects.length; i++) {
-	ds_list_destroy(map_effectToBucket[? i]);
+	// No need to delete the effect contexts as they should be deleted by the active
+	// effects list being deleted.
+	var _list_ds_EffectContext_delete = map_effectToBucket[? i];
+	ds_list_destroy(_list_ds_EffectContext_delete);
 }
 ds_map_destroy(map_effectToBucket);
 
