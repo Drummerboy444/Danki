@@ -439,6 +439,14 @@
             }
         },
         {
+            "Key": "18156f3d-ac02-4cb0-80bc-33ad56613b55",
+            "Value": {
+                "id": "5e7d83e2-ee2c-4d69-9e03-68c007080ff5",
+                "resourcePath": "scripts\\Utility_DsListInstancesOf\\Utility_DsListInstancesOf.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "18c53ce1-44de-46d4-a5cd-69ad5e716075",
             "Value": {
                 "id": "ae7cf0ed-767e-4cef-830e-008bc51f1438",
@@ -3493,6 +3501,7 @@
         "910ace5c-bf11-40ec-bc16-6b838982888b",
         "70e1e3bc-7dac-4983-95b3-5d18610017fa",
         "7e69cbe8-f09a-4419-a60f-b005e5e88ec1",
+        "18156f3d-ac02-4cb0-80bc-33ad56613b55",
         "032af51d-b595-4e7e-b570-30078c4d964c",
         "b861f221-6b40-4ea4-b9f1-6a971f39c1d1",
         "1f8d5427-6fd2-4e52-917a-c414756b3ca7",
