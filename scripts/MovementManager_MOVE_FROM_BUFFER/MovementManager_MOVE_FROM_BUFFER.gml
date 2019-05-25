@@ -7,7 +7,7 @@ switch (MovementData_GetMovementType(_MovementData_data)) {
 		MovementManager_MOVE_LINEAR_SLIDING(_MovementData_data);
 		break;
 	case Enum_MovementType.DYNAMIC:
-		if(MovementManager_LINE_OF_SIGHT(_MovementData_data)){
+		if(MovementManager_LINE_OF_SIGHT(_MovementData_data)) {
 			MovementManager_MOVE_LINEAR_SLIDING(_MovementData_data);
 		} else {
 			MovementManager_MOVE_PATHING(_MovementData_data);

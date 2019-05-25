@@ -22,11 +22,11 @@ with (_id_instanceToMove) {
 		false,
 	);
 }
-	
+
 for(var i = 0; i < ds_list_size(_list_id_collisions); i++) {
 	if(_list_id_collisions[| i] != _id_targetInstance) {
 		return false;
 	}
 }
-	
+
 return true;

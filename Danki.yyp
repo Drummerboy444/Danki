@@ -535,6 +535,14 @@
             }
         },
         {
+            "Key": "225a7f82-8da1-4e40-9ae3-281ef71c1f56",
+            "Value": {
+                "id": "15739e01-3a07-4a77-b697-128259c43a27",
+                "resourcePath": "sprites\\sWoodenWall\\sWoodenWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "22c5c504-3f34-47dc-a414-ac54d2c809b0",
             "Value": {
                 "id": "44235a15-04dd-4f4d-9828-1ba5344503d2",
@@ -1639,6 +1647,14 @@
             }
         },
         {
+            "Key": "76cb1473-4d0c-4546-911c-1969676b1482",
+            "Value": {
+                "id": "64140613-38d9-4b40-a725-4801cb8e8d41",
+                "resourcePath": "objects\\oWoodenWall\\oWoodenWall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "76d454e8-5f14-4d9f-b5f1-47df8870dcfd",
             "Value": {
                 "id": "cc6bf750-f1f2-466c-8cd0-982ae18842ec",
@@ -2092,6 +2108,14 @@
                 "id": "919b33d4-98ae-4fae-9b2e-ac7a71fa1156",
                 "resourcePath": "scripts\\ds_DOTEffectData_New\\ds_DOTEffectData_New.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "98e3e894-5a3f-4f80-bce5-e602be64ad8c",
+            "Value": {
+                "id": "3dfd9d70-cf88-41cb-8f2c-9f7ebf95d0a7",
+                "resourcePath": "views\\98e3e894-5a3f-4f80-bce5-e602be64ad8c.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
