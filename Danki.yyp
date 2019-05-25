@@ -2714,7 +2714,7 @@
             "Key": "c9a87b71-7b03-468a-bf8d-df799ffd823f",
             "Value": {
                 "id": "4f1d82c7-8b90-4f1d-93f9-bbb57856c908",
-                "resourcePath": "scripts\\AbilityCaster_AddEffectDataToBuffer\\AbilityCaster_AddEffectDataToBuffer.yy",
+                "resourcePath": "scripts\\AbilityCaster_ApplyEffect\\AbilityCaster_ApplyEffect.yy",
                 "resourceType": "GMScript"
             }
         },

@@ -22,9 +22,10 @@ num_pathPosition = 0;
 
 num_aggroRange = 0;
 
-list_ds_EffectData_effectsBuffer = ds_list_create();
-list_ds_EffectData_activeEffects = ds_list_create();
+list_ds_EffectContext_effectsBuffer = ds_list_create();
+list_ds_EffectContext_activeEffects = ds_list_create();
 
+// map from effect enums to lists of ds_EffectContexts
 map_effectToBucket = ds_map_create();
 for (var i = 0; i < Enum_Effects.length; i++) {
 	map_effectToBucket[? i] = ds_list_create();

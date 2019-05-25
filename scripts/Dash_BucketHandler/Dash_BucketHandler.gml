@@ -17,12 +17,16 @@ var _num_CurrentSpeed = ds_Stats_Get(_id_abilityCaster.ds_Stats_frameStats, Enum
 ds_Stats_Set(_id_abilityCaster.ds_Stats_frameStats, Enum_Stats.SPEED, _num_CurrentSpeed * _num_dashMultiplier);
 
 if(ds_EffectData_IsOnLastStep(_ds_DashEffectData_data)){
-	AbilityCaster_AddEffectDataToBuffer(
+	AbilityCaster_ApplyEffect(
 		_id_abilityCaster,
-		ds_SlowEffectData_New(
-			_num_slowSteps,
-			_id_abilityCaster,
-			_num_slowMultiplier
+		ds_EffectContext_New(
+			ds_SlowEffectData_New(
+				_num_slowSteps,
+				_id_abilityCaster,
+				_num_slowMultiplier
+			),
+			_id_abilityCaster.ds_Stats_frameStats,
+			_id_abilityCaster.list_ds_EffectContext_activeEffects
 		)
 	)
 }

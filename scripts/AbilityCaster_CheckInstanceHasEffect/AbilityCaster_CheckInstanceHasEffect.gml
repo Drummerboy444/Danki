@@ -9,10 +9,12 @@ if(!Utility_ObjectIsAncestorOfInstance(oAbilityCaster, _id_abilityCaster)){
 	ErrorHandler_Error("Tried to check effects on non ability caster.");
 }
 
-var _list_effects = _id_abilityCaster.list_ds_EffectData_activeEffects;
+var _list_ds_EffectContext_effects = _id_abilityCaster.list_ds_EffectContext_activeEffects;
 
-for(var i=0; i<ds_list_size(_list_effects); i++){
-	if(ds_EffectData_GetEffect(_list_effects[| i]) == _enum_effect) return true;
+for(var i=0; i<ds_list_size(_list_ds_EffectContext_effects); i++){
+	var _ds_EffectContext_context = _list_ds_EffectContext_effects[| i];
+	var _ds_EffectData_data = ds_EffectContext_GetEffectData(_ds_EffectContext_context);
+	if(ds_EffectData_GetEffect(_ds_EffectData_data) == _enum_effect) return true;
 }
 
 return false;

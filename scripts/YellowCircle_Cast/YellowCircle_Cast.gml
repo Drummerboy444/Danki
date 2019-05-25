@@ -15,13 +15,17 @@ var _id_nearestEnemy = instance_nearest(_num_targetX, _num_targetY, oEnemy);
 if(_id_nearestEnemy == noone) return;
 
 if(position_meeting(_num_targetX, _num_targetY, oEnemy)){
-	AbilityCaster_AddEffectDataToBuffer(
+	AbilityCaster_ApplyEffect(
 		_id_nearestEnemy,
-		ds_DOTEffectData_New(
-			YELLOW_CIRCLE_DOT_DURATION,
-			_id_caster,
-			YELLOW_CIRCLE_DOT_DAMAGE_PER_STEP,
-			Enum_DamageTypes.FIRE
+		ds_EffectContext_New(
+			ds_DOTEffectData_New(
+				YELLOW_CIRCLE_DOT_DURATION,
+				_id_caster,
+				YELLOW_CIRCLE_DOT_DAMAGE_PER_STEP,
+				Enum_DamageTypes.FIRE
+			),
+			_id_caster.ds_Stats_frameStats,
+			_id_caster.list_ds_EffectContext_activeEffects
 		)
 	);
 }

@@ -40,14 +40,18 @@ with (oPlayer) {
 		num_dashCooldownRemaining = PLAYER_DASH_STEPS + PLAYER_DASH_SLOW_STEPS;
 		num_xDashMovement = _num_horizontalMovement;
 		num_yDashMovement = _num_verticalMovement;
-		AbilityCaster_AddEffectDataToBuffer(
+		AbilityCaster_ApplyEffect(
 			id,
-			ds_DashEffectData_New(
-				PLAYER_DASH_STEPS,
-				id,
-				PLAYER_DASH_SPEED_MULTIPLIER,
-				PLAYER_DASH_SLOW_MULTIPLIER,
-				PLAYER_DASH_SLOW_STEPS
+			ds_EffectContext_New(
+				ds_DashEffectData_New(
+					PLAYER_DASH_STEPS,
+					id,
+					PLAYER_DASH_SPEED_MULTIPLIER,
+					PLAYER_DASH_SLOW_MULTIPLIER,
+					PLAYER_DASH_SLOW_STEPS
+				),
+				ds_Stats_frameStats,
+				list_ds_EffectContext_activeEffects
 			)
 		);
 	}
