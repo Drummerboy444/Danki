@@ -1407,6 +1407,14 @@
             }
         },
         {
+            "Key": "622f567f-0bd2-497e-b7ba-cb3305a7fc09",
+            "Value": {
+                "id": "d639aa3d-82c6-4bf4-a736-5b1971fce33d",
+                "resourcePath": "scripts\\MovementManager_LINE_OF_SIGHT\\MovementManager_LINE_OF_SIGHT.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "634aedb1-e265-4b23-955f-d02adf565381",
             "Value": {
                 "id": "2623d92c-558c-48f8-934b-62d917655150",
@@ -2727,6 +2735,14 @@
             }
         },
         {
+            "Key": "ce57f9e1-7e03-4724-932a-c868aff901ad",
+            "Value": {
+                "id": "fdf50ec6-22c3-47f0-9b6f-008319d78049",
+                "resourcePath": "scripts\\MovementData_GetTargetInstance\\MovementData_GetTargetInstance.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ce5b3629-e6cb-4487-865a-ca33360b5ae8",
             "Value": {
                 "id": "c6d01133-7dfc-4cba-a828-3ea294351fa0",
@@ -3474,6 +3490,7 @@
         "e02f1891-1d02-4d12-b616-3073a6f187df",
         "4793315f-6596-4ec6-9535-cb6d2d0f3992",
         "0dcdec8b-2d47-44a7-8f44-418dd7051c1a",
+        "622f567f-0bd2-497e-b7ba-cb3305a7fc09",
         "713beafa-9bb8-4e3a-8615-85e0b91f6989",
         "9a05a829-0151-4caf-8c2c-6012312162e3",
         "aa33c175-8498-4234-b943-33f6b897c1d8",
@@ -3528,6 +3545,7 @@
         "3644396b-1bea-4fce-a975-4e8d16e7a026",
         "3f80f3a5-a07d-4585-a324-8cebc431ed78",
         "7e4759a3-d185-4edc-892e-1fd278ca01b1",
+        "ce57f9e1-7e03-4724-932a-c868aff901ad",
         "16bab596-d49e-4682-aa58-e5d026a73fc6",
         "d24cf006-d20f-42ca-9e7f-172e1138b508",
         "6b29155b-0b29-4f5a-9fab-3b0c4cfb4eee",
