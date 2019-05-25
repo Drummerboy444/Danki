@@ -1,0 +1,3 @@
+#macro DS_EFFECT_CONTEXT_EFFECT "effect"
+#macro DS_EFFECT_CONTEXT_CASTING_STATS "castingStats"
+#macro DS_EFFECT_CONTEXT_CASTING_EFFECTS "castingEffects"
