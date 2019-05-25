@@ -22,6 +22,8 @@ if(ds_EffectData_IsOnLastStep(_ds_DashEffectData_data)){
 		ds_SlowEffectData_New(
 			_num_slowSteps,
 			_id_abilityCaster,
+			_id_abilityCaster.ds_Stats_frameStats,
+			_id_abilityCaster.list_ds_EffectData_activeEffects,
 			_num_slowMultiplier
 		)
 	)

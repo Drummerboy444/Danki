@@ -45,6 +45,8 @@ with (oPlayer) {
 			ds_DashEffectData_New(
 				PLAYER_DASH_STEPS,
 				id,
+				ds_Stats_frameStats,
+				list_ds_EffectData_activeEffects,
 				PLAYER_DASH_SPEED_MULTIPLIER,
 				PLAYER_DASH_SLOW_MULTIPLIER,
 				PLAYER_DASH_SLOW_STEPS

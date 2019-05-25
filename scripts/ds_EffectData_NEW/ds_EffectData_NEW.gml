@@ -32,10 +32,12 @@ _ds_EffectData_newEffectData[? DS_EFFECT_DATA_EFFECT] = _enum_effect;
 _ds_EffectData_newEffectData[? DS_EFFECT_DATA_STEPS] = _num_steps;
 _ds_EffectData_newEffectData[? DS_EFFECT_DATA_CASTER] = _id_caster;
 
-var _ds_Stats_copy = ds_Stats_Copy(ds_Stats_New(), _ds_Stats_castingStats);
+var _ds_Stats_copy = ds_Stats_New();
+ds_Stats_Copy(_ds_Stats_copy, _ds_Stats_castingStats);
 _ds_EffectData_newEffectData[? DS_EFFECT_DATA_CASTING_STATS] = _ds_Stats_copy;
 
-var _list_ds_EffectData_copy = ds_EffectData_CopyList(ds_list_create(), _list_ds_EffectData_castingEffects);
+var _list_ds_EffectData_copy = ds_list_create();
+ds_EffectData_CopyList(_list_ds_EffectData_copy, _list_ds_EffectData_castingEffects);
 _ds_EffectData_newEffectData[? DS_EFFECT_DATA_CASTING_EFFECTS] = _list_ds_EffectData_copy;
 
 return _ds_EffectData_newEffectData;

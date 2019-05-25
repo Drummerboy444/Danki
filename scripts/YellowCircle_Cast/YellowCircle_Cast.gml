@@ -20,6 +20,8 @@ if(position_meeting(_num_targetX, _num_targetY, oEnemy)){
 		ds_DOTEffectData_New(
 			YELLOW_CIRCLE_DOT_DURATION,
 			_id_caster,
+			_id_caster.ds_Stats_frameStats,
+			_id_caster.list_ds_EffectData_activeEffects,
 			YELLOW_CIRCLE_DOT_DAMAGE_PER_STEP,
 			Enum_DamageTypes.FIRE
 		)

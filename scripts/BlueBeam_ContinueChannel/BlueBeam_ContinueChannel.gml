@@ -23,7 +23,13 @@ if(_id_nearestEnemy == noone) return;
 if(position_meeting(_num_targetX, _num_targetY, _id_nearestEnemy)){
 	AbilityCaster_AddEffectDataToBuffer(
 		_id_nearestEnemy,
-		ds_SlowEffectData_New(BLUE_BEAM_SLOW_DURATION, _id_caster, BLUE_BEAM_SLOW_MULTIPLIER)
+		ds_SlowEffectData_New(
+			BLUE_BEAM_SLOW_DURATION,
+			_id_caster,
+			_id_caster.ds_Stats_frameStats,
+			_id_caster.list_ds_EffectData_activeEffects,
+			BLUE_BEAM_SLOW_MULTIPLIER
+		)
 	);
 	DamageManager_ApplyDamage(
 		_id_caster,
