@@ -1023,6 +1023,14 @@
             }
         },
         {
+            "Key": "43bc29a7-88a6-4059-ad2f-7b2d8d883045",
+            "Value": {
+                "id": "5da9c0ba-75eb-4d5c-9d02-3c34f17ed31c",
+                "resourcePath": "scripts\\ds_EffectContext_ListToEffectData\\ds_EffectContext_ListToEffectData.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "43eeb3b4-19af-4595-a908-9361e190e972",
             "Value": {
                 "id": "99e6c474-1459-452c-9899-4cd634d94dcc",
@@ -3646,6 +3654,7 @@
         "61c60586-fcfd-49de-8f49-0be6d5502548",
         "898dced4-e18f-494d-a276-ba9ab83a38da",
         "c2525c9c-998a-4068-916e-477cbdded03f",
+        "43bc29a7-88a6-4059-ad2f-7b2d8d883045",
         "60cc74a0-b0ab-46c2-bb15-9586f339a13c",
         "26e96dbe-65bb-40e2-906d-a398619a9f2c",
         "32010dbf-4206-41a0-841d-ae5dc9666c0f",
