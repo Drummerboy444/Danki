@@ -51,7 +51,7 @@ with (oPlayer) {
 					PLAYER_DASH_SLOW_STEPS
 				),
 				ds_Stats_frameStats,
-				list_ds_EffectContext_activeEffects
+				ds_EffectContext_ListToEffectData(list_ds_EffectContext_activeEffects)
 			)
 		);
 	}

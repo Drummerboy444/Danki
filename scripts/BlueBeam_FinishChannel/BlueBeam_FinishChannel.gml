@@ -28,7 +28,7 @@ if(point_distance(_num_targetX, _num_targetY, _id_nearestEnemy.x, _id_nearestEne
 				_id_caster
 			),
 			_id_caster.ds_Stats_frameStats,
-			_id_caster.list_ds_EffectContext_activeEffects
+			ds_EffectContext_ListToEffectData(_id_caster.list_ds_EffectContext_activeEffects)
 		)
 	);
 }

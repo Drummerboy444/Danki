@@ -25,7 +25,7 @@ if(position_meeting(_num_targetX, _num_targetY, oEnemy)){
 				Enum_DamageTypes.FIRE
 			),
 			_id_caster.ds_Stats_frameStats,
-			_id_caster.list_ds_EffectContext_activeEffects
+			ds_EffectContext_ListToEffectData(_id_caster.list_ds_EffectContext_activeEffects)
 		)
 	);
 }
