@@ -1,6 +1,4 @@
-shader_set(shd_AbilityCaster);
-draw_self();
-shader_reset();
+event_inherited();
 
 var _num_maxHealth = ds_Stats_Get(ds_Stats_frameStats, Enum_Stats.HEALTH);
 var _num_currentHealthProportion = num_currentHealth/_num_maxHealth;
