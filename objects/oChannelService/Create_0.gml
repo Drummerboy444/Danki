@@ -15,3 +15,5 @@ num_currentTimer = 0;
 bool_channelling = false; // if the channel script is being called
 bool_attemptingToChannel = false; // if the owner of the service is attempting to channel
 bool_readyToChannel = true; // if the owner of the service has stopped calling the channel script
+
+ds_contextBag_bag = ds_ContextBag_New();

@@ -1,0 +1,1 @@
+ds_ContextBag_Destroy(ds_contextBag_bag);
