@@ -983,6 +983,14 @@
             }
         },
         {
+            "Key": "41248ed9-0b1f-4192-9c2f-e55c91be72eb",
+            "Value": {
+                "id": "d46762a4-dce9-4079-887c-29effbae4a34",
+                "resourcePath": "scripts\\MovementManager_HANDLE_NO_PATH\\MovementManager_HANDLE_NO_PATH.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "41b359af-0e03-42ad-99c0-59a813c1377b",
             "Value": {
                 "id": "b8897550-5bc2-4c99-bbf7-fb9af7ba5efe",
@@ -3514,6 +3522,7 @@
         "e02f1891-1d02-4d12-b616-3073a6f187df",
         "4793315f-6596-4ec6-9535-cb6d2d0f3992",
         "0dcdec8b-2d47-44a7-8f44-418dd7051c1a",
+        "41248ed9-0b1f-4192-9c2f-e55c91be72eb",
         "622f567f-0bd2-497e-b7ba-cb3305a7fc09",
         "713beafa-9bb8-4e3a-8615-85e0b91f6989",
         "9a05a829-0151-4caf-8c2c-6012312162e3",
