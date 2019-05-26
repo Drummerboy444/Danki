@@ -20,8 +20,15 @@ var _id_nearestEnemy = instance_nearest(_num_targetX, _num_targetY, oEnemy);
 if(_id_nearestEnemy == noone) return;
 
 if(point_distance(_num_targetX, _num_targetY, _id_nearestEnemy.x, _id_nearestEnemy.y) < BLUE_BEAM_STUN_RADIUS){
-	AbilityCaster_AddEffectDataToBuffer(
+	AbilityCaster_ApplyEffect(
 		_id_nearestEnemy,
-		ds_StunEffectData_New(BLUE_BEAM_STUN_DURATION, _id_caster)
+		ds_EffectContext_New(
+			ds_StunEffectData_New(
+				BLUE_BEAM_STUN_DURATION,
+				_id_caster
+			),
+			_id_caster.ds_Stats_frameStats,
+			ds_EffectContext_ListToEffectData(_id_caster.list_ds_EffectContext_activeEffects)
+		)
 	);
 }
