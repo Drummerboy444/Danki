@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "1cf909f0-086a-4dce-bde0-1edb913002a0",
+            "Value": {
+                "id": "1e38f84d-1e5c-4dd8-a0d8-bb4d960986fb",
+                "resourcePath": "scripts\\ds_AbilityCasterSnapshot_GetStats\\ds_AbilityCasterSnapshot_GetStats.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1d2ef3c4-34e4-4733-9492-983b24ce87e3",
             "Value": {
                 "id": "1d04c021-fb6e-40cb-a32f-71a3af2b53a7",
@@ -940,6 +948,14 @@
                 "id": "1cba85b8-ec9a-40ea-a6f5-fe1be9bfb1b4",
                 "resourcePath": "views\\3b63738d-1dcf-4e2c-a510-f8aaf110ccb7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3ba6bb12-5089-4683-ac03-fa483b749076",
+            "Value": {
+                "id": "97c0990a-1854-40ef-8134-7f870e7adad1",
+                "resourcePath": "scripts\\ds_AbilityCasterSnapshot_Destroy\\ds_AbilityCasterSnapshot_Destroy.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1583,6 +1599,14 @@
             }
         },
         {
+            "Key": "6e0ace6e-ee88-4ca4-8cc7-7ca72747b626",
+            "Value": {
+                "id": "39573f8c-8821-4492-8d79-7f93de47aad0",
+                "resourcePath": "scripts\\MACROS_ds_AbilityCasterSnapshot\\MACROS_ds_AbilityCasterSnapshot.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6f5135ab-4a22-4be4-b46a-39b2a69c02d0",
             "Value": {
                 "id": "1176ce1f-7733-4ea1-806b-42515eb76998",
@@ -2087,6 +2111,14 @@
             }
         },
         {
+            "Key": "95c1d0bf-122e-43d6-ae4c-9b31d132903e",
+            "Value": {
+                "id": "d5eeefcf-5868-43b9-83e0-5aa8f9a75fd2",
+                "resourcePath": "scripts\\ds_AbiltiyCasterSnapshot_GetEffects\\ds_AbiltiyCasterSnapshot_GetEffects.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "962eca4e-73ad-4ca9-96ec-39008b0d0407",
             "Value": {
                 "id": "a759c5b5-a605-4364-8b71-a4dfc9735fa2",
@@ -2243,6 +2275,14 @@
             "Value": {
                 "id": "7ab1a9dc-7b5e-4c93-b599-5ca65ad832b2",
                 "resourcePath": "views\\9f687757-f815-4a67-91c3-f68815ae4ec9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a00ca759-6639-4130-a583-a712ba90326e",
+            "Value": {
+                "id": "d8e3d80d-35a0-4c75-862a-0f50b8684a84",
+                "resourcePath": "views\\a00ca759-6639-4130-a583-a712ba90326e.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -2535,6 +2575,14 @@
             }
         },
         {
+            "Key": "baa73127-10db-4343-8569-37d15cbcd47f",
+            "Value": {
+                "id": "c12faf37-8b7a-407a-bb8d-e3fb308cc33f",
+                "resourcePath": "views\\baa73127-10db-4343-8569-37d15cbcd47f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "bb96347b-7e88-40c8-8d8d-3a23c4dc42f4",
             "Value": {
                 "id": "3b77fef2-2165-4ed0-b5d1-331433054aaa",
@@ -2628,6 +2676,14 @@
                 "id": "26f1e12b-b1be-4c61-8193-bbe745493034",
                 "resourcePath": "objects\\oStatsManager\\oStatsManager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c2221c73-6d6a-42ee-bfd7-ad3e2840c6de",
+            "Value": {
+                "id": "952ab6fc-d24d-40a3-a19f-cbe57469824c",
+                "resourcePath": "scripts\\ds_AbilityCasterSnapshot_InstanceOf\\ds_AbilityCasterSnapshot_InstanceOf.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3107,6 +3163,14 @@
             "Value": {
                 "id": "e6a615d4-23f9-48bd-af50-ca2a247fca71",
                 "resourcePath": "scripts\\Camera_LookAtFor\\Camera_LookAtFor.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e436af04-c9c3-4ddf-8d29-f3dc3eedc186",
+            "Value": {
+                "id": "11001d73-65d6-4baf-99dc-cd10b560296a",
+                "resourcePath": "scripts\\ds_AbilityCasterSnapshot_New\\ds_AbilityCasterSnapshot_New.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3707,6 +3771,11 @@
         "23f58612-d331-4985-85d1-53efab459f12",
         "f52275da-d779-4cbc-955d-96f173640da4",
         "d1ea4949-c83e-48fb-ac48-ef7957569af4",
+        "e436af04-c9c3-4ddf-8d29-f3dc3eedc186",
+        "c2221c73-6d6a-42ee-bfd7-ad3e2840c6de",
+        "3ba6bb12-5089-4683-ac03-fa483b749076",
+        "1cf909f0-086a-4dce-bde0-1edb913002a0",
+        "95c1d0bf-122e-43d6-ae4c-9b31d132903e",
         "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
         "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d",
@@ -3714,6 +3783,7 @@
         "27e24ea1-60d5-41f0-a64c-451b3a958ce4",
         "07007818-2477-47cf-b7af-948bc9ca0612",
         "aa8d87d3-e861-4ec9-9bc6-0cc12d7fb9e6",
+        "6e0ace6e-ee88-4ca4-8cc7-7ca72747b626",
         "ef8397c3-cf94-4c6a-8b24-a10e16f91b85",
         "9869f945-b443-4700-ba7d-bed8ec595e92"
     ],
