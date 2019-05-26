@@ -25,7 +25,6 @@ num_aggroRange = 0;
 //Shader
 uni_v4_Multiply = shader_get_uniform(shd_AbilityCaster, "in_Multiply");
 uni_v4_Add = shader_get_uniform(shd_AbilityCaster, "in_Add");
-bool_isBurning = false;
 
 list_ds_EffectData_effectsBuffer = ds_list_create();
 list_ds_EffectData_activeEffects = ds_list_create();

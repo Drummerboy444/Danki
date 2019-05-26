@@ -8,8 +8,6 @@ attribute vec2 in_TextureCoord;              // (u,v)
 
 varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
-varying float v_fBurnMult[4];
-varying float v_fBurnAdd[4];
 
 void main()
 {
