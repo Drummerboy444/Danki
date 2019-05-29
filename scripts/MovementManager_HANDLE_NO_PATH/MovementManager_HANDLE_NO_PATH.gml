@@ -19,7 +19,7 @@ with (_id_instanceToMove) {
 			[x, y - MOVEMENT_GRID_MANAGER_GRID_HEIGHT],
 		];
 	
-		for(i=0; i<array_length_1d(_arr_adjacentCells); i++) {
+		for(var i=0; i<array_length_1d(_arr_adjacentCells); i++) {
 			var _arr_location = _arr_adjacentCells[i];
 
 			var _bool_empty = mp_grid_get_cell(_mp_grid_grid, _arr_location[0], _arr_location[1]);
