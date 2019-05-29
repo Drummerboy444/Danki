@@ -12,15 +12,15 @@ var _num_terminusY = MovementData_GetTerminusY(_MovementData_data),
 var _list_id_collisions = ds_list_create();
 
 with (_id_instanceToMove) {
-	var _w = sprite_width/2;
-	var _h = sprite_height/2;
+	var _num_w = sprite_width/2;
+	var _num_h = sprite_height/2;
 	
 	var _arr_arr_coordinatePairs = [
 		[x, y, _num_terminusX, _num_terminusY],
-		[x + _w, y + _h, _num_terminusX + _w, _num_terminusY + _h],
-		[x + _w, y - _h, _num_terminusX + _w, _num_terminusY - _h],
-		[x - _w, y + _h, _num_terminusX - _w, _num_terminusY + _h],
-		[x - _w, y - _h, _num_terminusX - _w, _num_terminusY - _h]
+		[x + _num_w, y + _num_h, _num_terminusX + _num_w, _num_terminusY + _num_h],
+		[x + _num_w, y - _num_h, _num_terminusX + _num_w, _num_terminusY - _num_h],
+		[x - _num_w, y + _num_h, _num_terminusX - _num_w, _num_terminusY + _num_h],
+		[x - _num_w, y - _num_h, _num_terminusX - _num_w, _num_terminusY - _num_h]
 	];
 	
 	for(var i=0; i<array_length_1d(_arr_arr_coordinatePairs); i++) {
