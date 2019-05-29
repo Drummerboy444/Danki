@@ -19,7 +19,7 @@ with(_id_instanceToMove) {
 
 		var _num_terminusToPathDistance = point_distance(_num_terminusX, _num_terminusY, _num_pathEndX, _num_pathEndY);
 		if (_num_terminusToPathDistance < MOVEMENT_GRID_MANAGER_PATH_END_PRECISION) {
-			//return;
+			return;
 		}
 	}
 
