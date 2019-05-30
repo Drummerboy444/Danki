@@ -6,5 +6,6 @@ grid_movementSequencer = ds_grid_create(2, 1);
 
 enum Enum_MovementType {
 	LINEAR_SLIDING,
+	DYNAMIC,
 	PATHING
 }
