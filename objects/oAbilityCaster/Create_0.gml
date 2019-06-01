@@ -5,6 +5,7 @@ id_channelService = noone;
 bool_onGlobalCooldown = false;
 num_globalCooldownRemaining = 0;
 
+obj_opponent = noone;
 id_target = noone;
 
 ds_Stats_baseStats = ds_Stats_New();

@@ -10,13 +10,13 @@ var _id_caster = argument[0];
 var _num_targetX = argument[1];
 var _num_targetY = argument[2];
 
-var _id_nearestEnemy = instance_nearest(_num_targetX, _num_targetY, oEnemy);
+var _id_nearestOpponent = instance_nearest(_num_targetX, _num_targetY, id_owner.obj_opponent);
 
-if(_id_nearestEnemy == noone) return;
+if(_id_nearestOpponent == noone) return;
 
-if(position_meeting(_num_targetX, _num_targetY, oEnemy)){
+if(position_meeting(_num_targetX, _num_targetY, id_owner.obj_opponent)){
 	AbilityCaster_ApplyEffect(
-		_id_nearestEnemy,
+		_id_nearestOpponent,
 		ds_EffectContext_New(
 			ds_DOTEffectData_New(
 				YELLOW_CIRCLE_DOT_DURATION,
