@@ -2527,6 +2527,14 @@
             }
         },
         {
+            "Key": "b7ce5d28-a069-4ae8-8f68-a828cf8056ab",
+            "Value": {
+                "id": "7bbd8c07-abcd-4f43-9c6b-0e7d8ed6b69c",
+                "resourcePath": "scripts\\ds_AbilityCasterSnapshot_FromId\\ds_AbilityCasterSnapshot_FromId.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b7f3c696-6921-4528-b9f3-0d45914d97d6",
             "Value": {
                 "id": "9db4a4c5-ee01-47b6-b57e-6dd00b0b937c",
@@ -3776,6 +3784,7 @@
         "3ba6bb12-5089-4683-ac03-fa483b749076",
         "1cf909f0-086a-4dce-bde0-1edb913002a0",
         "95c1d0bf-122e-43d6-ae4c-9b31d132903e",
+        "b7ce5d28-a069-4ae8-8f68-a828cf8056ab",
         "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
         "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d",
