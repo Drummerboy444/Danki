@@ -29,8 +29,7 @@ if(position_meeting(_num_targetX, _num_targetY, _id_nearestEnemy)){
 				_id_caster,
 				BLUE_BEAM_SLOW_MULTIPLIER
 			),
-			_id_caster.ds_Stats_frameStats,
-			ds_EffectContext_ListToEffectData(_id_caster.list_ds_EffectContext_activeEffects)
+			ds_AbilityCasterSnapshot_FromId(_id_caster)
 		)
 	);
 	DamageManager_ApplyDamage(

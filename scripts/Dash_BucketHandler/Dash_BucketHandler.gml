@@ -30,8 +30,7 @@ if(ds_EffectData_IsOnLastStep(_ds_DashEffectData_data)){
 				_id_abilityCaster,
 				_num_slowMultiplier
 			),
-			ds_EffectContext_GetCastingStats(_ds_EffectContext_data),
-			ds_EffectContext_GetCastingEffects(_ds_EffectContext_data)
+			ds_AbilityCasterSnapshot_FromId(_id_abilityCaster)
 		)
 	)
 }

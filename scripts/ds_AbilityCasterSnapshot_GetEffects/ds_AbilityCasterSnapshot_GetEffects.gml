@@ -1,4 +1,4 @@
-/// @function ds_AbiltiyCasterSnapshot_GetEffects(ds_AbilityCasterSnapshot_snapshot) Gets the casting effects 
+/// @function ds_AbilityCasterSnapshot_GetEffects(ds_AbilityCasterSnapshot_snapshot) Gets the casting effects 
 ///		from the snapshot.
 /// @param {ds_AbilityCasterSnapshot} ds_AbilityCasterSnapshot_snapshot The snapshot.
 /// @returns {list_ds_EffectData} The effects from the snapshot.

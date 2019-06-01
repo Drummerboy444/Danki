@@ -24,8 +24,7 @@ if(position_meeting(_num_targetX, _num_targetY, oEnemy)){
 				YELLOW_CIRCLE_DOT_DAMAGE_PER_STEP,
 				Enum_DamageTypes.FIRE
 			),
-			_id_caster.ds_Stats_frameStats,
-			ds_EffectContext_ListToEffectData(_id_caster.list_ds_EffectContext_activeEffects)
+			ds_AbilityCasterSnapshot_FromId(_id_caster)
 		)
 	);
 }
