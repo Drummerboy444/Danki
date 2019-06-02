@@ -2591,6 +2591,14 @@
             }
         },
         {
+            "Key": "bbde97a3-3dda-4d8d-b3af-08b0c5173bc1",
+            "Value": {
+                "id": "e07beb9f-4277-4f0f-b19c-c9a6753ed1d6",
+                "resourcePath": "scripts\\ds_DamageData_Destroy\\ds_DamageData_Destroy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "be77b75d-da70-4798-a5fc-7fa679d3d501",
             "Value": {
                 "id": "8d8d7256-b088-4df6-94a0-1a74dd97ce00",
@@ -3685,11 +3693,6 @@
         "573a95ab-18ae-4548-be21-c601c8d80afd",
         "0b5b645a-fd49-4ddc-9744-cd23da4eeb6e",
         "670dcdd1-5c68-43ab-898f-2d647addf723",
-        "6c1e0975-abc1-43e3-81ef-1f61aa33cdba",
-        "c5d79dc4-0153-4720-b653-64ffd6bfdfc1",
-        "282e9036-4d8d-49dc-98d1-7b31bbd3c69f",
-        "358b62ee-69c5-410d-a0b3-1cea3ae23983",
-        "b76419ff-bb7d-4716-ae0d-2e3320dbc913",
         "04596b5f-ede2-4ef7-bb10-e004d6a53705",
         "a9a9cb58-4536-4e7b-a7e4-cb12a0d8af87",
         "b86767b5-dc54-45be-89a6-11a0c42a7516",
@@ -3699,6 +3702,12 @@
         "7e4759a3-d185-4edc-892e-1fd278ca01b1",
         "16bab596-d49e-4682-aa58-e5d026a73fc6",
         "d24cf006-d20f-42ca-9e7f-172e1138b508",
+        "6c1e0975-abc1-43e3-81ef-1f61aa33cdba",
+        "c5d79dc4-0153-4720-b653-64ffd6bfdfc1",
+        "bbde97a3-3dda-4d8d-b3af-08b0c5173bc1",
+        "282e9036-4d8d-49dc-98d1-7b31bbd3c69f",
+        "358b62ee-69c5-410d-a0b3-1cea3ae23983",
+        "b76419ff-bb7d-4716-ae0d-2e3320dbc913",
         "6b29155b-0b29-4f5a-9fab-3b0c4cfb4eee",
         "49844ad9-bff8-4311-bf7b-2c722f251c18",
         "f679d300-e5b5-44b5-ac4c-064ed645d91b",

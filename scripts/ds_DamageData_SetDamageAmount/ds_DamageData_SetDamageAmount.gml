@@ -1,8 +1,7 @@
-/// @function ds_DamageData_SetDamageAmount(ds_DamageData_data, num_damageAmount) Creates a new ds_DamageData instance,
-///		with the dmage amount value set to the given value, and returns it.
-/// @param {ds_DamageData}   ds_DamageData_data   The damage data to update from.
-/// @param {number}       num_damageAmount  The new damage amount.
-/// @returns {ds_DamageData}                   The ds_DamageData with the updated damage amount
+/// @function ds_DamageData_SetDamageAmount(ds_DamageData_data, num_damageAmount) Sets the damage amount on
+///		the given damage data.
+/// @param {ds_DamageData} ds_DamageData_data The damage data to update.
+/// @param {number} num_damageAmount The new damage amount.
 var _ds_DamageData_data = argument[0];
 var _num_damageAmount = argument[1];
 
