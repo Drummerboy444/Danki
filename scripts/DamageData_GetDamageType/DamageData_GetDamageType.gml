@@ -7,4 +7,4 @@ if(!DamageData_InstanceOf(_DamageData_data)){
 	ErrorHandler_FatalError("Tried to get DamageType from non DamageData structure.");
 }
 
-return _DamageData_data[0];
+return _DamageData_data[? DS_DAMAGE_DATA_TYPE];

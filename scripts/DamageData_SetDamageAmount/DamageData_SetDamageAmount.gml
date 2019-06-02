@@ -10,5 +10,4 @@ if(!DamageData_InstanceOf(_DamageData_data)){
 	ErrorHandler_FatalError("Connot set the damage amount on a none DamageData input");
 }
 
-_DamageData_data[1] = _num_damageAmount;
-return _DamageData_data;
+_DamageData_data[? DS_DAMAGE_DATA_AMOUNT] = _num_damageAmount;

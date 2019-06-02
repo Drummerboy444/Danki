@@ -7,4 +7,4 @@ if(!DamageData_InstanceOf(_DamageData_data)){
 	ErrorHandler_FatalError("Tried to get damage amount from non DamageData structure.");
 }
 
-return _DamageData_data[1];
+return _DamageData_data[? DS_DAMAGE_DATA_AMOUNT];

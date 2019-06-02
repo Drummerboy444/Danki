@@ -4,8 +4,10 @@
 var _any_data = argument[0];
 
 return 
-	is_array(_any_data) &&
-	array_length_1d(_any_data) == 2 &&
-	is_real(_any_data[0]) &&
-	_any_data[0] < Enum_DamageTypes.length &&
-	is_real(_any_data[1]);
+	ds_exists(_any_data, ds_type_map)
+	&& ds_map_size(_any_data) == 2
+	&& ds_map_exists(_any_data, DS_DAMAGE_DATA_TYPE)
+	&& is_real(_any_data[? DS_DAMAGE_DATA_TYPE])
+	&& _any_data[? DS_DAMAGE_DATA_TYPE] < Enum_DamageTypes.length
+	&& ds_map_exists(_any_data, DS_DAMAGE_DATA_AMOUNT)
+	&& is_real(_any_data[? DS_DAMAGE_DATA_AMOUNT]);

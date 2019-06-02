@@ -2655,6 +2655,14 @@
             }
         },
         {
+            "Key": "c139db16-7860-415d-b873-0500eef53c5f",
+            "Value": {
+                "id": "31352b16-6dee-4afd-8dea-0b2a6509fda8",
+                "resourcePath": "scripts\\MACROS_ds_DamageData\\MACROS_ds_DamageData.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c16c12eb-f0da-4796-a031-de73be2be4ad",
             "Value": {
                 "id": "8efa7a6b-b29c-4cd4-87db-ab0a4691711b",
@@ -3784,6 +3792,7 @@
         "07007818-2477-47cf-b7af-948bc9ca0612",
         "aa8d87d3-e861-4ec9-9bc6-0cc12d7fb9e6",
         "6e0ace6e-ee88-4ca4-8cc7-7ca72747b626",
+        "c139db16-7860-415d-b873-0500eef53c5f",
         "ef8397c3-cf94-4c6a-8b24-a10e16f91b85",
         "9869f945-b443-4700-ba7d-bed8ec595e92"
     ],
