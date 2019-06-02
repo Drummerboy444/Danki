@@ -1,8 +1,8 @@
 {
-    "id": "282e9036-4d8d-49dc-98d1-7b31bbd3c69f",
+    "id": "c5d79dc4-0153-4720-b653-64ffd6bfdfc1",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "DamageData_GetDamageType",
+    "name": "ds_DamageData_InstanceOf",
     "IsCompatibility": false,
     "IsDnD": false
 }

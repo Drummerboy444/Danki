@@ -658,7 +658,7 @@
             "Key": "282e9036-4d8d-49dc-98d1-7b31bbd3c69f",
             "Value": {
                 "id": "2a41104f-18b0-4fca-93dc-eef666e21913",
-                "resourcePath": "scripts\\DamageData_GetDamageType\\DamageData_GetDamageType.yy",
+                "resourcePath": "scripts\\ds_DamageData_GetDamageType\\ds_DamageData_GetDamageType.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -842,7 +842,7 @@
             "Key": "358b62ee-69c5-410d-a0b3-1cea3ae23983",
             "Value": {
                 "id": "7899280d-93dc-452d-89ac-7cc455e05a73",
-                "resourcePath": "scripts\\DamageData_GetDamageAmount\\DamageData_GetDamageAmount.yy",
+                "resourcePath": "scripts\\ds_DamageData_GetDamageAmount\\ds_DamageData_GetDamageAmount.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1578,7 +1578,7 @@
             "Key": "6c1e0975-abc1-43e3-81ef-1f61aa33cdba",
             "Value": {
                 "id": "1a40fe94-0cf4-420b-8885-0adc05210336",
-                "resourcePath": "scripts\\DamageData_New\\DamageData_New.yy",
+                "resourcePath": "scripts\\ds_DamageData_New\\ds_DamageData_New.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2514,7 +2514,7 @@
             "Key": "b76419ff-bb7d-4716-ae0d-2e3320dbc913",
             "Value": {
                 "id": "50eb133a-9ddd-4b9e-9bc5-9a23d8d48696",
-                "resourcePath": "scripts\\DamageData_SetDamageAmount\\DamageData_SetDamageAmount.yy",
+                "resourcePath": "scripts\\ds_DamageData_SetDamageAmount\\ds_DamageData_SetDamageAmount.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2746,7 +2746,7 @@
             "Key": "c5d79dc4-0153-4720-b653-64ffd6bfdfc1",
             "Value": {
                 "id": "d543d1ff-413b-49b5-ad27-b63cb807e361",
-                "resourcePath": "scripts\\DamageData_InstanceOf\\DamageData_InstanceOf.yy",
+                "resourcePath": "scripts\\ds_DamageData_InstanceOf\\ds_DamageData_InstanceOf.yy",
                 "resourceType": "GMScript"
             }
         },

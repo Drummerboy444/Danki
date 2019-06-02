@@ -18,7 +18,7 @@ for (var i = 0; i < ds_list_size(_list_ds_EffectContext_bucket); i++) {
 	DamageManager_ApplyDamage(
 		_id_source,
 		_id_abilityCaster,
-		DamageData_New(
+		ds_DamageData_New(
 			_enum_damageType,
 			_num_damagePerStep
 		)

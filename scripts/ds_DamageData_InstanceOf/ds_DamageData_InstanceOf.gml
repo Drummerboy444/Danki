@@ -1,6 +1,6 @@
-/// @function DamageData_InstanceOf(any_data) Returns true if the given data is an instance of DamageData.
+/// @function ds_DamageData_InstanceOf(any_data) Returns true if the given data is an instance of ds_DamageData.
 /// @param {any} any_data The data to check
-/// @returns {boolean} True if the given data is an instance of DamageData.
+/// @returns {boolean} True if the given data is an instance of ds_DamageData.
 var _any_data = argument[0];
 
 return 

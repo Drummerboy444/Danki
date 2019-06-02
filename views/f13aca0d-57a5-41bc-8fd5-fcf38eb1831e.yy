@@ -10,7 +10,7 @@
         "3d36a122-da9a-46f4-8104-fbeb89827f11"
     ],
     "filterType": "GMScript",
-    "folderName": "DamageData",
+    "folderName": "ds_DamageData",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

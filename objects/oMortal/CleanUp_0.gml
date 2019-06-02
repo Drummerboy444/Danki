@@ -1,1 +1,1 @@
-ds_list_destroy(list_DamageData_damageList);
+ds_list_destroy(list_ds_DamageData_damageList);
