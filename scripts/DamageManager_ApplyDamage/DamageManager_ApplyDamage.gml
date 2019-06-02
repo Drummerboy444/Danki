@@ -3,7 +3,8 @@
 ///		damage list with the damage data. Throws an error if the target isn't an oMortal.
 /// @param {id} id_source The id of the source of the damage
 /// @param {id} id_target The target to whos list the damage should be appended
-/// @param {ds_DamageData} ds_DamageData_data The damage type and amount
+/// @param {ds_DamageData} ds_DamageData_data The damage data to use. NOTE: This will be destroyed when it
+///                                           has been used.
 /// @returns {boolean} Asserts damage dealt
 #endregion
 var _id_source = argument[0];
