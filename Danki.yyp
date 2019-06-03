@@ -1327,6 +1327,14 @@
             }
         },
         {
+            "Key": "5b7705ab-80e1-458e-885d-eb47170b641a",
+            "Value": {
+                "id": "89134dee-222c-45ec-8cd4-036f9bdce830",
+                "resourcePath": "scripts\\Ability_Create\\Ability_Create.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5ba28da2-f2c1-47aa-9902-7882b234c276",
             "Value": {
                 "id": "2f83b12e-765a-4f22-bd0f-1428929fed09",
@@ -3627,6 +3635,7 @@
         "88a2c98e-42c5-4b23-8461-e0ef383a7e58",
         "31e5af31-f0e8-410f-8dd9-1606fb179c65",
         "89d392c5-25a1-456a-ba54-c00528827f41",
+        "5b7705ab-80e1-458e-885d-eb47170b641a",
         "44bfa373-5427-4f7d-a7d7-af5e832ef401",
         "c9cde87c-30c8-4e4c-a5a3-ebcb349fbab8",
         "f3eac8ff-e7b0-4a4d-902f-f29ffebb4b8b",

@@ -29,4 +29,9 @@ if(position_meeting(_num_targetX, _num_targetY, oEnemy)){
 	);
 }
 
-return instance_create_layer(_num_targetX, _num_targetY, LAYERS_ABILITIES, oYellowCircle);
+return Ability_Create(
+	_num_targetX,
+	_num_targetY,
+	oYellowCircle,
+	ds_AbilityCasterSnapshot_FromId(_id_caster)
+);
