@@ -4,6 +4,7 @@
 /// @param {number} num_y The y position to create the ability at.
 /// @param {object} obj_ability The ability to create.
 /// @param {ds_AbilityCasterSnapshot} ds_AbilityCasterSnapshot_snapshot The snapshot to add to the ability.
+///		This will be destroyed when the ability is destroyed.
 /// @returns {id} The id of the newly created ability.
 var _num_x = argument[0];
 var _num_y = argument[1];
