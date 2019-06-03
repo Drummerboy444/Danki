@@ -7,4 +7,8 @@ if (!ds_DamageData_InstanceOf(_ds_DamageData_data)) {
 	ErrorHandler_FatalError("Attempting to destroy object that isn't an instance of DamageData")
 }
 
+if (_ds_DamageData_data[? DS_DAMAGE_DATA_DESTROY_SNAPSHOT]) {
+	ds_AbilityCasterSnapshot_Destroy(_ds_DamageData_data[? DS_DAMAGE_DATA_SNAPSHOT]);
+}
+
 ds_map_destroy(_ds_DamageData_data);
