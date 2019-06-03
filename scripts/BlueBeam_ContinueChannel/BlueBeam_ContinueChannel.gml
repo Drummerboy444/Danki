@@ -35,6 +35,10 @@ if(position_meeting(_num_targetX, _num_targetY, _id_nearestEnemy)){
 	DamageManager_ApplyDamage(
 		_id_caster,
 		_id_nearestEnemy,
-		ds_DamageData_New(Enum_DamageTypes.ICE, BLUE_BEAM_STEP_DAMAGE)
+		ds_DamageData_New(
+			Enum_DamageTypes.ICE,
+			BLUE_BEAM_STEP_DAMAGE,
+			ds_AbilityCasterSnapshot_FromId(_id_caster)
+		)
 	)
 }

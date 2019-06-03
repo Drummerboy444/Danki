@@ -20,7 +20,8 @@ for (var i = 0; i < ds_list_size(_list_ds_EffectContext_bucket); i++) {
 		_id_abilityCaster,
 		ds_DamageData_New(
 			_enum_damageType,
-			_num_damagePerStep
+			_num_damagePerStep,
+			ds_EffectContext_GetSnapshot(_ds_EffectContext_data)
 		)
 	);
 }
