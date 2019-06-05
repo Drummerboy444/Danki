@@ -10,14 +10,7 @@ if (!ds_EffectContext_InstanceOf(_ds_EffectContext_context)) {
 var _ds_EffectData_effectData = _ds_EffectContext_context[? DS_EFFECT_CONTEXT_EFFECT_DATA];
 ds_EffectData_Destroy(_ds_EffectData_effectData);
 
-var _ds_Stats_castingStats = _ds_EffectContext_context[? DS_EFFECT_CONTEXT_CASTING_STATS];
-ds_Stats_Destroy(_ds_Stats_castingStats);
-
-var _list_ds_EffectData_castingEffects = _ds_EffectContext_context[? DS_EFFECT_CONTEXT_CASTING_EFFECTS];
-for (var i = 0; i < ds_list_destroy(_list_ds_EffectData_castingEffects); i++) {
-	var _ds_EffectData_castingEffect = _list_ds_EffectData_castingEffects[| i];
-	ds_EffectData_Destroy(_ds_EffectData_castingEffect);
-}
-ds_list_destroy(_list_ds_EffectData_castingEffects);
+var _ds_AbilityCasterSnapshot_snapshot = _ds_EffectContext_context[? DS_EFFECT_CONTEXT_SNAPSHOT];
+ds_AbilityCasterSnapshot_Destroy(_ds_AbilityCasterSnapshot_snapshot);
 
 ds_map_destroy(_ds_EffectContext_context);

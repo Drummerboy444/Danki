@@ -27,8 +27,7 @@ if(point_distance(_num_targetX, _num_targetY, _id_nearestEnemy.x, _id_nearestEne
 				BLUE_BEAM_STUN_DURATION,
 				_id_caster
 			),
-			_id_caster.ds_Stats_frameStats,
-			ds_EffectContext_ListToEffectData(_id_caster.list_ds_EffectContext_activeEffects)
+			ds_AbilityCasterSnapshot_FromId(_id_caster)
 		)
 	);
 }
