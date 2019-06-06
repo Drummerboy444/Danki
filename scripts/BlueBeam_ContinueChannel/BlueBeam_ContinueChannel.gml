@@ -16,13 +16,13 @@ _id_blueBeam.y = _id_caster.y;
 _id_blueBeam.num_targetX = _num_targetX;
 _id_blueBeam.num_targetY = _num_targetY;
 
-var _id_nearestEnemy = instance_nearest(_num_targetX, _num_targetY, oEnemy);
+var _id_nearestOpponent = instance_nearest(_num_targetX, _num_targetY, id_owner.obj_opponent);
 
-if(_id_nearestEnemy == noone) return;
+if(_id_nearestOpponent == noone) return;
 
-if(position_meeting(_num_targetX, _num_targetY, _id_nearestEnemy)){
+if(position_meeting(_num_targetX, _num_targetY, _id_nearestOpponent)){
 	AbilityCaster_ApplyEffect(
-		_id_nearestEnemy,
+		_id_nearestOpponent,
 		ds_EffectContext_New(
 			ds_SlowEffectData_New(
 				BLUE_BEAM_SLOW_DURATION,
@@ -34,7 +34,7 @@ if(position_meeting(_num_targetX, _num_targetY, _id_nearestEnemy)){
 	);
 	DamageManager_ApplyDamage(
 		_id_caster,
-		_id_nearestEnemy,
+		_id_nearestOpponent,
 		ds_DamageData_New(
 			Enum_DamageTypes.ICE,
 			BLUE_BEAM_STEP_DAMAGE,
