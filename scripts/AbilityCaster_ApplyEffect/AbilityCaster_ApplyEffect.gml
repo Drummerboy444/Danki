@@ -1,6 +1,6 @@
 /// @function AbilityCaster_ApplyEffect(id_target, ds_EffectContext_context) Add a an effect context to the
 ///		given AbilityCaster's effect buffer via an already made EffectData object.
-/// @param {id} id of the ability caster to add the effect to.
+/// @param {id} id_target of the ability caster to add the effect to.
 /// @param {ds_EffectContext} ds_EffectContext_context to add to the buffer.
 var _id_target = argument[0];
 var _ds_EffectContext_context = argument[1];
