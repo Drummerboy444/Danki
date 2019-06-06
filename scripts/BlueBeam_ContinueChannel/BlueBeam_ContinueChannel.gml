@@ -29,13 +29,17 @@ if(position_meeting(_num_targetX, _num_targetY, _id_nearestOpponent)){
 				_id_caster,
 				BLUE_BEAM_SLOW_MULTIPLIER
 			),
-			_id_caster.ds_Stats_frameStats,
-			ds_EffectContext_ListToEffectData(_id_caster.list_ds_EffectContext_activeEffects)
+			ds_AbilityCasterSnapshot_FromId(_id_caster)
 		)
 	);
 	DamageManager_ApplyDamage(
 		_id_caster,
 		_id_nearestOpponent,
-		DamageData_New(Enum_DamageTypes.ICE, BLUE_BEAM_STEP_DAMAGE)
+		ds_DamageData_New(
+			Enum_DamageTypes.ICE,
+			BLUE_BEAM_STEP_DAMAGE,
+			ds_AbilityCasterSnapshot_FromId(_id_caster),
+			true
+		)
 	)
 }

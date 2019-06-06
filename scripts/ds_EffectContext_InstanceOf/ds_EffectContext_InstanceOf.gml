@@ -6,13 +6,8 @@ var _any_data = argument[0];
 
 return
 	ds_exists(_any_data, ds_type_map)
-	&& ds_map_size(_any_data) == 3
+	&& ds_map_size(_any_data) == 2
 	&& ds_map_exists(_any_data, DS_EFFECT_CONTEXT_EFFECT_DATA)
 	&& ds_EffectData_InstanceOf(_any_data[? DS_EFFECT_CONTEXT_EFFECT_DATA])
-	&& ds_map_exists(_any_data, DS_EFFECT_CONTEXT_CASTING_STATS)
-	&& ds_Stats_InstanceOf(_any_data[? DS_EFFECT_CONTEXT_CASTING_STATS])
-	&& ds_map_exists(_any_data, DS_EFFECT_CONTEXT_CASTING_EFFECTS)
-	&& Utility_DsListInstancesOf(
-		_any_data[? DS_EFFECT_CONTEXT_CASTING_EFFECTS],
-		ds_EffectData_InstanceOf
-	);
+	&& ds_map_exists(_any_data, DS_EFFECT_CONTEXT_SNAPSHOT)
+	&& ds_AbilityCasterSnapshot_InstanceOf(_any_data[? DS_EFFECT_CONTEXT_SNAPSHOT]);

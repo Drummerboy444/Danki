@@ -1,22 +1,14 @@
-/// @function ds_EffectContext_New(ds_EffectData_effectData, ds_Stats_castingStats, list_ds_EffectData_castingEffects)
-///		Creates a new instance of ds_EffectContext
+/// @function ds_EffectContext_New(ds_EffectData_effectData, ds_AbilityCasterSnapshot_snapshot) Creates a new instance
+///		of ds_EffectContext
 /// @param {ds_EffectData} ds_EffectData_effectData The effect data. NOTE this will be dstroyed with the EffectContext
-/// @param {ds_Stats} ds_Stats_castingStats The stats to be used when calculating the effect. This will be copied across.
-/// @param {list_ds_EffectData} list_ds_EffectData_castingEffects The list of effect data to use when calculating
-///		the effect. This will be copied across.
+/// @param {ds_AbilityCasterSnapshot} ds_AbilityCasterSnapshot The ability caster snapshot to be used when calculating the effect.
 /// @returns {ds_EffectContext} The new effect context.
 var _ds_EffectData_effectData = argument[0];
-var _ds_Stats_castingStats = argument[1];
-var _list_ds_EffectData_castingEffects = argument[2];
+var _ds_AbilityCasterSnapshot_snapshot = argument[1];
 
 
 var _ds_EffectContext_new = ds_map_create();
-
 _ds_EffectContext_new[? DS_EFFECT_CONTEXT_EFFECT_DATA] = _ds_EffectData_effectData;
-_ds_EffectContext_new[? DS_EFFECT_CONTEXT_CASTING_STATS] = ds_Stats_CreateAndCopy(_ds_Stats_castingStats);
-
-var _list_EffectData_copy = ds_list_create();
-ds_EffectData_CopyList(_list_EffectData_copy, _list_ds_EffectData_castingEffects);
-_ds_EffectContext_new[? DS_EFFECT_CONTEXT_CASTING_EFFECTS] = _list_EffectData_copy;
+_ds_EffectContext_new[? DS_EFFECT_CONTEXT_SNAPSHOT] = _ds_AbilityCasterSnapshot_snapshot;
 
 return _ds_EffectContext_new;

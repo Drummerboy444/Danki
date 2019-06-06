@@ -495,6 +495,14 @@
             }
         },
         {
+            "Key": "1cf909f0-086a-4dce-bde0-1edb913002a0",
+            "Value": {
+                "id": "1e38f84d-1e5c-4dd8-a0d8-bb4d960986fb",
+                "resourcePath": "scripts\\ds_AbilityCasterSnapshot_GetStats\\ds_AbilityCasterSnapshot_GetStats.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1d2ef3c4-34e4-4733-9492-983b24ce87e3",
             "Value": {
                 "id": "1d04c021-fb6e-40cb-a32f-71a3af2b53a7",
@@ -639,14 +647,6 @@
             }
         },
         {
-            "Key": "26e96dbe-65bb-40e2-906d-a398619a9f2c",
-            "Value": {
-                "id": "5f6d966b-906a-4082-a568-55726d23965b",
-                "resourcePath": "scripts\\ds_EffectContext_GetCastingStats\\ds_EffectContext_GetCastingStats.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "27e24ea1-60d5-41f0-a64c-451b3a958ce4",
             "Value": {
                 "id": "ce74f261-c09b-4dc2-976c-5c0e2c52f224",
@@ -666,7 +666,7 @@
             "Key": "282e9036-4d8d-49dc-98d1-7b31bbd3c69f",
             "Value": {
                 "id": "2a41104f-18b0-4fca-93dc-eef666e21913",
-                "resourcePath": "scripts\\DamageData_GetDamageType\\DamageData_GetDamageType.yy",
+                "resourcePath": "scripts\\ds_DamageData_GetDamageType\\ds_DamageData_GetDamageType.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -735,6 +735,14 @@
             }
         },
         {
+            "Key": "2da76002-6130-44f8-87c2-574c0971136c",
+            "Value": {
+                "id": "244aaa1b-2afc-4720-a153-264bce0330b2",
+                "resourcePath": "scripts\\ds_DamageData_GetSnapshot\\ds_DamageData_GetSnapshot.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2ee5983e-d57a-4255-90ed-fbf23a52d452",
             "Value": {
                 "id": "909a527e-36ed-4bcf-9c47-cc659e68b451",
@@ -799,14 +807,6 @@
             }
         },
         {
-            "Key": "32010dbf-4206-41a0-841d-ae5dc9666c0f",
-            "Value": {
-                "id": "af890339-102d-4f85-94ac-22710fad696e",
-                "resourcePath": "scripts\\ds_EffectContext_GetCastingEffects\\ds_EffectContext_GetCastingEffects.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "33db9249-5aa2-4fae-983e-707e95187397",
             "Value": {
                 "id": "ef7d3352-9017-4888-a49f-a596134a8c29",
@@ -831,6 +831,14 @@
             }
         },
         {
+            "Key": "34875691-28f9-4575-8dcc-ef851a701395",
+            "Value": {
+                "id": "9b74e073-b4a7-43d0-ac56-34d279f17fd6",
+                "resourcePath": "scripts\\ds_EffectContext_GetSnapshot\\ds_EffectContext_GetSnapshot.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "34a59828-3f0e-4a00-8ee1-e8d08c3b37fe",
             "Value": {
                 "id": "9289a983-5312-4735-8073-a324a112ebcc",
@@ -850,7 +858,7 @@
             "Key": "358b62ee-69c5-410d-a0b3-1cea3ae23983",
             "Value": {
                 "id": "7899280d-93dc-452d-89ac-7cc455e05a73",
-                "resourcePath": "scripts\\DamageData_GetDamageAmount\\DamageData_GetDamageAmount.yy",
+                "resourcePath": "scripts\\ds_DamageData_GetDamageAmount\\ds_DamageData_GetDamageAmount.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -948,6 +956,14 @@
                 "id": "1cba85b8-ec9a-40ea-a6f5-fe1be9bfb1b4",
                 "resourcePath": "views\\3b63738d-1dcf-4e2c-a510-f8aaf110ccb7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3ba6bb12-5089-4683-ac03-fa483b749076",
+            "Value": {
+                "id": "97c0990a-1854-40ef-8134-7f870e7adad1",
+                "resourcePath": "scripts\\ds_AbilityCasterSnapshot_Destroy\\ds_AbilityCasterSnapshot_Destroy.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1327,6 +1343,14 @@
             }
         },
         {
+            "Key": "5b7705ab-80e1-458e-885d-eb47170b641a",
+            "Value": {
+                "id": "89134dee-222c-45ec-8cd4-036f9bdce830",
+                "resourcePath": "scripts\\Ability_Create\\Ability_Create.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5ba28da2-f2c1-47aa-9902-7882b234c276",
             "Value": {
                 "id": "2f83b12e-765a-4f22-bd0f-1428929fed09",
@@ -1594,7 +1618,7 @@
             "Key": "6c1e0975-abc1-43e3-81ef-1f61aa33cdba",
             "Value": {
                 "id": "1a40fe94-0cf4-420b-8885-0adc05210336",
-                "resourcePath": "scripts\\DamageData_New\\DamageData_New.yy",
+                "resourcePath": "scripts\\ds_DamageData_New\\ds_DamageData_New.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1604,6 +1628,14 @@
                 "id": "03e9cefb-31a6-4d4d-96a4-627f066a25b8",
                 "resourcePath": "views\\6da958bb-feae-4bce-8bc4-ed771af2a654.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6e0ace6e-ee88-4ca4-8cc7-7ca72747b626",
+            "Value": {
+                "id": "39573f8c-8821-4492-8d79-7f93de47aad0",
+                "resourcePath": "scripts\\MACROS_ds_AbilityCasterSnapshot\\MACROS_ds_AbilityCasterSnapshot.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2127,6 +2159,14 @@
             }
         },
         {
+            "Key": "95c1d0bf-122e-43d6-ae4c-9b31d132903e",
+            "Value": {
+                "id": "d5eeefcf-5868-43b9-83e0-5aa8f9a75fd2",
+                "resourcePath": "scripts\\ds_AbilityCasterSnapshot_GetEffects\\ds_AbilityCasterSnapshot_GetEffects.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "962eca4e-73ad-4ca9-96ec-39008b0d0407",
             "Value": {
                 "id": "a759c5b5-a605-4364-8b71-a4dfc9735fa2",
@@ -2291,6 +2331,14 @@
             "Value": {
                 "id": "7ab1a9dc-7b5e-4c93-b599-5ca65ad832b2",
                 "resourcePath": "views\\9f687757-f815-4a67-91c3-f68815ae4ec9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a00ca759-6639-4130-a583-a712ba90326e",
+            "Value": {
+                "id": "d8e3d80d-35a0-4c75-862a-0f50b8684a84",
+                "resourcePath": "views\\a00ca759-6639-4130-a583-a712ba90326e.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -2530,7 +2578,15 @@
             "Key": "b76419ff-bb7d-4716-ae0d-2e3320dbc913",
             "Value": {
                 "id": "50eb133a-9ddd-4b9e-9bc5-9a23d8d48696",
-                "resourcePath": "scripts\\DamageData_SetDamageAmount\\DamageData_SetDamageAmount.yy",
+                "resourcePath": "scripts\\ds_DamageData_SetDamageAmount\\ds_DamageData_SetDamageAmount.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b7ce5d28-a069-4ae8-8f68-a828cf8056ab",
+            "Value": {
+                "id": "7bbd8c07-abcd-4f43-9c6b-0e7d8ed6b69c",
+                "resourcePath": "scripts\\ds_AbilityCasterSnapshot_FromId\\ds_AbilityCasterSnapshot_FromId.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2583,10 +2639,26 @@
             }
         },
         {
+            "Key": "baa73127-10db-4343-8569-37d15cbcd47f",
+            "Value": {
+                "id": "c12faf37-8b7a-407a-bb8d-e3fb308cc33f",
+                "resourcePath": "views\\baa73127-10db-4343-8569-37d15cbcd47f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "bb96347b-7e88-40c8-8d8d-3a23c4dc42f4",
             "Value": {
                 "id": "3b77fef2-2165-4ed0-b5d1-331433054aaa",
                 "resourcePath": "scripts\\AbilityCaster_ATTACK_DEFAULT\\AbilityCaster_ATTACK_DEFAULT.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bbde97a3-3dda-4d8d-b3af-08b0c5173bc1",
+            "Value": {
+                "id": "e07beb9f-4277-4f0f-b19c-c9a6753ed1d6",
+                "resourcePath": "scripts\\ds_DamageData_Destroy\\ds_DamageData_Destroy.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2655,6 +2727,14 @@
             }
         },
         {
+            "Key": "c139db16-7860-415d-b873-0500eef53c5f",
+            "Value": {
+                "id": "31352b16-6dee-4afd-8dea-0b2a6509fda8",
+                "resourcePath": "scripts\\MACROS_ds_DamageData\\MACROS_ds_DamageData.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c16c12eb-f0da-4796-a031-de73be2be4ad",
             "Value": {
                 "id": "8efa7a6b-b29c-4cd4-87db-ab0a4691711b",
@@ -2676,6 +2756,14 @@
                 "id": "26f1e12b-b1be-4c61-8193-bbe745493034",
                 "resourcePath": "objects\\oStatsManager\\oStatsManager.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c2221c73-6d6a-42ee-bfd7-ad3e2840c6de",
+            "Value": {
+                "id": "952ab6fc-d24d-40a3-a19f-cbe57469824c",
+                "resourcePath": "scripts\\ds_AbilityCasterSnapshot_InstanceOf\\ds_AbilityCasterSnapshot_InstanceOf.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2730,7 +2818,7 @@
             "Key": "c5d79dc4-0153-4720-b653-64ffd6bfdfc1",
             "Value": {
                 "id": "d543d1ff-413b-49b5-ad27-b63cb807e361",
-                "resourcePath": "scripts\\DamageData_InstanceOf\\DamageData_InstanceOf.yy",
+                "resourcePath": "scripts\\ds_DamageData_InstanceOf\\ds_DamageData_InstanceOf.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3167,6 +3255,14 @@
             }
         },
         {
+            "Key": "e436af04-c9c3-4ddf-8d29-f3dc3eedc186",
+            "Value": {
+                "id": "11001d73-65d6-4baf-99dc-cd10b560296a",
+                "resourcePath": "scripts\\ds_AbilityCasterSnapshot_New\\ds_AbilityCasterSnapshot_New.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e4df80b4-2d8f-456e-9db6-010a9d54671a",
             "Value": {
                 "id": "a1a24ddf-8056-4a43-a928-ad12e2d629dc",
@@ -3595,6 +3691,7 @@
         "88a2c98e-42c5-4b23-8461-e0ef383a7e58",
         "31e5af31-f0e8-410f-8dd9-1606fb179c65",
         "89d392c5-25a1-456a-ba54-c00528827f41",
+        "5b7705ab-80e1-458e-885d-eb47170b641a",
         "44bfa373-5427-4f7d-a7d7-af5e832ef401",
         "c9cde87c-30c8-4e4c-a5a3-ebcb349fbab8",
         "f3eac8ff-e7b0-4a4d-902f-f29ffebb4b8b",
@@ -3672,11 +3769,6 @@
         "573a95ab-18ae-4548-be21-c601c8d80afd",
         "0b5b645a-fd49-4ddc-9744-cd23da4eeb6e",
         "670dcdd1-5c68-43ab-898f-2d647addf723",
-        "6c1e0975-abc1-43e3-81ef-1f61aa33cdba",
-        "c5d79dc4-0153-4720-b653-64ffd6bfdfc1",
-        "282e9036-4d8d-49dc-98d1-7b31bbd3c69f",
-        "358b62ee-69c5-410d-a0b3-1cea3ae23983",
-        "b76419ff-bb7d-4716-ae0d-2e3320dbc913",
         "04596b5f-ede2-4ef7-bb10-e004d6a53705",
         "a9a9cb58-4536-4e7b-a7e4-cb12a0d8af87",
         "b86767b5-dc54-45be-89a6-11a0c42a7516",
@@ -3687,6 +3779,13 @@
         "ce57f9e1-7e03-4724-932a-c868aff901ad",
         "16bab596-d49e-4682-aa58-e5d026a73fc6",
         "d24cf006-d20f-42ca-9e7f-172e1138b508",
+        "6c1e0975-abc1-43e3-81ef-1f61aa33cdba",
+        "c5d79dc4-0153-4720-b653-64ffd6bfdfc1",
+        "bbde97a3-3dda-4d8d-b3af-08b0c5173bc1",
+        "282e9036-4d8d-49dc-98d1-7b31bbd3c69f",
+        "358b62ee-69c5-410d-a0b3-1cea3ae23983",
+        "2da76002-6130-44f8-87c2-574c0971136c",
+        "b76419ff-bb7d-4716-ae0d-2e3320dbc913",
         "6b29155b-0b29-4f5a-9fab-3b0c4cfb4eee",
         "49844ad9-bff8-4311-bf7b-2c722f251c18",
         "f679d300-e5b5-44b5-ac4c-064ed645d91b",
@@ -3716,8 +3815,7 @@
         "c2525c9c-998a-4068-916e-477cbdded03f",
         "43bc29a7-88a6-4059-ad2f-7b2d8d883045",
         "60cc74a0-b0ab-46c2-bb15-9586f339a13c",
-        "26e96dbe-65bb-40e2-906d-a398619a9f2c",
-        "32010dbf-4206-41a0-841d-ae5dc9666c0f",
+        "34875691-28f9-4575-8dcc-ef851a701395",
         "0f0d7f77-482e-497d-aa9b-4a3b60acc49c",
         "0864c5b2-a188-4d7e-adca-97f06d5e0964",
         "74b05822-4ca1-4386-b4db-d95a47216db4",
@@ -3767,6 +3865,12 @@
         "23f58612-d331-4985-85d1-53efab459f12",
         "f52275da-d779-4cbc-955d-96f173640da4",
         "d1ea4949-c83e-48fb-ac48-ef7957569af4",
+        "e436af04-c9c3-4ddf-8d29-f3dc3eedc186",
+        "b7ce5d28-a069-4ae8-8f68-a828cf8056ab",
+        "c2221c73-6d6a-42ee-bfd7-ad3e2840c6de",
+        "3ba6bb12-5089-4683-ac03-fa483b749076",
+        "1cf909f0-086a-4dce-bde0-1edb913002a0",
+        "95c1d0bf-122e-43d6-ae4c-9b31d132903e",
         "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
         "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d",
@@ -3774,6 +3878,8 @@
         "27e24ea1-60d5-41f0-a64c-451b3a958ce4",
         "07007818-2477-47cf-b7af-948bc9ca0612",
         "aa8d87d3-e861-4ec9-9bc6-0cc12d7fb9e6",
+        "6e0ace6e-ee88-4ca4-8cc7-7ca72747b626",
+        "c139db16-7860-415d-b873-0500eef53c5f",
         "ef8397c3-cf94-4c6a-8b24-a10e16f91b85",
         "9869f945-b443-4700-ba7d-bed8ec595e92"
     ],
