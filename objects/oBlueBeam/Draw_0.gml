@@ -1,3 +1,5 @@
+event_inherited();
+
 var _num_rand = random(100);
 var _num_width = 0;
 
