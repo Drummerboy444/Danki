@@ -1271,14 +1271,6 @@
             }
         },
         {
-            "Key": "525d57f0-63cb-4796-9f21-1802303b7147",
-            "Value": {
-                "id": "c6e5d3c5-dbac-4903-8259-08ebe7d9707a",
-                "resourcePath": "scripts\\ds_DepthGrid_Add\\ds_DepthGrid_Add.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "5264e2e5-92cb-4340-997d-ceaff09a3304",
             "Value": {
                 "id": "fa134820-7bc6-43c6-b6e8-607bbd89505b",
@@ -2276,6 +2268,14 @@
                 "id": "fb798e91-89de-4581-95a8-f706148cbdaa",
                 "resourcePath": "views\\975e1a42-1991-40bc-b6a6-3d236c62fd25.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "97ad5301-bcc3-4f9c-bccf-203c5aad7750",
+            "Value": {
+                "id": "af795f86-69f7-4707-9ab0-eafc0116ae16",
+                "resourcePath": "scripts\\ds_DepthGrid_AddDepthObjects\\ds_DepthGrid_AddDepthObjects.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3994,7 +3994,7 @@
         "95c1d0bf-122e-43d6-ae4c-9b31d132903e",
         "3f24a936-2c7c-4ce9-a79d-7b282d2bb475",
         "d412f022-4af1-4b70-9cbe-ba4076527d81",
-        "525d57f0-63cb-4796-9f21-1802303b7147",
+        "97ad5301-bcc3-4f9c-bccf-203c5aad7750",
         "953607df-08bb-4620-a91b-13018a84ec2d",
         "b1b3a158-f043-42eb-a93d-d43fb255a62f",
         "1b7f3857-f0f4-4c51-8cfc-175336335659",
