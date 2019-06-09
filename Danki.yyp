@@ -983,6 +983,14 @@
             }
         },
         {
+            "Key": "3dea5042-527a-4411-a282-cadc22742578",
+            "Value": {
+                "id": "fcc2d849-80ac-4b81-89ef-9520f427a5f7",
+                "resourcePath": "scripts\\MovementGridManager_GetGridSizeForInstance\\MovementGridManager_GetGridSizeForInstance.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3ea04435-ca44-4bd9-b36e-f94ab2a53481",
             "Value": {
                 "id": "c1c6c630-2f68-4616-bfab-75b75f55bfae",
@@ -1487,18 +1495,18 @@
             }
         },
         {
-            "Key": "622f567f-0bd2-497e-b7ba-cb3305a7fc09",
-            "Value": {
-                "id": "d639aa3d-82c6-4bf4-a736-5b1971fce33d",
-                "resourcePath": "scripts\\MovementManager_LINE_OF_SIGHT\\MovementManager_LINE_OF_SIGHT.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "61c60586-fcfd-49de-8f49-0be6d5502548",
             "Value": {
                 "id": "234a8b8a-dd5d-4614-9f38-962423693429",
                 "resourcePath": "scripts\\ds_EffectContext_New\\ds_EffectContext_New.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "622f567f-0bd2-497e-b7ba-cb3305a7fc09",
+            "Value": {
+                "id": "d639aa3d-82c6-4bf4-a736-5b1971fce33d",
+                "resourcePath": "scripts\\MovementManager_LINE_OF_SIGHT\\MovementManager_LINE_OF_SIGHT.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3768,6 +3776,7 @@
         "52b22b3b-f95d-4762-b6fd-bd2080586fce",
         "573a95ab-18ae-4548-be21-c601c8d80afd",
         "0b5b645a-fd49-4ddc-9744-cd23da4eeb6e",
+        "3dea5042-527a-4411-a282-cadc22742578",
         "670dcdd1-5c68-43ab-898f-2d647addf723",
         "04596b5f-ede2-4ef7-bb10-e004d6a53705",
         "a9a9cb58-4536-4e7b-a7e4-cb12a0d8af87",

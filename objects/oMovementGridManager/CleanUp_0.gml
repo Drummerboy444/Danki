@@ -8,3 +8,4 @@ for(var _num_gridIndex = 0; _num_gridIndex < array_length_1d(arr_maxSizes); _num
 }
 
 ds_map_destroy(map_movementGrids);
+ds_map_destroy(map_regenerationQueued);

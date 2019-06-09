@@ -52,5 +52,5 @@ with(_id_instanceToMove) {
 
 	num_pathPosition = 0;
 	
-	MovementGridManager_QueueRegeneration();
+	MovementGridManager_QueueRegeneration(_id_instanceToMove);
 }

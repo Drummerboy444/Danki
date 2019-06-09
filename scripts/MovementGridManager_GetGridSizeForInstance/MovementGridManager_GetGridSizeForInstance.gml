@@ -1,7 +1,7 @@
-/// @function MovementGridManager_GetGridSizeForInstance(id_instance) Returns the appropriate max size for the instance by rounding
-///		its sprite size up.
-/// @param {id} id_instance The instance to get the max size for.
-/// @returns {num} The grid size.
+/// @function MovementGridManager_GetGridSizeForInstance(id_instance) Returns the grid 'Max size' for the instance from the
+/// movement grid manager by rounding its sprite size.
+/// @param {id} id_instance The instance to get the grid for.
+/// @returns {mp_grid} The grid.
 var _id_instance = argument[0];
 
 var _num_size = min(_id_instance.sprite_width, _id_instance.sprite_height);
