@@ -21,8 +21,11 @@ if(!ds_DamageData_InstanceOf(_ds_DamageData_data)){
 	return false;	
 }
 
+var _ds_AbilityCasterSnapshot_snapshot = ds_DamageData_GetSnapshot(_ds_DamageData_data);
+var _ds_Stats_stats = ds_AbilityCasterSnapshot_GetStats(_ds_AbilityCasterSnapshot_snapshot);
+
 var _num_damageAmount = ds_DamageData_GetDamageAmount(_ds_DamageData_data);
-var _num_strength = ds_Stats_Get(_id_source.ds_Stats_frameStats, Enum_Stats.STRENGTH);
+var _num_strength = ds_Stats_Get(_ds_Stats_stats, Enum_Stats.STRENGTH);
 var _num_damageAfterStats = _num_strength * _num_damageAmount;
 ds_DamageData_SetDamageAmount(_ds_DamageData_data, _num_damageAfterStats);
 
