@@ -30,8 +30,6 @@ for (var i = 0; i < ds_list_size(_list_ds_EffectContext_bucket); i++) {
 		true
 	);
 	
-	show_debug_message(ds_DamageData_InstanceOf(_ds_DamageData_data));
-	
 	DamageManager_ApplyDamage(
 		_id_source,
 		_id_abilityCaster,

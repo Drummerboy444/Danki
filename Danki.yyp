@@ -3231,14 +3231,6 @@
             }
         },
         {
-            "Key": "d7d3eeb4-cf8b-4608-a82c-f53157733d45",
-            "Value": {
-                "id": "6b94f826-c6c9-4c6a-a6f1-d9f98c557cdc",
-                "resourcePath": "scripts\\AbilityCaster_applyOnDealDamageEffects\\AbilityCaster_applyOnDealDamageEffects.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "d8e8cee5-34c6-498a-9808-c390150dc495",
             "Value": {
                 "id": "bd64996d-b91d-480e-a2bb-008a6c0552a0",
@@ -3793,7 +3785,6 @@
         "8df3311d-fa27-4e25-a0c1-d3ffe03c4a39",
         "1399d18e-4ae4-4f3f-877e-9a4e414c5e03",
         "34a59828-3f0e-4a00-8ee1-e8d08c3b37fe",
-        "d7d3eeb4-cf8b-4608-a82c-f53157733d45",
         "4cce76fa-4bd5-4a03-b9aa-c3e1992901ea",
         "14a9eb96-3fc6-4144-a948-886067038447",
         "c9a87b71-7b03-468a-bf8d-df799ffd823f",

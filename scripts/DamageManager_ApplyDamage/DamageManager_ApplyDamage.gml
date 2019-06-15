@@ -29,8 +29,6 @@ var _num_strength = ds_Stats_Get(_ds_Stats_stats, Enum_Stats.STRENGTH);
 var _num_damageAfterStats = _num_strength * _num_damageAmount;
 ds_DamageData_SetDamageAmount(_ds_DamageData_data, _num_damageAfterStats);
 
-_ds_DamageData_data = AbilityCaster_applyOnDealDamageEffects(_id_source, _ds_DamageData_data);
-
 ds_list_add(_id_target.list_ds_DamageData_damageList, _ds_DamageData_data);
 
 return true;
