@@ -15,13 +15,26 @@ for (var i = 0; i < ds_list_size(_list_ds_EffectContext_bucket); i++) {
 	var _id_source = ds_EffectData_GetCasterId(_ds_DOTEffectData_data);
 	var _num_damagePerStep = ds_DOTEffectData_GetDamagePerStep(_ds_DOTEffectData_data);
 	var _enum_damageType = ds_DOTEffectData_GetDamageType(_ds_DOTEffectData_data);
+	
+	var _ds_AbilityCasterSnapshot_snapshotToCopy = ds_EffectContext_GetSnapshot(_ds_EffectContext_data);
+	
+	var _ds_AbilityCasterSnapshot_snapshot = ds_AbilityCasterSnapshot_New(
+		ds_AbilityCasterSnapshot_GetStats(_ds_AbilityCasterSnapshot_snapshotToCopy),
+		ds_AbilityCasterSnapshot_GetEffects(_ds_AbilityCasterSnapshot_snapshotToCopy)
+	);
+	
+	var _ds_DamageData_data = ds_DamageData_New(
+		_enum_damageType,
+		_num_damagePerStep,
+		_ds_AbilityCasterSnapshot_snapshot,
+		true
+	);
+	
+	show_debug_message(ds_DamageData_InstanceOf(_ds_DamageData_data));
+	
 	DamageManager_ApplyDamage(
 		_id_source,
 		_id_abilityCaster,
-		ds_DamageData_New(
-			_enum_damageType,
-			_num_damagePerStep,
-			ds_EffectContext_GetSnapshot(_ds_EffectContext_data)
-		)
+		_ds_DamageData_data
 	);
 }
