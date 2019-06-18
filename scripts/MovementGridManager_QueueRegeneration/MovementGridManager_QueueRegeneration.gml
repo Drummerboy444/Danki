@@ -1,13 +1,6 @@
-/// function MovementGridManager_QueueRegeneration() This will queue a regeneration of the current movement
-///		gird. This will happen instantly if a grid hasn't been rengerated in a while, otherwise the request
-///		to regenerate will be debounced accordingly.
-///		NOTE: this will not create a new grid, so the size will not change, if moving rooms then the initialise
-///		script must be called again.
+/// function MovementGridManager_QueueRegeneration() This will queue a regeneration of grid for the instance argument.
+var _id_mover = argument[0];
 
-with (oMovementGridManager) {
-	if (num_debounceTimer <= 0) {
-		MovementGridManager_REGENERATE();
-	} else {
-		bool_regenerationQueued = true;
-	}
-}
+var _num_maxSize = MovementGridManager_GetGridSizeForInstance(_id_mover);
+
+oMovementGridManager.map_regenerationQueued[? _num_maxSize] = true;

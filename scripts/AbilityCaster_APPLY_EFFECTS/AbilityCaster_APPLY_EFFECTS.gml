@@ -1,10 +1,10 @@
-/// @function AbilityCaster_APPLY_EFFECTS(enum_eventHook, DamageData_data?) Applies active effects based on the event hook.
+/// @function AbilityCaster_APPLY_EFFECTS(enum_eventHook, ds_DamageData_data?) Applies active effects based on the event hook.
 /// @param {enum} enum_eventHook The event hook to apply effects on.
-/// @param {DamageData} DamageData_data The damage data to be processed by the handler. Optional.
-/// @returns {DamageData} The processed damage data if relevant.
+/// @param {ds_DamageData} ds_DamageData_data The damage data to be processed by the handler. Optional.
+/// @returns {ds_DamageData} The processed damage data if relevant.
 
 var _enum_eventHook = argument[0];
-var _DamageData_data = argument_count<2 ? undefined : argument[1];
+var _ds_DamageData_data = argument_count<2 ? undefined : argument[1];
 
 AbilityCaster_EMPTY_BUCKETS();
 
@@ -33,8 +33,8 @@ for (var _enum_effect = 0; _enum_effect < Enum_Effects.length; _enum_effect++) {
 		script_execute(_scr_effectHandlerScript, id, _list_ds_EffectContext_bucket);
 	}
 	else{
-		_DamageData_data = script_execute(_scr_effectHandlerScript, id, _list_ds_EffectContext_bucket, _DamageData_data);
+		_ds_DamageData_data = script_execute(_scr_effectHandlerScript, id, _list_ds_EffectContext_bucket, _ds_DamageData_data);
 	}
 }
 			
-return argument_count<2 ? true : _DamageData_data;
+return argument_count<2 ? true : _ds_DamageData_data;

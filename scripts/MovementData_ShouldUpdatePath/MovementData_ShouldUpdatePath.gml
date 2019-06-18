@@ -6,4 +6,5 @@ var _MovementData_data = argument[0];
 
 
 var _enum_movementType = MovementData_GetMovementType(_MovementData_data);
-return _enum_movementType == Enum_MovementType.PATHING;
+return _enum_movementType == Enum_MovementType.PATHING
+	|| _enum_movementType == Enum_MovementType.DYNAMIC;

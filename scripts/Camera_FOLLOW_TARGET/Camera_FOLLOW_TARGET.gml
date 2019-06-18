@@ -3,6 +3,10 @@
 ///		variables.
 #endregion
 
+if(id_target == noone || !instance_exists(id_target)) {
+	return;	
+}
+
 //Store old current position of oCamera.
 var _num_oldX = x;
 var _num_oldY = y;
