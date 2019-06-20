@@ -1,9 +1,19 @@
 event_inherited();
 Pauseable_Setup();
 
+bool_mouseDownThisFrame = false;
+bool_mouseDownLastFrame = false;
+
+bool_inputWasSuccessful = false;
+
+bool_channellingThisFrame = false;
+bool_channelledLastFrame = false;
+
+bool_successfulChannelThisFrame = false;
+bool_successfulChannelLastFrame = false;
 
 var _map_leftLeftChild = ds_map_create();
-ds_map_add(_map_leftLeftChild, "ability", Enum_Abilities.YELLOW_CIRCLE);
+ds_map_add(_map_leftLeftChild, "ability", Enum_Abilities.BLUE_BEAM);
 ds_map_add(_map_leftLeftChild, "leftChild", noone);
 ds_map_add(_map_leftLeftChild, "rightChild", noone);
 
@@ -37,8 +47,3 @@ ds_map_add(_map_abilityTree, "leftChild", _map_leftChild);
 ds_map_add(_map_abilityTree, "rightChild", _map_rightChild);
 
 id_abilityTree = AbilityTree_Instantiate(_map_abilityTree);
-
-enum Enum_AbilityTreeDirections {
-	LEFT,
-	RIGHT
-}

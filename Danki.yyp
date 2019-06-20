@@ -1079,6 +1079,14 @@
             }
         },
         {
+            "Key": "43893443-dac7-43fe-918f-b4b8f50c0d11",
+            "Value": {
+                "id": "0e815ceb-6b70-446e-b803-2fb7f8999b57",
+                "resourcePath": "scripts\\AbilityTreeManager_CastLeft\\AbilityTreeManager_CastLeft.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "43bc29a7-88a6-4059-ad2f-7b2d8d883045",
             "Value": {
                 "id": "5da9c0ba-75eb-4d5c-9d02-3c34f17ed31c",
@@ -3838,6 +3846,7 @@
         "f76bd482-ed4f-4678-8650-7e9d38832c94",
         "6893fcea-3a16-407e-9bbb-e19dffd675eb",
         "315eda47-a95b-4bd0-b530-58d721a22878",
+        "43893443-dac7-43fe-918f-b4b8f50c0d11",
         "14077e11-df97-4f4f-aab0-8b79eed5037b",
         "84756f76-1ea4-4bfc-abe9-2b64214fb665",
         "e02f1891-1d02-4d12-b616-3073a6f187df",
