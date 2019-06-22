@@ -40,14 +40,17 @@ with (oPlayer) {
 		num_dashCooldownRemaining = PLAYER_DASH_STEPS + PLAYER_DASH_SLOW_STEPS;
 		num_xDashMovement = _num_horizontalMovement;
 		num_yDashMovement = _num_verticalMovement;
-		AbilityCaster_AddEffectDataToBuffer(
+		AbilityCaster_ApplyEffect(
 			id,
-			DashEffectData_New(
-				PLAYER_DASH_STEPS,
-				id,
-				PLAYER_DASH_SPEED_MULTIPLIER,
-				PLAYER_DASH_SLOW_MULTIPLIER,
-				PLAYER_DASH_SLOW_STEPS
+			ds_EffectContext_New(
+				ds_DashEffectData_New(
+					PLAYER_DASH_STEPS,
+					id,
+					PLAYER_DASH_SPEED_MULTIPLIER,
+					PLAYER_DASH_SLOW_MULTIPLIER,
+					PLAYER_DASH_SLOW_STEPS
+				),
+				ds_AbilityCasterSnapshot_FromId(id)
 			)
 		);
 	}
@@ -57,7 +60,7 @@ with (oPlayer) {
 			x + _num_xOffset,
 			y + _num_yOffset,
 			id,
-			true
+			Enum_MovementType.LINEAR_SLIDING
 		)
 	);
 }

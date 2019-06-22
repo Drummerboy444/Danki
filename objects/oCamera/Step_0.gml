@@ -10,7 +10,8 @@ switch (enum_currentCameraState){
 	case Enum_CameraStates.LOOK_AT_FOR:
 		Camera_FOLLOW_TARGET();
 		Camera_UPDATE_LOOK_TIMER();
-	break;
+	break;		
+	
 }
 
 //Mange our shake pool, deactivate old shakes, flag the strongest shake.

@@ -16,19 +16,30 @@ _id_blueBeam.y = _id_caster.y;
 _id_blueBeam.num_targetX = _num_targetX;
 _id_blueBeam.num_targetY = _num_targetY;
 
-var _obj_hostileType = AbilityCaster_GetHostileType(_id_caster);
-var _id_nearestHostile = instance_nearest(_num_targetX, _num_targetY, _obj_hostileType);
+var _id_nearestOpponent = instance_nearest(_num_targetX, _num_targetY, id_owner.obj_opponent);
 
-if(_id_nearestHostile == noone) return;
+if(_id_nearestOpponent == noone) return;
 
-if(position_meeting(_num_targetX, _num_targetY, _id_nearestHostile)){
-	AbilityCaster_AddEffectDataToBuffer(
-		_id_nearestHostile,
-		SlowEffectData_New(BLUE_BEAM_SLOW_DURATION, _id_caster, BLUE_BEAM_SLOW_MULTIPLIER)
+if(position_meeting(_num_targetX, _num_targetY, _id_nearestOpponent)){
+	AbilityCaster_ApplyEffect(
+		_id_nearestOpponent,
+		ds_EffectContext_New(
+			ds_SlowEffectData_New(
+				BLUE_BEAM_SLOW_DURATION,
+				_id_caster,
+				BLUE_BEAM_SLOW_MULTIPLIER
+			),
+			ds_AbilityCasterSnapshot_FromId(_id_caster)
+		)
 	);
 	DamageManager_ApplyDamage(
 		_id_caster,
-		_id_nearestHostile,
-		DamageData_New(Enum_DamageTypes.ICE, BLUE_BEAM_STEP_DAMAGE)
+		_id_nearestOpponent,
+		ds_DamageData_New(
+			Enum_DamageTypes.ICE,
+			BLUE_BEAM_STEP_DAMAGE,
+			ds_AbilityCasterSnapshot_FromId(_id_caster),
+			true
+		)
 	)
 }

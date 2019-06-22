@@ -11,7 +11,6 @@ enum Enum_EventHooks {
 	ON_MOVE,
 	ON_CAST,
 	ON_RECEIVE_DAMAGE,
-	ON_DEAL_DAMAGE,
 	ON_DEATH,
 	length
 }

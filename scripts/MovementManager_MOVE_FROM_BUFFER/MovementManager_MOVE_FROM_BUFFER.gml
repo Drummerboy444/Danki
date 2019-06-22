@@ -2,8 +2,25 @@
 /// @param {MovementData} MovementData_data
 var _MovementData_data = argument[0];
 
-//if(MovementData_CheckMovementIsLinear(_MovementData_data)){
-	MovementManager_MOVE_LINEARLY(_MovementData_data)
-//}
 
-// Else we handle movement according to the path.
+var _id_instanceToMove = MovementData_GetInstanceToMove(_MovementData_data);
+
+switch (MovementData_GetMovementType(_MovementData_data)) {
+	case Enum_MovementType.LINEAR_SLIDING:
+		MovementManager_MOVE_LINEAR_SLIDING(_MovementData_data);
+		break;
+	case Enum_MovementType.DYNAMIC:
+		if(MovementManager_LINE_OF_SIGHT(_MovementData_data)) {
+			_id_instanceToMove.path_currentPath = undefined;
+			_id_instanceToMove.bool_hasPath = false;
+			MovementManager_MOVE_LINEAR_SLIDING(_MovementData_data);
+		} else if(!_id_instanceToMove.bool_hasPath) {
+			MovementManager_HANDLE_NO_PATH(_MovementData_data);
+		} else{
+			MovementManager_MOVE_PATHING(_MovementData_data);
+		}
+		break;
+	case Enum_MovementType.PATHING:
+		MovementManager_MOVE_PATHING(_MovementData_data);
+		break;
+}

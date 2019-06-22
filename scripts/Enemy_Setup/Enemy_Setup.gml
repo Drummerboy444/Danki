@@ -15,4 +15,4 @@ var _scr_deathScript = argument[4];
 var _num_aggroRange = argument[5];
 
 
-NPC_Setup(_bool_hasOneShotService, _bool_hasChannelService, _ds_Stats_baseStats, _scr_plan, _scr_deathScript, _num_aggroRange);
+NPC_Setup(_bool_hasOneShotService, _bool_hasChannelService, _ds_Stats_baseStats, _scr_plan, _scr_deathScript, _num_aggroRange, oPlayer);

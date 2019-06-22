@@ -4,4 +4,4 @@ num_currentHealth = 0;
 
 scr_deathScript = undefined;
 
-list_damageList = ds_list_create(); // List containing the DamageData custom type
+list_ds_DamageData_damageList = ds_list_create();

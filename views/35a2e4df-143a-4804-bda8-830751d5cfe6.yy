@@ -9,7 +9,7 @@
         "051e75cf-2ba7-42f1-9bd1-607d90ec9172"
     ],
     "filterType": "GMScript",
-    "folderName": "DOTEffectData",
+    "folderName": "ds_DOTEffectData",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
