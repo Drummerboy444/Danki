@@ -15,7 +15,7 @@ oAbilityTreeManager.bool_mouseDownThisFrame = true;
 //	return false;
 //}
 
-var _enum_ability = AbilityTree_GetLeftAbility(oAbilityTreeManager.id_abilityTree);
+var _enum_ability = AbilityTree_GetAbility(oAbilityTreeManager.id_abilityTree, Enum_Direction.LEFT);
 var _ds_Ability_toCast = AbilityManager_GetAbilityFromEnum(_enum_ability);
 var _enum_abilityType = ds_Ability_GetType(_ds_Ability_toCast);
 
