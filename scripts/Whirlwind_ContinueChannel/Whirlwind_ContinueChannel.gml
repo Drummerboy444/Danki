@@ -40,7 +40,12 @@ if(is_undefined(_num_damageCountDown) || _num_damageCountDown == 0) {
 		DamageManager_ApplyDamage(
 			_id_caster,
 			_list_id_collisions[| i],
-			DamageData_New(Enum_DamageTypes.SLASHING, WHIRLWIND_DAMAGE)
+			ds_DamageData_New(
+				Enum_DamageTypes.SLASHING,
+				WHIRLWIND_DAMAGE,
+				ds_AbilityCasterSnapshot_FromId(_id_caster),
+				true
+			)
 		)
 	}
 }
