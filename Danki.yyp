@@ -1791,6 +1791,14 @@
             }
         },
         {
+            "Key": "74c4e02b-1a78-40a2-bdf5-a7ee26b6b38a",
+            "Value": {
+                "id": "9be28210-fd9f-42b7-8268-68620bfb3ff9",
+                "resourcePath": "scripts\\MACROS_oShieldBash\\MACROS_oShieldBash.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "768687fd-0fc7-4a64-acf9-80c0704dbcfe",
             "Value": {
                 "id": "1a5f8afd-bf56-4d37-94af-0f440b680b92",
@@ -4012,7 +4020,8 @@
         "c139db16-7860-415d-b873-0500eef53c5f",
         "cf1a2205-e5d2-4ebb-9c2b-cba08c02468f",
         "ef8397c3-cf94-4c6a-8b24-a10e16f91b85",
-        "9869f945-b443-4700-ba7d-bed8ec595e92"
+        "9869f945-b443-4700-ba7d-bed8ec595e92",
+        "74c4e02b-1a78-40a2-bdf5-a7ee26b6b38a"
     ],
     "tutorial": ""
 }
