@@ -2071,14 +2071,6 @@
             }
         },
         {
-            "Key": "83802678-3ac5-4cfc-94ee-ad3acd6a2cdc",
-            "Value": {
-                "id": "7b1f8e4a-d6c1-466e-9412-d273fb92bb0f",
-                "resourcePath": "scripts\\AbilityTree_GetLeftAbility\\AbilityTree_GetLeftAbility.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "83d0e630-3592-4a46-914f-a58bd3023f7e",
             "Value": {
                 "id": "a330606f-18da-4aa8-bb03-5754c2006e3d",
@@ -2543,14 +2535,6 @@
             }
         },
         {
-            "Key": "a5b3e778-ba20-47d9-b145-5ab21b589405",
-            "Value": {
-                "id": "a1293167-dc77-46e7-bdf5-24ee6dbb9ea9",
-                "resourcePath": "scripts\\AbilityTree_CanGoRight\\AbilityTree_CanGoRight.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "a6072ac4-8bb1-4af5-abca-f4ec65a8a45b",
             "Value": {
                 "id": "d90361ae-f444-4625-89e2-8d5a135fa22d",
@@ -2579,14 +2563,6 @@
             "Value": {
                 "id": "6910cbe5-65f6-4901-bb38-ca9537f22e99",
                 "resourcePath": "scripts\\InputKey_GetKeycode\\InputKey_GetKeycode.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "aa33c175-8498-4234-b943-33f6b897c1d8",
-            "Value": {
-                "id": "47fb2cb8-63ce-4ff7-b9d3-f6ed3b40beda",
-                "resourcePath": "scripts\\AbilityTree_CanGoLeft\\AbilityTree_CanGoLeft.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3311,14 +3287,6 @@
             }
         },
         {
-            "Key": "dc809581-393a-41c2-8212-a1f94b94ce2b",
-            "Value": {
-                "id": "9905ef63-4a47-4d6b-a9fc-b832e35a7f91",
-                "resourcePath": "scripts\\AbilityTree_GetRightAbility\\AbilityTree_GetRightAbility.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "dcb4adea-b499-4471-b060-5891c45a22dc",
             "Value": {
                 "id": "f0604e26-9122-4260-a223-6466b622281c",
@@ -3339,14 +3307,6 @@
             "Value": {
                 "id": "dce70da2-296d-4b63-93f3-956951fd6138",
                 "resourcePath": "scripts\\ds_OneShot_InstanceOf\\ds_OneShot_InstanceOf.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "dd1ee3c6-1e66-45a4-8af6-3e6094f2e08a",
-            "Value": {
-                "id": "fa37efd7-e282-4243-8bd1-704c696bcc7c",
-                "resourcePath": "scripts\\AbilityTree_WalkRight\\AbilityTree_WalkRight.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3719,14 +3679,6 @@
             }
         },
         {
-            "Key": "f962ab3b-37db-4564-b828-08b1ca825e3f",
-            "Value": {
-                "id": "71bdab9d-f7f3-401f-b577-26deedc823b7",
-                "resourcePath": "scripts\\AbilityTree_WalkLeft\\AbilityTree_WalkLeft.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "fa17c25b-9f43-43e3-b9a6-a3586b9be36b",
             "Value": {
                 "id": "1eef72ea-f296-401e-9b18-005357e1cb0c",
@@ -3880,20 +3832,14 @@
         "711031ce-71c8-43ca-a428-4e24a51f239b",
         "713beafa-9bb8-4e3a-8615-85e0b91f6989",
         "9a05a829-0151-4caf-8c2c-6012312162e3",
-        "aa33c175-8498-4234-b943-33f6b897c1d8",
-        "a5b3e778-ba20-47d9-b145-5ab21b589405",
-        "83802678-3ac5-4cfc-94ee-ad3acd6a2cdc",
-        "dc809581-393a-41c2-8212-a1f94b94ce2b",
-        "f962ab3b-37db-4564-b828-08b1ca825e3f",
-        "dd1ee3c6-1e66-45a4-8af6-3e6094f2e08a",
+        "0cc16f92-7b92-4db6-a083-318c7dbad418",
+        "19d59e8a-1c0a-42f0-b166-3ee0ce41915a",
+        "1539a29f-2b02-4f87-87e0-5159b5020ee9",
         "b4c94141-6a54-4165-84e9-8bdb5dbe6781",
         "c641afe9-28db-4264-93fa-1a7899b1f9c2",
         "5ef957b2-58c9-445b-83e4-4a838e88962f",
         "64532481-8318-49e3-b1d1-147193d77b7d",
         "2fea52bc-570c-4317-b357-2e671ff5b561",
-        "0cc16f92-7b92-4db6-a083-318c7dbad418",
-        "19d59e8a-1c0a-42f0-b166-3ee0ce41915a",
-        "1539a29f-2b02-4f87-87e0-5159b5020ee9",
         "79203823-47b0-4a20-b692-d005312e619a",
         "5b497336-be8a-4a38-b365-f7618350ec58",
         "5679edf1-7a81-4ffe-9851-674eb591214b",
