@@ -22,9 +22,9 @@ with (_id_instanceToMove) {
 		for(var i=0; i<array_length_1d(_arr_adjacentCells); i++) {
 			var _arr_location = _arr_adjacentCells[i];
 
-			var _bool_empty = mp_grid_get_cell(_mp_grid_grid, _arr_location[0], _arr_location[1]);
+			var _bool_empty = MovementManager_GET_CELL_BY_POSITION(_mp_grid_grid, _arr_location[0], _arr_location[1]);
 		
-			if(_bool_empty == 0) {
+			if(_bool_empty) {
 				var _MovementData_updatedData = MovementData_New(
 					_arr_location[0],
 					_arr_location[1],

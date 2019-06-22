@@ -26,5 +26,6 @@ with (oMovementGridManager) {
 		MovementGridManager_AddInstancesWithMargin(_mp_grid_newGrid, MOVEMENT_GRID_MANAGER_CIRCUMNAVIGABLE, _num_marginSize);
 		
 		map_movementGrids[? _num_gridMaxSize] = _mp_grid_newGrid;
+		map_regenerationQueued[? _num_gridMaxSize] = false;
 	}
 }

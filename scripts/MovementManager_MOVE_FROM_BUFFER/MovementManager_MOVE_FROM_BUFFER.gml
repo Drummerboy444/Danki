@@ -11,6 +11,8 @@ switch (MovementData_GetMovementType(_MovementData_data)) {
 		break;
 	case Enum_MovementType.DYNAMIC:
 		if(MovementManager_LINE_OF_SIGHT(_MovementData_data)) {
+			_id_instanceToMove.path_currentPath = undefined;
+			_id_instanceToMove.bool_hasPath = false;
 			MovementManager_MOVE_LINEAR_SLIDING(_MovementData_data);
 		} else if(!_id_instanceToMove.bool_hasPath) {
 			MovementManager_HANDLE_NO_PATH(_MovementData_data);

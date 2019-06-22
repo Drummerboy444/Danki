@@ -3,7 +3,7 @@
 /// @param {enum} enum_damageType The type of damage.
 /// @param {num} num_amount The amount of damage.
 /// @param {ds_AbilityCasterSnapshot} ds_AbilityCasterSnapshot_snapshot The ability caster snapshot.
-/// @param {boolean} ?bool_destroySnapshot Whether the snapshot should be stroyed as part of the damage datas
+/// @param {boolean} ?bool_destroySnapshot Whether the snapshot should be destroyed as part of the damage datas
 ///                                       destroy script. Defaults to false.
 /// @returns {ds_DamageData}
 var _enum_damageType = argument[0];

@@ -30,6 +30,7 @@ with(_id_instanceToMove) {
 		var _num_top = _id_targetInstance.bbox_top;
 		var _num_right = _id_targetInstance.bbox_right;
 		var _num_bottom = _id_targetInstance.bbox_bottom;
+		
 		mp_grid_clear_rectangle(
 			_mp_grid_instanceGrid,
 			_num_left,
@@ -50,4 +51,6 @@ with(_id_instanceToMove) {
 	);	
 
 	num_pathPosition = 0;
+	
+	MovementGridManager_QueueRegeneration(_id_instanceToMove);
 }

@@ -3,7 +3,6 @@
 /// @returns {boolean} True if the given data is an instance of ds_DamageData.
 var _any_data = argument[0];
 
-
 return 
 	ds_exists(_any_data, ds_type_map)
 	&& ds_map_size(_any_data) == 4
