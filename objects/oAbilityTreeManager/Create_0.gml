@@ -1,16 +1,16 @@
 event_inherited();
 Pauseable_Setup();
 
-bool_mouseDownThisFrame = false;
-bool_mouseDownLastFrame = false;
+enum Enum_InputState {
+	LEFT,
+	RIGHT,
+	NONE
+}
+
+enum_inputStateThisFrame = Enum_InputState.NONE;
+enum_inputStateLastFrame = Enum_InputState.NONE;
 
 bool_inputWasSuccessful = false;
-
-bool_channellingThisFrame = false;
-bool_channelledLastFrame = false;
-
-bool_successfulChannelThisFrame = false;
-bool_successfulChannelLastFrame = false;
 
 var _map_leftLeftChild = ds_map_create();
 ds_map_add(_map_leftLeftChild, "ability", Enum_Abilities.BLUE_BEAM);

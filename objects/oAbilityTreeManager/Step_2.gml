@@ -1,5 +1,8 @@
 // mouse released
-if (!bool_mouseDownThisFrame && bool_mouseDownLastFrame) {
+if (
+	enum_inputStateThisFrame == Enum_InputState.NONE &&
+	enum_inputStateLastFrame != Enum_InputState.NONE
+) {
 	if (bool_inputWasSuccessful) {
 		show_debug_message("walking");
 		AbilityTree_Walk(id_abilityTree, Enum_Direction.LEFT);
@@ -19,5 +22,5 @@ if (!bool_mouseDownThisFrame && bool_mouseDownLastFrame) {
 	bool_inputWasSuccessful = false;
 }
 
-bool_mouseDownLastFrame = bool_mouseDownThisFrame;
-bool_mouseDownThisFrame = false;
+enum_inputStateLastFrame = enum_inputStateThisFrame;
+enum_inputStateThisFrame = Enum_InputState.NONE;
