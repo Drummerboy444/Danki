@@ -34,3 +34,5 @@ ds_Personality_Destroy(ds_Personality_personality);
 if (!is_undefined(path_currentPath)) {
 	path_delete(path_currentPath);
 }
+
+ds_ContextBag_Destroy(ds_ContextBag_bag);

@@ -1,4 +1,4 @@
-/// @MovementManager_GET_CELL_BY_POSITION(MovementData_data)
+/// @MovementManager_GetCellByPosition(MovementData_data)
 /// @param {MovementData} MovementData_data
 var _mp_grid_grid = argument[0];
 var _num_xPosition = argument[1];

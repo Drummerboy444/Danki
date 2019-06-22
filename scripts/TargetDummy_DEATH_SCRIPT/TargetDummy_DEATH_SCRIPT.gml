@@ -1,4 +1,3 @@
-instance_create_layer(x-100, y-100, "instances", oTargetDummy);
-instance_create_layer(x+100, y+100, "instances", oTargetDummy);
+instance_create_layer(x,y, LAYERS_ABILITIES, oBlueBeamExplosion);
 
 instance_destroy();
