@@ -1191,6 +1191,14 @@
             }
         },
         {
+            "Key": "49ebd9e5-802f-4a3c-8f05-794a9bbd8592",
+            "Value": {
+                "id": "dae46d3c-9e06-4134-8bda-fefbb960e56c",
+                "resourcePath": "views\\49ebd9e5-802f-4a3c-8f05-794a9bbd8592.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "49ecfca8-1c6a-48c6-9963-5c2716880a73",
             "Value": {
                 "id": "be057897-00bf-4c6b-ba0e-492b363b2f49",
@@ -1732,6 +1740,14 @@
                 "id": "e3bff15a-0f43-4212-a061-52be5959d1d8",
                 "resourcePath": "views\\71340c6d-c585-4302-a991-3dc05b1cdc9c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "71390064-1415-4e99-863c-fb911d8dd323",
+            "Value": {
+                "id": "2f8eaa6d-5d5d-4b08-abb1-500be9cd8cb5",
+                "resourcePath": "sprites\\sShieldBash\\sShieldBash.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

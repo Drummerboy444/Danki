@@ -24,9 +24,20 @@ AbilityCaster_ApplyEffect(
 	)
 );
 
-return Ability_Create(
-	_num_targetX,
-	_num_targetY,
+var _num_direction = point_direction(_id_caster.x, _id_caster.y, _num_targetX, _num_targetY);
+
+var _num_castX = _id_caster.x + lengthdir_x(SHIELDBASH_RANGE, _num_direction);
+var _num_castY = _id_caster.y + lengthdir_y(SHIELDBASH_RANGE, _num_direction);
+
+var _id_ShieldBash = Ability_Create(
+	_num_castX,
+	_num_castY,
 	oShieldBash,
-	ds_AbilityCasterSnapshot_FromId(_id_caster)
+	ds_AbilityCasterSnapshot_FromId(_id_caster),
+	_id_caster.obj_opponent
 );
+
+_id_ShieldBash.image_angle = _num_direction;
+_id_ShieldBash.id_source = _id_caster;
+
+return _id_ShieldBash;
