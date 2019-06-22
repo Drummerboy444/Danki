@@ -7,10 +7,7 @@ if (
 		show_debug_message("walking");
 		AbilityTree_Walk(id_abilityTree, Enum_Direction.LEFT);
 
-		if (
-			!AbilityTree_CanWalk(id_abilityTree, Enum_Direction.LEFT) &&
-			!AbilityTree_CanWalk(id_abilityTree, Enum_Direction.RIGHT)
-		) {
+		if (!AbilityTree_CanWalk(id_abilityTree)) {
 			show_debug_message("resetting - success");
 			AbilityTree_Reset(id_abilityTree);
 		}
