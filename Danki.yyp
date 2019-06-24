@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "010dfe4e-d702-49dc-a781-b91cf28259cf",
+            "Value": {
+                "id": "cfafd1b3-57fc-49e7-87d2-988bee627abf",
+                "resourcePath": "scripts\\Whirlwind_FinishChannel\\Whirlwind_FinishChannel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "02251f78-f573-46be-a826-66cdf21a45a2",
             "Value": {
                 "id": "d3b6cb01-d5a1-4215-825b-2da4050ad6a2",
@@ -903,6 +911,22 @@
             }
         },
         {
+            "Key": "36961115-ee61-41ca-83c4-29dde40ac1d7",
+            "Value": {
+                "id": "c7d43279-7a2e-4211-8026-2d4dfe4fb1d6",
+                "resourcePath": "objects\\oWhirlwind\\oWhirlwind.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "36f8f587-2375-49e2-b97f-4dce84605aa2",
+            "Value": {
+                "id": "b188cc63-e644-4c43-a6c8-f008ce4c0606",
+                "resourcePath": "scripts\\Whirlwind_CancelChannel\\Whirlwind_CancelChannel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "37622558-a4ae-4116-9e98-80fce13f1e33",
             "Value": {
                 "id": "cdacbdbe-0c3a-4080-ab2b-09174632da31",
@@ -1044,6 +1068,14 @@
                 "id": "3c0ea856-45ee-4799-8b95-04e40581314e",
                 "resourcePath": "scripts\\MovementData_GetTerminusY\\MovementData_GetTerminusY.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3fbdbd49-2f6d-4703-a18f-10ae32031b0f",
+            "Value": {
+                "id": "81bec666-0a02-47d9-988d-23be490a981e",
+                "resourcePath": "sprites\\sWhirlwind\\sWhirlwind.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1847,6 +1879,14 @@
             }
         },
         {
+            "Key": "78250ba8-540e-4fcc-86c5-cd1801d6d1a4",
+            "Value": {
+                "id": "255d6aa3-8bfb-44c7-ba55-3050402ab2f7",
+                "resourcePath": "views\\78250ba8-540e-4fcc-86c5-cd1801d6d1a4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "79203823-47b0-4a20-b692-d005312e619a",
             "Value": {
                 "id": "4700889e-b3d9-4c62-84ed-0fed89399613",
@@ -2463,6 +2503,14 @@
             }
         },
         {
+            "Key": "a11ccecc-647a-4c57-8423-8e8437f7e16e",
+            "Value": {
+                "id": "d1503549-88e6-4d89-808d-4f89a2c03aef",
+                "resourcePath": "scripts\\MACROS_oWhirlwind\\MACROS_oWhirlwind.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a00ca759-6639-4130-a583-a712ba90326e",
             "Value": {
                 "id": "d8e3d80d-35a0-4c75-862a-0f50b8684a84",
@@ -2559,6 +2607,14 @@
             }
         },
         {
+            "Key": "a84d322c-8a22-4938-b53d-f6cd9a307f6a",
+            "Value": {
+                "id": "146fabe2-0fb1-4e8b-bd8a-afb091f19902",
+                "resourcePath": "scripts\\Whirlwind_StartChannel\\Whirlwind_StartChannel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a91f3810-94c7-48ca-a888-6454743907d3",
             "Value": {
                 "id": "ed4e17ab-dad8-4f9d-b79b-badf74ce8a60",
@@ -2619,6 +2675,14 @@
             "Value": {
                 "id": "174bbbd4-2a69-4e37-ae2e-7fb1fb4d16fa",
                 "resourcePath": "views\\aea10709-c7e3-4c83-b1b3-dd0edb149e27.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "aee26416-281a-44ed-a79e-8d74d5424ad5",
+            "Value": {
+                "id": "26b888a4-825f-47aa-9e0e-ef7c4b238b3f",
+                "resourcePath": "views\\aee26416-281a-44ed-a79e-8d74d5424ad5.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -2763,6 +2827,14 @@
             "Value": {
                 "id": "3f41c8c9-c1ac-49b9-8508-5058d7a65d11",
                 "resourcePath": "views\\b98dee70-212e-46a8-ad27-5643cc89f130.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b9c6aeaf-ddfa-407d-b4e6-ddab3a7c8ae9",
+            "Value": {
+                "id": "635ac635-43bb-427f-af8f-22b7c3d363ba",
+                "resourcePath": "views\\b9c6aeaf-ddfa-407d-b4e6-ddab3a7c8ae9.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -2979,6 +3051,14 @@
             "Value": {
                 "id": "c74cc3e4-7753-4ea0-933d-874c15f4a158",
                 "resourcePath": "scripts\\Channel_Setup\\Channel_Setup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c82e27ed-eaef-4455-97aa-4c4bb01ea678",
+            "Value": {
+                "id": "0e4ccce2-f16c-453d-b251-916159ea4b33",
+                "resourcePath": "scripts\\Whirlwind_ContinueChannel\\Whirlwind_ContinueChannel.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3849,6 +3929,10 @@
         "edc57933-9ed3-484f-ba9d-b6ba647405ea",
         "34768675-7a0f-4ef5-8f0f-b6d9aab447ec",
         "c742911c-21dc-4403-b628-14ddaede0227",
+        "a84d322c-8a22-4938-b53d-f6cd9a307f6a",
+        "c82e27ed-eaef-4455-97aa-4c4bb01ea678",
+        "36f8f587-2375-49e2-b97f-4dce84605aa2",
+        "010dfe4e-d702-49dc-a781-b91cf28259cf",
         "33db9249-5aa2-4fae-983e-707e95187397",
         "2baf54b8-9a1c-4b18-94ff-f4d32ade13f6",
         "d35ffb5b-b302-4261-98a7-d4ae0c243d29",
@@ -4037,7 +4121,8 @@
         "cf1a2205-e5d2-4ebb-9c2b-cba08c02468f",
         "ef8397c3-cf94-4c6a-8b24-a10e16f91b85",
         "9869f945-b443-4700-ba7d-bed8ec595e92",
-        "74c4e02b-1a78-40a2-bdf5-a7ee26b6b38a"
+        "74c4e02b-1a78-40a2-bdf5-a7ee26b6b38a",
+        "a11ccecc-647a-4c57-8423-8e8437f7e16e"
     ],
     "tutorial": ""
 }
