@@ -1,0 +1,1 @@
+id_target = instance_nearest(x, y, oPlayer);

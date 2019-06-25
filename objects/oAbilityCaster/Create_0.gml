@@ -21,6 +21,8 @@ path_currentPath = undefined;
 bool_hasPath = false;
 num_pathPosition = 0;
 
+ds_ContextBag_bag = ds_ContextBag_New();
+
 num_aggroRange = 0;
 
 list_ds_EffectContext_effectsBuffer = ds_list_create();

@@ -38,7 +38,7 @@ with(_id_channelService){
 	}
 
 	bool_attemptingToChannel = true;
-
+	
 	if (bool_readyToChannel) {
 		if (AbilityCaster_IsOnGlobalCooldown(id_owner) && !_bool_overrideGlobalCooldown) {
 			return false;

@@ -1,3 +1,5 @@
+if(!instance_exists(oPlayer)) Camera_SetTarget(oEnemy);
+
 switch (enum_currentCameraState){
 	
 	case Enum_CameraStates.FOLLOW_PLAYER: 

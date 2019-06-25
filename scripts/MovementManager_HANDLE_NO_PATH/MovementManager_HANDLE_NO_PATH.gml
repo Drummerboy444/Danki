@@ -8,7 +8,7 @@ with (_id_instanceToMove) {
 	var _mp_grid_grid =  MovementGridManager_GetGridForInstance(_id_instanceToMove);
 	var _MovementData_updatedData = _MovementData_data;
 	
-	var _bool_onEmptyCell = MovementManager_GET_CELL_BY_POSITION(_mp_grid_grid, x, y);
+	var _bool_onEmptyCell = MovementManager_GetCellByPosition(_mp_grid_grid, x, y);
 	
 	// If we're on an occupied grid cell, we try to move to an adjacent empty cell
 	if(!_bool_onEmptyCell) {	
@@ -22,7 +22,7 @@ with (_id_instanceToMove) {
 		for(var i=0; i<array_length_1d(_arr_adjacentCells); i++) {
 			var _arr_location = _arr_adjacentCells[i];
 
-			var _bool_empty = MovementManager_GET_CELL_BY_POSITION(_mp_grid_grid, _arr_location[0], _arr_location[1]);
+			var _bool_empty = MovementManager_GetCellByPosition(_mp_grid_grid, _arr_location[0], _arr_location[1]);
 		
 			if(_bool_empty) {
 				var _MovementData_updatedData = MovementData_New(

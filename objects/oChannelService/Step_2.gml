@@ -1,4 +1,4 @@
-if (!bool_attemptingToChannel) {
+if (!bool_attemptingToChannel or !bool_channelling) {
 	bool_readyToChannel = true;
 	if (bool_channelling) {
 		ChannelService_CANCEL_CHANNEL();
