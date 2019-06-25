@@ -10,6 +10,12 @@ var _id_caster = argument[0];
 var _num_targetX = argument[1];
 var _num_targetY = argument[2];
 
-var _id_whirlwind = instance_create_layer(_id_caster.x, _id_caster.y, LAYERS_ABILITIES, oWhirlwind);
+var _id_whirlwind = Ability_Create(
+	_id_caster.x,
+	_id_caster.y,
+	oWhirlwind,
+	ds_AbilityCasterSnapshot_FromId(_id_caster),
+	_id_caster.obj_opponent
+);
 
 return _id_whirlwind;
