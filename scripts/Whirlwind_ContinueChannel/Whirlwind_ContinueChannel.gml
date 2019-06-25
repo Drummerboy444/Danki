@@ -20,8 +20,7 @@ AbilityCaster_ApplyEffect(
 	_id_caster,
 	ds_EffectContext_New(
 		ds_SlowEffectData_New(1, _id_caster, WHIRLWIND_SPEED_MULTIPLIER),
-		_id_caster.ds_Stats_frameStats,
-		ds_EffectContext_ListToEffectData(_id_caster.list_ds_EffectContext_activeEffects)
+		ds_AbilityCasterSnapshot_FromId(_id_caster)
 	)
 );
 
