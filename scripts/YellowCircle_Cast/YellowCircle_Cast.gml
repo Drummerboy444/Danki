@@ -33,5 +33,6 @@ return Ability_Create(
 	_num_targetX,
 	_num_targetY,
 	oYellowCircle,
-	ds_AbilityCasterSnapshot_FromId(_id_caster)
+	ds_AbilityCasterSnapshot_FromId(_id_caster),
+	_id_caster.obj_opponent
 );
