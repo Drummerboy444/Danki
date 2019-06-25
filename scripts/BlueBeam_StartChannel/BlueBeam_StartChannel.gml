@@ -14,7 +14,8 @@ var _id_blueBeam = Ability_Create(
 	_id_caster.x,
 	_id_caster.y,
 	oBlueBeam,
-	ds_AbilityCasterSnapshot_FromId(_id_caster)
+	ds_AbilityCasterSnapshot_FromId(_id_caster),
+	_id_caster.obj_opponent
 );
 _id_blueBeam.num_targetX = _num_targetX;
 _id_blueBeam.num_targetY = _num_targetY;

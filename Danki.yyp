@@ -1255,6 +1255,14 @@
             }
         },
         {
+            "Key": "49ebd9e5-802f-4a3c-8f05-794a9bbd8592",
+            "Value": {
+                "id": "dae46d3c-9e06-4134-8bda-fefbb960e56c",
+                "resourcePath": "views\\49ebd9e5-802f-4a3c-8f05-794a9bbd8592.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "49ecfca8-1c6a-48c6-9963-5c2716880a73",
             "Value": {
                 "id": "be057897-00bf-4c6b-ba0e-492b363b2f49",
@@ -1799,6 +1807,14 @@
             }
         },
         {
+            "Key": "71390064-1415-4e99-863c-fb911d8dd323",
+            "Value": {
+                "id": "2f8eaa6d-5d5d-4b08-abb1-500be9cd8cb5",
+                "resourcePath": "sprites\\sShieldBash\\sShieldBash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "713beafa-9bb8-4e3a-8615-85e0b91f6989",
             "Value": {
                 "id": "0ed447eb-c218-4d76-a6f3-791a7dd7d269",
@@ -1851,6 +1867,14 @@
             "Value": {
                 "id": "88f87da0-c9c4-4728-b986-8c3ae92b9f2c",
                 "resourcePath": "scripts\\ds_Personality_GetBehaviour\\ds_Personality_GetBehaviour.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "74c4e02b-1a78-40a2-bdf5-a7ee26b6b38a",
+            "Value": {
+                "id": "9be28210-fd9f-42b7-8268-68620bfb3ff9",
+                "resourcePath": "scripts\\MACROS_oShieldBash\\MACROS_oShieldBash.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -4170,6 +4194,7 @@
         "cf1a2205-e5d2-4ebb-9c2b-cba08c02468f",
         "ef8397c3-cf94-4c6a-8b24-a10e16f91b85",
         "9869f945-b443-4700-ba7d-bed8ec595e92",
+        "74c4e02b-1a78-40a2-bdf5-a7ee26b6b38a",
         "a11ccecc-647a-4c57-8423-8e8437f7e16e"
     ],
     "tutorial": ""

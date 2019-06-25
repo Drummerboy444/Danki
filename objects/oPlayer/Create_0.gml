@@ -15,8 +15,3 @@ Mortal_Setup(
 	0,
 	oEnemy
 );
-
-// Dash
-num_xDashMovement = 0;
-num_yDashMovement = 0;
-num_dashCooldownRemaining = 0;
