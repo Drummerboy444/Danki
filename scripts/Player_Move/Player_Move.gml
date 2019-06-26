@@ -49,7 +49,7 @@ with (oPlayer) {
 			id,
 			ds_EffectContext_New(
 				ds_DashEffectData_New(
-					PLAYER_DASH_STEPS,
+					PLAYER_DASH_STEPS + PLAYER_DASH_SLOW_STEPS,
 					id,
 					PLAYER_DASH_SPEED_MULTIPLIER,
 					PLAYER_DASH_SLOW_MULTIPLIER,

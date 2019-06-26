@@ -14,7 +14,7 @@ AbilityCaster_ApplyEffect(
 	_id_caster,
 	ds_EffectContext_New(
 		ds_DashEffectData_New(
-			SHIELDBASH_DASH_STEPS,
+			SHIELDBASH_DASH_STEPS + SHIELDBASH_DASH_SLOW_STEPS,
 			_id_caster,
 			SHIELDBASH_DASH_SPEED_MULTIPLIER,
 			SHIELDBASH_DASH_SLOW_MULTIPLIER,
