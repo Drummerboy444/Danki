@@ -6,6 +6,7 @@
 #macro DS_DASH_EFFECT_DATA_DASH_MULTIPLIER "dashMultiplier"
 #macro DS_DASH_EFFECT_DATA_SLOW_MULTIPLIER "slowMultiplier"
 #macro DS_DASH_EFFECT_DATA_SLOW_STEPS "slowSteps"
+#macro DS_DASH_EFFECT_DATA_ANGLE "angle"
 
 // DOT effect data
 #macro DS_DOT_EFFECT_DATA_DAMAGE_PER_STEP "damagePerStep"

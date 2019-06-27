@@ -24,23 +24,23 @@ with (oPlayer) {
 	var _num_xOffset;
 	var _num_yOffset;
 	
-	var _bool_dashing = AbilityCaster_CheckInstanceHasEffect(id, Enum_Effects.DASH);
+	//var _bool_dashing = AbilityCaster_CheckInstanceHasEffect(id, Enum_Effects.DASH);
 	
-	if (_bool_dashing){
-		if (!bool_dashing) {
-			num_xDashMovement = _num_horizontalMovement;
-			num_yDashMovement = _num_verticalMovement;
-		}
-		// Dashing in direction set at start of dash
-		_num_xOffset = 1000000 * num_xDashMovement;
-		_num_yOffset = 1000000 * num_yDashMovement;
-	} else{
+	//if (_bool_dashing){
+	//	if (!bool_dashing) {
+	//		num_xDashMovement = _num_horizontalMovement;
+	//		num_yDashMovement = _num_verticalMovement;
+	//	}
+	//	// Dashing in direction set at start of dash
+	//	_num_xOffset = 1000000 * num_xDashMovement;
+	//	_num_yOffset = 1000000 * num_yDashMovement;
+	//} else{
 		// Walking in direction dictated by arrow keys
 		_num_xOffset = 1000000 * _num_horizontalMovement;
 		_num_yOffset = 1000000 * _num_verticalMovement;
-	}
+	//}
 	
-	bool_dashing = _bool_dashing
+	//bool_dashing = _bool_dashing
 	
 	if (_bool_dash and num_dashCooldownRemaining <= 0 and (_bool_isMovingHorizontally or _bool_isMovingVertically)) {
 		//Initiate a dash
@@ -53,7 +53,8 @@ with (oPlayer) {
 					id,
 					PLAYER_DASH_SPEED_MULTIPLIER,
 					PLAYER_DASH_SLOW_MULTIPLIER,
-					PLAYER_DASH_SLOW_STEPS
+					PLAYER_DASH_SLOW_STEPS,
+					point_direction(x, y, x + _num_xOffset, y + _num_yOffset)
 				),
 				ds_AbilityCasterSnapshot_FromId(id)
 			)

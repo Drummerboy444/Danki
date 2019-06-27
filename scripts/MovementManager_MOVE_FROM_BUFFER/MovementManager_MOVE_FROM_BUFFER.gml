@@ -7,6 +7,8 @@ var _id_instanceToMove = MovementData_GetInstanceToMove(_MovementData_data);
 
 switch (MovementData_GetMovementType(_MovementData_data)) {
 	case Enum_MovementType.LINEAR_SLIDING:
+		_id_instanceToMove.path_currentPath = undefined;
+		_id_instanceToMove.bool_hasPath = false;
 		MovementManager_MOVE_LINEAR_SLIDING(_MovementData_data);
 		break;
 	case Enum_MovementType.DYNAMIC:
