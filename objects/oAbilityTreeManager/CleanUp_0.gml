@@ -1,0 +1,2 @@
+ds_AbilityInputState_Destroy(ds_AbilityInputState_left)
+ds_AbilityInputState_Destroy(ds_AbilityInputState_right)

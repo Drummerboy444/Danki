@@ -1,9 +1,18 @@
 if (instance_exists(oPlayer)) {
 	if (InputManager_CHECK_DOWN(Enum_PlayerActions.LEFT_ABILITY)){
-		//OneShotService_Cast(oPlayer.id_oneShotService, Enum_Abilities.YELLOW_CIRCLE, mouse_x, mouse_y);
-		AbilityTreeManager_CastLeft(mouse_x, mouse_y, Enum_Direction.LEFT);
+		AbilityTreeManager_Cast_(mouse_x, mouse_y, Enum_Direction.LEFT);
 	}
 	if (InputManager_CHECK_DOWN(Enum_PlayerActions.RIGHT_ABILITY)){
-		ChannelService_Channel(oPlayer.id_channelService, Enum_Abilities.BLUE_BEAM, mouse_x, mouse_y);
+		AbilityTreeManager_Cast_(mouse_x, mouse_y, Enum_Direction.RIGHT);
 	}
 }
+
+
+//if (instance_exists(oPlayer)) {
+//	AbilityTreeManager_Cast(
+//		mouse_x,
+//		mouse_y,
+//		InputManager_CHECK_DOWN(Enum_PlayerActions.LEFT_ABILITY),
+//		InputManager_CHECK_DOWN(Enum_PlayerActions.RIGHT_ABILITY)
+//	)
+//}

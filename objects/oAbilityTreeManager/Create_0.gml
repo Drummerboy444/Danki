@@ -1,16 +1,29 @@
 event_inherited();
 Pauseable_Setup();
 
-enum Enum_InputState {
-	LEFT,
-	RIGHT,
-	NONE
-}
+//enum Enum_InputState {
+//	LEFT,
+//	RIGHT,
+//	NONE
+//}
 
-enum_inputStateThisFrame = Enum_InputState.NONE;
-enum_inputStateLastFrame = Enum_InputState.NONE;
+//enum_inputStateThisFrame = Enum_InputState.NONE;
+//enum_inputStateLastFrame = Enum_InputState.NONE;
 
-bool_inputWasSuccessful = false;
+//enum_latestSuccessfulDirection = undefined;
+
+//bool_inputWasSuccessful = false;
+
+bool_leftPressedThisFrame = false;
+bool_leftPressedLastFrame = false;
+bool_rightPressedThisFrame = false;
+bool_rightPressedLastFrame = false;
+
+ds_AbilityInputState_left = ds_AbilityInputState_New();
+ds_AbilityInputState_right = ds_AbilityInputState_New();
+
+enum_activePressDirection = undefined;
+ds_AbilityInputState_active = undefined;
 
 var _map_leftLeftChild = ds_map_create();
 ds_map_add(_map_leftLeftChild, "ability", Enum_Abilities.BLUE_BEAM);
