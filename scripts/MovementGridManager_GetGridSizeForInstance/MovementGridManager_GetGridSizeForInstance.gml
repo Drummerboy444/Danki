@@ -4,7 +4,9 @@
 /// @returns {mp_grid} The grid.
 var _id_instance = argument[0];
 
-var _num_size = min(_id_instance.sprite_width, _id_instance.sprite_height);
+with (_id_instance) {
+	var _num_size = min(bbox_right + 1 - bbox_left, bbox_bottom + 1 - bbox_top);
+}
 
 with(oMovementGridManager) {
 	var _num_bestMaxSize = 1000000;
