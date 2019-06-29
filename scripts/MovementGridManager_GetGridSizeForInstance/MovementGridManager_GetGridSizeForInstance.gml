@@ -5,7 +5,7 @@
 var _id_instance = argument[0];
 
 with (_id_instance) {
-	var _num_size = min(bbox_right + 1 - bbox_left, bbox_bottom + 1 - bbox_top);
+	var _num_size = max(bbox_right + 1 - bbox_left, bbox_bottom + 1 - bbox_top);
 }
 
 with(oMovementGridManager) {

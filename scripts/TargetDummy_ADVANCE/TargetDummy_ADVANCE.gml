@@ -1,1 +1,1 @@
-MovementManager_QueueMovement(MovementData_New(id_target.x, id_target.y, id, Enum_MovementType.DYNAMIC));
+MovementManager_QueueMovement(MovementData_New(id_target.x, id_target.y, id, Enum_MovementType.DYNAMIC, id_target));
