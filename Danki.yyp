@@ -2175,6 +2175,14 @@
             }
         },
         {
+            "Key": "83adc684-25cd-4a69-bddb-604b4aee7fda",
+            "Value": {
+                "id": "cb276aff-bbb3-41fe-b068-aca126a46a15",
+                "resourcePath": "scripts\\ds_Inventory_Destroy\\ds_Inventory_Destroy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "83d0e630-3592-4a46-914f-a58bd3023f7e",
             "Value": {
                 "id": "a330606f-18da-4aa8-bb03-5754c2006e3d",
@@ -2772,6 +2780,14 @@
                 "id": "c8f5949f-0ec5-4dfe-8490-0b658a40787a",
                 "resourcePath": "objects\\oEntity\\oEntity.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b070d4de-6537-487f-980b-bc189d5558f7",
+            "Value": {
+                "id": "01556f3f-7cff-403c-9bd0-996d918da53a",
+                "resourcePath": "scripts\\ds_Inventory_InstanceOf\\ds_Inventory_InstanceOf.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -4231,6 +4247,8 @@
         "7acc1b77-e8f1-47aa-a946-98d6dd1627f7",
         "479c35a3-239a-4903-aa86-21699da4b91e",
         "305ee20c-2763-449a-8e20-c872cca4b931",
+        "b070d4de-6537-487f-980b-bc189d5558f7",
+        "83adc684-25cd-4a69-bddb-604b4aee7fda",
         "edcc39d7-187f-4d20-a8df-3aaae36dca23",
         "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
