@@ -1023,6 +1023,14 @@
             }
         },
         {
+            "Key": "3b586e9e-8f2e-4a49-b059-7c788e813573",
+            "Value": {
+                "id": "6decf758-d9f7-4def-b662-c01754af3e00",
+                "resourcePath": "scripts\\ds_Inventory_SetWearable\\ds_Inventory_SetWearable.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3b63738d-1dcf-4e2c-a510-f8aaf110ccb7",
             "Value": {
                 "id": "1cba85b8-ec9a-40ea-a6f5-fe1be9bfb1b4",
@@ -3311,6 +3319,14 @@
             }
         },
         {
+            "Key": "cefd2ffe-eb9e-4f70-9108-d010b67a22db",
+            "Value": {
+                "id": "cf61084d-84e6-4ab6-a9a7-cd81f18b7fd7",
+                "resourcePath": "views\\cefd2ffe-eb9e-4f70-9108-d010b67a22db.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cf08d9cb-ddf4-41ff-b113-c3c6c20751f0",
             "Value": {
                 "id": "e9e170ca-1f9c-49e1-8fb1-603fee419148",
@@ -4275,6 +4291,7 @@
         "83adc684-25cd-4a69-bddb-604b4aee7fda",
         "a76f0565-5d42-4ba0-be71-0abe1a4854b3",
         "58c4d064-dd4b-4ed3-8723-dadbb1097e71",
+        "3b586e9e-8f2e-4a49-b059-7c788e813573",
         "edcc39d7-187f-4d20-a8df-3aaae36dca23",
         "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
