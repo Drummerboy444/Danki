@@ -1,4 +1,4 @@
-/// @function ds_Inventory_New() Creates a new ds inventory.
+/// @function ds_Inventory_New() Creates a new ds inventory. All wearables are set to noone and the relics list is empty.
 /// @returns {ds_Inventory} The new ds_Inventory.
 
 

@@ -1159,6 +1159,14 @@
             }
         },
         {
+            "Key": "43282205-5dcf-4671-af43-f8403e8906d0",
+            "Value": {
+                "id": "545fa623-4605-417b-8114-31063f681354",
+                "resourcePath": "views\\43282205-5dcf-4671-af43-f8403e8906d0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "433c826c-4ddd-4edd-9861-57404b3263a3",
             "Value": {
                 "id": "d1477555-1806-4a7d-bab7-d0144c27e8d4",
@@ -1444,6 +1452,14 @@
                 "id": "a8edcdbd-43d5-4d88-9fef-164f39c74179",
                 "resourcePath": "views\\57b2b6bd-f479-4c03-80d0-6bcc73a195e5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "58c4d064-dd4b-4ed3-8723-dadbb1097e71",
+            "Value": {
+                "id": "00cb8755-28c7-4205-819f-e4fe818de54e",
+                "resourcePath": "scripts\\ds_Inventory_GetRelics\\ds_Inventory_GetRelics.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2691,6 +2707,14 @@
             "Value": {
                 "id": "24f46787-6469-4d59-9263-546b878cf131",
                 "resourcePath": "scripts\\TargetDummy_FIND_TARGET\\TargetDummy_FIND_TARGET.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a76f0565-5d42-4ba0-be71-0abe1a4854b3",
+            "Value": {
+                "id": "c2656090-7ead-414f-83d7-112c7db91a33",
+                "resourcePath": "scripts\\ds_Inventory_GetWearable\\ds_Inventory_GetWearable.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -4249,6 +4273,8 @@
         "305ee20c-2763-449a-8e20-c872cca4b931",
         "b070d4de-6537-487f-980b-bc189d5558f7",
         "83adc684-25cd-4a69-bddb-604b4aee7fda",
+        "a76f0565-5d42-4ba0-be71-0abe1a4854b3",
+        "58c4d064-dd4b-4ed3-8723-dadbb1097e71",
         "edcc39d7-187f-4d20-a8df-3aaae36dca23",
         "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
