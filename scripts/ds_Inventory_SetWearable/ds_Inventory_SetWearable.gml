@@ -12,4 +12,5 @@ if (!ds_Inventory_InstanceOf(_ds_Inventory_inv)) {
 	ErrorHandler_FatalError("Attempted to set wearable in non-ds_Inventory object");
 }
 
-_ds_Inventory_inv[? _enum_wearable] = _id_wearable;
+var _map_wearables = _ds_Inventory_inv[? DS_INVENTORY_WEARABLES];
+_map_wearables[? _enum_wearable] = _id_wearable;
