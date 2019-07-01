@@ -1,14 +1,14 @@
 {
-    "id": "43282205-5dcf-4671-af43-f8403e8906d0",
+    "id": "64d6b478-90c9-4316-bfce-3edd6e39bf4f",
     "modelName": "GMFolder",
     "mvc": "1.1",
-    "name": "43282205-5dcf-4671-af43-f8403e8906d0",
+    "name": "64d6b478-90c9-4316-bfce-3edd6e39bf4f",
     "children": [
         "a76f0565-5d42-4ba0-be71-0abe1a4854b3",
-        "58c4d064-dd4b-4ed3-8723-dadbb1097e71"
+        "3b586e9e-8f2e-4a49-b059-7c788e813573"
     ],
     "filterType": "GMScript",
-    "folderName": "Getters",
+    "folderName": "Wearables",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
