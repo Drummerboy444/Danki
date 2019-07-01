@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "02b7c325-bee6-4934-bb73-cdc9a6ff4b2a",
+            "Value": {
+                "id": "c8ee137d-e449-4ca1-b5be-88ef6927e917",
+                "resourcePath": "scripts\\ds_Inventory_HasRelic\\ds_Inventory_HasRelic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "032af51d-b595-4e7e-b570-30078c4d964c",
             "Value": {
                 "id": "70a5db0d-8fc1-40e6-8da5-b5633b6cd3f8",
@@ -807,6 +815,14 @@
             }
         },
         {
+            "Key": "305ee20c-2763-449a-8e20-c872cca4b931",
+            "Value": {
+                "id": "1855831d-bd92-4aa0-b07a-f95688d1b4d6",
+                "resourcePath": "scripts\\ds_Inventory_New\\ds_Inventory_New.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3063df91-d5ae-427d-a56f-0ff0435078c9",
             "Value": {
                 "id": "0361e3b9-4406-455c-a8ef-541d02151128",
@@ -1015,6 +1031,14 @@
             }
         },
         {
+            "Key": "3b586e9e-8f2e-4a49-b059-7c788e813573",
+            "Value": {
+                "id": "6decf758-d9f7-4def-b662-c01754af3e00",
+                "resourcePath": "scripts\\ds_Inventory_SetWearable\\ds_Inventory_SetWearable.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3b63738d-1dcf-4e2c-a510-f8aaf110ccb7",
             "Value": {
                 "id": "1cba85b8-ec9a-40ea-a6f5-fe1be9bfb1b4",
@@ -1028,6 +1052,14 @@
                 "id": "97c0990a-1854-40ef-8134-7f870e7adad1",
                 "resourcePath": "scripts\\ds_AbilityCasterSnapshot_Destroy\\ds_AbilityCasterSnapshot_Destroy.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3bfebb60-a78d-4ec1-b758-9013d6defa69",
+            "Value": {
+                "id": "1b4d530a-0c7a-4532-9211-23fbe40e8b97",
+                "resourcePath": "views\\3bfebb60-a78d-4ec1-b758-9013d6defa69.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1359,6 +1391,14 @@
             }
         },
         {
+            "Key": "5268e10d-49ee-4081-9f18-c78aa13c1edb",
+            "Value": {
+                "id": "10233eba-7d2f-4c94-8c65-73784ef31a21",
+                "resourcePath": "views\\5268e10d-49ee-4081-9f18-c78aa13c1edb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "52b22b3b-f95d-4762-b6fd-bd2080586fce",
             "Value": {
                 "id": "0495d870-b344-42f3-ba7e-ab2525a789f4",
@@ -1428,6 +1468,14 @@
                 "id": "a8edcdbd-43d5-4d88-9fef-164f39c74179",
                 "resourcePath": "views\\57b2b6bd-f479-4c03-80d0-6bcc73a195e5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "58c4d064-dd4b-4ed3-8723-dadbb1097e71",
+            "Value": {
+                "id": "00cb8755-28c7-4205-819f-e4fe818de54e",
+                "resourcePath": "scripts\\ds_Inventory_GetRelics\\ds_Inventory_GetRelics.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1663,6 +1711,14 @@
             }
         },
         {
+            "Key": "64d6b478-90c9-4316-bfce-3edd6e39bf4f",
+            "Value": {
+                "id": "50ad2a8c-bbfa-44a7-a344-961b7ed4bb8e",
+                "resourcePath": "views\\64d6b478-90c9-4316-bfce-3edd6e39bf4f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "66b4f7eb-be06-4e83-b9c6-c651472ec7b6",
             "Value": {
                 "id": "6fd9e759-d948-4b2c-8d43-cb107344f160",
@@ -1788,6 +1844,14 @@
                 "id": "fa61381d-973c-4b95-8c0a-4235a98e93c2",
                 "resourcePath": "scripts\\Utility_DistanceBetweenObjectCentres\\Utility_DistanceBetweenObjectCentres.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7100780e-b4c9-4ab7-913b-abaccb1dc255",
+            "Value": {
+                "id": "66573221-6ff8-43a6-bdcc-8bc31552ee05",
+                "resourcePath": "views\\7100780e-b4c9-4ab7-913b-abaccb1dc255.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2047,6 +2111,14 @@
             }
         },
         {
+            "Key": "7ed7582e-1696-422a-9613-a61b11c727c3",
+            "Value": {
+                "id": "bffba3ab-d3a6-4682-b2f4-f59c58028e24",
+                "resourcePath": "scripts\\MACROS_ds_Inventory\\MACROS_ds_Inventory.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7ed8b9ea-6716-4370-968d-708a0d022ced",
             "Value": {
                 "id": "a66c77fd-6124-4dcf-961e-21ebd518b4b8",
@@ -2139,6 +2211,14 @@
             "Value": {
                 "id": "7b1f8e4a-d6c1-466e-9412-d273fb92bb0f",
                 "resourcePath": "scripts\\AbilityTree_GetLeftAbility\\AbilityTree_GetLeftAbility.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "83adc684-25cd-4a69-bddb-604b4aee7fda",
+            "Value": {
+                "id": "cb276aff-bbb3-41fe-b068-aca126a46a15",
+                "resourcePath": "scripts\\ds_Inventory_Destroy\\ds_Inventory_Destroy.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2543,19 +2623,19 @@
             }
         },
         {
-            "Key": "a11ccecc-647a-4c57-8423-8e8437f7e16e",
-            "Value": {
-                "id": "d1503549-88e6-4d89-808d-4f89a2c03aef",
-                "resourcePath": "scripts\\MACROS_oWhirlwind\\MACROS_oWhirlwind.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "a00ca759-6639-4130-a583-a712ba90326e",
             "Value": {
                 "id": "d8e3d80d-35a0-4c75-862a-0f50b8684a84",
                 "resourcePath": "views\\a00ca759-6639-4130-a583-a712ba90326e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a11ccecc-647a-4c57-8423-8e8437f7e16e",
+            "Value": {
+                "id": "d1503549-88e6-4d89-808d-4f89a2c03aef",
+                "resourcePath": "scripts\\MACROS_oWhirlwind\\MACROS_oWhirlwind.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2623,6 +2703,14 @@
             }
         },
         {
+            "Key": "a4d3fe9d-b5bb-4b0a-84fd-33eb490b2247",
+            "Value": {
+                "id": "6d6746a7-5f10-45c7-a3c3-2abbfa3589ce",
+                "resourcePath": "scripts\\ds_Inventory_AddRelic\\ds_Inventory_AddRelic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a5b3e778-ba20-47d9-b145-5ab21b589405",
             "Value": {
                 "id": "a1293167-dc77-46e7-bdf5-24ee6dbb9ea9",
@@ -2651,6 +2739,14 @@
             "Value": {
                 "id": "24f46787-6469-4d59-9263-546b878cf131",
                 "resourcePath": "scripts\\TargetDummy_FIND_TARGET\\TargetDummy_FIND_TARGET.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a76f0565-5d42-4ba0-be71-0abe1a4854b3",
+            "Value": {
+                "id": "c2656090-7ead-414f-83d7-112c7db91a33",
+                "resourcePath": "scripts\\ds_Inventory_GetWearable\\ds_Inventory_GetWearable.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2740,6 +2836,14 @@
                 "id": "c8f5949f-0ec5-4dfe-8490-0b658a40787a",
                 "resourcePath": "objects\\oEntity\\oEntity.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b070d4de-6537-487f-980b-bc189d5558f7",
+            "Value": {
+                "id": "01556f3f-7cff-403c-9bd0-996d918da53a",
+                "resourcePath": "scripts\\ds_Inventory_InstanceOf\\ds_Inventory_InstanceOf.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -3431,6 +3535,14 @@
             }
         },
         {
+            "Key": "dab0ec5a-4ee1-476e-873d-f26837f4756e",
+            "Value": {
+                "id": "95b77334-1328-4a8f-a074-2ae1e1596794",
+                "resourcePath": "scripts\\ds_Inventory_RemoveRelic\\ds_Inventory_RemoveRelic.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dbaa3d0c-6260-4392-87d8-6f91e095f415",
             "Value": {
                 "id": "71a2036a-aa35-4ce5-9d09-a38f45cf5ea4",
@@ -3591,6 +3703,14 @@
             }
         },
         {
+            "Key": "ebd0a0e7-3eae-4603-8e81-e2f9bf763f1e",
+            "Value": {
+                "id": "dee5e767-dd62-4163-adba-bee052f28e68",
+                "resourcePath": "views\\ebd0a0e7-3eae-4603-8e81-e2f9bf763f1e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ec99578b-0565-430c-8761-c8f237f3cfe0",
             "Value": {
                 "id": "ccc0e47f-e99b-40cb-b53b-4bbfa0258c70",
@@ -3635,6 +3755,14 @@
             "Value": {
                 "id": "12c4c9e2-a273-4286-9291-f16996f22d3a",
                 "resourcePath": "scripts\\BlueBeam_CancelChannel\\BlueBeam_CancelChannel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "edcc39d7-187f-4d20-a8df-3aaae36dca23",
+            "Value": {
+                "id": "078e62b8-5a73-4a4d-92fa-621a235538f9",
+                "resourcePath": "scripts\\ds_Inventory_WEARABLES_ENUM\\ds_Inventory_WEARABLES_ENUM.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -4182,20 +4310,31 @@
         "89b4f26b-3b7d-4197-9757-2ec685e1253d",
         "7acc1b77-e8f1-47aa-a946-98d6dd1627f7",
         "479c35a3-239a-4903-aa86-21699da4b91e",
+        "305ee20c-2763-449a-8e20-c872cca4b931",
+        "b070d4de-6537-487f-980b-bc189d5558f7",
+        "83adc684-25cd-4a69-bddb-604b4aee7fda",
+        "a76f0565-5d42-4ba0-be71-0abe1a4854b3",
+        "3b586e9e-8f2e-4a49-b059-7c788e813573",
+        "58c4d064-dd4b-4ed3-8723-dadbb1097e71",
+        "a4d3fe9d-b5bb-4b0a-84fd-33eb490b2247",
+        "02b7c325-bee6-4934-bb73-cdc9a6ff4b2a",
+        "dab0ec5a-4ee1-476e-873d-f26837f4756e",
+        "edcc39d7-187f-4d20-a8df-3aaae36dca23",
         "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
-        "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d",
         "3b33ada8-925d-4f0e-953b-a9d603d8798f",
         "27e24ea1-60d5-41f0-a64c-451b3a958ce4",
+        "ef8397c3-cf94-4c6a-8b24-a10e16f91b85",
+        "9869f945-b443-4700-ba7d-bed8ec595e92",
+        "74c4e02b-1a78-40a2-bdf5-a7ee26b6b38a",
+        "a11ccecc-647a-4c57-8423-8e8437f7e16e",
+        "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d",
         "07007818-2477-47cf-b7af-948bc9ca0612",
         "aa8d87d3-e861-4ec9-9bc6-0cc12d7fb9e6",
         "6e0ace6e-ee88-4ca4-8cc7-7ca72747b626",
         "c139db16-7860-415d-b873-0500eef53c5f",
         "cf1a2205-e5d2-4ebb-9c2b-cba08c02468f",
-        "ef8397c3-cf94-4c6a-8b24-a10e16f91b85",
-        "9869f945-b443-4700-ba7d-bed8ec595e92",
-        "74c4e02b-1a78-40a2-bdf5-a7ee26b6b38a",
-        "a11ccecc-647a-4c57-8423-8e8437f7e16e"
+        "7ed7582e-1696-422a-9613-a61b11c727c3"
     ],
     "tutorial": ""
 }

@@ -6,15 +6,10 @@
     "children": [
         "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
-        "121b1eef-76cc-407f-b7ef-fe3ac17e4d9d",
         "3b33ada8-925d-4f0e-953b-a9d603d8798f",
         "27e24ea1-60d5-41f0-a64c-451b3a958ce4",
-        "07007818-2477-47cf-b7af-948bc9ca0612",
-        "aa8d87d3-e861-4ec9-9bc6-0cc12d7fb9e6",
-        "6e0ace6e-ee88-4ca4-8cc7-7ca72747b626",
-        "c139db16-7860-415d-b873-0500eef53c5f",
-        "cf1a2205-e5d2-4ebb-9c2b-cba08c02468f",
-        "2ee5983e-d57a-4255-90ed-fbf23a52d452"
+        "2ee5983e-d57a-4255-90ed-fbf23a52d452",
+        "3bfebb60-a78d-4ec1-b758-9013d6defa69"
     ],
     "filterType": "GMScript",
     "folderName": "MACROS",
