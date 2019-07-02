@@ -7,7 +7,8 @@
         "a91f3810-94c7-48ca-a888-6454743907d3",
         "fafc423f-576f-4462-8bd5-5075bc19329b",
         "1e6697f5-121e-435b-955b-af5240632eb6",
-        "81c8fc1d-5afd-4a57-87a5-d8b71e210e4d"
+        "81c8fc1d-5afd-4a57-87a5-d8b71e210e4d",
+        "accfe798-45b2-4834-a733-9d811b190f7c"
     ],
     "filterType": "GMObject",
     "folderName": "One Shot",

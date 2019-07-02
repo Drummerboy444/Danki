@@ -1759,6 +1759,14 @@
             }
         },
         {
+            "Key": "6908ed41-7952-4ff2-92b1-266eb0287414",
+            "Value": {
+                "id": "66cd55f4-7eb7-45bc-880d-159771fff6b6",
+                "resourcePath": "sprites\\sTwinStrike\\sTwinStrike.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "69e2bad1-faaa-4b8e-a0ac-5575e8852093",
             "Value": {
                 "id": "323e8a9f-30e9-4450-829a-5b40f991ec89",
@@ -2807,6 +2815,14 @@
             }
         },
         {
+            "Key": "accfe798-45b2-4834-a733-9d811b190f7c",
+            "Value": {
+                "id": "fe6952b1-801b-470b-96ca-82b8a57ea627",
+                "resourcePath": "views\\accfe798-45b2-4834-a733-9d811b190f7c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "acf08f7e-87da-4e89-b3f5-3375e23b6ef2",
             "Value": {
                 "id": "0f9f8825-c1a7-42d0-9a11-d50461323900",
@@ -2828,6 +2844,14 @@
                 "id": "26b888a4-825f-47aa-9e0e-ef7c4b238b3f",
                 "resourcePath": "views\\aee26416-281a-44ed-a79e-8d74d5424ad5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "aee91d92-ae3d-44f6-88b3-e6e993c7f897",
+            "Value": {
+                "id": "19fb7ccd-9a73-4ce4-b016-d5d5a41e6c07",
+                "resourcePath": "objects\\oTwinStrike\\oTwinStrike.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3819,6 +3843,14 @@
             "Value": {
                 "id": "4b108eeb-6bee-4487-9d80-d7e934a71ee1",
                 "resourcePath": "views\\f0c63cac-79e8-474c-82b3-4ec0484f5012.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f0eee464-ded9-4545-b320-2ba4d7346a38",
+            "Value": {
+                "id": "daf53831-9fae-44fc-abbd-6e0a0b9dc0ca",
+                "resourcePath": "views\\f0eee464-ded9-4545-b320-2ba4d7346a38.yy",
                 "resourceType": "GMFolder"
             }
         },
