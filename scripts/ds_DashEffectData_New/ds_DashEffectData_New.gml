@@ -13,7 +13,7 @@ var _num_slowMultiplier = argument[3];
 var _num_slowSteps = argument[4];
 
 
-var _ds_DashEffectData_new = ds_EffectData_NEW(Enum_Effects.DASH, _num_steps, _id_caster, noone);
+var _ds_DashEffectData_new = ds_EffectData_NEW(Enum_Effects.DASH, _num_steps, _id_caster);
 _ds_DashEffectData_new[? DS_DASH_EFFECT_DATA_DASH_MULTIPLIER] = _num_dashMultiplier;
 _ds_DashEffectData_new[? DS_DASH_EFFECT_DATA_SLOW_MULTIPLIER] = _num_slowMultiplier;
 _ds_DashEffectData_new[? DS_DASH_EFFECT_DATA_SLOW_STEPS] = _num_slowSteps;

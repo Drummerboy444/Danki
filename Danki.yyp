@@ -1535,14 +1535,6 @@
             }
         },
         {
-            "Key": "5ecaffca-1f69-4779-8cf3-7fd8d83e65ce",
-            "Value": {
-                "id": "3cb6839c-312f-49a4-afe2-189cdb5b8406",
-                "resourcePath": "scripts\\Shader_PickShader\\Shader_PickShader.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "5ef957b2-58c9-445b-83e4-4a838e88962f",
             "Value": {
                 "id": "ba0859ed-ae4b-46e6-b8ba-454db4185efd",
@@ -3071,14 +3063,6 @@
             }
         },
         {
-            "Key": "c827e0dc-6a3b-49a9-ae4a-e061d2025e33",
-            "Value": {
-                "id": "6e2fc909-0142-494f-983a-c8802b12e68b",
-                "resourcePath": "views\\c827e0dc-6a3b-49a9-ae4a-e061d2025e33.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "c82e27ed-eaef-4455-97aa-4c4bb01ea678",
             "Value": {
                 "id": "0e4ccce2-f16c-453d-b251-916159ea4b33",
@@ -3227,6 +3211,14 @@
             "Value": {
                 "id": "0a40cd4b-c768-4ceb-839f-9baa8a455e75",
                 "resourcePath": "scripts\\ds_Stats_Get\\ds_Stats_Get.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d0b1a5ed-9e0e-49f0-987c-870120912b21",
+            "Value": {
+                "id": "58a02ee1-4553-404f-b3c2-2be1ea71e0d2",
+                "resourcePath": "scripts\\AbilityCaster_PICK_SHADER\\AbilityCaster_PICK_SHADER.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3944,6 +3936,7 @@
         "e4df80b4-2d8f-456e-9db6-010a9d54671a",
         "be7f9b78-4966-4cf3-a7b3-f700c5373d02",
         "88a2c98e-42c5-4b23-8461-e0ef383a7e58",
+        "d0b1a5ed-9e0e-49f0-987c-870120912b21",
         "31e5af31-f0e8-410f-8dd9-1606fb179c65",
         "89d392c5-25a1-456a-ba54-c00528827f41",
         "5b7705ab-80e1-458e-885d-eb47170b641a",
@@ -4007,7 +4000,6 @@
         "18156f3d-ac02-4cb0-80bc-33ad56613b55",
         "3a63c0e5-6d85-48cd-8a61-8834697e92f9",
         "032af51d-b595-4e7e-b570-30078c4d964c",
-        "5ecaffca-1f69-4779-8cf3-7fd8d83e65ce",
         "b861f221-6b40-4ea4-b9f1-6a971f39c1d1",
         "1f8d5427-6fd2-4e52-917a-c414756b3ca7",
         "39d18eca-980e-4b40-8643-84f141303315",

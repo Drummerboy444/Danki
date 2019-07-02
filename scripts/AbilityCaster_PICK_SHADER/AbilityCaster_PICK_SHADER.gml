@@ -1,10 +1,10 @@
 /// @function Shader_PickShader() Goes through the calling oAbilityCaster's active effects to pick
 ///		a shader to apply.
+/// @returns {boolean} Whether or not a shader was applied.
 
 //Normal draw if we have no effects active.
 if (ds_list_empty(list_ds_EffectContext_activeEffects)) {
-	draw_self();
-	return;
+	return false;
 }
 
 for (var i = 0; i < ds_list_size(list_ds_EffectContext_activeEffects); i++) {
@@ -14,8 +14,6 @@ for (var i = 0; i < ds_list_size(list_ds_EffectContext_activeEffects); i++) {
 	
 	if (_shd_shader != noone) {
 		shader_set(_shd_shader);
+		return true;
 	}
-	
-	draw_self();
-	shader_reset();
 }

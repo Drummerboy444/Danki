@@ -6,4 +6,4 @@ var _num_steps = argument[0];
 var _id_caster = argument[1];
 
 
-return ds_EffectData_NEW(Enum_Effects.STUN, _num_steps, _id_caster, noone);
+return ds_EffectData_NEW(Enum_Effects.STUN, _num_steps, _id_caster);

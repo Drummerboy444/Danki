@@ -5,10 +5,11 @@ for (var i = 0; i < ds_DepthGrid_GetHeight(ds_DepthGrid_depthGrid); i++) {
 		if (sprite_index > -1) {
 			//Only apply combat shaders to oAbilityCasters
 			if (object_is_ancestor(object_index, oAbilityCaster)){
-				script_execute(Shader_PickShader());	
-			} else {
-				draw_self();
-			}
+				AbilityCaster_PICK_SHADER();	
+			} 
+			
+			draw_self();
+			shader_reset();
 		}
 	}
 }
