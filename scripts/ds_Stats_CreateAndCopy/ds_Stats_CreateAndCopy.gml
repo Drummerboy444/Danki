@@ -1,6 +1,6 @@
 /// @function ds_Stats_CreateAndCopy(ds_Stats_toCopy) Returns a copy of the given ds_Stats.
 /// @param {ds_Stats} ds_Stats_toCopy The stats to copy.
-/// @returns {ds_Stats} The newly create copy.
+/// @returns {ds_Stats} The newly created copy.
 var _ds_Stats_toCopy = argument[0];
 
 
