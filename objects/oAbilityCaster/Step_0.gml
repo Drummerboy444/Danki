@@ -6,7 +6,7 @@ for(var i = 0; i < Enum_Actions.length; i++){
 }
 
 
-// Handle Stun
+// Handle Stun and dash
 if (AbilityCaster_CheckInstanceHasEffect(id, Enum_Effects.STUN)) {
 	MovementManager_ClearMovement(id);
 } else if (AbilityCaster_CheckInstanceHasEffect(id, Enum_Effects.DASH)) {
