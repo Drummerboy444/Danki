@@ -2706,7 +2706,7 @@
             "Key": "a40bb98d-d017-435a-84cb-6e0f6dd2d446",
             "Value": {
                 "id": "6a001356-75fe-496a-b882-8c5f27f3cc29",
-                "resourcePath": "scripts\\AbilityCaster_GetEffectByType\\AbilityCaster_GetEffectByType.yy",
+                "resourcePath": "scripts\\AbilityCaster_GetEffectsByType\\AbilityCaster_GetEffectsByType.yy",
                 "resourceType": "GMScript"
             }
         },

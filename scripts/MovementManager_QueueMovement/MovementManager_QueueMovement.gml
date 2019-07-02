@@ -23,7 +23,9 @@ for (var i = 0; i < _num_bufferSize; i++) {
 
 // Handle Dash
 if (AbilityCaster_CheckInstanceHasEffect(_id_instanceToMove, Enum_Effects.DASH)) {
-	var _ds_DashEffectData_data = AbilityCaster_GetEffectByType(_id_instanceToMove, Enum_Effects.DASH);
+	var _list_ds_DashEffectData_data = AbilityCaster_GetEffectsByType(_id_instanceToMove, Enum_Effects.DASH);
+	var _ds_DashEffectData_data = _list_ds_DashEffectData_data[| 0];
+	ds_list_destroy(_list_ds_DashEffectData_data);
 	if (!ds_DashEffectData_IsRecovering(_ds_DashEffectData_data)) {
 		var _num_angle = ds_DashEffectData_GetAngle(_ds_DashEffectData_data);
 		var _num_speed = ds_Stats_Get(_id_instanceToMove.ds_Stats_frameStats, Enum_Stats.SPEED);
