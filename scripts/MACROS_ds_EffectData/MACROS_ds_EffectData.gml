@@ -1,7 +1,6 @@
 #macro DS_EFFECT_DATA_EFFECT "effect"
 #macro DS_EFFECT_DATA_STEPS "steps"
 #macro DS_EFFECT_DATA_CASTER "caster"
-#macro DS_EFFECT_DATA_SHADER "shader"
 
 // Dash effect data
 #macro DS_DASH_EFFECT_DATA_DASH_MULTIPLIER "dashMultiplier"
