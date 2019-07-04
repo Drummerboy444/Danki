@@ -14,7 +14,7 @@ var _arr_enum_effects = argument[4];
 
 
 if (!object_is_ancestor(_obj_relic, oRelic)) {
-	ErrorHandler_FatalError("Attempted to instantiate object that wasn't a relic, object was " + object_get_name(_obj_relic));
+	ErrorHandler_FatalError("Attempted to instantiate object that doesn't inherit from oRelic, object was " + object_get_name(_obj_relic));
 }
 
 var _id_relic = Item_INSTANTIATE(

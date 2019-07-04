@@ -16,7 +16,7 @@ var _arr_enum_effects = argument[5];
 
 
 if (!object_is_ancestor(_obj_item, oItem)) {
-	ErrorHandler_FatalError("Attempted to instantiate object that was not an item, object was " + object_get_name(_obj_item));
+	ErrorHandler_FatalError("Attempted to instantiate object that doesn't inherit from oItem, object was " + object_get_name(_obj_item));
 }
 
 var _id_item = Utility_InstantiateAtOrigin(_obj_item);

@@ -16,7 +16,7 @@ var _enum_wearable = argument[5];
 
 
 if (!object_is_ancestor(_obj_wearable, oWearable)) {
-	ErrorHandler_FatalError("Attempted to instantiate object that wasn't a wearable, object was " + object_get_name(_obj_wearable));
+	ErrorHandler_FatalError("Attempted to instantiate object that doesn't inherit from oWearable, object was " + object_get_name(_obj_wearable));
 }
 
 var _id_wearable = Item_INSTANTIATE(
