@@ -33,9 +33,3 @@ map_effectToBucket = ds_map_create();
 for (var i = 0; i < Enum_Effects.length; i++) {
 	map_effectToBucket[? i] = ds_list_create();
 }
-
-// Dash
-num_xDashMovement = 0;
-num_yDashMovement = 0;
-num_dashCooldownRemaining = 0;
-bool_dashing = false;

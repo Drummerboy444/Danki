@@ -24,12 +24,11 @@ with(_id_instanceToMove) {
 	}
 
 	var _mp_grid_instanceGrid = MovementGridManager_GetGridForInstance(id);
-
 	if(_id_targetInstance != noone) {
-		var _num_left = _id_targetInstance.bbox_left;
-		var _num_top = _id_targetInstance.bbox_top;
-		var _num_right = _id_targetInstance.bbox_right;
-		var _num_bottom = _id_targetInstance.bbox_bottom;
+		var _num_left = _id_targetInstance.x - MOVEMENT_GRID_MANAGER_GRID_WIDTH;
+		var _num_top = _id_targetInstance.y - MOVEMENT_GRID_MANAGER_GRID_HEIGHT;
+		var _num_right = _id_targetInstance.x + MOVEMENT_GRID_MANAGER_GRID_WIDTH;
+		var _num_bottom = _id_targetInstance.y + MOVEMENT_GRID_MANAGER_GRID_HEIGHT;
 		
 		mp_grid_clear_rectangle(
 			_mp_grid_instanceGrid,

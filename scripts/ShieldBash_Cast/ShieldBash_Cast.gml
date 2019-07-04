@@ -14,11 +14,12 @@ AbilityCaster_ApplyEffect(
 	_id_caster,
 	ds_EffectContext_New(
 		ds_DashEffectData_New(
-			SHIELDBASH_DASH_STEPS,
+			SHIELDBASH_DASH_STEPS + SHIELDBASH_DASH_SLOW_STEPS,
 			_id_caster,
 			SHIELDBASH_DASH_SPEED_MULTIPLIER,
 			SHIELDBASH_DASH_SLOW_MULTIPLIER,
-			SHIELDBASH_DASH_SLOW_STEPS
+			SHIELDBASH_DASH_SLOW_STEPS,
+			point_direction(_id_caster.x, _id_caster.y, _num_targetX, _num_targetY)
 		),
 		ds_AbilityCasterSnapshot_FromId(_id_caster)
 	)

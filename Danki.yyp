@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "22b71486-cd5b-4edb-a3a5-d13addfd5fbd",
+            "Value": {
+                "id": "37fdd54b-511c-417a-b636-743ccf79cc96",
+                "resourcePath": "scripts\\ds_DashEffectData_GetAngle\\ds_DashEffectData_GetAngle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "22c5c504-3f34-47dc-a414-ac54d2c809b0",
             "Value": {
                 "id": "44235a15-04dd-4f4d-9828-1ba5344503d2",
@@ -2007,6 +2015,14 @@
             }
         },
         {
+            "Key": "76325926-c783-4535-ab99-4882e181fb6f",
+            "Value": {
+                "id": "b24ee9f7-a6f2-41b2-8679-7ac12a6a496a",
+                "resourcePath": "scripts\\MovementManager_ClearMovement\\MovementManager_ClearMovement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "768687fd-0fc7-4a64-acf9-80c0704dbcfe",
             "Value": {
                 "id": "1a5f8afd-bf56-4d37-94af-0f440b680b92",
@@ -2639,6 +2655,14 @@
             }
         },
         {
+            "Key": "9ca3690c-b2f1-4584-bbe8-75e23e08e26a",
+            "Value": {
+                "id": "9c4254ff-6823-4c97-96a7-b4fcdd9df9ee",
+                "resourcePath": "scripts\\ds_DashEffectData_IsRecovering\\ds_DashEffectData_IsRecovering.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9cb549af-df89-483d-b68d-ecdb9d823b34",
             "Value": {
                 "id": "f97a91f1-1bc6-4920-b4de-1e838aebf957",
@@ -2748,6 +2772,14 @@
                 "id": "af6e55d5-4670-4446-bd23-a94d4b5e0031",
                 "resourcePath": "views\\a3ff8d4a-66e3-43d0-92af-011ee19ec8dd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a40bb98d-d017-435a-84cb-6e0f6dd2d446",
+            "Value": {
+                "id": "6a001356-75fe-496a-b882-8c5f27f3cc29",
+                "resourcePath": "scripts\\AbilityCaster_GetEffectsByType\\AbilityCaster_GetEffectsByType.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -4204,6 +4236,7 @@
         "4cce76fa-4bd5-4a03-b9aa-c3e1992901ea",
         "14a9eb96-3fc6-4144-a948-886067038447",
         "c9a87b71-7b03-468a-bf8d-df799ffd823f",
+        "a40bb98d-d017-435a-84cb-6e0f6dd2d446",
         "9788ed7d-90f8-4c7d-abe8-caae4cd62f35",
         "96d72d00-e496-4523-b5e3-47fda98fa6e6",
         "64332ebb-c9f9-4b16-a535-1624703a8032",
@@ -4254,6 +4287,7 @@
         "315eda47-a95b-4bd0-b530-58d721a22878",
         "14077e11-df97-4f4f-aab0-8b79eed5037b",
         "84756f76-1ea4-4bfc-abe9-2b64214fb665",
+        "76325926-c783-4535-ab99-4882e181fb6f",
         "711031ce-71c8-43ca-a428-4e24a51f239b",
         "e02f1891-1d02-4d12-b616-3073a6f187df",
         "4793315f-6596-4ec6-9535-cb6d2d0f3992",
@@ -4340,6 +4374,8 @@
         "2a15a7d7-c188-48fb-bc6b-11809428c50c",
         "470967ca-4024-4b49-8952-e25c40a50740",
         "748b54de-474c-47e7-840a-8581b8b22227",
+        "22b71486-cd5b-4edb-a3a5-d13addfd5fbd",
+        "9ca3690c-b2f1-4584-bbe8-75e23e08e26a",
         "9887333b-7622-4782-8f65-89d8361795fa",
         "081d7200-5fdf-4b35-baad-7d0986adccec",
         "5c10440b-65ec-435e-afc1-dfa58fb25b00",

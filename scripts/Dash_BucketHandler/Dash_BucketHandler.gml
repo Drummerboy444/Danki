@@ -18,19 +18,8 @@ var _num_slowMultiplier = ds_DashEffectData_GetSlowMultiplier(_ds_DashEffectData
 var _num_slowSteps = ds_DashEffectData_GetSlowSteps(_ds_DashEffectData_data);
 
 var _num_CurrentSpeed = ds_Stats_Get(_id_abilityCaster.ds_Stats_frameStats, Enum_Stats.SPEED);
-	
-ds_Stats_Set(_id_abilityCaster.ds_Stats_frameStats, Enum_Stats.SPEED, _num_CurrentSpeed * _num_dashMultiplier);
+var _num_steps = ds_EffectData_GetSteps(_ds_EffectData_data);
 
-if(ds_EffectData_IsOnLastStep(_ds_DashEffectData_data)){
-	AbilityCaster_ApplyEffect(
-		_id_abilityCaster,
-		ds_EffectContext_New(
-			ds_SlowEffectData_New(
-				_num_slowSteps,
-				_id_abilityCaster,
-				_num_slowMultiplier
-			),
-			ds_AbilityCasterSnapshot_FromId(_id_abilityCaster)
-		)
-	)
-}
+var _num_speedMultiplier = _num_steps > _num_slowSteps ? _num_dashMultiplier : _num_slowMultiplier;
+
+ds_Stats_Set(_id_abilityCaster.ds_Stats_frameStats, Enum_Stats.SPEED, _num_CurrentSpeed * _num_speedMultiplier);

@@ -19,7 +19,7 @@ var _num_terminusY = y - _num_movementMultiplier * _num_directionalX * 2 * _num_
 
 var _mp_grid_grid = MovementGridManager_GetGridForInstance(id);
 if (MovementManager_GetCellByPosition(_mp_grid_grid, _num_terminusX, _num_terminusY)) {
-	MovementManager_QueueMovement(MovementData_New(_num_terminusX, _num_terminusY, id, true));
+	MovementManager_QueueMovement(MovementData_New(_num_terminusX, _num_terminusY, id, Enum_MovementType.LINEAR_SLIDING));
 } else {
 	ds_ContextBag_Set(ds_ContextBag_bag, TargetDummy_EVADE, "bool_clockwise", !_bool_clockwise);
 }
