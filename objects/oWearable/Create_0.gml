@@ -1,3 +1,14 @@
 event_inherited();
 
-enum_wearable = undefined;
+enum Enum_WearableType {
+	HELMET,
+	SHOULDERS,
+	CHEST,
+	GREAVES,
+	BOOTS,
+	GAUNTLETS,
+	WEAPON,
+	length
+}
+
+enum_wearableType = undefined;

@@ -1,7 +1,7 @@
-/// @function ds_Inventory_GetWearable(ds_Inventory_inv, enum_wearable) Returns the wearable in the given
+/// @function ds_Inventory_GetWearable(ds_Inventory_inv, enum_wearableType) Returns the wearable in the given
 ///		inventory according to the enum.
 /// @param {ds_Inventory} ds_Inventory_inv The inventory to get to wearable from.
-/// @param {enum} enum_wearable The wearable to get from the inventory.
+/// @param {enum} enum_wearableType The wearable type to get from the inventory.
 /// @returns {id} The id of the wearble, this may be noone if no wearable is in that slot.
 var _ds_Inventory_inv = argument[0];
 var _enum_wearable = argument[1];

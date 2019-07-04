@@ -3959,14 +3959,6 @@
             }
         },
         {
-            "Key": "ebd0a0e7-3eae-4603-8e81-e2f9bf763f1e",
-            "Value": {
-                "id": "dee5e767-dd62-4163-adba-bee052f28e68",
-                "resourcePath": "views\\ebd0a0e7-3eae-4603-8e81-e2f9bf763f1e.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "ec99578b-0565-430c-8761-c8f237f3cfe0",
             "Value": {
                 "id": "ccc0e47f-e99b-40cb-b53b-4bbfa0258c70",
@@ -4011,14 +4003,6 @@
             "Value": {
                 "id": "12c4c9e2-a273-4286-9291-f16996f22d3a",
                 "resourcePath": "scripts\\BlueBeam_CancelChannel\\BlueBeam_CancelChannel.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "edcc39d7-187f-4d20-a8df-3aaae36dca23",
-            "Value": {
-                "id": "078e62b8-5a73-4a4d-92fa-621a235538f9",
-                "resourcePath": "scripts\\ds_Inventory_WEARABLES_ENUM\\ds_Inventory_WEARABLES_ENUM.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -4598,7 +4582,6 @@
         "a4d3fe9d-b5bb-4b0a-84fd-33eb490b2247",
         "02b7c325-bee6-4934-bb73-cdc9a6ff4b2a",
         "dab0ec5a-4ee1-476e-873d-f26837f4756e",
-        "edcc39d7-187f-4d20-a8df-3aaae36dca23",
         "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
         "3b33ada8-925d-4f0e-953b-a9d603d8798f",

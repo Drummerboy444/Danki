@@ -1,11 +1,11 @@
-/// @function Wearable_Instantiate(obj_wearable, str_name, enum_rarity, ds_Stats_stats, arr_enum_effects, enum_wearable)
+/// @function Wearable_Instantiate(obj_wearable, str_name, enum_rarity, ds_Stats_stats, arr_enum_effects, enum_wearableType)
 ///		Instantiates the given wearable and initialises it with the given values.
 /// @param {object} obj_wearable The object index of the wearable to instantiate.
 /// @param {string} str_name The name of the wearable.
 /// @param {enum} enum_rarity The rarity of the wearable.
 /// @param {ds_Stats} ds_Stats_stats The stats that the wearable gives. NOTE: This will be destroyed by the wearable.
 /// @param {array} arr_enum_effects The array of effects that the wearable gives.
-/// @param {enum} enum_wearable The type of the wearable.
+/// @param {enum} enum_wearableType The type of the wearable.
 /// @returns {id} The id of the newly created wearable.
 var _obj_wearable = argument[0];
 var _str_name = argument[1];
@@ -28,6 +28,6 @@ var _id_wearable = Item_INSTANTIATE(
 	_arr_enum_effects
 );
 
-_id_wearable.enum_wearable = _enum_wearable;
+_id_wearable.enum_wearableType = _enum_wearable;
 
 return _id_wearable;
