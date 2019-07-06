@@ -1,4 +1,4 @@
-enum Enum_Wearable {
+enum Enum_WearableSlot {
 	HELMET,
 	SHOULDERS,
 	CHEST,
