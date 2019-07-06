@@ -2215,6 +2215,14 @@
             }
         },
         {
+            "Key": "7d50ba14-d6cd-4d14-80b0-1ad84f4d9a92",
+            "Value": {
+                "id": "224c84e4-bb7e-445c-825b-d0230cf9a38c",
+                "resourcePath": "scripts\\ds_Inventory_WEARABLE_SLOT_ENUM\\ds_Inventory_WEARABLE_SLOT_ENUM.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7e4759a3-d185-4edc-892e-1fd278ca01b1",
             "Value": {
                 "id": "7863bad2-53db-4aff-aaa4-10f591213e69",
@@ -4063,6 +4071,14 @@
             }
         },
         {
+            "Key": "f0eaeae6-e800-4c1b-bea9-a51d0e2cc6c7",
+            "Value": {
+                "id": "084e1422-dcf8-4fcb-b0e1-6e1ab069bbab",
+                "resourcePath": "views\\f0eaeae6-e800-4c1b-bea9-a51d0e2cc6c7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f0eee464-ded9-4545-b320-2ba4d7346a38",
             "Value": {
                 "id": "daf53831-9fae-44fc-abbd-6e0a0b9dc0ca",
@@ -4582,6 +4598,7 @@
         "a4d3fe9d-b5bb-4b0a-84fd-33eb490b2247",
         "02b7c325-bee6-4934-bb73-cdc9a6ff4b2a",
         "dab0ec5a-4ee1-476e-873d-f26837f4756e",
+        "7d50ba14-d6cd-4d14-80b0-1ad84f4d9a92",
         "c58272b3-f14a-4616-a9a3-6f9fab1b416b",
         "7ed8b9ea-6716-4370-968d-708a0d022ced",
         "3b33ada8-925d-4f0e-953b-a9d603d8798f",

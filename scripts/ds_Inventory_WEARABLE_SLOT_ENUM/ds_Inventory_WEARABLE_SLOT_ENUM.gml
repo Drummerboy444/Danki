@@ -1,6 +1,4 @@
-event_inherited();
-
-enum Enum_WearableType {
+enum Enum_WearableSlot {
 	HELMET,
 	SHOULDERS,
 	CHEST,
@@ -10,5 +8,3 @@ enum Enum_WearableType {
 	WEAPON,
 	length
 }
-
-enum_wearableType = undefined;

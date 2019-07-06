@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "oWearable",
     "eventList": [
-        {
-            "id": "2880feb5-8a29-4391-9449-9e83c36cafb8",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "86caa24a-04b3-4ecc-af38-6eba218de452"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
