@@ -663,6 +663,14 @@
             }
         },
         {
+            "Key": "23a6f5cf-4699-49a9-ad58-82236dad43f3",
+            "Value": {
+                "id": "44118d7a-6656-46b5-ba58-dab02a9c2573",
+                "resourcePath": "scripts\\SpriteManager_SetSprite\\SpriteManager_SetSprite.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "23bc6576-02b4-4b67-95f3-dc1a5bd35903",
             "Value": {
                 "id": "c1e3f4ba-98ae-46fb-912f-bf48efb2663d",
@@ -1012,6 +1020,14 @@
                 "id": "c7d43279-7a2e-4211-8026-2d4dfe4fb1d6",
                 "resourcePath": "objects\\oWhirlwind\\oWhirlwind.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "36de7b99-178a-4f2b-a8ef-c3144e9df720",
+            "Value": {
+                "id": "45490b4c-4352-4430-9381-d35c504119d6",
+                "resourcePath": "views\\36de7b99-178a-4f2b-a8ef-c3144e9df720.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2711,6 +2727,14 @@
             }
         },
         {
+            "Key": "9a4613a3-981d-4a79-b00d-9126cd09b1c6",
+            "Value": {
+                "id": "f569cfa8-bcb7-47ea-9aae-0511a291bf36",
+                "resourcePath": "scripts\\SpriteManager_RECURSIVELY_ADD_TREE_TO_MAP\\SpriteManager_RECURSIVELY_ADD_TREE_TO_MAP.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9abf6837-3337-4421-a391-9acf93ee1076",
             "Value": {
                 "id": "4d763b74-e2e3-4c02-9df0-a1ad574ead5d",
@@ -3855,6 +3879,14 @@
             }
         },
         {
+            "Key": "de58d2ea-dfea-4622-a026-f543b4deb50d",
+            "Value": {
+                "id": "d6d5b111-2e4d-475e-8ca2-acf5c8d39eff",
+                "resourcePath": "views\\de58d2ea-dfea-4622-a026-f543b4deb50d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "dec0e812-511c-4cb8-af08-19edb897ac27",
             "Value": {
                 "id": "9e7e8628-d33b-430a-adbe-9d147ecc5981",
@@ -4633,7 +4665,9 @@
         "7ed7582e-1696-422a-9613-a61b11c727c3",
         "a9f37d5b-ad99-408e-afb9-00b83727ef56",
         "bffd7481-fe64-4b3e-8eea-0a159664b32d",
-        "39cdb8a8-d2b3-43bd-b2ef-3d49afcf4fbb"
+        "39cdb8a8-d2b3-43bd-b2ef-3d49afcf4fbb",
+        "23a6f5cf-4699-49a9-ad58-82236dad43f3",
+        "9a4613a3-981d-4a79-b00d-9126cd09b1c6"
     ],
     "tutorial": ""
 }
