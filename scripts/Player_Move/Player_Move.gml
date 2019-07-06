@@ -54,4 +54,12 @@ with (oPlayer) {
 			Enum_MovementType.LINEAR_SLIDING
 		)
 	);
+	
+	if (_num_horizontalMovement > 0) {
+		SpriteManager_SetSprite(id, Enum_SpriteActions.MOVE_RIGHT);
+	} else if (_num_horizontalMovement < 0) {
+		SpriteManager_SetSprite(id, Enum_SpriteActions.MOVE_LEFT);
+	} else {
+		SpriteManager_SetSprite(id, Enum_SpriteActions.IDLE);
+	}
 }
