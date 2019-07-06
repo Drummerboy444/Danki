@@ -1015,6 +1015,14 @@
             }
         },
         {
+            "Key": "37e0dc36-7c24-4ede-85a0-71c2ac7b3c62",
+            "Value": {
+                "id": "c0da9fbe-64e7-46dc-bd1d-63f5cf861b02",
+                "resourcePath": "objects\\oSpriteManager\\oSpriteManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "39d18eca-980e-4b40-8643-84f141303315",
             "Value": {
                 "id": "9f9bd0ea-4278-4bd5-b53f-c108e35c4689",
@@ -1651,6 +1659,14 @@
             "Value": {
                 "id": "6430d645-f8b9-44aa-86ae-efe31a867369",
                 "resourcePath": "views\\5e20f364-05d0-4019-9475-82fae34e0324.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5e817bf2-aaf8-4fcc-9430-93d6f17e794a",
+            "Value": {
+                "id": "6e03c77a-a3a7-4e43-acd2-905e734a910d",
+                "resourcePath": "views\\5e817bf2-aaf8-4fcc-9430-93d6f17e794a.yy",
                 "resourceType": "GMFolder"
             }
         },
