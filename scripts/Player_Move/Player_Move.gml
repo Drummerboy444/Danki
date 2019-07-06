@@ -56,10 +56,12 @@ with (oPlayer) {
 	);
 	
 	if (_num_horizontalMovement > 0) {
-		SpriteManager_SetSprite(id, Enum_SpriteActions.MOVE_RIGHT);
+		SpriteManager_SetSprite(id, Enum_SpriteActions.MOVE, false);
 	} else if (_num_horizontalMovement < 0) {
-		SpriteManager_SetSprite(id, Enum_SpriteActions.MOVE_LEFT);
+		SpriteManager_SetSprite(id, Enum_SpriteActions.MOVE, true);
+	} else if (bool_mirror) {
+		SpriteManager_SetSprite(id, Enum_SpriteActions.IDLE, true);
 	} else {
-		SpriteManager_SetSprite(id, Enum_SpriteActions.IDLE);
+		SpriteManager_SetSprite(id, Enum_SpriteActions.IDLE, false);
 	}
 }

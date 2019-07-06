@@ -1,11 +1,13 @@
-/// @function SpriteManager_SetSprite(id_AbilityCaster, Enum_SpriteActions_action) Goes up the sprite tree looking and sets the first existing
-/// as the sprite.
+/// @function SpriteManager_SetSprite(id_AbilityCaster, Enum_SpriteActions_action, bool_mirror) Goes up the sprite tree looking and
+/// sets the first existing as the sprite.
 /// @param {id} id_AbilityCaster
-/// @param {Enum_SpriteActions} Enum_SpriteActions_action.
+/// @param {Enum_SpriteActions} Enum_SpriteActions_action
+/// @param {bool} bool_mirror
 /// @returns Biddle.
 
 var _id_AbilityCaster = argument[0];
 var _Enum_SpriteActions_action = argument[1];
+var _bool_mirror = argument[2];
 
 with (oSpriteManager) {
 	var _string_spriteName = "sprite_"
@@ -16,6 +18,7 @@ with (oSpriteManager) {
 	var _sprite_sprite = asset_get_index(_string_spriteName);
 	if(sprite_exists(_sprite_sprite)) {
 		_id_AbilityCaster.sprite_index = _sprite_sprite;
+		_id_AbilityCaster.bool_mirror = _bool_mirror;
 		return;
 	}
 	
@@ -24,5 +27,5 @@ with (oSpriteManager) {
 		return;	
 	}
 	
-	SpriteManager_SetSprite(_id_AbilityCaster, _Enum_SpriteActions_parentAction);
+	SpriteManager_SetSprite(_id_AbilityCaster, _Enum_SpriteActions_parentAction, _bool_mirror);
 }
