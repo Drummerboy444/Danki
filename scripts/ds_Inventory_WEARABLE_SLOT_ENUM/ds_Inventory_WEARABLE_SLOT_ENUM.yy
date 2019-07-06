@@ -1,8 +1,8 @@
 {
-    "id": "edcc39d7-187f-4d20-a8df-3aaae36dca23",
+    "id": "7d50ba14-d6cd-4d14-80b0-1ad84f4d9a92",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "ds_Inventory_WEARABLES_ENUM",
+    "name": "ds_Inventory_WEARABLE_SLOT_ENUM",
     "IsCompatibility": false,
     "IsDnD": false
 }

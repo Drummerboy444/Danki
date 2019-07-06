@@ -1,10 +1,10 @@
 {
-    "id": "ebd0a0e7-3eae-4603-8e81-e2f9bf763f1e",
+    "id": "de58d2ea-dfea-4622-a026-f543b4deb50d",
     "modelName": "GMFolder",
     "mvc": "1.1",
-    "name": "ebd0a0e7-3eae-4603-8e81-e2f9bf763f1e",
+    "name": "de58d2ea-dfea-4622-a026-f543b4deb50d",
     "children": [
-        "edcc39d7-187f-4d20-a8df-3aaae36dca23"
+        "9a4613a3-981d-4a79-b00d-9126cd09b1c6"
     ],
     "filterType": "GMScript",
     "folderName": "Private",

@@ -1,8 +1,8 @@
-/// @function ds_Inventory_SetWearable(ds_Inventory_inv, id_wearable, enum_wearable) Sets the given wearable
+/// @function ds_Inventory_SetWearable(ds_Inventory_inv, id_wearable, enum_wearableSlot) Sets the given wearable
 ///		to the given wearable slot in the inventory.
 /// @param {ds_Inventory} ds_Inventory_inv The inventory to set the wearable in.
 /// @param {id} id_wearable The wearable to add to the inventory.
-/// @param {enum} enum_wearable The slot to add the wearable in, the previous item will be overridden.
+/// @param {enum} enum_wearableSlot The slot to add the wearable in, the previous item will be overridden.
 var _ds_Inventory_inv = argument[0];
 var _id_wearable = argument[1];
 var _enum_wearable = argument[2];

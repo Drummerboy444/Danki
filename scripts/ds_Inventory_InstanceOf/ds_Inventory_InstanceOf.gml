@@ -17,7 +17,7 @@ if (!ds_exists(_any_potentialWearables, ds_type_map)) {
 	return false;
 }
 
-if (ds_map_size(_any_potentialWearables) != Enum_Wearable.length) {
+if (ds_map_size(_any_potentialWearables) != Enum_WearableType.length) {
 	return false;
 }
 

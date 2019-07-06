@@ -9,7 +9,7 @@
         "83adc684-25cd-4a69-bddb-604b4aee7fda",
         "64d6b478-90c9-4316-bfce-3edd6e39bf4f",
         "5268e10d-49ee-4081-9f18-c78aa13c1edb",
-        "ebd0a0e7-3eae-4603-8e81-e2f9bf763f1e"
+        "f0eaeae6-e800-4c1b-bea9-a51d0e2cc6c7"
     ],
     "filterType": "GMScript",
     "folderName": "ds_Inventory",
