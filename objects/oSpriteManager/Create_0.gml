@@ -1,5 +1,7 @@
 enum Enum_SpriteActions {
 	IDLE,
+	IDLE_LEFT,
+	IDLE_RIGHT,
 	DIE,
 	CAST,
 	CAST_SPELL,
@@ -13,6 +15,8 @@ enum Enum_SpriteActions {
 
 ds_map_spriteActionToTag = ds_map_create();
 ds_map_spriteActionToTag[? Enum_SpriteActions.IDLE] = "idle";
+ds_map_spriteActionToTag[? Enum_SpriteActions.IDLE_LEFT] = "idleLeft";
+ds_map_spriteActionToTag[? Enum_SpriteActions.IDLE_RIGHT] = "idleRight";
 ds_map_spriteActionToTag[? Enum_SpriteActions.DIE] = "die";
 ds_map_spriteActionToTag[? Enum_SpriteActions.CAST] = "cast";
 ds_map_spriteActionToTag[? Enum_SpriteActions.CAST_SPELL] = "castSpell";
@@ -27,6 +31,12 @@ arr_spriteTree = [
 	Enum_SpriteActions.IDLE, [
 		[
 			Enum_SpriteActions.DIE, []
+		],
+		[
+			Enum_SpriteActions.IDLE_LEFT, []
+		],
+		[
+			Enum_SpriteActions.IDLE_RIGHT, []
 		],
 		[
 			Enum_SpriteActions.CAST, [
