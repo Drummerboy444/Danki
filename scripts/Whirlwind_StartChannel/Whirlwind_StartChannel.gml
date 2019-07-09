@@ -18,4 +18,7 @@ var _id_whirlwind = Ability_Create(
 	_id_caster.obj_opponent
 );
 
+var emitter = audio_emitter_create();
+audio_play_sound_on(emitter, sound0, false, 1);
+
 return _id_whirlwind;
