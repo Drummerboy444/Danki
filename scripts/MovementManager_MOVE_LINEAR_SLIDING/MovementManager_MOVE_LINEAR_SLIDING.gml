@@ -8,7 +8,10 @@ var _num_terminusY = MovementData_GetTerminusY(_MovementData_data);
 var _id_instanceToMove = MovementData_GetInstanceToMove(_MovementData_data);
 
 with(_id_instanceToMove) {
-	
+
+	// We set the sprite according to the movement
+	SpriteManager_SetSpriteByDirection(id, x, y, _num_terminusX, _num_terminusY);
+
 	// Get the frame terminus.
 	var _num_distance = point_distance(x, y, _num_terminusX, _num_terminusY);
 	if(_num_distance == 0) return;

@@ -13,9 +13,10 @@ var _bool_left = argument[2];
 var _bool_right = argument[3];
 var _bool_dash = argument[4];
 
-
 var _bool_isMovingHorizontally = _bool_left xor _bool_right;
 var _bool_isMovingVertically = _bool_up xor _bool_down;
+
+if(!_bool_isMovingHorizontally && !_bool_isMovingVertically) return;
 
 var _num_horizontalMovement = _bool_right - _bool_left;
 var _num_verticalMovement = _bool_down - _bool_up;
@@ -24,11 +25,8 @@ with (oPlayer) {
 	var _num_xOffset = 1000000 * _num_horizontalMovement;
 	var _num_yOffset = 1000000 * _num_verticalMovement;
 	
-	if (
-		_bool_dash
-		&& (_bool_isMovingHorizontally or _bool_isMovingVertically)
-		&& !AbilityCaster_CheckInstanceHasEffect(id, Enum_Effects.DASH)
-	) {
+	if (_bool_dash && !AbilityCaster_CheckInstanceHasEffect(id, Enum_Effects.DASH))
+	{
 		//Initiate a dash
 		AbilityCaster_ApplyEffect(
 			id,
