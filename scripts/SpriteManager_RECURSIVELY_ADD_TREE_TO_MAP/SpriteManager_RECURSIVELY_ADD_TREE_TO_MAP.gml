@@ -1,21 +1,21 @@
-/// @function SpriteManager_RECURSIVELY_ADD_TREE_TO_MAP(ds_map_spriteParentMap, tree_spriteTree) Recursively adds a sprite tree to a map from
+/// @function SpriteManager_RECURSIVELY_ADD_TREE_TO_MAP(ds_map_spriteParentMap, ds_SpriteTree_tree) Recursively adds a sprite tree to a map from
 /// Sprite actions to parent actions.
 /// @param {ds_map} ds_map_spriteParentMap
-/// @param {tree} tree_spriteTree. A sprite tree is an array of [spriteAction,subtree] elements.
+/// @param {tree} ds_SpriteTree_tree. A sprite tree is an array of [spriteAction,subtree] elements.
 /// @returns Biddle.
 
-var _ds_map_spriteParentMap = argument[0];
-var _tree_spriteTree = argument[1];
+var map_spriteParentMap = argument[0];
+var _ds_SpriteTree_tree = argument[1];
 
-var _Enum_SpriteActions_action = _tree_spriteTree[0];
-var _arr_tree_children = _tree_spriteTree[1];
+var _enum_SpriteActions_action = ds_SpriteTree_GetAction(_ds_SpriteTree_tree);
+var _array_ds_SpriteTree_subTrees = ds_SpriteTree_GetSubtrees(_ds_SpriteTree_tree);
 
-for(var i = 0; i < array_length_1d(_arr_tree_children); i++)
+for(var i = 0; i < array_length_1d(_array_ds_SpriteTree_subTrees); i++)
 {
-	var _tree_subtree = _arr_tree_children[i];
-	var _Enum_SpriteActions_childaction = _tree_subtree[0];
+	var _ds_SpriteTree_subtree = _array_ds_SpriteTree_subTrees[i];
+	var _enum_SpriteActions_childaction = ds_SpriteTree_GetAction(_ds_SpriteTree_subtree);
 	
-	_ds_map_spriteParentMap[? _Enum_SpriteActions_childaction] = _Enum_SpriteActions_action;
+	map_spriteParentMap[? _enum_SpriteActions_childaction] = _enum_SpriteActions_action;
 	
-	SpriteManager_RECURSIVELY_ADD_TREE_TO_MAP(_ds_map_spriteParentMap, _tree_subtree);
+	SpriteManager_RECURSIVELY_ADD_TREE_TO_MAP(map_spriteParentMap, _ds_SpriteTree_subtree);
 }
