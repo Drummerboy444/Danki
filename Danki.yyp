@@ -2746,7 +2746,7 @@
             "Key": "9abf6837-3337-4421-a391-9acf93ee1076",
             "Value": {
                 "id": "4d763b74-e2e3-4c02-9df0-a1ad574ead5d",
-                "resourcePath": "sprites\\sprite_oPlayer_move\\sprite_oPlayer_move.yy",
+                "resourcePath": "sprites\\sPlayer_moveSide\\sPlayer_moveSide.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -4426,7 +4426,7 @@
             "Key": "ffe0256c-e907-4d58-982c-fd6a1212d84d",
             "Value": {
                 "id": "bd7b4669-9d9b-4ba8-87c4-2f488b5597a7",
-                "resourcePath": "sprites\\sprite_oPlayer_idle\\sprite_oPlayer_idle.yy",
+                "resourcePath": "sprites\\sPlayer_idle\\sPlayer_idle.yy",
                 "resourceType": "GMSprite"
             }
         }
