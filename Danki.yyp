@@ -786,7 +786,7 @@
             "Key": "2a08569e-e4f6-4d17-9a61-9e14a009882f",
             "Value": {
                 "id": "517569d0-9ffa-4409-a76a-6df20280733e",
-                "resourcePath": "scripts\\ds_SpriteTree_New\\ds_SpriteTree_New.yy",
+                "resourcePath": "scripts\\SpriteTree_New\\SpriteTree_New.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3610,7 +3610,7 @@
             "Key": "cd73f15b-7c87-491a-a2cc-619f0fe0ae99",
             "Value": {
                 "id": "3e9f2bf7-be01-41ac-ba47-8b5db242430e",
-                "resourcePath": "scripts\\ds_SpriteTree_GetAction\\ds_SpriteTree_GetAction.yy",
+                "resourcePath": "scripts\\SpriteTree_GetAction\\SpriteTree_GetAction.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -3618,7 +3618,7 @@
             "Key": "ce31da32-100b-46e7-981e-f71e335384b8",
             "Value": {
                 "id": "a2d1dd51-1870-4989-aacb-d028c96a28ac",
-                "resourcePath": "scripts\\ds_SpriteTree_GetSubtrees\\ds_SpriteTree_GetSubtrees.yy",
+                "resourcePath": "scripts\\SpriteTree_GetSubtrees\\SpriteTree_GetSubtrees.yy",
                 "resourceType": "GMScript"
             }
         },

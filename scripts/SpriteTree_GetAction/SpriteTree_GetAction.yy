@@ -1,8 +1,8 @@
 {
-    "id": "2a08569e-e4f6-4d17-9a61-9e14a009882f",
+    "id": "cd73f15b-7c87-491a-a2cc-619f0fe0ae99",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "ds_SpriteTree_New",
+    "name": "SpriteTree_GetAction",
     "IsCompatibility": false,
     "IsDnD": false
 }

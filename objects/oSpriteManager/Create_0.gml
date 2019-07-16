@@ -27,26 +27,26 @@ map_spriteActionToTag[? Enum_SpriteActions.MOVE_RIGHT] = "moveRight";
 map_spriteActionToTag[? Enum_SpriteActions.MOVE_UP] = "moveUp";
 map_spriteActionToTag[? Enum_SpriteActions.MOVE_DOWN] = "moveDown";
 
-arr_spriteTree = ds_SpriteTree_New(
+arr_spriteTree = SpriteTree_New(
 	Enum_SpriteActions.IDLE,
 	[
-		ds_SpriteTree_New(Enum_SpriteActions.DIE, []),
-		ds_SpriteTree_New(Enum_SpriteActions.IDLE_LEFT, []),
-		ds_SpriteTree_New(Enum_SpriteActions.IDLE_RIGHT, []),
-		ds_SpriteTree_New(
+		SpriteTree_New(Enum_SpriteActions.DIE, []),
+		SpriteTree_New(Enum_SpriteActions.IDLE_LEFT, []),
+		SpriteTree_New(Enum_SpriteActions.IDLE_RIGHT, []),
+		SpriteTree_New(
 			Enum_SpriteActions.CAST,
 			[
-				ds_SpriteTree_New(Enum_SpriteActions.CAST_SPELL, []),
-				ds_SpriteTree_New(Enum_SpriteActions.CAST_MELEE, []),
+				SpriteTree_New(Enum_SpriteActions.CAST_SPELL, []),
+				SpriteTree_New(Enum_SpriteActions.CAST_MELEE, []),
 			]
 		),
-		ds_SpriteTree_New(
+		SpriteTree_New(
 			Enum_SpriteActions.MOVE,
 			[
-				ds_SpriteTree_New(Enum_SpriteActions.MOVE_LEFT, []),
-				ds_SpriteTree_New(Enum_SpriteActions.MOVE_RIGHT, []),
-				ds_SpriteTree_New(Enum_SpriteActions.MOVE_UP, []),
-				ds_SpriteTree_New(Enum_SpriteActions.MOVE_DOWN, []),
+				SpriteTree_New(Enum_SpriteActions.MOVE_LEFT, []),
+				SpriteTree_New(Enum_SpriteActions.MOVE_RIGHT, []),
+				SpriteTree_New(Enum_SpriteActions.MOVE_UP, []),
+				SpriteTree_New(Enum_SpriteActions.MOVE_DOWN, []),
 			]
 		)
 	]

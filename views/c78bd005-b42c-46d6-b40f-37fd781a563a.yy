@@ -9,7 +9,7 @@
         "ce31da32-100b-46e7-981e-f71e335384b8"
     ],
     "filterType": "GMScript",
-    "folderName": "ds_SpriteTree",
+    "folderName": "SpriteTree",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
