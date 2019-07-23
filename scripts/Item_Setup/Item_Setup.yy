@@ -1,8 +1,8 @@
 {
-    "id": "a9f37d5b-ad99-408e-afb9-00b83727ef56",
+    "id": "cf8364db-63f0-4f64-aed7-25a84e769bef",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "Wearable_Instantiate",
+    "name": "Item_Setup",
     "IsCompatibility": false,
     "IsDnD": false
 }

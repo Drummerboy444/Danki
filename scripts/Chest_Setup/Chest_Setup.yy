@@ -1,8 +1,8 @@
 {
-    "id": "bffd7481-fe64-4b3e-8eea-0a159664b32d",
+    "id": "7922f1f9-edb2-459f-81fc-9351d9fc3748",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "Relic_Instantiate",
+    "name": "Chest_Setup",
     "IsCompatibility": false,
     "IsDnD": false
 }

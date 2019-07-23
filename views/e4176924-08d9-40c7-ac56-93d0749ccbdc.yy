@@ -4,7 +4,7 @@
     "mvc": "1.1",
     "name": "e4176924-08d9-40c7-ac56-93d0749ccbdc",
     "children": [
-        "a119f2fa-52c4-4341-89cd-60d61ad86273"
+        "3b982578-2dc3-4ea4-a3aa-5ba782a270ff"
     ],
     "filterType": "GMScript",
     "folderName": "Relic",
