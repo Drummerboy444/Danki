@@ -13,10 +13,12 @@ if (!object_is_ancestor(_obj_item, oItem)) {
 
 var _id_item = Utility_InstantiateAtOrigin(_obj_item);
 
-if (_ds_Stats_patch) {
-	Item_PATCH_STATS(_id_item, _ds_Stats_patch);
-} else {
-	Item_RANDOMISE(_id_item);
+with (_id_item) {
+	if (_ds_Stats_patch) {
+		Item_PATCH_STATS(_ds_Stats_patch);
+	} else {
+		Item_RANDOMISE();
+	}
 }
 
 return _id_item;
