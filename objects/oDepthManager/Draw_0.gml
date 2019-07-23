@@ -7,7 +7,7 @@ for (var i = 0; i < ds_DepthGrid_GetHeight(ds_DepthGrid_depthGrid); i++) {
 			if (object_is_ancestor(object_index, oAbilityCaster)){
 				AbilityCaster_PICK_SHADER();	
 			} 
-			
+			image_xscale = bool_mirror ? -1 : 1;
 			draw_self();
 			shader_reset();
 		}

@@ -1,0 +1,2 @@
+ds_map_destroy(map_spriteActionToTag);
+ds_map_destroy(map_spriteParentMap);
