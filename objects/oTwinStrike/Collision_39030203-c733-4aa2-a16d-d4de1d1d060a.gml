@@ -12,4 +12,9 @@ if(
 			false
 		)
 	)
+	if(
+		Utility_ObjectIsAncestorOfInstance(oEnemy, other.id)
+	){
+		Camera_Shake(20, 60)
+	}
 }

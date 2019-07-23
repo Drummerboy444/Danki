@@ -30,4 +30,7 @@ if(point_distance(_num_targetX, _num_targetY, _id_nearestOpponent.x, _id_nearest
 			ds_AbilityCasterSnapshot_FromId(_id_caster)
 		)
 	);
+	if(Utility_ObjectIsAncestorOfInstance(oEnemy, _id_caster)){
+		Camera_Shake(10, 20)
+	}
 }
