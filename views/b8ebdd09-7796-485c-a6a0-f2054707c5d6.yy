@@ -10,7 +10,8 @@
         "4fe91f54-56dd-4aa1-8a98-d1390d94407b",
         "132828fe-a67b-4e46-8a68-5d1164da6959",
         "69e2bad1-faaa-4b8e-a0ac-5575e8852093",
-        "cad1c76c-24ff-4589-bb91-da95a71c1ee9"
+        "cad1c76c-24ff-4589-bb91-da95a71c1ee9",
+        "006f3a4a-9789-4258-8352-01c30a937e0c"
     ],
     "filterType": "GMScript",
     "folderName": "ds_Stats",

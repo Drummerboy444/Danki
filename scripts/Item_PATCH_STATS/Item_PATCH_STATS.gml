@@ -4,3 +4,8 @@
 var _id_item = argument[0];
 var _ds_Stats_patch = argument[1];
 
+
+ds_Stats_Add(
+	_ds_Stats_patch,
+	_id_item.ds_Stats_stats
+);
