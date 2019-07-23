@@ -5,7 +5,7 @@ if(
 	if(
 		Utility_ObjectIsAncestorOfInstance(oPlayer, other, true)
 	){
-		Camera_Shake(20, 60)
+		Camera_Shake(10, 20)
 	}
 	
 	DamageManager_ApplyDamage(
