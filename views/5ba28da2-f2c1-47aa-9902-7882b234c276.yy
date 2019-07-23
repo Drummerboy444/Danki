@@ -10,7 +10,8 @@
         "8f8ec1d5-3000-42bf-b6ee-da03f1eeb26c",
         "eceae86c-6149-486d-8693-b86bc4340fa8",
         "5f2f4e79-2e36-40ff-8c52-bb46ca729a0b",
-        "8514bd29-3571-444b-8052-5e3c73f5feb6"
+        "8514bd29-3571-444b-8052-5e3c73f5feb6",
+        "aea10709-c7e3-4c83-b1b3-dd0edb149e27"
     ],
     "filterType": "GMObject",
     "folderName": "Pauseable",
