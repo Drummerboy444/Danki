@@ -15,7 +15,7 @@ var _num_y2 = argument[4];
 var _num_direction = point_direction(_num_x1, _num_y1, _num_x2, _num_y2);
 
 // _num_durectionIndex will be an integer from 0 (right) clockwise through 7 (down&right)
-var _num_durectionIndex = floor((_num_direction + 22.5) / 45)
+var _num_durectionIndex = floor((_num_direction + 22.5) / 45) mod 8;
 
 var _enum_SpriteActions_action;
 switch (_num_durectionIndex) {
