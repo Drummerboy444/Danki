@@ -1,11 +1,13 @@
-show_debug_message(obj_target)
-show_debug_message(other.id)
-show_debug_message(Utility_ObjectIsAncestorOfInstance(obj_target, other.id))
 if(
 	num_currentStep == 0
-	&& Utility_ObjectIsAncestorOfInstance(obj_target, other.id)
+	&& Utility_ObjectIsAncestorOfInstance(obj_target, other, true)
 ) {
-	show_debug_message("hit")
+	if(
+		Utility_ObjectIsAncestorOfInstance(oPlayer, other, true)
+	){
+		Camera_Shake(20, 60)
+	}
+	
 	DamageManager_ApplyDamage(
 		id_source,
 		other.id,
@@ -16,9 +18,4 @@ if(
 			false
 		)
 	)
-	if(
-		Utility_ObjectIsAncestorOfInstance(oPlayer, other.id)
-	){
-		Camera_Shake(20, 60)
-	}
 }
