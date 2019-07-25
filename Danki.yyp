@@ -2487,6 +2487,14 @@
             }
         },
         {
+            "Key": "7bdd17a9-c001-4965-bb42-4f951b9789fc",
+            "Value": {
+                "id": "67c39d40-b39d-4bae-980e-237acb936103",
+                "resourcePath": "views\\7bdd17a9-c001-4965-bb42-4f951b9789fc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7c39f0f4-e94e-494d-a278-0e0857fe2002",
             "Value": {
                 "id": "86689b99-56c3-4fb6-bc79-03bad2ad85cd",
@@ -2764,6 +2772,14 @@
                 "id": "5c37bff8-0214-42b5-80d9-d4cba3717b21",
                 "resourcePath": "scripts\\AbilityCaster_TICK_GLOBAL_COOLDOWN\\AbilityCaster_TICK_GLOBAL_COOLDOWN.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "88b5d700-dd51-4271-8418-a9eedd90a916",
+            "Value": {
+                "id": "d53ae614-3267-4a97-b0b2-0338f7ad1e23",
+                "resourcePath": "objects\\oStallionPolearm\\oStallionPolearm.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4379,14 +4395,6 @@
             "Value": {
                 "id": "ad134f18-bce2-42d7-971c-45ecf5724335",
                 "resourcePath": "views\\defd0e62-22de-4b82-bf0d-c605c40a0b71.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "df9577bc-6fd2-4b36-8a4d-625d4ed767c6",
-            "Value": {
-                "id": "6e500a80-7826-411c-b8d3-8c3afe0c67d4",
-                "resourcePath": "views\\df9577bc-6fd2-4b36-8a4d-625d4ed767c6.yy",
                 "resourceType": "GMFolder"
             }
         },
