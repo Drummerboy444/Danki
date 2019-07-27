@@ -19,18 +19,26 @@ var _num_directionIndex = floor((_num_direction + 22.5) / 45) mod 8;
 switch (_num_directionIndex) {
 	case 0:
 		spriteDirection = Enum_SpriteDirection.RIGHT;
+		break;
 	case 1:
 		spriteDirection = Enum_SpriteDirection.UPRIGHT;
+		break;
 	case 2:
 		spriteDirection = Enum_SpriteDirection.UP;
+		break;
 	case 3:
 		spriteDirection = Enum_SpriteDirection.UPLEFT;
+		break;
 	case 4:
 		spriteDirection = Enum_SpriteDirection.LEFT;
+		break;
 	case 5:
 		spriteDirection = Enum_SpriteDirection.DOWNLEFT;
+		break;
 	case 6:
 		spriteDirection = Enum_SpriteDirection.DOWN;
+		break;
 	case 7:
 		spriteDirection = Enum_SpriteDirection.DOWNRIGHT;
+		break;
 }
