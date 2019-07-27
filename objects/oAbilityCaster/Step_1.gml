@@ -14,6 +14,8 @@ if (bool_onGlobalCooldown) {
 	AbilityCaster_TICK_GLOBAL_COOLDOWN();
 }
 
+SpriteManager_SetSprite(id, Enum_SpriteActions.IDLE);
+
 // Use last frame's agenda to plan next agenda
 ds_Agenda_Copy(ds_Agenda_previousAgenda, ds_Agenda_agenda);
 ds_Agenda_Clear(ds_Agenda_agenda);

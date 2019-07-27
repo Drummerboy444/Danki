@@ -27,14 +27,14 @@ enum Enum_SpriteDirection {
 
 // The tags are the strings that are appended to the sprite for the direction key - for lookup.
 map_spriteDirectionToTag = ds_map_create();
-map_spriteActionToTag[? Enum_SpriteDirection.RIGHT] = "right";
-map_spriteActionToTag[? Enum_SpriteDirection.UPRIGHT] = "upRight";
-map_spriteActionToTag[? Enum_SpriteDirection.UP] = "up";
-map_spriteActionToTag[? Enum_SpriteDirection.UPLEFT] = "upLeft";
-map_spriteActionToTag[? Enum_SpriteDirection.LEFT] = "left";
-map_spriteActionToTag[? Enum_SpriteDirection.DOWNLEFT] = "downLeft";
-map_spriteActionToTag[? Enum_SpriteDirection.DOWN] = "down";
-map_spriteActionToTag[? Enum_SpriteDirection.DOWNRIGHT] = "downRight";
+map_spriteDirectionToTag[? Enum_SpriteDirection.RIGHT] = "right";
+map_spriteDirectionToTag[? Enum_SpriteDirection.UPRIGHT] = "upRight";
+map_spriteDirectionToTag[? Enum_SpriteDirection.UP] = "up";
+map_spriteDirectionToTag[? Enum_SpriteDirection.UPLEFT] = "upLeft";
+map_spriteDirectionToTag[? Enum_SpriteDirection.LEFT] = "left";
+map_spriteDirectionToTag[? Enum_SpriteDirection.DOWNLEFT] = "downLeft";
+map_spriteDirectionToTag[? Enum_SpriteDirection.DOWN] = "down";
+map_spriteDirectionToTag[? Enum_SpriteDirection.DOWNRIGHT] = "downRight";
 
 
 arr_spriteTree = SpriteTree_New(

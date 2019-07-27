@@ -4,6 +4,7 @@ var _MovementData_data = argument[0];
 
 
 var _id_instanceToMove = MovementData_GetInstanceToMove(_MovementData_data);
+SpriteManager_SetSprite(_id_instanceToMove, Enum_SpriteActions.MOVE);
 
 switch (MovementData_GetMovementType(_MovementData_data)) {
 	case Enum_MovementType.LINEAR_SLIDING:
