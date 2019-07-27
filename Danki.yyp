@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "0a742d96-760d-4da6-9ce9-2af1fcb2a7a1",
+            "Value": {
+                "id": "2ab9e351-95cf-4936-b419-29a25a5e0239",
+                "resourcePath": "sprites\\sCrusader_attack_upRight\\sCrusader_attack_upRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0a9c1d02-e2d0-4aa0-a31f-238b82f76f28",
             "Value": {
                 "id": "6827ff82-f5e9-4dca-ae49-3ee1f94984d0",
@@ -676,6 +684,14 @@
                 "id": "78738ca2-63db-4ceb-8170-98937abc57cb",
                 "resourcePath": "scripts\\OneShotService_Cast\\OneShotService_Cast.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1ff2826e-8560-495e-9475-0fa8d1bbe87b",
+            "Value": {
+                "id": "1bc6f67c-5e8a-4efb-a19e-37720c9d8429",
+                "resourcePath": "views\\1ff2826e-8560-495e-9475-0fa8d1bbe87b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2007,6 +2023,14 @@
             }
         },
         {
+            "Key": "660053d8-eed6-489f-bbc4-f9e1b6fe2d10",
+            "Value": {
+                "id": "1c009ed5-af9d-4bcd-896c-4cd0db28de9b",
+                "resourcePath": "sprites\\sCrusader_attack_left\\sCrusader_attack_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "66133fd6-25e2-42ef-9644-b8d8d0c29de3",
             "Value": {
                 "id": "9bf9c9f8-39f8-4869-a4e8-4668147512ba",
@@ -2068,6 +2092,14 @@
                 "id": "323e8a9f-30e9-4450-829a-5b40f991ec89",
                 "resourcePath": "scripts\\ds_Stats_Copy\\ds_Stats_Copy.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6a1fdbf3-0eb8-4bbd-b061-3f1c6fa9d47f",
+            "Value": {
+                "id": "894eae75-6dd3-467b-a418-e4c216e9891f",
+                "resourcePath": "sprites\\sCrusader_attack_up\\sCrusader_attack_up.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2855,6 +2887,14 @@
             }
         },
         {
+            "Key": "95bbdebd-8552-4810-81e0-e3877a310c74",
+            "Value": {
+                "id": "8f5d9b58-4fd1-428f-951a-c465e4de3817",
+                "resourcePath": "sprites\\sCrusader_attack_down\\sCrusader_attack_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "95c1d0bf-122e-43d6-ae4c-9b31d132903e",
             "Value": {
                 "id": "d5eeefcf-5868-43b9-83e0-5aa8f9a75fd2",
@@ -3132,6 +3172,14 @@
                 "id": "aeb6f6c8-9802-4f21-81a3-4ada6f7bbf53",
                 "resourcePath": "views\\a295c299-5a54-4ff8-884e-3089aca906b9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a3150af3-c8d5-47a1-a889-9fd4d423f812",
+            "Value": {
+                "id": "9ccb7eb4-d7ff-4d7a-80ee-b73e1a680a48",
+                "resourcePath": "sprites\\sCrusader_attack_upLeft\\sCrusader_attack_upLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3420,6 +3468,14 @@
                 "id": "a0743b87-7731-4907-9588-9ee65595d093",
                 "resourcePath": "views\\b4ea1925-fefd-4449-a66a-a632eace3bfb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b557eb1d-0cca-4dbe-87f8-f81edb67fea6",
+            "Value": {
+                "id": "9f4c4f47-ffd2-4e1e-b56c-334075bb5515",
+                "resourcePath": "sprites\\sCrusader_attack_downLeft\\sCrusader_attack_downLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4327,6 +4383,14 @@
             }
         },
         {
+            "Key": "e71cbcf1-3f6b-48af-88c0-d42cbf44349b",
+            "Value": {
+                "id": "aaa9e315-7ef8-4e38-939c-ebe2299e2691",
+                "resourcePath": "sprites\\sCrusader_attack_downRight\\sCrusader_attack_downRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e8f40619-5065-4247-b7d8-55590ac11cba",
             "Value": {
                 "id": "1a909ac6-d380-45c5-997c-e8b2ebd52fa0",
@@ -4428,6 +4492,14 @@
                 "id": "dfd98443-2414-4fba-9d07-ad792af39736",
                 "resourcePath": "scripts\\MACROS_oYellowCircle\\MACROS_oYellowCircle.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f02f1e4a-98e3-4dfc-aa88-7f38c83763e3",
+            "Value": {
+                "id": "174f90a4-0ee8-4add-bc77-b49e4765b7ca",
+                "resourcePath": "sprites\\sCrusader_attack_right\\sCrusader_attack_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
