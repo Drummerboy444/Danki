@@ -3543,14 +3543,6 @@
             }
         },
         {
-            "Key": "a9f37d5b-ad99-408e-afb9-00b83727ef56",
-            "Value": {
-                "id": "1b3c3e78-02b1-4b9c-8c2b-04ea6d6c736f",
-                "resourcePath": "scripts\\Wearable_Instantiate\\Wearable_Instantiate.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "aa33c175-8498-4234-b943-33f6b897c1d8",
             "Value": {
                 "id": "47fb2cb8-63ce-4ff7-b9d3-f6ed3b40beda",
