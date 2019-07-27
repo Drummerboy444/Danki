@@ -1,8 +1,8 @@
 {
-    "id": "39cdb8a8-d2b3-43bd-b2ef-3d49afcf4fbb",
+    "id": "0c26729e-ba10-44e4-ada7-584e42f62d29",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "Item_INSTANTIATE",
+    "name": "Greaves_Setup",
     "IsCompatibility": false,
     "IsDnD": false
 }

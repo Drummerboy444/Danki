@@ -8,5 +8,9 @@ enum Enum_ItemRarity {
 
 str_name = undefined;
 enum_rarity = undefined;
-ds_Stats_stats = undefined;
+
 arr_enum_effects = undefined;
+
+ds_Stats_stats = undefined;
+arr_enum_Stats_randomisableStats = undefined;
+num_totalRandomisablePoints = undefined;

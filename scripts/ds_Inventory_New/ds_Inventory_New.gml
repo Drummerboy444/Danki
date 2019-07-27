@@ -3,7 +3,7 @@
 
 
 var _map_wearables = ds_map_create();
-for (var i = 0; i < Enum_WearableType.length; i++) {
+for (var i = 0; i < Enum_WearableSlot.length; i++) {
 	_map_wearables[? i] = noone;
 }
 

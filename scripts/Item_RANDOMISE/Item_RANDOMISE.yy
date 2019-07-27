@@ -1,8 +1,8 @@
 {
-    "id": "bffd7481-fe64-4b3e-8eea-0a159664b32d",
+    "id": "d40e4e69-f558-4590-824e-648087f54db0",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "Relic_Instantiate",
+    "name": "Item_RANDOMISE",
     "IsCompatibility": false,
     "IsDnD": false
 }

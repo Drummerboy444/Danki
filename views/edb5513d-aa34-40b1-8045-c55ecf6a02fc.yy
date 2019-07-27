@@ -1,10 +1,10 @@
 {
-    "id": "a119f2fa-52c4-4341-89cd-60d61ad86273",
+    "id": "edb5513d-aa34-40b1-8045-c55ecf6a02fc",
     "modelName": "GMFolder",
     "mvc": "1.1",
-    "name": "a119f2fa-52c4-4341-89cd-60d61ad86273",
+    "name": "edb5513d-aa34-40b1-8045-c55ecf6a02fc",
     "children": [
-        "bffd7481-fe64-4b3e-8eea-0a159664b32d"
+        "4948fcca-4eca-4417-994e-bde2d8858245"
     ],
     "filterType": "GMScript",
     "folderName": "Public",
