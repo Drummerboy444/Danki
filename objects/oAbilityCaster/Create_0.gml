@@ -1,5 +1,7 @@
 event_inherited();
 
+spriteDirection = Enum_SpriteDirection.RIGHT;
+
 id_oneShotService = noone;
 id_channelService = noone;
 bool_onGlobalCooldown = false;

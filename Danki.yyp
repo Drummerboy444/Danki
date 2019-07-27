@@ -1239,14 +1239,6 @@
             }
         },
         {
-            "Key": "39c573e5-f1d8-4f25-b090-6219e993823d",
-            "Value": {
-                "id": "2163cd3b-9c57-4f2f-9fe7-571a03831988",
-                "resourcePath": "sprites\\sCrusader_move_downLeft\\sCrusader_move_downLeft.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "37e0dc36-7c24-4ede-85a0-71c2ac7b3c62",
             "Value": {
                 "id": "c0da9fbe-64e7-46dc-bd1d-63f5cf861b02",
@@ -1260,6 +1252,14 @@
                 "id": "d68d8de7-c45d-4fa7-a081-14638883bbbf",
                 "resourcePath": "views\\39c09c05-1617-43bc-8d58-682d0056f04d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "39c573e5-f1d8-4f25-b090-6219e993823d",
+            "Value": {
+                "id": "2163cd3b-9c57-4f2f-9fe7-571a03831988",
+                "resourcePath": "sprites\\sCrusader_move_downLeft\\sCrusader_move_downLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1444,6 +1444,14 @@
                 "id": "d0736e0d-597f-4683-93e5-bcddc75d8d46",
                 "resourcePath": "sounds\\snd_select\\snd_select.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "4088d203-aa71-4bbc-988f-a537de421f31",
+            "Value": {
+                "id": "420e2afb-11ea-4bb7-82af-9dc057409d85",
+                "resourcePath": "scripts\\AbilityCaster_SET_SPRITE_DIRECTION\\AbilityCaster_SET_SPRITE_DIRECTION.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -4079,19 +4087,19 @@
             }
         },
         {
-            "Key": "c829468e-c7e0-40a8-9829-db7a49d5438f",
-            "Value": {
-                "id": "410619ca-73b7-435a-ac4a-9fa0bba03877",
-                "resourcePath": "sprites\\sCrusader_move_up\\sCrusader_move_up.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "c78bd005-b42c-46d6-b40f-37fd781a563a",
             "Value": {
                 "id": "bdbf936c-898c-4b18-abee-a842bee002f1",
                 "resourcePath": "views\\c78bd005-b42c-46d6-b40f-37fd781a563a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c829468e-c7e0-40a8-9829-db7a49d5438f",
+            "Value": {
+                "id": "410619ca-73b7-435a-ac4a-9fa0bba03877",
+                "resourcePath": "sprites\\sCrusader_move_up\\sCrusader_move_up.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4180,14 +4188,6 @@
                 "id": "a23e3d33-e87b-4abe-98a0-27901ae8732c",
                 "resourcePath": "views\\cb3a7f8e-bf38-4302-a12c-20ac605cfbde.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "cb8f3e61-84c4-482f-b972-2ab3f44c7391",
-            "Value": {
-                "id": "6fbafe61-ad4f-4f59-bf11-326052f8c8d8",
-                "resourcePath": "scripts\\SpriteManager_SetSpriteByDirection\\SpriteManager_SetSpriteByDirection.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -5235,6 +5235,7 @@
         "be7f9b78-4966-4cf3-a7b3-f700c5373d02",
         "88a2c98e-42c5-4b23-8461-e0ef383a7e58",
         "d0b1a5ed-9e0e-49f0-987c-870120912b21",
+        "4088d203-aa71-4bbc-988f-a537de421f31",
         "31e5af31-f0e8-410f-8dd9-1606fb179c65",
         "89d392c5-25a1-456a-ba54-c00528827f41",
         "5b7705ab-80e1-458e-885d-eb47170b641a",
@@ -5481,7 +5482,6 @@
         "8f0ea967-d4b5-48c7-9059-bf72e8a1f484",
         "d40e4e69-f558-4590-824e-648087f54db0",
         "23a6f5cf-4699-49a9-ad58-82236dad43f3",
-        "cb8f3e61-84c4-482f-b972-2ab3f44c7391",
         "9a4613a3-981d-4a79-b00d-9126cd09b1c6"
     ],
     "tutorial": ""

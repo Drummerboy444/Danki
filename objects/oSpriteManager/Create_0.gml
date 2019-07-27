@@ -2,45 +2,48 @@ enum Enum_SpriteActions {
 	IDLE,
 	DIE,
 	CAST,
-	CAST_SPELL,
-	CAST_MELEE,
-	MOVE,
-	MOVE_SIDE,
-	MOVE_UP,
-	MOVE_DOWN
+	ATTACK,
+	MOVE
 }
 
-// The tags are the strings that are appended to the sprite for theaction key - for lookup.
+// The tags are the strings that are appended to the sprite for the action key - for lookup.
 map_spriteActionToTag = ds_map_create();
 map_spriteActionToTag[? Enum_SpriteActions.IDLE] = "idle";
 map_spriteActionToTag[? Enum_SpriteActions.DIE] = "die";
 map_spriteActionToTag[? Enum_SpriteActions.CAST] = "cast";
-map_spriteActionToTag[? Enum_SpriteActions.CAST_SPELL] = "castSpell";
-map_spriteActionToTag[? Enum_SpriteActions.CAST_MELEE] = "castMelee";
+map_spriteActionToTag[? Enum_SpriteActions.ATTACK] = "attack";
 map_spriteActionToTag[? Enum_SpriteActions.MOVE] = "move";
-map_spriteActionToTag[? Enum_SpriteActions.MOVE_SIDE] = "moveSide";
-map_spriteActionToTag[? Enum_SpriteActions.MOVE_UP] = "moveUp";
-map_spriteActionToTag[? Enum_SpriteActions.MOVE_DOWN] = "moveDown";
+
+enum Enum_SpriteDirection {
+	RIGHT,
+	UPRIGHT,
+	UP,
+	UPLEFT,
+	LEFT,
+	DOWNLEFT,
+	DOWN,
+	DOWNRIGHT
+}
+
+// The tags are the strings that are appended to the sprite for the direction key - for lookup.
+map_spriteDirectionToTag = ds_map_create();
+map_spriteActionToTag[? Enum_SpriteDirection.RIGHT] = "right";
+map_spriteActionToTag[? Enum_SpriteDirection.UPRIGHT] = "upRight";
+map_spriteActionToTag[? Enum_SpriteDirection.UP] = "up";
+map_spriteActionToTag[? Enum_SpriteDirection.UPLEFT] = "upLeft";
+map_spriteActionToTag[? Enum_SpriteDirection.LEFT] = "left";
+map_spriteActionToTag[? Enum_SpriteDirection.DOWNLEFT] = "downLeft";
+map_spriteActionToTag[? Enum_SpriteDirection.DOWN] = "down";
+map_spriteActionToTag[? Enum_SpriteDirection.DOWNRIGHT] = "downRight";
+
 
 arr_spriteTree = SpriteTree_New(
 	Enum_SpriteActions.IDLE,
 	[
 		SpriteTree_New(Enum_SpriteActions.DIE, []),
-		SpriteTree_New(
-			Enum_SpriteActions.CAST,
-			[
-				SpriteTree_New(Enum_SpriteActions.CAST_SPELL, []),
-				SpriteTree_New(Enum_SpriteActions.CAST_MELEE, []),
-			]
-		),
-		SpriteTree_New(
-			Enum_SpriteActions.MOVE,
-			[
-				SpriteTree_New(Enum_SpriteActions.MOVE_SIDE, []),
-				SpriteTree_New(Enum_SpriteActions.MOVE_UP, []),
-				SpriteTree_New(Enum_SpriteActions.MOVE_DOWN, []),
-			]
-		)
+		SpriteTree_New(Enum_SpriteActions.CAST, []),
+		SpriteTree_New(Enum_SpriteActions.ATTACK, []),
+		SpriteTree_New(Enum_SpriteActions.MOVE, [])
 	]
 );
 

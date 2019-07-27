@@ -58,8 +58,7 @@ with (_id_instanceToMove) {
 		}
 	}
 	
-	// Set the sprite according to the direction of travel
-	SpriteManager_SetSpriteByDirection(id, x, y, _num_newX, _num_newY);
+	AbilityCaster_SET_SPRITE_DIRECTION(x, y, _num_newX, _num_newY);
 	
 	x = _num_newX;
 	y = _num_newY;
